@@ -13,6 +13,7 @@ def extractCommitLog(repository_name):
     """Extract the entire commit log of a repository"""
     gr = Git(repository_name)
     commits = gr.get_list_commits()
+    # TODO once you have the list of projects put information in a csv
     for commit in commits:
         print("commit {}".format(commit.hash),
               "Author: {}".format(commit.author),
@@ -22,9 +23,15 @@ def extractCommitLog(repository_name):
 
 def extractModifiedFileList(repository_name):
     """Extract list of modified file for a repository"""
+    # TODO once you have the list of projects put information in a csv
     for commit in Repository(repository_name).traverse_commits():
         for file in commit.modified_files:
-            print("commit {}".format(commit), "modified file {}".format(file.filename))
+            print("commit {}".format(commit.hash), "modified file {}".format(file.filename))
+
+
+def extractCompleteHistory():
+    """Extract the complete version history of all identified test files and their production files."""
+    return ""
 
 
 def main():
@@ -36,6 +43,7 @@ def main():
 
     for repo in repositories_list:
         extractCommitLog(repo)
+        extractModifiedFileList(repo)
         break
 
     print("Done")
