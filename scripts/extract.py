@@ -7,6 +7,8 @@ from pydriller.git import Git
 from pydriller.domain.commit import ModifiedFile, ModificationType
 from pydriller.repository import Repository
 import pandas as pd
+import csv
+import numpy as np
 
 
 def extractCommitLog(repository_name):
@@ -33,6 +35,24 @@ def extractCompleteHistory():
     """Extract the complete version history of all identified test files and their production files."""
     return ""
 
+def extractProduction_Test_Files():
+    """Extract the complete version history of all identified test files and their production files."""
+    filename1 = "./production_test_files.csv"
+
+    df = pd.read_csv(filename1)
+
+    production_file = list(df["ProductionFilePath"].replace(np.nan, "nan"))
+    test_file = list(df["TestFilePath"])
+
+    f = open('test.csv', "w")
+
+    writer = csv.writer(f)
+
+    for i in range(len(test_file)):
+        if production_file[i] != "nan":
+            print(production_file[i])
+            writer.writerow([test_file[i], production_file[i]])
+    
 
 def main():
     # list of all projects
