@@ -4,7 +4,7 @@
 filename=$1
 
 # opening and reading the file
-while IFS="," read -r id name full_name url remaing
+while IFS="," read -r url	stars	open_issues	commits_count	forks_count	last_commit_date	created_at	name	Group
 do
 
    git clone $url

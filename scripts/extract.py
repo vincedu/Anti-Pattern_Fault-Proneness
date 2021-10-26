@@ -9,6 +9,7 @@ from pydriller.repository import Repository
 import pandas as pd
 import csv
 import numpy as np
+import sys
 
 
 def extractCommitLog(repository_name):
@@ -35,17 +36,16 @@ def extractCompleteHistory():
     """Extract the complete version history of all identified test files and their production files."""
     return ""
 
-def extractProduction_Test_Files():
+def extractProduction_Test_Files(filename):
     """Extract the complete version history of all identified test files and their production files."""
-    filename1 = "./production_test_files.csv"
 
-    df = pd.read_csv(filename1)
+    df = pd.read_csv(filename)
 
     production_file = list(df["ProductionFilePath"].replace(np.nan, "nan"))
     test_file = list(df["TestFilePath"])
     app_name = list(df["App"])
 
-
+    
     f = open('test.csv', "w")
 
     writer = csv.writer(f)
@@ -57,19 +57,20 @@ def extractProduction_Test_Files():
     
 
 def main():
-    # list of all projects
-    filename = "./combined_projects.csv"
+    # # list of all projects
+    # filename = "./combined_projects.csv"
 
-    df = pd.read_csv(filename)
-    repositories_list = list(df["name"])
+    # df = pd.read_csv(filename)
+    # repositories_list = list(df["name"])
 
-    for repo in repositories_list:
-        extractCommitLog(repo)
-        extractModifiedFileList(repo)
-        break
+    # for repo in repositories_list:
+    #     extractCommitLog(repo)
+    #     extractModifiedFileList(repo)
+    #     break
 
-    print("Done")
-
+    # print("Done")
+    filename = sys.argv[1]
+    extractProduction_Test_Files(filename)
 
 if __name__ == "__main__":
     main()
