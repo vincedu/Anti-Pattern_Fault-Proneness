@@ -4,7 +4,7 @@
 filename=$1
 
 # opening and reading the file
-while IFS="," read -r id name full_name url remaing
+while IFS="," read -r url	stars	open_issues	commits_count	forks_count	last_commit_date	created_at	name	Group
 do
 
    git clone $url
@@ -30,11 +30,11 @@ do
    python3 extract.py "$output"
 
 
-   java -jar ./resources/TestSmellDetector_jar "./test.csv"
+   java -jar ./resources/TestSmellDetector.jar "./test.csv"
 
    echo "removing the repository"
    rm ./test_file.txt
    rm -r $name
    break
 
-done <<(tail -n +2 $filename)
+done < <(tail -n +2 $filename)
