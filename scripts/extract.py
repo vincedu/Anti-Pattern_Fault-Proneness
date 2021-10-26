@@ -43,6 +43,8 @@ def extractProduction_Test_Files():
 
     production_file = list(df["ProductionFilePath"].replace(np.nan, "nan"))
     test_file = list(df["TestFilePath"])
+    app_name = list(df["App"])
+
 
     f = open('test.csv', "w")
 
@@ -51,7 +53,7 @@ def extractProduction_Test_Files():
     for i in range(len(test_file)):
         if production_file[i] != "nan":
             print(production_file[i])
-            writer.writerow([test_file[i], production_file[i]])
+            writer.writerow([app_name[i], test_file[i], production_file[i]])
     
 
 def main():
