@@ -12,6 +12,7 @@ class Json:
 
     # default headers of all csv
     headers = ["id",
+    		"name",
                "full_name",
                "clone_url",
                "size",
@@ -36,6 +37,7 @@ class Json:
 
     # when the count > 100 add to the file errors values
     ERROR_VALUES = ["error",
+                    "error",
                     "error",
                     "error",
                     "error",
