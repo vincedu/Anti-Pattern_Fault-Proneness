@@ -30,11 +30,11 @@ do
    python3 extract.py "$output"
 
 
-   java -jar ./resources/TestSmellDetector_jar "./test.csv"
+   java -jar ./resources/TestSmellDetector.jar "./test.csv"
 
    echo "removing the repository"
    rm ./test_file.txt
    rm -r $name
    break
 
-done <<(tail -n +2 $filename)
+done < <(tail -n +2 $filename)
