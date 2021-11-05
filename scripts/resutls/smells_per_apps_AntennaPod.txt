@@ -1,0 +1,21 @@
+Assertion Roulette 0.8144967798964515
+Conditional Test Logic 0.40409142568506123
+Constructor Initialization 0.0
+Default Test 0.0
+EmptyTest 0.0
+Exception Catching Throwing 24.56118196742013
+General Fixture 16.98446773582523
+Mystery Guest 0.0
+Print Statement 0.0
+Redundant Assertion 0.0
+Sensitive Equality 0.0
+Verbose Test 0.0
+Sleepy Test 0.0
+Eager Test 22.136633413309763
+Lazy Test 25.356736961737592
+Duplicate Assert 0.0
+Unknown Test 7.892410657911353
+IgnoredTest 1.849981058214421
+Resource Optimism 0.0
+Magic Number Test 0.0
+Dependent Test 0.0

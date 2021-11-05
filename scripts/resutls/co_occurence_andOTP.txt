@@ -1,0 +1,420 @@
+Assertion Roulette Conditional Test Logic 0.6250068527696153
+Assertion Roulette Constructor Initialization 0.0
+Assertion Roulette Default Test 0.0
+Assertion Roulette EmptyTest 0.0
+Assertion Roulette Exception Catching Throwing 4.788903858383405
+Assertion Roulette General Fixture 0.6250068527696153
+Assertion Roulette Mystery Guest 0.0
+Assertion Roulette Print Statement 0.0
+Assertion Roulette Redundant Assertion 0.0
+Assertion Roulette Sensitive Equality 0.0
+Assertion Roulette Verbose Test 0.0
+Assertion Roulette Sleepy Test 0.6250068527696153
+Assertion Roulette Eager Test 4.788903858383405
+Assertion Roulette Lazy Test 0.0
+Assertion Roulette Duplicate Assert 0.0
+Assertion Roulette Unknown Test 0.6250068527696153
+Assertion Roulette IgnoredTest 0.0
+Assertion Roulette Resource Optimism 0.0
+Assertion Roulette Magic Number Test 4.163897005613789
+Assertion Roulette Dependent Test 0.0
+Conditional Test Logic Assertion Roulette 0.6250068527696153
+Conditional Test Logic Constructor Initialization 0.0
+Conditional Test Logic Default Test 0.0
+Conditional Test Logic EmptyTest 0.0
+Conditional Test Logic Exception Catching Throwing 0.7188212688039999
+Conditional Test Logic General Fixture 0.09381441603438445
+Conditional Test Logic Mystery Guest 0.0
+Conditional Test Logic Print Statement 0.0
+Conditional Test Logic Redundant Assertion 0.0
+Conditional Test Logic Sensitive Equality 0.0
+Conditional Test Logic Verbose Test 0.0
+Conditional Test Logic Sleepy Test 0.09381441603438445
+Conditional Test Logic Eager Test 0.7188212688039999
+Conditional Test Logic Lazy Test 0.0
+Conditional Test Logic Duplicate Assert 0.0
+Conditional Test Logic Unknown Test 0.09381441603438445
+Conditional Test Logic IgnoredTest 0.0
+Conditional Test Logic Resource Optimism 0.0
+Conditional Test Logic Magic Number Test 0.6250068527696153
+Conditional Test Logic Dependent Test 0.0
+Constructor Initialization Assertion Roulette 0.0
+Constructor Initialization Conditional Test Logic 0.0
+Constructor Initialization Default Test 0.0
+Constructor Initialization EmptyTest 0.0
+Constructor Initialization Exception Catching Throwing 0.0
+Constructor Initialization General Fixture 0.0
+Constructor Initialization Mystery Guest 0.0
+Constructor Initialization Print Statement 0.0
+Constructor Initialization Redundant Assertion 0.0
+Constructor Initialization Sensitive Equality 0.0
+Constructor Initialization Verbose Test 0.0
+Constructor Initialization Sleepy Test 0.0
+Constructor Initialization Eager Test 0.0
+Constructor Initialization Lazy Test 0.0
+Constructor Initialization Duplicate Assert 0.0
+Constructor Initialization Unknown Test 0.0
+Constructor Initialization IgnoredTest 0.0
+Constructor Initialization Resource Optimism 0.0
+Constructor Initialization Magic Number Test 0.0
+Constructor Initialization Dependent Test 0.0
+Default Test Assertion Roulette 0.0
+Default Test Conditional Test Logic 0.0
+Default Test Constructor Initialization 0.0
+Default Test EmptyTest 0.0
+Default Test Exception Catching Throwing 0.0
+Default Test General Fixture 0.0
+Default Test Mystery Guest 0.0
+Default Test Print Statement 0.0
+Default Test Redundant Assertion 0.0
+Default Test Sensitive Equality 0.0
+Default Test Verbose Test 0.0
+Default Test Sleepy Test 0.0
+Default Test Eager Test 0.0
+Default Test Lazy Test 0.0
+Default Test Duplicate Assert 0.0
+Default Test Unknown Test 0.0
+Default Test IgnoredTest 0.0
+Default Test Resource Optimism 0.0
+Default Test Magic Number Test 0.0
+Default Test Dependent Test 0.0
+EmptyTest Assertion Roulette 0.0
+EmptyTest Conditional Test Logic 0.0
+EmptyTest Constructor Initialization 0.0
+EmptyTest Default Test 0.0
+EmptyTest Exception Catching Throwing 0.0
+EmptyTest General Fixture 0.0
+EmptyTest Mystery Guest 0.0
+EmptyTest Print Statement 0.0
+EmptyTest Redundant Assertion 0.0
+EmptyTest Sensitive Equality 0.0
+EmptyTest Verbose Test 0.0
+EmptyTest Sleepy Test 0.0
+EmptyTest Eager Test 0.0
+EmptyTest Lazy Test 0.0
+EmptyTest Duplicate Assert 0.0
+EmptyTest Unknown Test 0.0
+EmptyTest IgnoredTest 0.0
+EmptyTest Resource Optimism 0.0
+EmptyTest Magic Number Test 0.0
+EmptyTest Dependent Test 0.0
+Exception Catching Throwing Assertion Roulette 4.788903858383405
+Exception Catching Throwing Conditional Test Logic 0.7188212688039999
+Exception Catching Throwing Constructor Initialization 0.0
+Exception Catching Throwing Default Test 0.0
+Exception Catching Throwing EmptyTest 0.0
+Exception Catching Throwing General Fixture 0.7188212688039999
+Exception Catching Throwing Mystery Guest 0.0
+Exception Catching Throwing Print Statement 0.0
+Exception Catching Throwing Redundant Assertion 0.0
+Exception Catching Throwing Sensitive Equality 0.0
+Exception Catching Throwing Verbose Test 0.0
+Exception Catching Throwing Sleepy Test 0.7188212688039999
+Exception Catching Throwing Eager Test 5.507725127187405
+Exception Catching Throwing Lazy Test 0.0
+Exception Catching Throwing Duplicate Assert 0.0
+Exception Catching Throwing Unknown Test 0.7188212688039999
+Exception Catching Throwing IgnoredTest 0.0
+Exception Catching Throwing Resource Optimism 0.0
+Exception Catching Throwing Magic Number Test 4.788903858383405
+Exception Catching Throwing Dependent Test 0.0
+General Fixture Assertion Roulette 0.6250068527696153
+General Fixture Conditional Test Logic 0.09381441603438445
+General Fixture Constructor Initialization 0.0
+General Fixture Default Test 0.0
+General Fixture EmptyTest 0.0
+General Fixture Exception Catching Throwing 0.7188212688039999
+General Fixture Mystery Guest 0.0
+General Fixture Print Statement 0.0
+General Fixture Redundant Assertion 0.0
+General Fixture Sensitive Equality 0.0
+General Fixture Verbose Test 0.0
+General Fixture Sleepy Test 0.09381441603438445
+General Fixture Eager Test 0.7188212688039999
+General Fixture Lazy Test 0.0
+General Fixture Duplicate Assert 0.0
+General Fixture Unknown Test 0.09381441603438445
+General Fixture IgnoredTest 0.0
+General Fixture Resource Optimism 0.0
+General Fixture Magic Number Test 0.6250068527696153
+General Fixture Dependent Test 0.0
+Mystery Guest Assertion Roulette 0.0
+Mystery Guest Conditional Test Logic 0.0
+Mystery Guest Constructor Initialization 0.0
+Mystery Guest Default Test 0.0
+Mystery Guest EmptyTest 0.0
+Mystery Guest Exception Catching Throwing 0.0
+Mystery Guest General Fixture 0.0
+Mystery Guest Print Statement 0.0
+Mystery Guest Redundant Assertion 0.0
+Mystery Guest Sensitive Equality 0.0
+Mystery Guest Verbose Test 0.0
+Mystery Guest Sleepy Test 0.0
+Mystery Guest Eager Test 0.0
+Mystery Guest Lazy Test 0.0
+Mystery Guest Duplicate Assert 0.0
+Mystery Guest Unknown Test 0.0
+Mystery Guest IgnoredTest 0.0
+Mystery Guest Resource Optimism 0.0
+Mystery Guest Magic Number Test 0.0
+Mystery Guest Dependent Test 0.0
+Print Statement Assertion Roulette 0.0
+Print Statement Conditional Test Logic 0.0
+Print Statement Constructor Initialization 0.0
+Print Statement Default Test 0.0
+Print Statement EmptyTest 0.0
+Print Statement Exception Catching Throwing 0.0
+Print Statement General Fixture 0.0
+Print Statement Mystery Guest 0.0
+Print Statement Redundant Assertion 0.0
+Print Statement Sensitive Equality 0.0
+Print Statement Verbose Test 0.0
+Print Statement Sleepy Test 0.0
+Print Statement Eager Test 0.0
+Print Statement Lazy Test 0.0
+Print Statement Duplicate Assert 0.0
+Print Statement Unknown Test 0.0
+Print Statement IgnoredTest 0.0
+Print Statement Resource Optimism 0.0
+Print Statement Magic Number Test 0.0
+Print Statement Dependent Test 0.0
+Redundant Assertion Assertion Roulette 0.0
+Redundant Assertion Conditional Test Logic 0.0
+Redundant Assertion Constructor Initialization 0.0
+Redundant Assertion Default Test 0.0
+Redundant Assertion EmptyTest 0.0
+Redundant Assertion Exception Catching Throwing 0.0
+Redundant Assertion General Fixture 0.0
+Redundant Assertion Mystery Guest 0.0
+Redundant Assertion Print Statement 0.0
+Redundant Assertion Sensitive Equality 0.0
+Redundant Assertion Verbose Test 0.0
+Redundant Assertion Sleepy Test 0.0
+Redundant Assertion Eager Test 0.0
+Redundant Assertion Lazy Test 0.0
+Redundant Assertion Duplicate Assert 0.0
+Redundant Assertion Unknown Test 0.0
+Redundant Assertion IgnoredTest 0.0
+Redundant Assertion Resource Optimism 0.0
+Redundant Assertion Magic Number Test 0.0
+Redundant Assertion Dependent Test 0.0
+Sensitive Equality Assertion Roulette 0.0
+Sensitive Equality Conditional Test Logic 0.0
+Sensitive Equality Constructor Initialization 0.0
+Sensitive Equality Default Test 0.0
+Sensitive Equality EmptyTest 0.0
+Sensitive Equality Exception Catching Throwing 0.0
+Sensitive Equality General Fixture 0.0
+Sensitive Equality Mystery Guest 0.0
+Sensitive Equality Print Statement 0.0
+Sensitive Equality Redundant Assertion 0.0
+Sensitive Equality Verbose Test 0.0
+Sensitive Equality Sleepy Test 0.0
+Sensitive Equality Eager Test 0.0
+Sensitive Equality Lazy Test 0.0
+Sensitive Equality Duplicate Assert 0.0
+Sensitive Equality Unknown Test 0.0
+Sensitive Equality IgnoredTest 0.0
+Sensitive Equality Resource Optimism 0.0
+Sensitive Equality Magic Number Test 0.0
+Sensitive Equality Dependent Test 0.0
+Verbose Test Assertion Roulette 0.0
+Verbose Test Conditional Test Logic 0.0
+Verbose Test Constructor Initialization 0.0
+Verbose Test Default Test 0.0
+Verbose Test EmptyTest 0.0
+Verbose Test Exception Catching Throwing 0.0
+Verbose Test General Fixture 0.0
+Verbose Test Mystery Guest 0.0
+Verbose Test Print Statement 0.0
+Verbose Test Redundant Assertion 0.0
+Verbose Test Sensitive Equality 0.0
+Verbose Test Sleepy Test 0.0
+Verbose Test Eager Test 0.0
+Verbose Test Lazy Test 0.0
+Verbose Test Duplicate Assert 0.0
+Verbose Test Unknown Test 0.0
+Verbose Test IgnoredTest 0.0
+Verbose Test Resource Optimism 0.0
+Verbose Test Magic Number Test 0.0
+Verbose Test Dependent Test 0.0
+Sleepy Test Assertion Roulette 0.6250068527696153
+Sleepy Test Conditional Test Logic 0.09381441603438445
+Sleepy Test Constructor Initialization 0.0
+Sleepy Test Default Test 0.0
+Sleepy Test EmptyTest 0.0
+Sleepy Test Exception Catching Throwing 0.7188212688039999
+Sleepy Test General Fixture 0.09381441603438445
+Sleepy Test Mystery Guest 0.0
+Sleepy Test Print Statement 0.0
+Sleepy Test Redundant Assertion 0.0
+Sleepy Test Sensitive Equality 0.0
+Sleepy Test Verbose Test 0.0
+Sleepy Test Eager Test 0.7188212688039999
+Sleepy Test Lazy Test 0.0
+Sleepy Test Duplicate Assert 0.0
+Sleepy Test Unknown Test 0.09381441603438445
+Sleepy Test IgnoredTest 0.0
+Sleepy Test Resource Optimism 0.0
+Sleepy Test Magic Number Test 0.6250068527696153
+Sleepy Test Dependent Test 0.0
+Eager Test Assertion Roulette 4.788903858383405
+Eager Test Conditional Test Logic 0.7188212688039999
+Eager Test Constructor Initialization 0.0
+Eager Test Default Test 0.0
+Eager Test EmptyTest 0.0
+Eager Test Exception Catching Throwing 5.507725127187405
+Eager Test General Fixture 0.7188212688039999
+Eager Test Mystery Guest 0.0
+Eager Test Print Statement 0.0
+Eager Test Redundant Assertion 0.0
+Eager Test Sensitive Equality 0.0
+Eager Test Verbose Test 0.0
+Eager Test Sleepy Test 0.7188212688039999
+Eager Test Lazy Test 0.0
+Eager Test Duplicate Assert 0.0
+Eager Test Unknown Test 0.7188212688039999
+Eager Test IgnoredTest 0.0
+Eager Test Resource Optimism 0.0
+Eager Test Magic Number Test 4.788903858383405
+Eager Test Dependent Test 0.0
+Lazy Test Assertion Roulette 0.0
+Lazy Test Conditional Test Logic 0.0
+Lazy Test Constructor Initialization 0.0
+Lazy Test Default Test 0.0
+Lazy Test EmptyTest 0.0
+Lazy Test Exception Catching Throwing 0.0
+Lazy Test General Fixture 0.0
+Lazy Test Mystery Guest 0.0
+Lazy Test Print Statement 0.0
+Lazy Test Redundant Assertion 0.0
+Lazy Test Sensitive Equality 0.0
+Lazy Test Verbose Test 0.0
+Lazy Test Sleepy Test 0.0
+Lazy Test Eager Test 0.0
+Lazy Test Duplicate Assert 0.0
+Lazy Test Unknown Test 0.0
+Lazy Test IgnoredTest 0.0
+Lazy Test Resource Optimism 0.0
+Lazy Test Magic Number Test 0.0
+Lazy Test Dependent Test 0.0
+Duplicate Assert Assertion Roulette 0.0
+Duplicate Assert Conditional Test Logic 0.0
+Duplicate Assert Constructor Initialization 0.0
+Duplicate Assert Default Test 0.0
+Duplicate Assert EmptyTest 0.0
+Duplicate Assert Exception Catching Throwing 0.0
+Duplicate Assert General Fixture 0.0
+Duplicate Assert Mystery Guest 0.0
+Duplicate Assert Print Statement 0.0
+Duplicate Assert Redundant Assertion 0.0
+Duplicate Assert Sensitive Equality 0.0
+Duplicate Assert Verbose Test 0.0
+Duplicate Assert Sleepy Test 0.0
+Duplicate Assert Eager Test 0.0
+Duplicate Assert Lazy Test 0.0
+Duplicate Assert Unknown Test 0.0
+Duplicate Assert IgnoredTest 0.0
+Duplicate Assert Resource Optimism 0.0
+Duplicate Assert Magic Number Test 0.0
+Duplicate Assert Dependent Test 0.0
+Unknown Test Assertion Roulette 0.6250068527696153
+Unknown Test Conditional Test Logic 0.09381441603438445
+Unknown Test Constructor Initialization 0.0
+Unknown Test Default Test 0.0
+Unknown Test EmptyTest 0.0
+Unknown Test Exception Catching Throwing 0.7188212688039999
+Unknown Test General Fixture 0.09381441603438445
+Unknown Test Mystery Guest 0.0
+Unknown Test Print Statement 0.0
+Unknown Test Redundant Assertion 0.0
+Unknown Test Sensitive Equality 0.0
+Unknown Test Verbose Test 0.0
+Unknown Test Sleepy Test 0.09381441603438445
+Unknown Test Eager Test 0.7188212688039999
+Unknown Test Lazy Test 0.0
+Unknown Test Duplicate Assert 0.0
+Unknown Test IgnoredTest 0.0
+Unknown Test Resource Optimism 0.0
+Unknown Test Magic Number Test 0.6250068527696153
+Unknown Test Dependent Test 0.0
+IgnoredTest Assertion Roulette 0.0
+IgnoredTest Conditional Test Logic 0.0
+IgnoredTest Constructor Initialization 0.0
+IgnoredTest Default Test 0.0
+IgnoredTest EmptyTest 0.0
+IgnoredTest Exception Catching Throwing 0.0
+IgnoredTest General Fixture 0.0
+IgnoredTest Mystery Guest 0.0
+IgnoredTest Print Statement 0.0
+IgnoredTest Redundant Assertion 0.0
+IgnoredTest Sensitive Equality 0.0
+IgnoredTest Verbose Test 0.0
+IgnoredTest Sleepy Test 0.0
+IgnoredTest Eager Test 0.0
+IgnoredTest Lazy Test 0.0
+IgnoredTest Duplicate Assert 0.0
+IgnoredTest Unknown Test 0.0
+IgnoredTest Resource Optimism 0.0
+IgnoredTest Magic Number Test 0.0
+IgnoredTest Dependent Test 0.0
+Resource Optimism Assertion Roulette 0.0
+Resource Optimism Conditional Test Logic 0.0
+Resource Optimism Constructor Initialization 0.0
+Resource Optimism Default Test 0.0
+Resource Optimism EmptyTest 0.0
+Resource Optimism Exception Catching Throwing 0.0
+Resource Optimism General Fixture 0.0
+Resource Optimism Mystery Guest 0.0
+Resource Optimism Print Statement 0.0
+Resource Optimism Redundant Assertion 0.0
+Resource Optimism Sensitive Equality 0.0
+Resource Optimism Verbose Test 0.0
+Resource Optimism Sleepy Test 0.0
+Resource Optimism Eager Test 0.0
+Resource Optimism Lazy Test 0.0
+Resource Optimism Duplicate Assert 0.0
+Resource Optimism Unknown Test 0.0
+Resource Optimism IgnoredTest 0.0
+Resource Optimism Magic Number Test 0.0
+Resource Optimism Dependent Test 0.0
+Magic Number Test Assertion Roulette 4.163897005613789
+Magic Number Test Conditional Test Logic 0.6250068527696153
+Magic Number Test Constructor Initialization 0.0
+Magic Number Test Default Test 0.0
+Magic Number Test EmptyTest 0.0
+Magic Number Test Exception Catching Throwing 4.788903858383405
+Magic Number Test General Fixture 0.6250068527696153
+Magic Number Test Mystery Guest 0.0
+Magic Number Test Print Statement 0.0
+Magic Number Test Redundant Assertion 0.0
+Magic Number Test Sensitive Equality 0.0
+Magic Number Test Verbose Test 0.0
+Magic Number Test Sleepy Test 0.6250068527696153
+Magic Number Test Eager Test 4.788903858383405
+Magic Number Test Lazy Test 0.0
+Magic Number Test Duplicate Assert 0.0
+Magic Number Test Unknown Test 0.6250068527696153
+Magic Number Test IgnoredTest 0.0
+Magic Number Test Resource Optimism 0.0
+Magic Number Test Dependent Test 0.0
+Dependent Test Assertion Roulette 0.0
+Dependent Test Conditional Test Logic 0.0
+Dependent Test Constructor Initialization 0.0
+Dependent Test Default Test 0.0
+Dependent Test EmptyTest 0.0
+Dependent Test Exception Catching Throwing 0.0
+Dependent Test General Fixture 0.0
+Dependent Test Mystery Guest 0.0
+Dependent Test Print Statement 0.0
+Dependent Test Redundant Assertion 0.0
+Dependent Test Sensitive Equality 0.0
+Dependent Test Verbose Test 0.0
+Dependent Test Sleepy Test 0.0
+Dependent Test Eager Test 0.0
+Dependent Test Lazy Test 0.0
+Dependent Test Duplicate Assert 0.0
+Dependent Test Unknown Test 0.0
+Dependent Test IgnoredTest 0.0
+Dependent Test Resource Optimism 0.0
+Dependent Test Magic Number Test 0.0
