@@ -1,36 +1,6 @@
-#!/bin/bash
+https://github.com/gabrieldim/JUnit-CACC-RACC.git
+https://github.com/elastic/elasticsearch.git
+https://github.com/mojohaus/license-maven-plugin.git
+https://github.com/jdmonin/JSettlers2.git
+https://github.com/dan-osterrath/mbtiles-downloader.git
 
-# passing the project list as an argument
-filename=$1
-
-# opening and reading the file
-while IFS="," read -r id name full_name url remaing
-do
-
-   git clone $url
-    
-   echo "starting detection tests files"
-   java -jar ./TestFileDetector/out/artifacts/TestFileDetector_jar/TestFileDetector.jar "./$name"
-
-   echo "extract test files name from csv and writing it in a txt file"
-   touch ./test_file.txt
-   output=$(find . -type f -name "Output_Class_*.csv")
-   while IFS="," read -r app tag Filepath relativeFilePath remaing
-   do 
-      echo  "$Filepath" > ./test_file.txt
-   
-   done < "$output"
-   
-   echo "matching files with production files"
-   java -jar ./TestFileMapping/out/artifacts/TestFileMapping_jar/TestFileMapping.jar "./test_file.txt"
-
-   echo "running detection smells"
-   
-   
-
-   echo "removing the repository"
-   rm ./test_file.txt
-   rm -r $name
-   break
-
-done < <(tail -n +2 $filename) 

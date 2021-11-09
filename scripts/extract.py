@@ -2,6 +2,7 @@
     information are : commit log, list of all modified file, the complete version
     history of all identified test files and their production files.
     by Ossim Belias François Philippe"""
+
 import pandas
 from pydriller.git import Git
 from pydriller.domain.commit import ModifiedFile, ModificationType
@@ -13,6 +14,8 @@ from csv import reader
 import numpy as np
 import sys
 import os
+import pycurl
+import time
 
 
 def extractCommitLog(repository_name):
@@ -177,7 +180,24 @@ def spearman_test(x, y):
     print(stats.spearmanr(x, y))
 
 
+def download():
+    url = "https://api.github.com/search/repositories?q=language:java+topic:java+is:public+fork:false+stars:>=1000" \
+          "+archived:false+pushed:>=2020-01-01" \
+          "&per_page=100&page=1"
+
+    file = open('./pycurl_' + str(1) + '.json', 'wb')
+    crl = pycurl.Curl()
+    crl.setopt(crl.URL, url)
+    crl.setopt(crl.WRITEDATA, file)
+    crl.perform()
+    crl.close()
+
+    print("finished downloading projects for page " + str(1))
+
+
 def main():
+    folder_name = sys.argv[1]
+    extractProduction_Test_Files(folder_name)
     # list of all projects
     # filename = "./data.csv"
 
@@ -186,16 +206,24 @@ def main():
 
     # for repo in repositories_list:
     # repo_name = sys.argv[1]
+    
+    # dirs = os.listdir("./java_data")
+    # for dir in dirs:
+    # print(dir)
+    # extractCommitLog("./java_data/"+ dir)
+     
+    
     # extractCommitLog(repo_name)
 
-    #    extractModifiedFileList(repo)
-    #     break
+    # extractModifiedFileList(repo)
+    # break
 
     # print("Done")
-    print("starting")
-    folder_name = sys.argv[1]
-    extractMetric(folder_name)
-    print("done")
+    # print("starting")
+    # folder_name = sys.argv[1]
+    # extractMetric(folder_name)
+    # download()
+    # print("done")
 
 
 if __name__ == "__main__":
