@@ -1,13 +1,16 @@
 #!/bin/bash
 
+# this script will traverse all the commits for a given project a run ts detect
+# on each commits
+
 # passing the project list as an argument
 filename=$1
 folder_name=$2
 project_name=$3
 
-mkdir ../$folder_name
+mkdir ../"$folder_name"
 
-git clone $project_name
+git clone "$project_name"
 
 
 while read hash; do
@@ -64,6 +67,6 @@ while read hash; do
      
     rm ./test_file.txt
   
-done < $filename
+done < "$filename"
 
-rm -rf $folder_name
+rm -rf "$folder_name"

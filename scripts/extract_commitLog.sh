@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# this script extract all the commit log for a given repository
 # passing the project list as an argument
 filename=$1
 
