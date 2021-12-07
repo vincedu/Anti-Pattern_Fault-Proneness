@@ -1,0 +1,1069 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/PropertiesFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/FileUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/FilteredIvyListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/Trigger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/filter/AndFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/filter/FilterHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/filter/NoFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/filter/NotFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/filter/OrFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/download/DownloadEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/download/NeedArtifactEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/download/PrepareDownloadEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/download/StartArtifactDownloadEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/resolve/EndResolveEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/resolve/StartResolveEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/DefaultDependencyArtifactDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/DefaultModuleRevision.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/DependencyDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/LatestStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ResolvedModuleRevision.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "77680e867c18a49a1c6bdca290434b0d565dc8c0",
+                "bugfix_commit_date": "2007-03-18 23:08:16",
+                "issue_created_at": "2007-03-15 23:55:49.384000",
+                "name": "IVY-435",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/latest/AbstractLatestStrategy.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "77680e867c18a49a1c6bdca290434b0d565dc8c0",
+                "bugfix_commit_date": "2007-03-18 23:08:16",
+                "issue_created_at": "2007-03-15 23:55:49.384000",
+                "name": "IVY-435",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/latest/ComparatorLatestStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/latest/LatestLexicographicStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/latest/LatestRevisionStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/latest/LatestTimeStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/MDResolvedResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/ResolvedModuleRevisionProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/ResolvedResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/ResourceMDParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/version/AbstractVersionMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/version/ExactVersionMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/version/SubVersionMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/version/VersionMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/version/VersionRangeMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyPublish.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/Configurator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7126e673ceb6ff1fbac0ad53f82b268685cee9ff",
+                "bugfix_commit_date": "2007-03-08 11:14:01",
+                "issue_created_at": "2007-03-08 11:02:55.880000",
+                "name": "IVY-422",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/xml/XmlIvyConfigurationParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/tools/analyser/DependencyAnalyser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/tools/analyser/JarJarDependencyAnalyser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/tools/analyser/JarModule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/tools/analyser/JarModuleFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/tools/analyser/RepositoryAnalyser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/AntMessageImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/BasicResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/VfsResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/vfs/VfsResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/conflict/StrictConflictException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/conflict/StrictConflictManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/DependencyResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyArtifactProperty.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyArtifactReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyCacheFileset.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyCacheTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/AbstractResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/ChainResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/DualResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/IBiblioResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/IvyRepResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/conflict/RegexpConflictManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/ChecksumHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/extendable/ExtendableItemHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/namespace/NamespaceRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/status/StatusManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/vfs/IvyWebdavClientFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/vfs/IvyWebdavConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/vfs/IvyWebdavFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/vfs/IvyWebdavFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/IvyEvent.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8e5a9ca890a1eb6f7c665ff477cb72bbd3f4bdb7",
+                "bugfix_commit_date": "2007-03-07 10:27:11",
+                "issue_created_at": "2007-02-09 00:34:48.683000",
+                "name": "IVY-404",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/xml/XmlModuleDescriptorUpdater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/parser/AbstractModuleDescriptorParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "690af97adf76e350576032cbe221f7ee7b32e42e",
+                "bugfix_commit_date": "2007-03-26 15:27:41",
+                "issue_created_at": "2007-01-07 13:57:25.679000",
+                "name": "IVY-374",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/DefaultDependencyDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyCheck.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyConvertPom.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyExtractFromSources.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyVar.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/PackageMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/AbstractArtifact.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ArtifactRevisionId.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/extendable/DefaultExtendableItem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/extendable/ExtendableItem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/extendable/UnmodifiableExtendableItem.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7126e673ceb6ff1fbac0ad53f82b268685cee9ff",
+                "bugfix_commit_date": "2007-03-08 11:14:01",
+                "issue_created_at": "2007-03-08 11:02:55.880000",
+                "name": "IVY-422",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/ModuleId.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/url/BasicURLHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/Artifact.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/AbstractRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/Repository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/BasicResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyResolve.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/Message.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/resolve/ResolveEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/Configuration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/IvyContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/VsftpResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/report/XmlReportOutputter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/status/Status.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/version/LatestVersionMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyPostResolveTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/conflict/LatestConflictManager.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7126e673ceb6ff1fbac0ad53f82b268685cee9ff",
+                "bugfix_commit_date": "2007-03-08 11:14:01",
+                "issue_created_at": "2007-03-08 11:02:55.880000",
+                "name": "IVY-422",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/matcher/ModuleIdMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/namespace/MRIDTransformationRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/AntBuildTrigger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/AntCallTrigger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ModuleDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/parser/ModuleDescriptorParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8e5a9ca890a1eb6f7c665ff477cb72bbd3f4bdb7",
+                "bugfix_commit_date": "2007-03-07 10:27:11",
+                "issue_created_at": "2007-02-09 00:34:48.683000",
+                "name": "IVY-404",
+                "severity": "critical",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "070d96f02b22a2a280c9a43925a3c9cb9b18b2a9",
+                "bugfix_commit_date": "2007-03-02 10:43:20",
+                "issue_created_at": "2007-02-09 00:34:48.683000",
+                "name": "IVY-404",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/xml/XmlModuleDescriptorParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/matcher/NoMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/DependencyArtifactDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/MDArtifact.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/namespace/NameSpaceHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/IvyListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/TransferListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/url/URLRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyBuildNumber.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/Ivy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/AddPathTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/xml/XmlReportParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyCachePath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/url/AbstractURLHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/url/URLHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/url/URLHandlerDispatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/RepositoryResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/report/ReportOutputter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/DefaultArtifact.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f9190252b27cbf5700c1c35071dd980771614feb",
+                "bugfix_commit_date": "2007-03-18 23:38:23",
+                "issue_created_at": "2007-03-08 16:20:30.811000",
+                "name": "IVY-427",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/resolver/AbstractResourceResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/url/URLHandlerRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/filter/ArtifactTypeFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/filter/Filter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/namespace/Namespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/matcher/AnyMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/matcher/GlobPatternMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/matcher/Matcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ModuleRevisionId.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/DefaultModuleDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyRepositoryReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/report/ResolveReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/download/EndArtifactDownloadEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/file/FileResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/report/ConfigurationResolveReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/AbstractSshBasedResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/SFTPResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/SshResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/sftp/SFTPRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/ssh/AbstractSshBasedRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/ssh/RemoteScpException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/ssh/Scp.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ea33beff535a67023a743bbade1127bde66191ee",
+                "bugfix_commit_date": "2008-01-21 08:38:41",
+                "issue_created_at": "2008-01-20 11:30:22.068000",
+                "name": "IVY-709",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/repository/ssh/SshCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/ssh/SshRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/ssh/SshResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/vfs/VfsRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/namespace/NamespaceTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/resolve/EndResolveDependencyEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/resolve/ResolveDependencyEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/resolve/StartResolveDependencyEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ResolveData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ArtifactOrigin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/report/ArtifactDownloadReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/version/ChainVersionMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/matcher/ExactOrRegexpPatternMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/matcher/ExactPatternMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/matcher/MatcherHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/matcher/PatternMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/matcher/RegexpPatternMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/ResourceHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ConflictManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ArtifactId.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ArtifactInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/IvyAware.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/License.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/conflict/AbstractConflictManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/conflict/FixedConflictManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/conflict/NoConflictManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/report/DownloadReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/report/DownloadStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/ApacheHttpURLLister.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/FileURLLister.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/ModuleEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/OrganisationEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/RevisionEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/URLLister.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/URLResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/CopyProgressEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/CopyProgressListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/IvyPattern.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/XMLHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/url/ApacheURLLister.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "06d01a0834070c4c0939d3ebfdcd118a3ab38150",
+                "bugfix_commit_date": "2007-03-30 17:42:23",
+                "issue_created_at": "2007-03-30 17:38:47.566000",
+                "name": "IVY-457",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/fr/jayasoft/ivy/Main.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/FileSystemResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/file/FileRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/report/LogReportOutputter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/DefaultMessageImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/MessageImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/LazyResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/RepositoryCopyProgressListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/TransferEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/vsftp/VsftpResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ModuleDescriptorSorter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/circular/AbstractCircularDependencyStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/circular/CircularDependencyException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/circular/CircularDependencyHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/circular/CircularDependencyStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/circular/ErrorCircularDependencyStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/circular/IgnoreCircularDependencyStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/circular/WarnCircularDependencyStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/parser/ModuleDescriptorParserRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/Resource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/sftp/SFTPResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/url/URLResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyBuildList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/version/Match.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/version/PatternVersionMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyConfigure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/IvyNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyDeliver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyRetrieve.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/url/CredentialsStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/url/HttpClientHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/url/IvyAuthenticator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/Credentials.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/CredentialsUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/EncrytedProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/StringUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyFindRevision.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyListModules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/AbstractTrigger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/event/IvyEventFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ResolvedURL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/HasLatestStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/ant/IvyInstall.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/namespace/MRIDRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/CacheResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/IvyPatternHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/xml/XmlModuleDescriptorWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/util/IvyThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/repository/vsftp/VsftpRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/resolver/ResolverHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/DefaultPublishingDRResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/fr/jayasoft/ivy/PublishingDependencyRevisionResolver.java"
+    }
+]

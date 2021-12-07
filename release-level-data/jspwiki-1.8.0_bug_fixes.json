@@ -1,0 +1,167 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/bmsi/util/Diff.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/bmsi/util/DiffPrint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/UserProfile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/FileUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/NoRequiredPropertyException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/plugin/PluginException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/xmlrpc/RPCHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/xmlrpc/RPCHandlerUTF8.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/plugin/AbstractReferralPlugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/VersioningFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/TranslatorReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/CachingProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/WikiPageProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/plugin/RecentChangesPlugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/plugin/CurrentTimePlugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/plugin/PluginManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/WikiPage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/InternalWikiException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/WikiContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/plugin/WikiPlugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/plugin/UndefinedPagesPlugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/plugin/UnusedPagesPlugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/Release.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/DifferenceEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/QueryItem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/xmlrpc/RPCServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/StringTransmutator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/LinkCollector.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "984c0184bbe7a71341b5a286a8c3a73fbbcfc89b",
+                "bugfix_commit_date": "2008-06-15 17:39:02",
+                "issue_created_at": "2008-01-20 22:31:25.968000",
+                "name": "JSPWIKI-145",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/com/ecyrd/jspwiki/WikiEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/TextUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/xmlrpc/AbstractRPCHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/rss/RSSGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/RCSFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/ReferenceManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/SearchResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/SearchResultComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/FileSystemProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/plugin/ReferringPagesPlugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/com/ecyrd/jspwiki/PageTimeComparator.java"
+    }
+]

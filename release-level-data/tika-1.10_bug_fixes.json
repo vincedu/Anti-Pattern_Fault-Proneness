@@ -1,0 +1,2220 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/TaggedSAXException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/extractor/DocumentSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/extractor/ParsingEmbeddedDocumentExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/DelegatingParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/MetadataContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/epub/EpubContentParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/AutoDetectParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/asm/ClassParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/audio/AudioParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/audio/MidiParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/MediaType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/HSLFExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/UniversalEncodingListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/Metadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/font/TrueTypeParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/NodeMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/XPathParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/language/translate/DefaultTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/executable/MachineMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/ContentHandlerDecorator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "fcfd4e15fea1ba25a608b1d1b80147434985365e",
+                "bugfix_commit_date": "2018-03-08 02:31:18",
+                "issue_created_at": "2018-02-08 16:00:59.856000",
+                "name": "TIKA-2568",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "c996d01c515103cd84ebd73736427ae79b50aa5b",
+                "bugfix_commit_date": "2018-03-08 03:11:51",
+                "issue_created_at": "2018-02-08 16:00:59.856000",
+                "name": "TIKA-2568",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pkg/PackageParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/XMPContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/CreativeCommons.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/TikaMimeKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ExcelExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/xml/ElementMetadataHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/TikaMetadataKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/FileResourceConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/asm/XHTMLClassVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/TikaCoreProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/xml/AbstractMetadataHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/MimeTypesFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/Office.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/ParserPostProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/hdf/HDFParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/CompositeTagHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3Tags.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3v22Handler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3v23Handler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3v24Handler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/language/LanguageProfile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp4/DirectFileReadDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/config/LoadErrorHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/xml/XMLParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7bd88f6eb2eb6035dd20f54364f8eeac7e2df0fd",
+                "bugfix_commit_date": "2018-06-20 20:26:12",
+                "issue_created_at": "2018-06-20 19:35:21.250000",
+                "name": "TIKA-2677",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "b4cdfcfe19b008c2e9955f42caf6d52e8389a172",
+                "bugfix_commit_date": "2018-06-21 20:17:42",
+                "issue_created_at": "2018-06-20 19:35:21.250000",
+                "name": "TIKA-2677",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/MediaTypeRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/ToHTMLContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ForkClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/geo/topic/GeoParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/geo/topic/GeoParserConfig.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7536ed91afd9a3fe744464e34f95f3108c6bd5a2",
+                "bugfix_commit_date": "2018-05-25 12:18:26",
+                "issue_created_at": "2016-09-28 13:21:46.715000",
+                "name": "TIKA-2100",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "8d26096e9d579bee74ac01df9ae773e66e0bfc74",
+                "bugfix_commit_date": "2018-05-29 18:27:27",
+                "issue_created_at": "2016-09-28 13:21:46.715000",
+                "name": "TIKA-2100",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "9024f12e0fbef206330b6317a537354fafbe9cd7",
+                "bugfix_commit_date": "2016-08-12 15:10:24",
+                "issue_created_at": "2016-05-20 20:40:23.261000",
+                "name": "TIKA-1980",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "27bc383ebb4b1c7162ec37f93a93001f01ed3f2a",
+                "bugfix_commit_date": "2016-08-12 16:45:36",
+                "issue_created_at": "2016-05-20 20:40:23.261000",
+                "name": "TIKA-1980",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "f43de5a24b56cdd6a3c5abc3e5a38e2410089d69",
+                "bugfix_commit_date": "2015-10-27 12:46:59",
+                "issue_created_at": "2015-10-26 14:45:27.613000",
+                "name": "TIKA-1782",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/XHTMLContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/netcdf/NetCDFParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mail/MailContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/Link.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/Detector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/Clause.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/iwork/IWorkPackageParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e607d65bc58087116408988342331dcb20ff9bba",
+                "bugfix_commit_date": "2015-09-24 17:00:24",
+                "issue_created_at": "2015-09-24 12:00:07.490000",
+                "name": "TIKA-1750",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-translate/src/main/java/org/apache/tika/language/translate/CachedTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/MimeType.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a38a2b093c7f4f1128dd987663c4406fcd019cd8",
+                "bugfix_commit_date": "2017-01-11 15:15:57",
+                "issue_created_at": "2017-01-11 14:41:03.385000",
+                "name": "TIKA-2237",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "2d908d59b022ab2c12800336c648ae9763faf107",
+                "bugfix_commit_date": "2017-01-11 15:19:39",
+                "issue_created_at": "2017-01-11 14:41:03.385000",
+                "name": "TIKA-2237",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/ProbabilisticMimeDetectionSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-serialization/src/main/java/org/apache/tika/metadata/serialization/JsonMetadataSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/MemoryURLStreamHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/MemoryURLStreamRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ForkParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/Icu4jEncodingDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/strings/StringsConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/strings/StringsParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentContentParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentMetaParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/TikaServerParseException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/xml/AttributeDependantMetadataHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/extractor/ContainerExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/extractor/EmbeddedResourceHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/config/TikaActivator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/Tika.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/JackcessExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-dotnet/src/main/java/Tika/Tika.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/XMPMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/convert/AbstractConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/convert/GenericConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/convert/ITikaToXMPConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/convert/MSOfficeBinaryConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/convert/MSOfficeXMLConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/convert/Namespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/convert/OpenDocumentConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/convert/RTFConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-xmp/src/main/java/org/apache/tika/xmp/convert/TikaToXMP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-app/src/main/java/org/apache/tika/cli/BatchCommandLineBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/BatchProcess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/ParallelFileProcessingResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/BasicTikaFSConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/AbstractFSConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/ocr/TesseractOCRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/IPTC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ForkServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/ParserDecorator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/code/SourceCodeParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/TextDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/TextStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/CryptoParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7bd88f6eb2eb6035dd20f54364f8eeac7e2df0fd",
+                "bugfix_commit_date": "2018-06-20 20:26:12",
+                "issue_created_at": "2018-06-20 19:35:21.250000",
+                "name": "TIKA-2677",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "b4cdfcfe19b008c2e9955f42caf6d52e8389a172",
+                "bugfix_commit_date": "2018-06-21 20:17:42",
+                "issue_created_at": "2018-06-20 19:35:21.250000",
+                "name": "TIKA-2677",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/MimeTypes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/SecureContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/dwg/DWGParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/FileResourceCrawler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/Interrupter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/StatusReporter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/strawman/StrawManTikaAppDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/iwork/KeynoteContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/html/IdentityHtmlMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/Patterns.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/utils/CharsetUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/envi/EnviHeaderParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/strings/FileConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/strings/StringsEncoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/feed/FeedParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/ChmParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmLzxcResetTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/DirectoryListingEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmCommons.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2169cae44277a18430e4de462b4ae5b1dfb8956b",
+                "bugfix_commit_date": "2017-12-08 14:07:53",
+                "issue_created_at": "2017-12-06 22:07:55.213000",
+                "name": "TIKA-2519",
+                "severity": "blocker",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "95baca2b58538ec1d75fc5b6c80fd06b7eebb7dc",
+                "bugfix_commit_date": "2017-12-08 14:40:30",
+                "issue_created_at": "2017-12-06 22:07:55.213000",
+                "name": "TIKA-2519",
+                "severity": "blocker",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/lzx/ChmBlockInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/lzx/ChmLzxBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/lzx/ChmLzxState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/lzx/ChmSection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/ctakes/CTAKESConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/ctakes/CTAKESSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/strings/Latin1StringsParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-translate/src/main/java/org/apache/tika/language/translate/GoogleTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/ContentHandlerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/XWPFListManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/DefaultParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/DefaultProbDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/utils/ServiceLoaderUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/UniversalEncodingDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/MetadataList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/RichTextContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/language/ProfilingHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/language/ProfilingWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/ctakes/CTAKESAnnotationProperty.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/MimeTypeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/TypeDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/exception/TikaException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/ElementMappingContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/EmbeddedContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/TeeContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/utils/RegexUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/utils/RereadableInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/AttributeMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/ChildMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/CompositeMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/ElementMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/Matcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/NamedAttributeMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/NamedElementMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/SubtreeMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/TextMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/RTFMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/rtf/GroupState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/BatchProcessDriverCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/MimeTypesReaderMetKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/NNExampleModelDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/NNTrainedModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/NNTrainedModelBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/TrainedModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/TrainedModelDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/embedder/Embedder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/ToXMLContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/Geographic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/prt/PRTParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/AbstractListManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ListManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/extractor/ParserContainerExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/TemporaryResources.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/AndClause.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/OrClause.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/NetworkParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/MagicDetector.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b2821d921ac4cfd3be468e8bea9123f5cb627cbf",
+                "bugfix_commit_date": "2016-05-16 00:02:16",
+                "issue_created_at": "2016-04-04 11:33:55.620000",
+                "name": "TIKA-1928",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "2a69db7bbad17f235e66274186f5f3814f32a56e",
+                "bugfix_commit_date": "2016-05-16 00:06:06",
+                "issue_created_at": "2016-04-04 11:33:55.620000",
+                "name": "TIKA-1928",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/NameDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/embedder/ExternalEmbedder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/IOUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/language/LanguageIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/language/LanguageProfilerBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/epub/EpubParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/iptc/IptcAnpaParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mat/MatParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/LyricsHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/ocr/TesseractOCRConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/video/FLVParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmDirectoryListingSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmItsfHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmItspHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmLzxcControlData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmPmgiHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmPmglHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmConstants.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2169cae44277a18430e4de462b4ae5b1dfb8956b",
+                "bugfix_commit_date": "2017-12-08 14:07:53",
+                "issue_created_at": "2017-12-06 22:07:55.213000",
+                "name": "TIKA-2519",
+                "severity": "blocker",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/TextContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/writer/CSVMessageBodyWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/writer/JSONMessageBodyWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/writer/MetadataListMessageBodyWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/writer/TextMessageBodyWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/writer/XMPMessageBodyWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/writer/ZipWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/DublinCore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/MSOffice.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/OfficeOpenXMLCore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/OfficeOpenXMLExtended.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/XMP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/TNEFParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/xml/DcXMLParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/language/translate/Translator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-translate/src/main/java/org/apache/tika/language/translate/ExternalTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-translate/src/main/java/org/apache/tika/language/translate/MicrosoftTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-translate/src/main/java/org/apache/tika/language/translate/Lingo24Translator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-translate/src/main/java/org/apache/tika/language/translate/MosesTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/POIXMLTextExtractorDecorator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/EncodingDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/Photoshop.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/DigestingParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "02425b290ce5ba2adbbc3951c7f04c8435692696",
+                "bugfix_commit_date": "2016-10-19 15:53:03",
+                "issue_created_at": "2016-10-19 11:55:53.228000",
+                "name": "TIKA-2123",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "7e66e49797b7bfcfe7928d442e1d04b924bf2b6c",
+                "bugfix_commit_date": "2016-10-19 16:03:12",
+                "issue_created_at": "2016-10-19 11:55:53.228000",
+                "name": "TIKA-2123",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/utils/CommonsDigester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-app/src/main/java/org/apache/tika/batch/DigestingAutoDetectParserFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-app/src/main/java/org/apache/tika/gui/TikaGUI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-app/src/main/java/org/apache/tika/batch/builders/AppParserFactoryBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/AutoDetectParserFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/ParserFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/IParserFactoryBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/ParserFactoryBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/FSBatchProcessCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/builders/BasicTikaFSConsumersBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/TikaServerCli.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/DetectorResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/LanguageResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/TikaDetectors.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/TikaMimeTypes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/TikaParsers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/TikaVersion.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/TikaWelcome.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/TranslateResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/EmptyDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/AbstractParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/ParsingReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/SafeContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pdf/PDFEncodedStringDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pdf/PDFParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-serialization/src/main/java/org/apache/tika/metadata/serialization/JsonMetadataDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/grib/GribParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "15a92302501d5ee6a319442c8109eafe37ec4595",
+                "bugfix_commit_date": "2016-11-01 13:57:15",
+                "issue_created_at": "2016-10-10 15:03:41.555000",
+                "name": "TIKA-2111",
+                "severity": "trivial",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "a6978521fb4c75195180d33734ceb23de8b6bd43",
+                "bugfix_commit_date": "2016-11-01 15:08:45",
+                "issue_created_at": "2016-10-10 15:03:41.555000",
+                "name": "TIKA-2111",
+                "severity": "trivial",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/executable/ExecutableParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/html/BoilerpipeContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/html/DefaultHtmlMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7536ed91afd9a3fe744464e34f95f3108c6bd5a2",
+                "bugfix_commit_date": "2018-05-25 12:18:26",
+                "issue_created_at": "2016-09-28 13:21:46.715000",
+                "name": "TIKA-2100",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "8d26096e9d579bee74ac01df9ae773e66e0bfc74",
+                "bugfix_commit_date": "2018-05-29 18:27:27",
+                "issue_created_at": "2016-09-28 13:21:46.715000",
+                "name": "TIKA-2100",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/html/XHTMLDowngradeHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/image/BPGParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/image/ImageMetadataExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/image/ImageParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/image/MetadataFields.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/image/PSDParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/image/TiffParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/image/WebPParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/jdbc/AbstractDBParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/jdbc/SQLite3DBParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/jdbc/SQLite3Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/jdbc/SQLite3TableReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/jpeg/JpegParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "18aa69a16f09232413e06d04e921427ff4356cec",
+                "bugfix_commit_date": "2017-10-11 23:18:00",
+                "issue_created_at": "2015-11-06 06:30:30.591000",
+                "name": "TIKA-1788",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mail/RFC822Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mbox/MboxParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mbox/OutlookPSTParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/AbstractPOIFSExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/OfficeParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/OldExcelParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/POIFSContainerDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/SummaryExtractor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d64a32c63f376b9e003a4512adfec05414d4dfe6",
+                "bugfix_commit_date": "2017-11-24 01:07:41",
+                "issue_created_at": "2017-04-28 15:23:41.337000",
+                "name": "TIKA-2347",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/WordExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pdf/AccessChecker.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "191c03d14e33606ffd4bef2972704398abce289b",
+                "bugfix_commit_date": "2015-09-30 17:05:14",
+                "issue_created_at": "2015-09-22 21:19:05.080000",
+                "name": "TIKA-1742",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pdf/PDF2XHTML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pdf/PDFParserConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/rtf/ListDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/rtf/RTFEmbObjHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/rtf/RTFObjDataParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/rtf/RTFParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/rtf/TextExtractor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1f38be359b2735de94e9ae5850a3622e5393f77b",
+                "bugfix_commit_date": "2017-10-10 20:54:48",
+                "issue_created_at": "2017-10-10 20:31:28.251000",
+                "name": "TIKA-2475",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "94850f2e7c7d3df6a06a924fc6d643c0f6181643",
+                "bugfix_commit_date": "2017-10-11 13:18:47",
+                "issue_created_at": "2017-10-10 20:31:28.251000",
+                "name": "TIKA-2475",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetMatch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetRecog_2022.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetRecog_mbcs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetRecog_sbcs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetRecog_Unicode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetRecognizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/TXTParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/image/xmp/JempboxExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/image/xmp/XMPPacketScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/MetadataExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/XSSFExcelExtractorDecorator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d64a32c63f376b9e003a4512adfec05414d4dfe6",
+                "bugfix_commit_date": "2017-11-24 01:07:41",
+                "issue_created_at": "2017-04-28 15:23:41.337000",
+                "name": "TIKA-2347",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "7842600560e02a4fd213d175301b4397bbe030a3",
+                "bugfix_commit_date": "2017-06-09 00:19:13",
+                "issue_created_at": "2016-04-10 00:37:33.017000",
+                "name": "TIKA-1945",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/XWPFWordExtractorDecorator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/EndianUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/NumberCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/TextCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/language/translate/EmptyTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/Property.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/PropertyTypeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp4/MP4Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/HTMLHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/TikaLoggingFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pkg/CompressorParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/AudioFrame.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/MpegStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/Cell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/CellDecorator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/xml/FictionBookParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6a398bd3f6245543091fd7c0e9e4facb34a26882",
+                "bugfix_commit_date": "2018-01-01 21:32:54",
+                "issue_created_at": "2013-11-05 00:43:26.815000",
+                "name": "TIKA-1191",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ClassLoaderProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/MemoryURLConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/MemoryURLStreamHandlerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/XMPDM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3v1Handler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/iwork/AutoPageNumberUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/TailStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/MP3Frame.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/xml/AttributeMetadataHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/xml/MetadataHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/ProxyInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/extractor/EmbeddedDocumentExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pkg/RarParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ContentHandlerProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ContentHandlerResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/InputStreamProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/InputStreamResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/geo/topic/GeoTag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-java7/src/main/java/org/apache/tika/filetypedetector/TikaFileTypeDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/DIFContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/dif/DIFContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/dif/DIFParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/XMPIdq.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/XMPMM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/XMPRights.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/XmlRootExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "462ee4744fd426cfdb12539435627b25e789c912",
+                "bugfix_commit_date": "2018-03-07 19:55:06",
+                "issue_created_at": "2018-02-27 14:07:08.989000",
+                "name": "TIKA-2591",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "b4047eb2d92ee4ae8d8e02d12079232419775a73",
+                "bugfix_commit_date": "2018-03-07 20:15:07",
+                "issue_created_at": "2018-02-27 14:07:08.989000",
+                "name": "TIKA-2591",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pkg/ZipContainerDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/txt/CharsetRecog_UTF8.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/CountingInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/ctakes/CTAKESContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/ctakes/CTAKESParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/ctakes/CTAKESUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/ClosedInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/CloseShieldInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/IOExceptionWithCause.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/NullInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/NullOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/TaggedIOException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-app/src/main/java/org/apache/tika/gui/ParsingTransferHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/OfflineContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/AutoDetectReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/accessor/ChmAccessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/assertion/ChmAssert.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/exception/ChmParsingException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7842600560e02a4fd213d175301b4397bbe030a3",
+                "bugfix_commit_date": "2017-06-09 00:19:13",
+                "issue_created_at": "2016-04-10 00:37:33.017000",
+                "name": "TIKA-1945",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLExtractorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/TikaServerParseExceptionMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/geo/topic/NameEntityExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/MetadataResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/RecursiveMetadataResource.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "066e60d5d6de8d51124c297410e7a4eca787d143",
+                "bugfix_commit_date": "2018-01-26 18:53:42",
+                "issue_created_at": "2018-01-23 16:12:47.836000",
+                "name": "TIKA-2551",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/TikaResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/resource/UnpackerResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/TaggedContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/pkg/CompressorParserOptions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/exception/AccessPermissionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/AccessPermissions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/Mp3Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/mp3/ID3v2Frame.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/BodyContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-serialization/src/main/java/org/apache/tika/metadata/serialization/JsonMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-serialization/src/main/java/org/apache/tika/metadata/serialization/JsonMetadataList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/font/AdobeFontMetricParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/iwork/NumbersContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/internal/Activator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/gdal/GDALParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/FilenameUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/utils/DateUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/odf/NSNormalizerContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/PasswordProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-serialization/src/main/java/org/apache/tika/metadata/serialization/JsonMetadataBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/BasicContentHandlerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/MimeTypesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/xpath/MatchingContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/Magic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/MagicMatch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ClassLoaderResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ForkProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ForkResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/isatab/ISArchiveParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/isatab/ISATabUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/EndDocumentShieldingContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlEncodingDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/iwork/PagesContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/geoinfo/GeographicInformationParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/chm/core/ChmWrapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7842600560e02a4fd213d175301b4397bbe030a3",
+                "bugfix_commit_date": "2017-06-09 00:19:13",
+                "issue_created_at": "2016-04-10 00:37:33.017000",
+                "name": "TIKA-1945",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/XSLFPowerPointExtractorDecorator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/LookaheadInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/Database.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/utils/ExceptionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/RecursiveParserWrapperFSConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/EmptyParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/ErrorParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/OutlookExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/opendocument/OpenOfficeParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/ParseContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/ToTextContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/WriteOutContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/Message.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-server/src/main/java/org/apache/tika/server/writer/TarWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/jdbc/JDBCTableReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-serialization/src/main/java/org/apache/tika/metadata/serialization/PrettyMetadataKeyComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/PagedText.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/config/ServiceLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/config/TikaConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/TaggedInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/exception/EncryptedDocumentException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/LinkBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/LinkContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/BatchNoRestartError.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/ConsumersManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/FileConsumerFutureResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/FileResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/FileResourceCrawlerFutureResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/FileStarted.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/IFileProcessorFutureResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/InterrupterFutureResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/OutputStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/PoisonFileResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/StatusReporterFutureResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/util/ClassLoaderUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/util/DurationFormatUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/util/PropsUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/util/XMLDOMUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/AbstractConsumersBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/BatchProcessBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/CommandLineParserBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/DefaultContentHandlerFactoryBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/IContentHandlerFactoryBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/ICrawlerBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/InterrupterBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/ObjectFromDOMAndQueueBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/ObjectFromDOMBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/ReporterBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/SimpleLogReporterBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/builders/StatusReporterBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/FSConsumersManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/FSDirectoryCrawler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/FSDocumentSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/FSFileResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/FSListCrawler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/FSOutputStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/FSProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/FSUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-batch/src/main/java/org/apache/tika/batch/fs/builders/FSCrawlerBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/ClimateForcast.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/io/TikaInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/JackcessParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/parser/CompositeParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/TIFF.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/CompositeDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/detect/DefaultDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/ExpandedTitleContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/microsoft/LinkedCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/CleanPhoneText.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/sax/PhoneExtractingContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/mime/HexCoDec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/fork/ForkObjectInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-parsers/src/main/java/org/apache/tika/parser/crypto/Pkcs7Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "tika-core/src/main/java/org/apache/tika/metadata/HttpHeaders.java"
+    }
+]

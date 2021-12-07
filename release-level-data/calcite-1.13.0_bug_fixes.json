@@ -1,0 +1,5723 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/PigRelBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Bindables.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectSortTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Source.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidSchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/QueryType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "file/src/main/java/org/apache/calcite/adapter/file/FileEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "file/src/main/java/org/apache/calcite/adapter/file/FileTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/LogicVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexBiVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/GroupByScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlAbstractConformance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexShuttle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlConformance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlConformanceEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlDelegatingConformance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexVisitorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdNodeTypes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/UnionMergeRule.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "da568324ad84c5a792f2b9c2bd2c827c1440b19c",
+                "bugfix_commit_date": "2018-05-22 20:49:50",
+                "issue_created_at": "2018-04-18 20:07:29.288000",
+                "name": "CALCITE-2265",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/StandardConvertletTable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2156d8265178f92c52f94ef47588a89ab1fdb7de",
+                "bugfix_commit_date": "2017-08-29 17:12:28",
+                "issue_created_at": "2017-08-17 20:58:44.545000",
+                "name": "CALCITE-1953",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlKind.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMergeJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlOverlapsOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/OperandTypes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/CalciteResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/TranslatableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/Holder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableBiRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableCalc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableCollect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableCorrelate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableExchange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableIntersect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableLeafRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableMinus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableProject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableRelType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableRelVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableSemiJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableSetOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableSingleRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableTableFunctionScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableTableModify.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableUncollect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableUnion.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableValues.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableWindow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/Table.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlNameMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlNameMatchers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlQualified.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlValidatorScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/WithScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/CachingLatticeStatisticProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/BiRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlPostfixOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlPrefixOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlWindow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/ReflectiveConvertletTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/RelRunners.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Closer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ReflectUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/SaffronProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/convert/ConverterImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/CachingRelMetadataProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/ChainedRelMetadataProvider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3763abfab2675faeabd2bca9803e86d52aa50cca",
+                "bugfix_commit_date": "2017-12-02 02:05:17",
+                "issue_created_at": "2017-05-26 10:46:36.866000",
+                "name": "CALCITE-1808",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/JaninoRelMetadataProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/MetadataFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/ReflectiveRelMetadataProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/CalcRelSplitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinCommuteRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectToWindowRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ReduceDecimalsRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlLikeOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/BasicSqlType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SetopNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlIdentifierMoniker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/Hook.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/ModelHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdMaxRowCount.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdMinRowCount.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlExplain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlExplainFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/externalize/RelJsonWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/DefaultEnumerable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/ExtendedEnumerable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/ResultSetEnumerable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/ModifiableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlInsert.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlValuesOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableModifyRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/TableModify.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalTableModify.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlRowOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableMultiRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/SparkRuntime.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexCallBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SortProjectTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ImmutableIntList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Pair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/DynamicRecordTypeImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeHolder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelRecordType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/StructKind.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/CatalogScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/ParameterScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkPushDownRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlStateCodes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "file/src/main/java/org/apache/calcite/adapter/file/FileSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "file/src/main/java/org/apache/calcite/adapter/file/FileSchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/InitializerContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/InitializerExpressionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/NullInitializerExpressionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/ModifiableViewTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/ViewTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/ViewTableMacro.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/IdentifierNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlValidatorTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Source.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/Planner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/BuiltInMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdExpressionLineage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdTableReferences.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CachingCalciteSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalciteConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalciteMetaImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalcitePrepare.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalciteResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalciteSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/SimpleCalciteSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/MaterializationService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/prepare/CalciteCatalogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/prepare/CalcitePrepareImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/prepare/RelOptTableImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/Schema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/Schemas.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/RelDecorrelator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/java/ReflectiveSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/AbstractSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/DelegatingSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/EmptyScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/Demo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/config/Lex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/config/NullCollation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/AbstractSingleNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/BindableRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Context.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/FilterNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/InterpretableConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/InterpretableRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Interpreters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/JaninoRexCompiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/JoinNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Node.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Nodes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/NoneToBindableConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/ProjectNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Row.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Scalar.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Sink.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/TableScanNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/UnionNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/ValuesNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/WindowNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalciteConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalciteFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalciteJdbc41Factory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalcitePreparedStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalciteRootSchema.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b1e3c82cb1f25396eb41a106b805f3cff90a5346",
+                "bugfix_commit_date": "2018-04-20 19:52:32",
+                "issue_created_at": "2017-08-17 02:21:36.118000",
+                "name": "CALCITE-1949",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/CalciteStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/Driver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/JavaRecordType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/MetadataSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/SqlTimeoutException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/DelegatingLatticeStatisticProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/Lattices.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/LatticeStatisticProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/MaterializationActor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/MaterializationKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/SqlLatticeStatisticProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/TileKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonCustomSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonCustomTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonJdbcSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonLattice.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonMapSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonMaterialization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonRoot.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonTile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonView.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/CommonRelSubExprRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/Contexts.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/MulticastRelOptListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelCompositeTrait.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelMultipleTrait.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptCost.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptCostFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptCostImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptLattice.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptRuleOperand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptRuleOperandChildPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptRuleOperandChildren.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptSamplingParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptSchemaWithSampling.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelTrait.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelTraitPropagationVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelTraitSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/TableAccessMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/prepare/QueryableRelBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/InvalidRelException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelCollation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelCollationImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelCollations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelDistributions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelDistributionTraitDef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelFieldCollation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelNodes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/SingleRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexCopier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexCorrelVariable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexDynamicParam.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexFieldAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexFieldCollation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexInputRef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexLocalRef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexMultisetUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexPattern.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexPermutationShuttle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexPermuteInputsShuttle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexRangeRef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexSlot.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexSqlConvertlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexSqlConvertletTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexSqlReflectiveConvertletTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexSubQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexToSqlNodeConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexVariable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexWindow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexWindowBound.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/AbstractImmutableList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/ArrayBindable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/ArrayComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/ArrayEnumeratorCursor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/BinarySearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/Bindable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/CalciteContextException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/CalciteException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/ConsList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/Enumerables.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/EnumeratorCursor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/Feature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/ObjectEnumeratorCursor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/RecordEnumeratorCursor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/SortedMultiMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/TrustAllSslSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/Typed.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/Unit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/Utilities.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/AggregateFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/FilterableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/Function.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/FunctionParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/ImplementableAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/ImplementableFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/Member.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/ModifiableView.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/Path.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/ProjectableFilterableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/QueryableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/ScalarFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/ScannableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/SchemaPlus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/SemiMutableSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/StreamableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/TableFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/TableMacro.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/server/CalciteServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/server/CalciteServerStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/ExplicitOperatorBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/JoinConditionType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlAbstractStringLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlAccessEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlAsOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlBinaryOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlBinaryStringLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlCharStringLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlDelete.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlDynamicParam.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlExplainLevel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlFunctionalOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlInfixOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlInsertKeyword.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlInternalOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlMerge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlNodeList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlNullSemantics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlNumericLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlOperandCountRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlOperatorBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlOperatorTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlOrderBy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlProcedureCallOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlRankFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlSampleSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlSelectKeyword.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlSelectOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlSetOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlUnnestOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlUnresolvedFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlUpdate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlWith.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlWithItem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/CorrelationReferenceFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/DeduplicateCorrelateVariables.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/SqlNodeToRexConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/SqlRexContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/SqlRexConvertlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/SqlRexConvertletTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/RelBuilderFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/RelConversionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/RelRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/RuleSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/RuleSets.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/ValidationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/BarfingInvocationHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Benchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/BitSets.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/BitString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/CalciteParserException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/CalciteValidatorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/CastingList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ChunkList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ClosableAllocation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ClosableAllocationOwner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/CompatibleGuava11.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/CompositeMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/CompoundClosableAllocation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ControlFlowException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/DelegatingInvocationHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Filterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Glossary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Holder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ImmutableNullableList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/IntegerIntervalSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/IntList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/JsonBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Litmus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/PartiallyOrderedSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Permutation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ReflectiveVisitDispatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ReflectiveVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/SerializableCharset.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Stacks.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/StackWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Static.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/TryThreadLocal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/UnmodifiableArrayList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/XmlOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/clone/ArrayTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/clone/ColumnLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/clone/ListTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/AggAddContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/AggContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/AggImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/AggImpState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/AggResetContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/AggResultContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/CallImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableAggregateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableBindable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCalcRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCollect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCollectRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCorrelate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCorrelateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableFilterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableFilterToCalcRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableInterpretable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableInterpreter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableInterpreterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableIntersectRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableJoinRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableLimit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableLimitRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMergeJoinRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMinusRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableProject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableProjectRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableProjectToCalcRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableSemiJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableSemiJoinRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableSortRule.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a473eca597300395ff89f949401505ec122a9774",
+                "bugfix_commit_date": "2017-07-27 23:02:54",
+                "issue_created_at": "2017-07-27 22:49:26.710000",
+                "name": "CALCITE-1907",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableFunctionScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableFunctionScanRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableScanRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableThetaJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableUncollect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableUncollectRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableUnionRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableValues.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableValuesRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableWindowRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/JavaRelImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/NestedBlockBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/NestedBlockBuilderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/NotNullImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/NullPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/StrictAggImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/StrictWinAggImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/WinAggAddContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/WinAggContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/WinAggFrameContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/WinAggFrameResultContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/WinAggImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/WinAggResetContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/WinAggResultContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/java/AbstractQueryableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/java/Array.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/java/JavaTypeFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/java/Map.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcConvention.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcQueryProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcToEnumerableConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcToEnumerableConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/hep/HepInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/hep/HepMatchOrder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/hep/HepProgram.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/hep/HepProgramBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/hep/HepRelMetadataProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/hep/HepRelVertex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/AbstractConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/ChainedPhaseRuleMappingInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/VolcanoCost.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/VolcanoPlannerPhase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/VolcanoPlannerPhaseRuleMappingInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/VolcanoRelMetadataProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/convert/Converter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/convert/ConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/convert/NoneConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/convert/TraitMatchingRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/AggregateCall.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Collect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/CorrelationId.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/EquiJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Exchange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Intersect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/JoinInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Minus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Sample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/SortExchange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/TableFunctionScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Uncollect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalCalc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalExchange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalIntersect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalMinus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalTableFunctionScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalTableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalUnion.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalValues.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/CyclicMetadataException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/Metadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/MetadataDef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/MetadataFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/MetadataHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/NullSentinel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelColumnMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelColumnOrigin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdColumnOrigins.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdDistinctRowCount.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdExplainVisibility.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdMemory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdParallelism.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdPercentageOriginalRows.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdPopulationSize.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdRowCount.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdSelectivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdUniqueKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMetadataProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/UnboundMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateProjectMergeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateRemoveRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateStarTableRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateUnionAggregateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateUnionTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/CalcMergeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/CalcRemoveRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/CalcSplitRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/CoerceInputsRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/EquiJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterCalcMergeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterCorrelateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterJoinRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterMergeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterMultiJoinMergeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterSetOpTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterTableFunctionTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterToCalcRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinAddRedundantSemiJoinRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinAssociateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinPushExpressionsRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinPushTransitivePredicatesRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinToCorrelateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinToMultiJoinRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinUnionTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/LoptJoinTree.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/MultiJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/MultiJoinProjectTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectCalcMergeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectMergeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectMultiJoinMergeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectToCalcRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SemiJoinJoinTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SemiJoinRemoveRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SortRemoveRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SortUnionTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/TableScanRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/UnionEliminatorRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/UnionToDistinctRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/stream/Chi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/stream/Delta.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/stream/LogicalChi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/stream/LogicalDelta.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/DynamicRecordType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelCrossType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeComparability.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeFamily.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeFieldImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelProtoDataType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/AbstractTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/AbstractTableQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/ScalarFunctionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/StarTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/advise/SqlAdvisorGetHintsFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/advise/SqlAdvisorHint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/OracleSqlOperatorTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlAbstractGroupFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlAbstractTimeFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlArgumentAssignmentOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlArrayQueryConstructor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlArrayValueConstructor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlAvgAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlCase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlCollectionTableOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlColumnListConstructor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlConvertFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlCovarAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlCurrentDateFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlCursorConstructor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlDefaultOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlExtendOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlGroupIdFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlLeadLagAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlLiteralChainOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlMapQueryConstructor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlMapValueConstructor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlMonotonicBinaryOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlMonotonicUnaryFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlMultisetMemberOfOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlMultisetQueryConstructor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlMultisetSetOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlNewOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlNtileAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlOverlayFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlRollupOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlSequenceValueOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlSubstringFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlThrowOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlTranslate3Function.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6c435a03e83eac6c0d9f13b87ef22ad9f93df714",
+                "bugfix_commit_date": "2017-10-12 14:52:21",
+                "issue_created_at": "2017-10-12 14:52:10.261000",
+                "name": "CALCITE-2008",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlTrimFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/parser/SqlParseException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/parser/SqlParserImplFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/pretty/SqlFormatOptions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/AbstractSqlType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/ArraySqlType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/AssignableOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/ComparableOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/CompositeSingleOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/CursorReturnTypeInference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/ExplicitOperandTypeInference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/ExplicitReturnTypeInference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/ExtraSqlTypes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/FamilyOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/InferTypes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/LiteralOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/MapSqlType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/MultisetOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/MultisetSqlType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/ObjectSqlType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/OperandsTypeChecking.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/OrdinalReturnTypeInference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SameOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SetopOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlOperandCountRanges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlOperandTypeInference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlReturnTypeInference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlReturnTypeInferenceChain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlSingleOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlTypeTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlTypeTransformCascade.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlTypeTransforms.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/TableFunctionReturnTypeInference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/util/ChainedSqlOperatorTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/util/SqlBasicVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/util/SqlBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/util/SqlShuttle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/util/SqlString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/util/SqlVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/AggregatingScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/AliasNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/CollectNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/CollectScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/DelegatingSqlValidatorTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/FieldNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/JoinNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/OverScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/ParameterNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/ProcedureNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SchemaNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SelectNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SelectScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlModality.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlMoniker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlMonikerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlMonikerType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlMonotonicity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlScopedShuttle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlUserDefinedTableMacro.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlValidatorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlValidatorWithHints.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/TableConstructorNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/UnnestNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/WithItemNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/WithNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/graph/BreadthFirstIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/graph/CycleDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/graph/DefaultDirectedGraph.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/graph/DefaultEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/graph/DepthFirstIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/graph/DirectedGraph.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/graph/Graphs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/graph/TopologicalOrderIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/javac/JavaCompiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/javac/JavaCompilerArgs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/mapping/AbstractSourceMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/mapping/AbstractTargetMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/mapping/IntPair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/mapping/Mapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/mapping/Mappings.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/mapping/MappingType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/trace/CalciteLogger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/trace/CalciteTrace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/impl/AggAddContextImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/impl/AggResetContextImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/impl/AggResultContextImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/impl/WinAggAddContextImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/impl/WinAggResetContextImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/impl/WinAggResultContextImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraLimit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraProject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraTableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraToEnumerableConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraToEnumerableConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidResultEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchProject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchSchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchTableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchToEnumerableConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchToEnumerableConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoProject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoSchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoTableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoToEnumerableConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "mongodb/src/main/java/org/apache/calcite/adapter/mongodb/MongoToEnumerableConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "plus/src/main/java/org/apache/calcite/adapter/tpcds/TpcdsSchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "plus/src/main/java/org/apache/calcite/adapter/tpch/TpchSchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/EnumerableToSparkConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/EnumerableToSparkConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/HttpServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/JdbcToSparkConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/JdbcToSparkConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/SparkMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/SparkRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/SparkToEnumerableConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkDriverVersion.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/SplunkTableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SearchResultListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/util/StringUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "piglet/src/main/java/org/apache/calcite/piglet/Handler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/AbstractEnumerable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/AbstractEnumerable2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/AbstractQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/BaseQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/CartesianProductEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/CorrelateJoinType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/DefaultQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/DelegatingEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/Enumerable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/EnumerableOrderedQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/EnumerableQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/Enumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/ExtendedOrderedEnumerable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/ExtendedOrderedQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/ExtendedQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/Extensions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/Grouping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/GroupingImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/Linq4j.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/Lookup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/LookupImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/OpType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/Ord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/OrderedEnumerable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/OrderedQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/PackageMarker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/Queryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/QueryableDefaults.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/QueryableFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/QueryableRecorder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/QueryProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/QueryProviderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/RawEnumerable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/RawQueryable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/TransformedEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/BigDecimalFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/Deterministic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/DoubleFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/EqualityComparer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/FloatFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/Function.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/Function0.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/Function1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/Function2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/Functions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/IntegerFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/LongFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/NonDeterministic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/NullableBigDecimalFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/NullableDoubleFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/NullableFloatFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/NullableIntegerFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/NullableLongFunction1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/Parameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/Predicate1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/function/Predicate2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/AbstractNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ArrayLengthRecordField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Blocks.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/CallSiteBinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/CatchBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ConstantUntypedNull.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ElementInit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Evaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Expression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ExpressionType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ExpressionVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ExpressionWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/GotoExpressionKind.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/LabelTarget.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/MemberAssignment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/MemberBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/MemberDeclaration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/MemberListBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/MemberMemberBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Primitive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/PseudoField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ReflectedPseudoField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Statement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/SwitchCase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ubenchmark/src/main/java/org/apache/calcite/benchmarks/FlightRecorderProfiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ubenchmark/src/main/java/org/apache/calcite/benchmarks/ParserBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ubenchmark/src/main/java/org/apache/calcite/benchmarks/PreconditionTest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ubenchmark/src/main/java/org/apache/calcite/benchmarks/StatementTest.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ee0afb6e38ce09f82cc1883aae757306b55ce8fe",
+                "bugfix_commit_date": "2017-07-25 04:39:43",
+                "issue_created_at": "2017-07-23 00:23:42.695000",
+                "name": "CALCITE-1898",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/runtime/Like.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexProgramBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/SocketFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/SchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/TableFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5bf7b9a4d7b54778bbbcb71ed77f15a88b6b9680",
+                "bugfix_commit_date": "2018-03-24 22:58:01",
+                "issue_created_at": "2018-02-21 01:29:48.200000",
+                "name": "CALCITE-2188",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlIntervalQualifier.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cb8376b13ad50003134e398a87161bec68908606",
+                "bugfix_commit_date": "2017-12-25 05:09:41",
+                "issue_created_at": "2017-12-23 03:38:59.881000",
+                "name": "CALCITE-2108",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlSplittableAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/NumberUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/clone/CloneSchema.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a2faf47b0f2bc98482a39ff51c23f7b92c118fee",
+                "bugfix_commit_date": "2017-06-29 08:55:58",
+                "issue_created_at": "2017-06-27 15:25:16.965000",
+                "name": "CALCITE-1859",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/VolcanoPlanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/externalize/RelXmlWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinPushThroughJoinRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/pretty/SqlPrettyWriter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "fb8ebd31526cd2e203fa3526ca8de7a22ee0d139",
+                "bugfix_commit_date": "2018-03-12 07:16:13",
+                "issue_created_at": "2018-03-01 09:15:39.983000",
+                "name": "CALCITE-2197",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/CompositeOperandTypeChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigAggregate.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8de5d8d000104fc1e48d77abac72811c52fd9cf1",
+                "bugfix_commit_date": "2018-01-18 01:34:07",
+                "issue_created_at": "2016-04-05 11:24:42.289000",
+                "name": "CALCITE-1188",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "piglet/src/main/java/org/apache/calcite/piglet/Ast.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "92f7259b96744180a0a556ac9f5842f705192b3f",
+                "bugfix_commit_date": "2018-04-23 17:29:52",
+                "issue_created_at": "2018-03-28 18:31:37.771000",
+                "name": "CALCITE-2227",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlCoalesceFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlNullifFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlLateralOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlSpecialOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/PrecedenceClimbingParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlBetweenOperator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8cb189f727aafade53708d18bc7e51526da0bf38",
+                "bugfix_commit_date": "2017-07-06 21:45:47",
+                "issue_created_at": "2017-06-02 09:24:45.190000",
+                "name": "CALCITE-1826",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlFloorFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ValuesReduceRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CassandraSchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlJdbcFunctionCall.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlDatePartFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptPredicateList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/AggregateFunctionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterRemoveIsNotDistinctFromRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinExtractFilterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SemiJoinFilterTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/BinaryExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/BlockStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ClassDeclaration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ClassDeclarationFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ConditionalExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ConditionalStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ConstantExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ConstructorDeclaration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/DeclarationStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/DefaultExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/DynamicExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Expressions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/FieldDeclaration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ForStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/FunctionExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/GotoStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/IndexExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/InvocationExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/LabelStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/LambdaExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ListInitExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/MemberExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/MemberInitExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/MethodCallExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/MethodDeclaration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/NewArrayExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/NewExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Node.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/OptimizeShuttle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ParameterExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Shuttle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/SwitchStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/TernaryExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/ThrowStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/TryStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/TypeBinaryExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/UnaryExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Visitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/VisitorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/WhileStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexExecutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateProjectPullUpConstantsRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/config/CalciteConnectionConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/config/CalciteConnectionConfigImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/UnionPullUpConstantsRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SortJoinTransposeRule.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "183004093139d697b479a32b1f82db511bf74127",
+                "bugfix_commit_date": "2017-08-23 18:20:35",
+                "issue_created_at": "2017-08-15 15:50:26.608000",
+                "name": "CALCITE-1944",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlSelect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/parser/SqlParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexCall.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlAlter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlSetOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Bug.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/JavaRowFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/PhysTypeImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/TableNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptMaterializations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlTimestampAddFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlTimestampDiffFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidTableFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/LocalInterval.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/BuiltInMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/DefaultRelMetadataProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMetadataQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/ExtractionDimensionSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/TimeExtractionDimensionSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/TimeExtractionFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Util.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/jdbc/JavaTypeFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/JavaToSqlTypeConversionRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlTypeAssignmentRules.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "189aad19c4f904e4dd0602fb64c65c5586f093b2",
+                "bugfix_commit_date": "2017-12-02 00:27:51",
+                "issue_created_at": "2017-11-28 15:34:07.306000",
+                "name": "CALCITE-2069",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlTypeUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlDescribeSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlDescribeTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/IntersectToDistinctRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/ReflectiveCallNotNullImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlCall.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/BlockBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/DeterministicCodeOptimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "file/src/main/java/org/apache/calcite/adapter/file/FileFieldType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "file/src/main/java/org/apache/calcite/adapter/file/FileReaderException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "file/src/main/java/org/apache/calcite/adapter/file/FileTableScan.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1c7f690d391d81ff251253277944b07e410243da",
+                "bugfix_commit_date": "2018-01-11 07:32:40",
+                "issue_created_at": "2018-01-06 09:14:35.491000",
+                "name": "CALCITE-2124",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "7321c8708bd1273b8cd4aab818bf3abb55afb2a4",
+                "bugfix_commit_date": "2017-08-11 15:03:19",
+                "issue_created_at": "2017-08-07 18:28:28.839000",
+                "name": "CALCITE-1930",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateExpandDistinctAggregatesRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlMatchRecognize.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "92f7259b96744180a0a556ac9f5842f705192b3f",
+                "bugfix_commit_date": "2018-04-23 17:29:52",
+                "issue_created_at": "2018-03-28 18:31:37.771000",
+                "name": "CALCITE-2227",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "fb760a6f4e0cf8ccf92380dd676a72d00402d53e",
+                "bugfix_commit_date": "2017-10-05 23:52:02",
+                "issue_created_at": "2017-10-03 17:55:09.379000",
+                "name": "CALCITE-1996",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "f17c376b6f8441d4f029a450588179341d90208f",
+                "bugfix_commit_date": "2018-05-25 04:40:44",
+                "issue_created_at": "2018-05-23 16:02:20.758000",
+                "name": "CALCITE-2323",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/SqlToRelConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/SqlFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Match.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/RelFactories.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalMatch.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "adc1bb265c45cef92c26b028c2fe4cc9bdead3f3",
+                "bugfix_commit_date": "2018-01-18 21:30:10",
+                "issue_created_at": "2018-01-04 17:03:18.354000",
+                "name": "CALCITE-2118",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "fb760a6f4e0cf8ccf92380dd676a72d00402d53e",
+                "bugfix_commit_date": "2017-10-05 23:52:02",
+                "issue_created_at": "2017-10-03 17:55:09.379000",
+                "name": "CALCITE-1996",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/rel2sql/RelToSqlConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "183004093139d697b479a32b1f82db511bf74127",
+                "bugfix_commit_date": "2017-08-23 18:20:35",
+                "issue_created_at": "2017-08-15 15:50:26.608000",
+                "name": "CALCITE-1944",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d4ab1e508b47e4e168296ad701742e879f05c571",
+                "bugfix_commit_date": "2017-07-06 18:24:37",
+                "issue_created_at": "2017-07-05 19:15:04.430000",
+                "name": "CALCITE-1873",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "92f7259b96744180a0a556ac9f5842f705192b3f",
+                "bugfix_commit_date": "2018-04-23 17:29:52",
+                "issue_created_at": "2018-03-28 18:31:37.771000",
+                "name": "CALCITE-2227",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "65d95e6792c002d70d826b049cf16a748fe3109d",
+                "bugfix_commit_date": "2017-07-08 17:03:23",
+                "issue_created_at": "2017-07-05 08:20:13.124000",
+                "name": "CALCITE-1871",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "a473eca597300395ff89f949401505ec122a9774",
+                "bugfix_commit_date": "2017-07-27 23:02:54",
+                "issue_created_at": "2017-07-27 22:49:26.710000",
+                "name": "CALCITE-1907",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "cd493efd3e892d8279582cd9252204d90caa2589",
+                "bugfix_commit_date": "2017-11-27 23:46:12",
+                "issue_created_at": "2017-11-15 13:04:08.116000",
+                "name": "CALCITE-2054",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlValidatorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Calc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Filter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "01c5446138d419a85678bff7db06eabb4cd39846",
+                "bugfix_commit_date": "2017-08-07 22:39:31",
+                "issue_created_at": "2017-08-07 21:44:02.746000",
+                "name": "CALCITE-1932",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "fb8ebd31526cd2e203fa3526ca8de7a22ee0d139",
+                "bugfix_commit_date": "2018-03-12 07:16:13",
+                "issue_created_at": "2018-03-01 09:15:39.983000",
+                "name": "CALCITE-2197",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Project.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalCorrelate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/model/JsonSchema.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f5b041ff46710fca7d104385b7f917384e4a7f1a",
+                "bugfix_commit_date": "2018-04-20 03:29:12",
+                "issue_created_at": "2018-04-19 11:52:22.129000",
+                "name": "CALCITE-2267",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/AbstractRelNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlCallBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlFilterOperator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5bf7b9a4d7b54778bbbcb71ed77f15a88b6b9680",
+                "bugfix_commit_date": "2018-03-24 22:58:01",
+                "issue_created_at": "2018-02-21 01:29:48.200000",
+                "name": "CALCITE-2188",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlIntervalLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlOverOperator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "48a20668647b5a5e86073ef0e9ce206669ad6867",
+                "bugfix_commit_date": "2017-07-06 21:45:47",
+                "issue_created_at": "2017-06-14 20:32:11.314000",
+                "name": "CALCITE-1842",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Sort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/TableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/TableFunctionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/TableMacroImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlCaseOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlCastFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlCountAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlFirstLastValueAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlHistogramAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlInOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlMinMaxAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlSingleValueAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlSumAggFunction.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cb8376b13ad50003134e398a87161bec68908606",
+                "bugfix_commit_date": "2017-12-25 05:09:41",
+                "issue_created_at": "2017-12-23 03:38:59.881000",
+                "name": "CALCITE-2108",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlSumEmptyIsZeroAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/AbstractNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/DelegatingNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/tree/Types.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/JoinScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/ScopeChild.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlValidatorNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/TableScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/PruneEmptyRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableIntersect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableMinus.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bb57919df89cadeac117a966f4e9a74187267887",
+                "bugfix_commit_date": "2018-02-14 05:44:47",
+                "issue_created_at": "2017-12-19 04:35:44.939000",
+                "name": "CALCITE-2099",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableUnion.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "linq4j/src/main/java/org/apache/calcite/linq4j/EnumerableDefaults.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/externalize/RelJson.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/DelegatingScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/ListScope.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5bf7b9a4d7b54778bbbcb71ed77f15a88b6b9680",
+                "bugfix_commit_date": "2018-03-24 22:58:01",
+                "issue_created_at": "2018-02-21 01:29:48.200000",
+                "name": "CALCITE-2188",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlStdOperatorTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexProgram.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableCalc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/IntervalSqlType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/MatchReturnTypeInference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlTypeFamily.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptAbstractTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelReferentialConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelReferentialConstraintImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/Statistic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/Statistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7924eb0eb38e7955b054919788baf45f9e72cd6f",
+                "bugfix_commit_date": "2018-05-01 09:01:32",
+                "issue_created_at": "2018-04-27 06:54:27.774000",
+                "name": "CALCITE-2287",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/runtime/FlatLists.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/DataContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/CancelFlag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateReduceFunctionsRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateValuesRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/util/ListSqlOperatorTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlUserDefinedFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlUserDefinedTableFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/stream/StreamRules.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "82cdc2fa7dd84e243f736a9772a03b17bef6215a",
+                "bugfix_commit_date": "2017-12-19 23:08:48",
+                "issue_created_at": "2017-12-18 15:09:18.790000",
+                "name": "CALCITE-2094",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidQuery.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "82cdc2fa7dd84e243f736a9772a03b17bef6215a",
+                "bugfix_commit_date": "2017-12-19 23:08:48",
+                "issue_created_at": "2017-12-18 15:09:18.790000",
+                "name": "CALCITE-2094",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Compatible.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/PredicateImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/VolcanoRuleMatch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypePrecedenceList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Aggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Values.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bd7e66a4487c3c6660903b2e107e6c81a5a63c82",
+                "bugfix_commit_date": "2018-04-26 05:36:39",
+                "issue_created_at": "2017-11-15 08:07:03.606000",
+                "name": "CALCITE-2053",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "6679353f2d77999daec372d4528ce50784018e29",
+                "bugfix_commit_date": "2017-07-13 20:46:56",
+                "issue_created_at": "2017-07-09 12:05:38.596000",
+                "name": "CALCITE-1881",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlTypeExplicitPrecedenceList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterTableScanRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectRemoveRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectTableScanRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/ExtensibleTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/DelegatingSqlValidatorCatalogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlValidatorCatalogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeSystemImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/ReturnTypes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/prepare/LixToRelTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/MaterializedViewTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/RandomFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlRandFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlRandIntegerFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlMultisetValueConstructor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigAggFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigDataType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigProject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigRelFactories.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigSchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigTableFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigTableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigToEnumerableConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "pig/src/main/java/org/apache/calcite/adapter/pig/PigToEnumerableConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/ConventionTraitDef.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "fb8ebd31526cd2e203fa3526ca8de7a22ee0d139",
+                "bugfix_commit_date": "2018-03-12 07:16:13",
+                "issue_created_at": "2018-03-01 09:15:39.983000",
+                "name": "CALCITE-2197",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/SortNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptCluster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptRuleCall.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61f1258c678d40d1041d89bdfec58b665a36fb6b",
+                "bugfix_commit_date": "2017-11-02 22:01:51",
+                "issue_created_at": "2017-11-02 12:45:11.487000",
+                "name": "CALCITE-2029",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "01be1ce69a5cafd8c60d528c28f1220554ee48c7",
+                "bugfix_commit_date": "2017-12-14 01:13:44",
+                "issue_created_at": "2017-11-29 20:57:30.493000",
+                "name": "CALCITE-2071",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/Strong.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexBuilder.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2a171fb86a64e06208564d02ab24bca23d426a0a",
+                "bugfix_commit_date": "2018-01-02 06:35:29",
+                "issue_created_at": "2017-12-25 08:31:03.344000",
+                "name": "CALCITE-2110",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "2156d8265178f92c52f94ef47588a89ab1fdb7de",
+                "bugfix_commit_date": "2017-08-29 17:12:28",
+                "issue_created_at": "2017-08-17 20:58:44.545000",
+                "name": "CALCITE-1953",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexSimplify.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexToSqlNodeConverterImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/AggFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/AggregatingSelectScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlAbstractDateTimeLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlDateLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/RelFieldTrimmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/RelBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlTimeLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlTimestampLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/SqlNodeToRexConverterImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a1fe769114a15559b5f352059aec1f91f416a28b",
+                "bugfix_commit_date": "2018-02-23 23:08:50",
+                "issue_created_at": "2017-12-08 19:37:16.211000",
+                "name": "CALCITE-2081",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableWindow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/PhysType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/DateString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/TimestampString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/TimeString.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c0f912ddff717eaedb9a2d652e95f232d10e207f",
+                "bugfix_commit_date": "2018-01-10 07:01:29",
+                "issue_created_at": "2017-12-31 00:34:02.301000",
+                "name": "CALCITE-2116",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/plan/hep/HepPlanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/hep/HepRuleCall.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/RelSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/RelSubset.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/RuleQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/volcano/VolcanoRuleCall.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/RexToLixTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Union.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/externalize/RelWriterImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "fb8ebd31526cd2e203fa3526ca8de7a22ee0d139",
+                "bugfix_commit_date": "2018-03-12 07:16:13",
+                "issue_created_at": "2018-03-01 09:15:39.983000",
+                "name": "CALCITE-2197",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdCollation.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "fb07036819f330e8c5c24cad64c2234d5bbc5bd6",
+                "bugfix_commit_date": "2018-02-22 19:43:44",
+                "issue_created_at": "2017-10-05 18:55:31.739000",
+                "name": "CALCITE-2002",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdColumnUniqueness.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdSize.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/LoptMultiJoin.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "adc1bb265c45cef92c26b028c2fe4cc9bdead3f3",
+                "bugfix_commit_date": "2018-01-18 21:30:10",
+                "issue_created_at": "2018-01-04 17:03:18.354000",
+                "name": "CALCITE-2118",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/rel2sql/SqlImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/LoptOptimizeJoinRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/LoptSemiJoinOptimizer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1e9fd38ba7b702675a066f6bd712d03b7b07410e",
+                "bugfix_commit_date": "2018-01-02 22:24:51",
+                "issue_created_at": "2017-02-24 18:12:12.061000",
+                "name": "CALCITE-1658",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "2918b8fe55c58e0bafd38accfface242f1847c54",
+                "bugfix_commit_date": "2018-01-08 21:34:48",
+                "issue_created_at": "2018-01-05 18:05:12.863000",
+                "name": "CALCITE-2122",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/DateRangeRules.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d7c4627c78d39627c39452dcc8ee53518632dac9",
+                "bugfix_commit_date": "2017-11-03 23:45:23",
+                "issue_created_at": "2017-11-02 04:11:23.826000",
+                "name": "CALCITE-2028",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SubQueryRemoveRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/parser/SqlParserUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlTypeFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SqlTypeName.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "05595f64902aa02c22a1a92c23452d74ceef02fe",
+                "bugfix_commit_date": "2017-07-11 00:52:31",
+                "issue_created_at": "2017-06-14 20:32:11.314000",
+                "name": "CALCITE-1842",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DruidDateTimeUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelRoot.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlSyntax.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/Context.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/prepare/CalciteSqlValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/Wrapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "73a09a691a67eec46349c94b21cf3fa483775c02",
+                "bugfix_commit_date": "2018-03-02 18:26:12",
+                "issue_created_at": "2018-02-27 13:38:02.614000",
+                "name": "CALCITE-2195",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "a609b4732f545b7a17006728f0d36587b2babc95",
+                "bugfix_commit_date": "2017-12-25 05:09:35",
+                "issue_created_at": "2017-12-22 03:58:25.114000",
+                "name": "CALCITE-2105",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateJoinTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/advise/SqlAdvisorValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ImmutableBitSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AggregateFilterTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterAggregateTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlGroupingFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlGroupingIdFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlUserDefinedAggFunction.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "fd5dc8adf4bca6a4f0c631479985cbb2b43b47e4",
+                "bugfix_commit_date": "2018-04-24 15:51:41",
+                "issue_created_at": "2018-04-24 15:51:07.393000",
+                "name": "CALCITE-2277",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/AbstractMaterializedViewRule.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d1bada4231c2ce81b6236e0c11d73c85a7df6e83",
+                "bugfix_commit_date": "2018-01-23 07:19:06",
+                "issue_created_at": "2016-01-13 08:52:04.822000",
+                "name": "CALCITE-1054",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d1bada4231c2ce81b6236e0c11d73c85a7df6e83",
+                "bugfix_commit_date": "2018-01-23 07:19:06",
+                "issue_created_at": "2016-10-11 07:55:43.786000",
+                "name": "CALCITE-1427",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d1bada4231c2ce81b6236e0c11d73c85a7df6e83",
+                "bugfix_commit_date": "2018-01-23 07:19:06",
+                "issue_created_at": "2016-04-05 11:24:42.289000",
+                "name": "CALCITE-1188",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/RexImpTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptMaterialization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/config/CalciteConnectionProperty.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/Interpreter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/TileSuggester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/Program.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/runtime/HttpUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/JoinType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SemiJoinType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlAccessType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlCollation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlDialect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/ConversionUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/NameMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/NameMultimap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/NameSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/NlsString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Sources.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Template.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/Unsafe.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/MaterializedViewFilterScanRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Correlate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Join.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/JoinRelType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/externalize/RelJsonReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/MultiJoinOptimizeBushyRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/advise/SqlAdvisor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/advise/SqlSimpleParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/util/ReflectiveSqlOperatorTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/javac/JaninoCompiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/trace/CalciteTimingTracer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/Granularity.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b4d9246ee34813745926c877918068e796ded982",
+                "bugfix_commit_date": "2018-05-21 20:10:18",
+                "issue_created_at": "2018-05-18 00:10:04.157000",
+                "name": "CALCITE-2316",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/ElasticsearchFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "file/src/main/java/org/apache/calcite/adapter/file/FileReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "file/src/main/java/org/apache/calcite/adapter/file/FileRowConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "plus/src/main/java/org/apache/calcite/adapter/tpcds/TpcdsSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "plus/src/main/java/org/apache/calcite/adapter/tpch/TpchSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/SparkHandlerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "spark/src/main/java/org/apache/calcite/adapter/spark/SparkRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "splunk/src/main/java/org/apache/calcite/adapter/splunk/search/SplunkConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlJdbcDataTypeName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlBasicCall.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/AuxiliaryConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlGroupFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/AggChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/AbstractRelOptPlanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelOptPlanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RexImplicationChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/prepare/PlannerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexExecutorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/jdbc/JdbcTableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/FrameworkConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/Frameworks.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/BindableConvention.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/InterpretableConvention.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/Convention.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/RelTraitDef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelCollationTraitDef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableConvention.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/SetOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/OrderByScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlCreate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlDataTypeSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlDrop.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlExecutableStatement.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a1fe769114a15559b5f352059aec1f91f416a28b",
+                "bugfix_commit_date": "2018-02-23 23:08:50",
+                "issue_created_at": "2017-12-08 19:37:16.211000",
+                "name": "CALCITE-2081",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "a473eca597300395ff89f949401505ec122a9774",
+                "bugfix_commit_date": "2017-07-27 23:02:54",
+                "issue_created_at": "2017-07-27 22:49:26.710000",
+                "name": "CALCITE-1907",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableRelImplementor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableTableModify.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlItemOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/parser/Span.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/parser/SqlAbstractParserImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/parser/SqlParserPos.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "92f7259b96744180a0a556ac9f5842f705192b3f",
+                "bugfix_commit_date": "2018-04-23 17:29:52",
+                "issue_created_at": "2018-03-28 18:31:37.771000",
+                "name": "CALCITE-2227",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/MatchRecognizeScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexOver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/Window.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalWindow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectWindowTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlExtractFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/MaterializedViewSubstitutionVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/SubstitutionVisitor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "92f7259b96744180a0a556ac9f5842f705192b3f",
+                "bugfix_commit_date": "2018-04-23 17:29:52",
+                "issue_created_at": "2018-03-28 18:31:37.771000",
+                "name": "CALCITE-2227",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlValidatorUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/mutable/MutableRels.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/materialize/Lattice.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/adapter/enumerable/EnumerableRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/core/SemiJoin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/logical/LogicalProject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/JoinProjectTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SemiJoinProjectTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/type/RelDataTypeSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlBaseContextVariable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlStringContextVariable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlPositionFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/type/SameOperandTypeExceptLastOperandChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/util/CompositeList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/interpreter/AggregateNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexTableInputRef.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "47c49c9c64e4ec9e6ff6d33f1c7917c7927e673a",
+                "bugfix_commit_date": "2018-02-22 23:40:38",
+                "issue_created_at": "2018-02-22 23:36:26.094000",
+                "name": "CALCITE-2189",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdAllPredicates.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/SubQueryConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/CustomColumnResolvingTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DefaultDimensionSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/DimensionSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "druid/src/main/java/org/apache/calcite/adapter/druid/ExtractionFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/FilterProjectTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ReduceExpressionsRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/prepare/CalciteMaterializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelHomogeneousShuttle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelShuttle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/RelShuttleImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexPatternFieldRef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/SqlFunctionCategory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql2rel/RelStructuredTypeFlattener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/MatchRecognizeNamespace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/sql/validate/SqlValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/schema/impl/ReflectiveFunctionBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/prepare/Prepare.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexSqlStandardConvertletTable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5bf7b9a4d7b54778bbbcb71ed77f15a88b6b9680",
+                "bugfix_commit_date": "2018-03-24 22:58:01",
+                "issue_created_at": "2018-02-21 01:29:48.200000",
+                "name": "CALCITE-2188",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/sql/fun/SqlDatetimeSubtractionOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/plan/VisitorDataContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexLiteral.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5a91d0a41e88423eb17a85cb5d1382905181b59d",
+                "bugfix_commit_date": "2017-06-30 17:41:15",
+                "issue_created_at": "2017-06-27 15:37:51.079000",
+                "name": "CALCITE-1860",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rex/RexUtil.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e78f8c61e3ed9c9637a2061db426680b1b3ad042",
+                "bugfix_commit_date": "2018-04-26 05:43:43",
+                "issue_created_at": "2018-04-23 17:53:58.544000",
+                "name": "CALCITE-2275",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/calcite/rel/metadata/RelMdPredicates.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/tools/Programs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectFilterTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectJoinTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/ProjectSetOpTransposeRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/PushProjector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/calcite/rel/rules/SemiJoinRule.java"
+    }
+]

@@ -1,0 +1,254 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/ConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jocl/ConstructorUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/BasicDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b80a6ef7dd0277d1654ec502883bfe59c1f4c264",
+                "bugfix_commit_date": "2008-02-04 03:58:08",
+                "issue_created_at": "2007-08-20 11:20:23.398000",
+                "name": "DBCP-237",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/dbcp/datasources/InstanceKeyDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/AbandonedConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingCallableStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/cpdsadapter/ConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "56c4135a15d5ca86c93e3a30320ca1f64bbf6f03",
+                "bugfix_commit_date": "2009-01-25 03:29:28",
+                "issue_created_at": "2008-07-04 19:44:07.232000",
+                "name": "DBCP-273",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/dbcp/cpdsadapter/DriverAdapterCPDS.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/cpdsadapter/PooledConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/datasources/PooledConnectionAndInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/datasources/PoolKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/datasources/UserPassKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DataSourceConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DriverConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DriverManagerConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jocl/JOCLContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/SQLNestedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolingDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolableConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/cpdsadapter/PoolablePreparedStatementStub.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "34dc3325635627fc922ec40a1d3329ece1208b9d",
+                "bugfix_commit_date": "2006-10-29 21:48:02",
+                "issue_created_at": "2006-08-16 15:26:47",
+                "name": "DBCP-198",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "866e9438b9515ac44149109f39e480efb33ebf43",
+                "bugfix_commit_date": "2006-09-09 20:20:00",
+                "issue_created_at": "2006-08-16 15:26:47",
+                "name": "DBCP-198",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/dbcp/PoolingDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "583c892a0281ef179ba36cc21d37a08f5a4259ac",
+                "bugfix_commit_date": "2006-09-18 02:55:50",
+                "issue_created_at": "2005-07-03 08:13:26",
+                "name": "DBCP-116",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "1afa3ff0ba0cc7b939d4b4edeaa8364186c30e78",
+                "bugfix_commit_date": "2006-08-21 00:35:13",
+                "issue_created_at": "2005-07-22 07:13:15",
+                "name": "DBCP-100",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/dbcp/datasources/SharedPoolDataSource.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "34dc3325635627fc922ec40a1d3329ece1208b9d",
+                "bugfix_commit_date": "2006-10-29 21:48:02",
+                "issue_created_at": "2006-08-16 15:26:47",
+                "name": "DBCP-198",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/AbandonedObjectPool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/datasources/CPDSConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "56c4135a15d5ca86c93e3a30320ca1f64bbf6f03",
+                "bugfix_commit_date": "2009-01-25 03:29:28",
+                "issue_created_at": "2008-07-04 19:44:07.232000",
+                "name": "DBCP-273",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/dbcp/datasources/InstanceKeyObjectFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4ae50045738561c1c48c31bbad2ece90eaebffb8",
+                "bugfix_commit_date": "2007-01-22 04:44:45",
+                "issue_created_at": "2005-04-20 19:01:49",
+                "name": "DBCP-65",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "4ae50045738561c1c48c31bbad2ece90eaebffb8",
+                "bugfix_commit_date": "2007-01-22 04:44:45",
+                "issue_created_at": "2006-11-24 20:18:58",
+                "name": "DBCP-202",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/dbcp/PoolingConnection.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0d4e88983e7b58babf5048606bedb14d20516bbb",
+                "bugfix_commit_date": "2009-01-25 02:48:42",
+                "issue_created_at": "2008-06-27 09:59:39.031000",
+                "name": "DBCP-271",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/dbcp/AbandonedTrace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolablePreparedStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/datasources/PerUserPoolDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/datasources/SharedPoolDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DbcpException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingPreparedStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolableConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/BasicDataSource.java"
+    }
+]

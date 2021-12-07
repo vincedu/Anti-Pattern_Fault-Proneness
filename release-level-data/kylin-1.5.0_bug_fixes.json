@@ -1,0 +1,3734 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/JobInstance.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4b3047a767aa7a696bf663cab96c11894a1f901e",
+                "bugfix_commit_date": "2016-10-27 03:15:51",
+                "issue_created_at": "2016-10-21 02:12:06.516000",
+                "name": "KYLIN-2116",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "82e99078c08505b426d34ad6395a14b3d6244b07",
+                "bugfix_commit_date": "2016-10-31 05:46:36",
+                "issue_created_at": "2016-10-21 02:12:06.516000",
+                "name": "KYLIN-2116",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core-job/src/main/java/org/apache/kylin/job/JoinedFlatTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/Scheduler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/engine/EngineFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/engine/IBatchCubingEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/common/ShellExecutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/constant/JobStatusEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/constant/JobStepCmdTypeEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/constant/JobStepStatusEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/constant/JobTimeFilterEnum.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61bc3e0543ae07848d5d814ac9af479489b31920",
+                "bugfix_commit_date": "2016-03-16 09:22:34",
+                "issue_created_at": "2016-03-15 22:00:06.162000",
+                "name": "KYLIN-1497",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-job/src/main/java/org/apache/kylin/job/dao/ExecutableDao.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/dao/ExecutableOutputPO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/dao/ExecutablePO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/engine/JobEngineConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/exception/ExecuteException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/exception/IllegalStateTranferException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/exception/JobException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/exception/LockException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/exception/PersistentException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/exception/SchedulerException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/ChainedExecutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/DefaultChainedExecutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/DefaultOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/Executable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/ExecutableContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/ExecutableState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/ExecuteResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/Idempotent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/Output.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "971b10905e23a1b2b97d2aa19de93d38d4f527f4",
+                "bugfix_commit_date": "2016-11-18 00:00:58",
+                "issue_created_at": "2016-11-08 16:37:37.400000",
+                "name": "KYLIN-2172",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "5bf6582f66bedb5d25baaa0d82ae193892b97e0c",
+                "bugfix_commit_date": "2016-06-26 12:21:35",
+                "issue_created_at": "2016-06-22 03:04:35.778000",
+                "name": "KYLIN-1811",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-job/src/main/java/org/apache/kylin/job/manager/ExecutableManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/impl/threadpool/DefaultContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/impl/threadpool/DefaultScheduler.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a179136beabcad7a2cbb766d448d9acf88194245",
+                "bugfix_commit_date": "2016-06-16 05:45:47",
+                "issue_created_at": "2016-06-12 04:01:59.888000",
+                "name": "KYLIN-1781",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-common/src/main/java/org/apache/kylin/common/KylinConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/KylinConfigExt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/debug/BackdoorToggles.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/AclEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/FileResourceStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/JsonSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/ResourceTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/Serializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/StorageException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/Writable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/restclient/AbstractRestCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/restclient/Broadcaster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/restclient/CaseInsensitiveStringCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/restclient/RestClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/restclient/SingleValueCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/AbstractApplication.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/Array.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/BitSets.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/ByteArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/Bytes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/BytesSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/BytesSplitter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "67bcec20fb6fee502a5267dfa583bd07ca5edc8b",
+                "bugfix_commit_date": "2016-09-03 05:13:00",
+                "issue_created_at": "2016-06-28 17:36:04.406000",
+                "name": "KYLIN-1834",
+                "severity": "blocker",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "0534fdfc781812579fb42de82c216c120366c043",
+                "bugfix_commit_date": "2016-09-03 10:03:51",
+                "issue_created_at": "2016-06-28 17:36:04.406000",
+                "name": "KYLIN-1834",
+                "severity": "blocker",
+                "type": "bug"
+            }
+        ],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/BytesUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/CaseInsensitiveStringMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/ClassUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/CliCommandExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/CompressionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/DaemonThreadFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c965250b426b3f14aeb945c54ae6291c115ee631",
+                "bugfix_commit_date": "2016-06-15 08:15:54",
+                "issue_created_at": "2015-12-09 09:09:34.095000",
+                "name": "KYLIN-1216",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/DateFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/Dictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/FIFOIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/FIFOIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/IdentityUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/ImmutableBitSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/ImplementationSwitch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/JsonUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/Logger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/MailService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/MemoryBudgetController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/MyLogFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/OptionsHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/Pair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/PartialSorter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/Primes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/RandomSampler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/ShardingHash.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/SoutLogger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/SplittedBytes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/SSHClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/SSHClientOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/StreamingBatch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/StringSplitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/StringUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/SumHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/ThreadUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/CubeCapabilityChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/CubeDescManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/CubeInstance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/CubeManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/CubeUpdate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/EmptyGTScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/UnitTestSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/cli/DictionaryGeneratorCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/cli/DumpDictionaryCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/common/FuzzyValueCombination.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/common/RowKeySplitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/cuboid/CuboidScheduler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/gridtable/FixLenSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/gridtable/TrimmedCubeCodeSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/AbstractInMemCubeBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/CompoundCuboidWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/ConcurrentDiskStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/DoggedCubeBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/ICuboidWriter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2309618b98561531ed31f9faf175efc5269aa172",
+                "bugfix_commit_date": "2017-12-20 16:02:08",
+                "issue_created_at": "2017-12-05 05:22:02.291000",
+                "name": "KYLIN-3082",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/InMemCubeBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/InMemCubeBuilderInputConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/InMemCubeBuilderUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/MemDiskStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/AbstractRowKeyEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/FuzzyKeyEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/FuzzyMaskEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/LazyRowKeyEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/RowConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/RowKeyColumnIO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/RowKeyColumnOrder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/RowKeyDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/RowKeyEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/kv/RowKeyEncoderProvider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f3d19f6da20fa415eac641b8daf6081b3eaaf9d4",
+                "bugfix_commit_date": "2016-11-17 03:28:06",
+                "issue_created_at": "2016-11-16 05:32:29.624000",
+                "name": "KYLIN-2197",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "791f570ed877352953a5310833b0e317f20a31ef",
+                "bugfix_commit_date": "2016-11-19 07:56:31",
+                "issue_created_at": "2016-11-16 05:32:29.624000",
+                "name": "KYLIN-2197",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/AggregationGroup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/CubeBuildTypeEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/CubeDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/DimensionDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/HBaseColumnDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/HBaseColumnFamilyDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/HBaseMappingDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/HierarchyDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/RowKeyColDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/RowKeyDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/SelectRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/upgrade/CubeDescSignatureUpdate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/util/BitSetSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/util/CubingUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/util/KryoUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/v3/CubeBuildTypeEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/v3/CubeDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/v3/DimensionDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/v3/HBaseColumnDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/v3/HBaseColumnFamilyDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/v3/HBaseMappingDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/v3/HierarchyDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/v3/RowKeyColDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/v3/RowKeyDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/validation/CubeMetadataValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/validation/IValidatorRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/validation/ResultLevel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/validation/SourceTableMetadataValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/validation/ValidateContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1adb542288bfa55b072a68a02ba0896b9334bac2",
+                "bugfix_commit_date": "2016-07-21 08:01:44",
+                "issue_created_at": "2016-07-20 09:23:53.622000",
+                "name": "KYLIN-1907",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/upgrade/V3/CubeDescUpgraderV3.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/upgrade/V3/CubeMetadataUpgradeV3.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/validation/rule/AggregationGroupRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/validation/rule/FunctionRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/validation/rule/IKylinValidationConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/validation/rule/RowKeyAttrRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/MetadataConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/MetadataManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/MeasureAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/MeasureAggregators.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/MeasureCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/MeasureIngester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/MeasureType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/MeasureTypeFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/source/ISource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/source/ReadableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/source/SourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/BigDecimalSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/BooleanSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/DataType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/DataTypeSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/DoubleMutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/DoubleSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/LongMutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/LongSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/CaseTupleFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/ColumnTupleFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8fbfc580c1b89e3e0065027eb22f8e3e5b7e0c67",
+                "bugfix_commit_date": "2016-10-12 08:32:44",
+                "issue_created_at": "2016-10-12 02:29:39.299000",
+                "name": "KYLIN-2085",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/CompareTupleFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/ConstantTupleFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/DynamicTupleFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/ExtractTupleFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/FunctionTupleFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/IFilterCodeSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/ITupleFilterTransformer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "af429e5cbbda2a64159b25bc5ce4ad70f2f1a1f2",
+                "bugfix_commit_date": "2016-12-05 07:05:35",
+                "issue_created_at": "2016-11-18 07:14:05.540000",
+                "name": "KYLIN-2212",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/LogicalTupleFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/StringCodeSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/TimeConditionLiteralsReplacer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/TsConditionEraser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/TupleFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/TupleFilterSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/ColumnDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/DatabaseDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/DataModelDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/DimensionDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/FunctionDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/IBuildable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/IEngineAware.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/IJoinedFlatTableDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/IntermediateColumnDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/ISourceAware.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/IStorageAware.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/JoinDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/LookupDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/MeasureDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/ParameterDesc.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b37c5bb293fe2025bf7e7b0c4901d13c02fc86eb",
+                "bugfix_commit_date": "2016-04-06 07:49:29",
+                "issue_created_at": "2016-03-21 20:46:27.008000",
+                "name": "KYLIN-1513",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/PartitionDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/SegmentStatusEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/TblColRef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/project/ProjectInstance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/project/ProjectL2Cache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/project/ProjectManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/project/ProjectStatusEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/project/ProjectTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/project/RealizationEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/CapabilityResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/IRealization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/IRealizationConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/IRealizationProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/RealizationRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/RealizationStatusEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/RealizationType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/SQLDigest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/tuple/ITuple.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/tuple/ITupleIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/tuple/Tuple.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/tuple/TupleInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/BasicMeasureType.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1d53ce9a0183ec369a681dec29b412f77f681f3e",
+                "bugfix_commit_date": "2016-12-19 03:50:14",
+                "issue_created_at": "2016-12-16 07:26:03.477000",
+                "name": "KYLIN-2288",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/BigDecimalIngester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/BigDecimalMaxAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/BigDecimalMinAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/BigDecimalSumAggregator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1d53ce9a0183ec369a681dec29b412f77f681f3e",
+                "bugfix_commit_date": "2016-12-19 03:50:14",
+                "issue_created_at": "2016-12-16 07:26:03.477000",
+                "name": "KYLIN-2288",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/DoubleIngester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/DoubleMaxAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/DoubleMinAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/DoubleSumAggregator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1d53ce9a0183ec369a681dec29b412f77f681f3e",
+                "bugfix_commit_date": "2016-12-19 03:50:14",
+                "issue_created_at": "2016-12-16 07:26:03.477000",
+                "name": "KYLIN-2288",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/LongIngester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/LongMaxAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/LongMinAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/basic/LongSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/bitmap/BitmapAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/bitmap/BitmapCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/bitmap/BitmapDistinctCountAggFunc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/bitmap/BitmapSerializer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c919ca2c7b59e0a25a4485a345d278edca2f7a60",
+                "bugfix_commit_date": "2016-06-17 06:03:12",
+                "issue_created_at": "2016-06-17 06:02:29.284000",
+                "name": "KYLIN-1803",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/extendedcolumn/ExtendedColumnMeasureType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/extendedcolumn/ExtendedColumnSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/hllc/HLLCAggregator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "60848ce75b4200a2199c066cd6eb50ad0f8f7194",
+                "bugfix_commit_date": "2016-05-03 11:11:15",
+                "issue_created_at": "2016-05-03 01:58:42.816000",
+                "name": "KYLIN-1643",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/hllc/HLLCMeasureType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/hllc/HLLCSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/hllc/HLLDistinctCountAggFunc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/hllc/HyperLogLogPlusCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/hllc/HyperLogLogPlusTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/topn/Counter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "425d56bb5afccd99e666786f755cd4686a1706cc",
+                "bugfix_commit_date": "2016-03-28 08:19:35",
+                "issue_created_at": "2016-03-28 08:18:43.729000",
+                "name": "KYLIN-1538",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/topn/DoubleDeltaSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/topn/DoublyLinkedList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/topn/ListNode2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/topn/TopNAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/topn/TopNCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/topn/TopNCounterSerializer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "34ac81fb00e0056877cfe6bf5220d1ea79bfe70e",
+                "bugfix_commit_date": "2016-04-27 06:33:12",
+                "issue_created_at": "2016-04-26 08:45:02.861000",
+                "name": "KYLIN-1622",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/topn/TopNMeasureType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/function/BuiltInMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/filter/function/Like.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/BytesConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/DateStrDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/DictionaryGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/DictionaryInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/DictionaryInfoSerializer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61bc3e0543ae07848d5d814ac9af479489b31920",
+                "bugfix_commit_date": "2016-03-16 09:22:34",
+                "issue_created_at": "2016-03-15 22:00:06.162000",
+                "name": "KYLIN-1497",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/DictionaryManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/IDictionaryAware.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/IDictionaryValueEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/IterableDictionaryValueEnumerator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "47d2d15c6643c56e1fa6c65308d82ef1baf3b323",
+                "bugfix_commit_date": "2016-08-13 04:56:26",
+                "issue_created_at": "2016-08-02 15:26:29.653000",
+                "name": "KYLIN-1934",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/MultipleDictionaryValueEnumerator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "09da1e19027cffcdd8d676b5caa5d444389c11e3",
+                "bugfix_commit_date": "2016-03-26 10:41:33",
+                "issue_created_at": "2016-03-10 08:25:53.077000",
+                "name": "KYLIN-1486",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "ca2504820a0c8758bc3508126a358d655a8dfbdf",
+                "bugfix_commit_date": "2016-03-15 10:47:23",
+                "issue_created_at": "2016-03-10 08:25:53.077000",
+                "name": "KYLIN-1486",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/NumberDictionary.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "09da1e19027cffcdd8d676b5caa5d444389c11e3",
+                "bugfix_commit_date": "2016-03-26 10:41:33",
+                "issue_created_at": "2016-03-10 08:25:53.077000",
+                "name": "KYLIN-1486",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/NumberDictionaryBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/StringBytesConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/TableColumnValueEnumerator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "67bcec20fb6fee502a5267dfa583bd07ca5edc8b",
+                "bugfix_commit_date": "2016-09-03 05:13:00",
+                "issue_created_at": "2016-06-28 17:36:04.406000",
+                "name": "KYLIN-1834",
+                "severity": "blocker",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "0534fdfc781812579fb42de82c216c120366c043",
+                "bugfix_commit_date": "2016-09-03 10:03:51",
+                "issue_created_at": "2016-06-28 17:36:04.406000",
+                "name": "KYLIN-1834",
+                "severity": "blocker",
+                "type": "bug"
+            }
+        ],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/TrieDictionary.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "67bcec20fb6fee502a5267dfa583bd07ca5edc8b",
+                "bugfix_commit_date": "2016-09-03 05:13:00",
+                "issue_created_at": "2016-06-28 17:36:04.406000",
+                "name": "KYLIN-1834",
+                "severity": "blocker",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "0534fdfc781812579fb42de82c216c120366c043",
+                "bugfix_commit_date": "2016-09-03 10:03:51",
+                "issue_created_at": "2016-06-28 17:36:04.406000",
+                "name": "KYLIN-1834",
+                "severity": "blocker",
+                "type": "bug"
+            }
+        ],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/TrieDictionaryBuilder.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "be7b5d1012e4ba0f8696ccbf9c0507706c07ad22",
+                "bugfix_commit_date": "2016-11-28 08:23:38",
+                "issue_created_at": "2016-11-18 07:33:07.934000",
+                "name": "KYLIN-2213",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/TupleFilterFunctionTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/lookup/LookupBytesTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/lookup/LookupStringTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/lookup/LookupTable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61bc3e0543ae07848d5d814ac9af479489b31920",
+                "bugfix_commit_date": "2016-03-16 09:22:34",
+                "issue_created_at": "2016-03-15 22:00:06.162000",
+                "name": "KYLIN-1497",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/lookup/SnapshotManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/lookup/SnapshotTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/lookup/SnapshotTableSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/DFSFileTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/DFSFileTableReader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "873c8a83e7513756bbf834b7d8bdc49ffad929dd",
+                "bugfix_commit_date": "2016-05-26 06:00:01",
+                "issue_created_at": "2016-05-26 05:58:43.813000",
+                "name": "KYLIN-1739",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "0860934f8bf7e30256d2c59c862c63d6b77d87ed",
+                "bugfix_commit_date": "2016-06-03 10:30:47",
+                "issue_created_at": "2016-05-26 05:58:43.813000",
+                "name": "KYLIN-1739",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/HadoopUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/IMRInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/IMROutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/IMROutput2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/KylinMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/KylinReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/MRBatchCubingEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/MRBatchCubingEngine2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/CuboidShardUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/CuboidStatsUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/DefaultSslProtocolSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/DefaultX509TrustManager.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f1154c55ebcc87280dc8d126e36587bc913dacc4",
+                "bugfix_commit_date": "2017-03-08 03:23:29",
+                "issue_created_at": "2017-03-08 03:17:45.190000",
+                "name": "KYLIN-2490",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/HadoopCmdOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/HadoopShellExecutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/HadoopStatusChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/HadoopStatusGetter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "444302b2afe05940ec8fed43f437d8cd1ffbf62c",
+                "bugfix_commit_date": "2016-04-13 10:14:26",
+                "issue_created_at": "2016-04-13 08:12:06.584000",
+                "name": "KYLIN-1581",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "08276a3b3fcaa600d3869da749ef46a37bb90646",
+                "bugfix_commit_date": "2016-05-18 02:22:44",
+                "issue_created_at": "2016-05-18 02:21:35.044000",
+                "name": "KYLIN-1703",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "682a2f10c570991a528e6996bd065703aba2a3ac",
+                "bugfix_commit_date": "2016-05-18 04:01:23",
+                "issue_created_at": "2016-05-18 02:21:35.044000",
+                "name": "KYLIN-1703",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/MapReduceExecutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/invertedindex/IIJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/invertedindex/InvertedIndexMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/invertedindex/InvertedIndexPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/invertedindex/InvertedIndexReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/invertedindex/UpdateIIInfoAfterBuildStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/BaseCuboidJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/CreateDictionaryJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/CuboidJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/CuboidReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/FactDistinctColumnsCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/FactDistinctColumnsJob.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e53de30842e6c9f8837ed907a7eb70dbf0cbbe4c",
+                "bugfix_commit_date": "2016-03-27 14:12:30",
+                "issue_created_at": "2016-03-23 05:21:52.767000",
+                "name": "KYLIN-1527",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/FactDistinctColumnsReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/FactDistinctHiveColumnsMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/HiveToBaseCuboidMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/KeyDistributionJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/KeyDistributionMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/KeyDistributionReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/MergeCuboidJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/MergeCuboidMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "07177caf7062ec3b631324924a35b6a02e1bde94",
+                "bugfix_commit_date": "2016-07-20 06:20:10",
+                "issue_created_at": "2016-07-13 09:02:35.821000",
+                "name": "KYLIN-1883",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "aa98a909e3a7c897b48d822152e26d0124dff662",
+                "bugfix_commit_date": "2016-05-13 12:37:44",
+                "issue_created_at": "2016-05-11 07:57:52.264000",
+                "name": "KYLIN-1678",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/MetadataCleanupJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/NDCuboidJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/NDCuboidMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/RowKeyDistributionCheckerJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/RowKeyDistributionCheckerMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/RowKeyDistributionCheckerReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkBatchCubingEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkCountDemo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkCuboidWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkExecutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkHelloWorld.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkHiveDemo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/cube/BufferedCuboidWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/cube/DefaultTupleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/cube/ListBackedCuboidWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/cube/TupleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/util/IteratorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/IStreamingInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/IStreamingOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/OneOffStreamingBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/StreamingBatchBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/StreamingConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/StreamingManager.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a930bd62ec831fde319edd8b50f093f52d9668ef",
+                "bugfix_commit_date": "2016-05-06 07:19:10",
+                "issue_created_at": "2016-05-05 10:59:36.211000",
+                "name": "KYLIN-1660",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/cli/StreamingCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/cube/StreamingCubeBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/diagnose/StreamingLogAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/util/StreamingUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/HiveClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/HiveCmdBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/HiveMRInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/HiveSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/HiveSourceTableLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/HiveTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/HiveTableReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/HqlExecutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/cardinality/ColumnCardinalityMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/cardinality/ColumnCardinalityReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/cardinality/HiveColumnCardinalityUpdateJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/ByteBufferBackedInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/KafkaConfigManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/KafkaStreamingInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/StreamingParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/StringStreamingParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/TimedJsonStreamParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/TopicMeta.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/config/BrokerConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/config/KafkaConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/diagnose/KafkaInputAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/diagnose/KafkaVerify.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/diagnose/TimeHistogram.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "06e1ea2960c2d0dffc9245fa52a0e281d72c846c",
+                "bugfix_commit_date": "2016-05-16 12:15:56",
+                "issue_created_at": "2016-05-16 04:38:01.874000",
+                "name": "KYLIN-1696",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/util/KafkaRequester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/IStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/IStorageQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/StorageContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/StorageFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/exception/ScanOutOfLimitException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8e10852aa4059671d890b3bb3220887dc510c6a9",
+                "bugfix_commit_date": "2016-04-13 03:03:06",
+                "issue_created_at": "2016-04-06 17:35:01.557000",
+                "name": "KYLIN-1563",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/hybrid/HybridInstance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/hybrid/HybridManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/hybrid/HybridStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/hybrid/HybridStorageQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/translate/ColumnValueRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/translate/DerivedFilterTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/translate/FuzzyValueCombination.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/translate/HBaseKeyRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/HBaseConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/HBaseStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/IIBulkLoadJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/IICreateHFileJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/IICreateHFileMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/IICreateHTableJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/InvertedIndexStorageQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/BulkLoadJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/CreateHTableJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/CubeHFileJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/CubeHFileMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "99f1dd9d2460566748db2167e69a6a8a7689271d",
+                "bugfix_commit_date": "2016-11-28 00:46:35",
+                "issue_created_at": "2016-06-16 07:11:56.516000",
+                "name": "KYLIN-1793",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/DeprecatedGCStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/HBaseCuboidWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/HBaseMROutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/HBaseMROutput2Transition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/HBaseStreamingOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/HDFSPathGarbageCollectionStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/MergeGCStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/RangeKeyDistributionJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/RangeKeyDistributionMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/RangeKeyDistributionReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/RowValueDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/CleanHtableCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/CubeMigrationCLI.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f4fc179d8c81823af8e9d0a0d75f553fd6b786d3",
+                "bugfix_commit_date": "2016-04-22 07:49:05",
+                "issue_created_at": "2016-04-21 15:49:16.796000",
+                "name": "KYLIN-1604",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/DeployCoprocessorCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/ExtendCubeToHybridCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/GridTableHBaseBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/HBaseClean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/HBaseRegionSizeCalculator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/HBaseUsage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/HiveCmdBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/HtableAlterMetadataCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/IIDeployCoprocessorCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/OrphanHBaseCleanJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/PingHBaseCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/Results.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "858fad676bb42366c26f4033fcc208675cb4bf72",
+                "bugfix_commit_date": "2016-09-23 09:44:23",
+                "issue_created_at": "2016-06-28 02:48:09.248000",
+                "name": "KYLIN-1828",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/StorageCleanupJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/TarGZUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/UpdateHTableHostCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/common/coprocessor/AggregationCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/common/coprocessor/CoprocessorFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/common/coprocessor/CoprocessorProjector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/common/coprocessor/CoprocessorRowType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/CubeSegmentTupleIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/CubeStorageQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/HBaseClientKVIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/RegionScannerAdapter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/ResultScannerAdapter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/SerializedHBaseTupleIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/CellListIterator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "873c8a83e7513756bbf834b7d8bdc49ffad929dd",
+                "bugfix_commit_date": "2016-05-26 06:00:01",
+                "issue_created_at": "2016-05-26 05:58:43.813000",
+                "name": "KYLIN-1739",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "0860934f8bf7e30256d2c59c862c63d6b77d87ed",
+                "bugfix_commit_date": "2016-06-03 10:30:47",
+                "issue_created_at": "2016-05-26 05:58:43.813000",
+                "name": "KYLIN-1739",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/CubeHBaseEndpointRPC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/CubeTupleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/HBaseReadonlyStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/RawScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/BitMapFilterEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/ClearTextDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/EndpointAggregationCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/EndpointAggregators.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/EndpointEnabler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/EndpointTupleIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/HbaseServerKVIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/IIEndpoint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/IIResponseAdapter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/SliceBitMapProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/filter/FuzzyRowFilterV2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/filter/UnsafeAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/coprocessor/observer/AggregateRegionObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/coprocessor/observer/AggregationScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/coprocessor/observer/ObserverAggregationCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/coprocessor/observer/ObserverAggregators.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/coprocessor/observer/ObserverEnabler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/coprocessor/observer/ObserverTuple.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/coprocessor/endpoint/CubeVisitService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/IICapabilityChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/IIDescManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/IIInstance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/IIManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/IISegment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/BatchSliceMaker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/BitMapContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/ColumnValueContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/CompressedValueContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/IncrementalSliceMaker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/RawTableRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/ShardingSliceBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/Slice.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/SliceBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/TableRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/TableRecordInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/index/TableRecordInfoDigest.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "60848ce75b4200a2199c066cd6eb50ad0f8f7194",
+                "bugfix_commit_date": "2016-05-03 11:11:15",
+                "issue_created_at": "2016-05-03 01:58:42.816000",
+                "name": "KYLIN-1643",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/measure/FixedHLLCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/measure/FixedLenMeasureCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/measure/FixedPointLongCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/model/IIDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/model/IIJoinedFlatTableDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/model/IIKeyValueCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/model/IIRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/model/KeyValueCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/util/IIDictionaryBuilder.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6cd1b3640aecd42ac5860c1c40e94c75cfdfbf59",
+                "bugfix_commit_date": "2017-04-26 10:41:41",
+                "issue_created_at": "2017-04-26 10:36:30.406000",
+                "name": "KYLIN-2571",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/Driver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/IRemoteClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/KylinConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/KylinJdbcFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/KylinMeta.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "56071064f085e72373446bde00143b4e1de7e454",
+                "bugfix_commit_date": "2016-07-05 08:43:40",
+                "issue_created_at": "2016-06-23 06:49:41.339000",
+                "name": "KYLIN-1817",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "407fbd0d4600daa4a65f09628558fcea72863473",
+                "bugfix_commit_date": "2016-05-12 13:27:08",
+                "issue_created_at": "2016-05-12 09:38:14.677000",
+                "name": "KYLIN-1685",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/KylinResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/KylinStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/json/PreparedQueryRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/json/QueryRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/json/SQLResponseStub.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/json/StatementParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/json/TableMetaStub.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/util/DefaultSslProtocolSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/util/DefaultX509TrustManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/QueryCli.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/enumerator/HiveEnumerator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c865ad5712cc5225ee664c9b25b4226517779ca0",
+                "bugfix_commit_date": "2017-09-29 09:42:46",
+                "issue_created_at": "2017-09-29 05:58:04.344000",
+                "name": "KYLIN-2915",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "query/src/main/java/org/apache/kylin/query/enumerator/LookupTableEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/enumerator/OLAPEnumerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/enumerator/OLAPQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/optrule/OLAPAggregateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/optrule/OLAPFilterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/optrule/OLAPJoinRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/optrule/OLAPLimitRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/optrule/OLAPProjectRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/optrule/OLAPSortRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/optrule/OLAPToEnumerableConverterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/ColumnRowType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPAggregateRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPFilterRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPJoinRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPLimitRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPProjectRel.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ada37a9109678abf347d3600b3a19888d6f64056",
+                "bugfix_commit_date": "2017-05-23 12:24:46",
+                "issue_created_at": "2017-05-18 12:53:46.474000",
+                "name": "KYLIN-2630",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "19f9c6852d20f822a204963cbdda24518d9ff1da",
+                "bugfix_commit_date": "2017-05-18 12:55:09",
+                "issue_created_at": "2017-05-18 12:53:46.474000",
+                "name": "KYLIN-2630",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPRel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPSortRel.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a30a66ab28c05ae886c376a51daa332893c5ef1d",
+                "bugfix_commit_date": "2017-10-19 01:12:59",
+                "issue_created_at": "2017-10-11 12:26:26.113000",
+                "name": "KYLIN-2930",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "227668a34343f28f2efb30c6bf8ec106bc6239ac",
+                "bugfix_commit_date": "2017-10-19 02:03:42",
+                "issue_created_at": "2017-10-11 12:26:26.113000",
+                "name": "KYLIN-2930",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPTableScan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/relnode/OLAPToEnumerableConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/routing/Candidate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/routing/NoRealizationFoundException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/routing/QueryRouter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/routing/RoutingRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/schema/OLAPSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/schema/OLAPSchemaFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/schema/OLAPTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/routing/rules/RealizationSortRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "query/src/main/java/org/apache/kylin/query/routing/rules/RemoveUncapableRealizationsRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/DebugTomcat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/constant/Constant.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/AccessController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/AdminController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/BasicController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/CacheController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/CubeDescController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/JobController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/ModelController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/ModelDescController.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "85b4b2c7c0dc7d2052cd92cc50ac3b6b94f88668",
+                "bugfix_commit_date": "2017-04-26 10:35:17",
+                "issue_created_at": "2017-04-24 09:44:00.235000",
+                "name": "KYLIN-2563",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "24f7e626e39a93d14aaf6a9783853176790a9f84",
+                "bugfix_commit_date": "2017-12-08 10:57:29",
+                "issue_created_at": "2017-10-22 01:27:56.492000",
+                "name": "KYLIN-2953",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/ProjectController.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1d046421feb2c4845f4a833d6a2a7f3d07a5730b",
+                "bugfix_commit_date": "2016-08-27 14:30:33",
+                "issue_created_at": "2016-08-24 07:57:54.612000",
+                "name": "KYLIN-1972",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/QueryController.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3542dd29147ed20a409c84212235dc6c3c5f0ad9",
+                "bugfix_commit_date": "2016-05-09 10:41:49",
+                "issue_created_at": "2016-05-05 10:59:36.211000",
+                "name": "KYLIN-1660",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "0870a6ab2215711dc3cf52c6718d097ecf336dd1",
+                "bugfix_commit_date": "2016-05-09 10:41:49",
+                "issue_created_at": "2016-05-05 10:59:36.211000",
+                "name": "KYLIN-1660",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "543e9f90018fdca1c03720a0cc863ab2d15727aa",
+                "bugfix_commit_date": "2016-07-23 11:03:04",
+                "issue_created_at": "2016-07-23 09:13:50.737000",
+                "name": "KYLIN-1918",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d6ad6a84a719bd67fee6eccbb21ef8139086c4ea",
+                "bugfix_commit_date": "2016-09-14 09:24:22",
+                "issue_created_at": "2016-07-23 09:13:50.737000",
+                "name": "KYLIN-1918",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/TableController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/UserController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/exception/BadRequestException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/exception/ForbiddenException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/exception/InternalErrorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/exception/NotFoundException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/model/ColumnMeta.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/model/Query.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/model/SelectedColumnMeta.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/model/TableMeta.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/AccessRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/CardinalityRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/CreateProjectRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/CubeRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/CubeSegmentRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/JobBuildRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/JobListRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/MetaRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/MetricsRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/ModelRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/PrepareSqlRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/SaveSqlRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/SQLRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/UpdateConfigRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/UpdateProjectRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/response/AccessEntryResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/response/ErrorResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/response/GeneralResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/response/HBaseResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/response/MetricsResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/response/SQLResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/AclEntityFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/AclPermission.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/AclPermissionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/AuthoritiesPopulator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/CrossDomainFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/LdapProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/PasswordPlaceholderConfigurer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/UnauthorisedEntryPoint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/UserManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/AccessService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/AclService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/AdminService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/BadQueryDetector.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "543e9f90018fdca1c03720a0cc863ab2d15727aa",
+                "bugfix_commit_date": "2016-07-23 11:03:04",
+                "issue_created_at": "2016-07-23 09:13:50.737000",
+                "name": "KYLIN-1918",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d6ad6a84a719bd67fee6eccbb21ef8139086c4ea",
+                "bugfix_commit_date": "2016-09-14 09:24:22",
+                "issue_created_at": "2016-07-23 09:13:50.737000",
+                "name": "KYLIN-1918",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/CacheService.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d06b72e3e9d868dee475f4b1add3e50131683c98",
+                "bugfix_commit_date": "2018-02-08 07:47:01",
+                "issue_created_at": "2017-12-25 11:49:59.745000",
+                "name": "KYLIN-3131",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "8bea84b444092ffd4976df9b68962ba622ff0a17",
+                "bugfix_commit_date": "2018-02-08 07:47:43",
+                "issue_created_at": "2017-12-25 11:49:59.745000",
+                "name": "KYLIN-3131",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d366dc1118aeb342a2ace251bc6dfac976f00e14",
+                "bugfix_commit_date": "2016-09-28 03:51:50",
+                "issue_created_at": "2016-09-22 07:16:36.105000",
+                "name": "KYLIN-2035",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/CubeService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/KafkaConfigService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/ModelService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/ProjectService.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "165dca8d87993c2922be7ae53db915cbfaddfda7",
+                "bugfix_commit_date": "2016-08-02 08:50:46",
+                "issue_created_at": "2016-07-22 03:03:13.451000",
+                "name": "KYLIN-1913",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/QueryService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/UserService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/util/ClasspathUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/util/QueryUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/util/Serializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "atopcalcite/src/main/java/org/apache/calcite/sql2rel/RelFieldTrimmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "atopcalcite/src/main/java/org/apache/calcite/sql2rel/SqlToRelConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/RawResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/Log4jConfigurer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/RangeUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/SortUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/StreamingMessage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/util/TimeUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/DateTimeSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/datatype/StringSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/IRealizationSegment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/SQLDigestUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/realization/StreamSQLDigest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/tuple/CompoundTupleIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/tuple/IEvaluatableTuple.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/tuple/SimpleTupleIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/tuple/TeeTupleIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/tuple/TeeTupleItrListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/measure/bitmap/BitmapMeasureType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/DictCodeSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/DictionarySerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/DistinctColumnValuesProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/TimeStrDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-dictionary/src/main/java/org/apache/kylin/dict/lookup/SnapshotCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/CubeController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/StreamingService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/KylinConfigBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/util/Log4jConfigListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/constant/ExecutableConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/execution/AbstractExecutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/ResourceStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/CubeSegment.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e345de5517963e42669ce35e8774dd698e8f20f0",
+                "bugfix_commit_date": "2016-03-14 10:59:01",
+                "issue_created_at": "2016-03-14 07:02:29.501000",
+                "name": "KYLIN-1491",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/cuboid/Cuboid.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/BatchCubingJobBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/BatchCubingJobBuilder2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/BatchMergeJobBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/BatchMergeJobBuilder2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/CubingJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/JobBuilderSupport.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5aff506bc4666a2bde236544aba4e313e66b286a",
+                "bugfix_commit_date": "2016-03-20 12:13:08",
+                "issue_created_at": "2016-03-18 15:23:51.482000",
+                "name": "KYLIN-1507",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d9e1d8cd9602936251628c72c63626e5a4f8cbf9",
+                "bugfix_commit_date": "2017-11-26 10:43:30",
+                "issue_created_at": "2017-02-25 08:23:39.373000",
+                "name": "KYLIN-2470",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/AbstractHadoopJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/BatchConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/common/CubeStatsReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/invertedindex/BatchIIJobBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/invertedindex/InvertedIndexJob.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a8001226b2a07cd553e680b7e14de9bf8c9981f3",
+                "bugfix_commit_date": "2017-02-28 12:03:55",
+                "issue_created_at": "2017-02-21 11:52:45.486000",
+                "name": "KYLIN-2457",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/MergeDictionaryStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/MergeStatisticsStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/SaveStatisticsStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/UpdateCubeInfoAfterBuildStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/UpdateCubeInfoAfterMergeStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkCubing.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-spark/src/main/java/org/apache/kylin/engine/spark/SparkCubingJobBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-hive/src/main/java/org/apache/kylin/source/hive/cardinality/HiveColumnCardinalityJob.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "05afca7a8346370a2f507c4b477b46cbe4e258f7",
+                "bugfix_commit_date": "2016-09-26 22:46:18",
+                "issue_created_at": "2016-09-23 13:56:46.470000",
+                "name": "KYLIN-2041",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "76d60b66c59dfea78734e33fac9c5aa3535bff34",
+                "bugfix_commit_date": "2016-06-20 04:22:21",
+                "issue_created_at": "2016-05-26 10:18:30.220000",
+                "name": "KYLIN-1740",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/HBaseResourceStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/BasicService.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "170d826bf2d27e625e1d4e1a9b00149098b16197",
+                "bugfix_commit_date": "2016-07-12 10:06:26",
+                "issue_created_at": "2016-07-12 10:04:14.124000",
+                "name": "KYLIN-1879",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "416f0a19ce860e0b07e8e7283bebb46f89ac9058",
+                "bugfix_commit_date": "2016-07-12 10:22:20",
+                "issue_created_at": "2016-07-12 10:04:14.124000",
+                "name": "KYLIN-1879",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "server/src/main/java/org/apache/kylin/rest/service/JobService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/cuboid/CuboidCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-metadata/src/main/java/org/apache/kylin/metadata/model/TableDesc.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f65e7d1bd23d095bc6c60c5cd2eee4505ece0cfa",
+                "bugfix_commit_date": "2016-05-09 07:32:01",
+                "issue_created_at": "2016-05-05 10:59:36.211000",
+                "name": "KYLIN-1660",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "3542dd29147ed20a409c84212235dc6c3c5f0ad9",
+                "bugfix_commit_date": "2016-05-09 10:41:49",
+                "issue_created_at": "2016-05-05 10:59:36.211000",
+                "name": "KYLIN-1660",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "server/src/main/java/org/apache/kylin/rest/controller/StreamingController.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/request/StreamingRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/response/TableDescResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/engine/IStreamingCubingEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/lock/JobLock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-job/src/main/java/org/apache/kylin/job/lock/MockJobLock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/DefaultGTComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GridTable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5512147df6722f306580b3671bcaffb1c6ec6ef4",
+                "bugfix_commit_date": "2016-05-22 13:53:11",
+                "issue_created_at": "2016-05-22 07:09:41.503000",
+                "name": "KYLIN-1723",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "7397bc57d86b7247b6af7044a4b5d1affde4dafb",
+                "bugfix_commit_date": "2016-05-24 05:49:54",
+                "issue_created_at": "2016-05-22 07:09:41.503000",
+                "name": "KYLIN-1723",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTAggregateScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTFilterScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTInvertedIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTInvertedIndexOfColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTRowBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTSampleCodeSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTScanRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTScanRangePlanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTScanRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/GTUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/IGTCodeSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/IGTComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/IGTScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/IGTStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/IGTWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/gridtable/CubeCodeSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/gridtable/CubeGridTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/gridtable/CuboidToGridTableMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/inmemcubing/CuboidResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/cube/model/CubeJoinedFlatTableDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-cube/src/main/java/org/apache/kylin/gridtable/memstore/GTSimpleMemStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/ByteArrayWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/MRUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/BaseCuboidMapperBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/CubingExecutableUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/FactDistinctColumnPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/FactDistinctColumnsMapperBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/InMemCuboidMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/InMemCuboidReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/KVGTRecordWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/MapContextGTRecordWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/BootstrapConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/cli/MonitorCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-streaming/src/main/java/org/apache/kylin/engine/streaming/monitor/StreamingMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/config/KafkaClusterConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/util/KafkaSampleProducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "source-kafka/src/main/java/org/apache/kylin/source/kafka/util/KafkaUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/ICachableStorageQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/cache/AbstractCacheFledgedQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/cache/CacheFledgedDynamicQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/cache/CacheFledgedStaticQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/cache/StreamSQLResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/cache/TsConditionExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-storage/src/main/java/org/apache/kylin/storage/util/SizeOfUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/CubeHBaseRPC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "invertedindex/src/main/java/org/apache/kylin/invertedindex/model/IIKeyValueCodecWithState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/KylinClient.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "56071064f085e72373446bde00143b4e1de7e454",
+                "bugfix_commit_date": "2016-07-05 08:43:40",
+                "issue_created_at": "2016-06-23 06:49:41.339000",
+                "name": "KYLIN-1817",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/KylinPreparedStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jdbc/src/main/java/org/apache/kylin/jdbc/util/Log4jConfigurer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/AclHBaseStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/KylinAuthenticationProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/MockAclHBaseStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/MockHTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/RealAclHBaseStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "server/src/main/java/org/apache/kylin/rest/security/SAMLUserDetailsService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/KylinVersion.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core-common/src/main/java/org/apache/kylin/common/persistence/RootPersistentEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "engine-mr/src/main/java/org/apache/kylin/engine/mr/steps/InMemCuboidJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/CubeHTableUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/HBaseMRSteps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/KeyValueCreator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/steps/SequenceFileCuboidWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/CubeMigrationCheckCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/HbaseStreamingInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/RowCounterCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/util/ZookeeperJobLock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/common/coprocessor/AggrKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/common/coprocessor/CoprocessorBehavior.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/common/coprocessor/FilterDecorator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/CubeTupleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/CubeHBaseScanRPC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/CubeSegmentScanner.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "258e765d724eae02e5934fe53ed74522f40dabc5",
+                "bugfix_commit_date": "2016-05-24 06:15:03",
+                "issue_created_at": "2016-05-12 09:20:41.041000",
+                "name": "KYLIN-1684",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/CubeStorageQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/SequentialCubeTupleIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/EndpointTupleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/LocalDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/ii/coprocessor/endpoint/generated/IIProtos.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v1/filter/generated/FilterProtosExt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "storage-hbase/src/main/java/org/apache/kylin/storage/hbase/cube/v2/coprocessor/endpoint/generated/CubeVisitProtos.java"
+    }
+]

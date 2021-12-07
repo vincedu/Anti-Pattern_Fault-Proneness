@@ -1,0 +1,332 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/ArrayListWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jexl2-compat/src/main/java/org/apache/commons/jexl/JexlOne.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/MethodExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/DebugInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/JexlInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/JexlThreadedArithmetic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/NamespaceResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/ReadonlyContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/Script.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/ObjectContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/Expression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/introspection/UberspectImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/Introspector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/introspection/ClassMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/introspection/IntrospectorBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/introspection/MethodKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jexl2-compat/src/main/java/org/apache/commons/jexl/Expression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jexl2-compat/src/main/java/org/apache/commons/jexl/ExpressionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jexl2-compat/src/main/java/org/apache/commons/jexl/JexlContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jexl2-compat/src/main/java/org/apache/commons/jexl/JexlHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jexl2-compat/src/main/java/org/apache/commons/jexl/Script.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jexl2-compat/src/main/java/org/apache/commons/jexl/ScriptFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "jexl2-compat/src/main/java/org/apache/commons/jexl/context/HashMapContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/introspection/Uberspect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/scripting/Main.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "77e242df13cb8cb97f465d22061337ce230d6638",
+                "bugfix_commit_date": "2012-07-01 15:19:50",
+                "issue_created_at": "2012-06-29 11:00:38.969000",
+                "name": "JEXL-134",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/jexl2/JexlArithmetic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/AbstractExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/ArrayIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/EnumerationIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/ASTArrayLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/ASTMapLiteral.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "66f5e64e3f70b7b3d0cf76207163ee7d82a76957",
+                "bugfix_commit_date": "2017-09-06 15:58:54",
+                "issue_created_at": "2017-03-03 09:12:13.079000",
+                "name": "JEXL-221",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/BooleanGetExecutor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "66f5e64e3f70b7b3d0cf76207163ee7d82a76957",
+                "bugfix_commit_date": "2017-09-06 15:58:54",
+                "issue_created_at": "2017-03-03 09:12:13.079000",
+                "name": "JEXL-221",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/DuckGetExecutor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "66f5e64e3f70b7b3d0cf76207163ee7d82a76957",
+                "bugfix_commit_date": "2017-09-06 15:58:54",
+                "issue_created_at": "2017-03-03 09:12:13.079000",
+                "name": "JEXL-221",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/DuckSetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/ListGetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/ListSetExecutor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "66f5e64e3f70b7b3d0cf76207163ee7d82a76957",
+                "bugfix_commit_date": "2017-09-06 15:58:54",
+                "issue_created_at": "2017-03-03 09:12:13.079000",
+                "name": "JEXL-221",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/MapGetExecutor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "66f5e64e3f70b7b3d0cf76207163ee7d82a76957",
+                "bugfix_commit_date": "2017-09-06 15:58:54",
+                "issue_created_at": "2017-03-03 09:12:13.079000",
+                "name": "JEXL-221",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/MapSetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/PropertyGetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/PropertySetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/ASTStringLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/SimpleNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/introspection/Sandbox.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/JexlContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/Main.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/MapContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/Debugger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/ParseException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/scripting/JexlScriptEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/internal/introspection/MethodMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/introspection/JexlMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/introspection/JexlPropertyGet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/introspection/JexlPropertySet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/ASTIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/ASTVar.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/ASTReferenceExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/ASTNumberLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/ExpressionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/Interpreter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/JexlEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/JexlException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/UnifiedJEXL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/introspection/SandboxUberspectImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/ASTJexlScript.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/JexlNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/JexlParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/StringParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/parser/TokenMgrError.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl2/scripting/JexlScriptEngineFactory.java"
+    }
+]

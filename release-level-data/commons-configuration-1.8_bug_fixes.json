@@ -1,0 +1,629 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/xpath/ConfigurationNodePointer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/event/EventSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/interpol/ConstantLookup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/interpol/EnvironmentLookup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/ExpressionEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/resolver/CatalogResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/FileOptionsProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/beanutils/BeanFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/AbstractHierarchicalFileConfiguration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "21a0e874cf3d14cfcef60d20b97e4c81da581788",
+                "bugfix_commit_date": "2018-03-17 20:49:17",
+                "issue_created_at": "2018-03-16 04:48:34.347000",
+                "name": "CONFIGURATION-690",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/interpol/ExprLookup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/resolver/EntityRegistry.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9720cbf8b2b6595f79e08f2964c53e47c96324f4",
+                "bugfix_commit_date": "2016-11-30 20:52:24",
+                "issue_created_at": "2016-11-29 05:58:55.562000",
+                "name": "CONFIGURATION-644",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "036f7fc40acfd5a2cb1b6cc7131087d68888a1ca",
+                "bugfix_commit_date": "2013-10-21 22:35:52",
+                "issue_created_at": "2013-02-14 19:35:14.917000",
+                "name": "CONFIGURATION-525",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "df0b3837f1118d1b97a802da85a6984f1ca223c5",
+                "bugfix_commit_date": "2013-03-16 17:46:31",
+                "issue_created_at": "2013-02-14 19:35:14.917000",
+                "name": "CONFIGURATION-525",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "a216362a393976500b515efbe08e7d96c688600a",
+                "bugfix_commit_date": "2014-09-09 19:32:49",
+                "issue_created_at": "2014-06-18 04:51:18.335000",
+                "name": "CONFIGURATION-582",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/PropertiesConfigurationLayout.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/xpath/ConfigurationNodeIteratorAttribute.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/EnvironmentConfiguration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1973cc9aa808c6687372a5626972b9395d27c728",
+                "bugfix_commit_date": "2013-10-21 06:37:08",
+                "issue_created_at": "2013-10-19 08:29:03.772000",
+                "name": "CONFIGURATION-556",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "9f97278ac0719b3bc3b58bc23e4b63f7260e5b2c",
+                "bugfix_commit_date": "2013-10-21 07:29:03",
+                "issue_created_at": "2013-10-21 03:21:05.417000",
+                "name": "CONFIGURATION-557",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "9712293bdafda3927b73e832d04ba8641946745e",
+                "bugfix_commit_date": "2016-01-24 20:53:40",
+                "issue_created_at": "2013-10-21 03:21:05.417000",
+                "name": "CONFIGURATION-557",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "3f794fb8e6b9d93b906b07fe77a248d5ecd8152b",
+                "bugfix_commit_date": "2013-04-13 14:45:15",
+                "issue_created_at": "2013-04-11 10:43:44.305000",
+                "name": "CONFIGURATION-540",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/MapConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/ConfigurationNodeVisitorAdapter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/SubnodeConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/HierarchicalXMLConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/NodeCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/ConfigurationNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/NodeAddData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/beanutils/ConfigurationDynaBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/AbstractFileConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/DefaultConfigurationKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/plist/PropertyListConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/FileConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/SystemConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/CombinedConfiguration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bfbc68c3988bfd8e097fa229a29621ff93087cfb",
+                "bugfix_commit_date": "2012-09-21 19:08:18",
+                "issue_created_at": "2012-08-21 14:18:46.325000",
+                "name": "CONFIGURATION-504",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/beanutils/XMLBeanDeclaration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/DynamicCombinedConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationXMLReader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e4601582be15def78a2de97072842bd1276e3dcc",
+                "bugfix_commit_date": "2013-01-23 20:48:57",
+                "issue_created_at": "2013-01-17 11:07:47.304000",
+                "name": "CONFIGURATION-521",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "e148346fb50e40cf4e0ba7c2b95603aeda740c29",
+                "bugfix_commit_date": "2015-07-13 20:18:21",
+                "issue_created_at": "2015-07-03 18:47:00.445000",
+                "name": "CONFIGURATION-604",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/MergeCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/web/ServletConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/web/ServletFilterConfiguration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bfbc68c3988bfd8e097fa229a29621ff93087cfb",
+                "bugfix_commit_date": "2012-09-21 19:08:18",
+                "issue_created_at": "2012-08-21 14:18:46.325000",
+                "name": "CONFIGURATION-504",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/HierarchicalConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/VFSFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/xpath/ConfigurationNodePointerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/xpath/ConfigurationNodeIteratorBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/beanutils/BeanDeclaration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/PrefixedKeysIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConfigurationRuntimeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/ConversionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/DefaultFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/FileSystemBased.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/Lock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/VerifiableOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/event/ConfigurationErrorEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/event/ConfigurationErrorListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/event/ConfigurationEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/event/ConfigurationListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/reloading/FileChangedReloadingStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/reloading/InvariantReloadingStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/reloading/Reloadable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/reloading/VFSFileChangedReloadingStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/resolver/EntityResolverSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/reloading/ManagedReloadingStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/reloading/ManagedReloadingStrategyMBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/reloading/ReloadingStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/MultiFileHierarchicalConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/BaseConfigurationXMLReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/AbstractConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/DataConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/HierarchicalConfigurationConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/JNDIConfiguration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0245d66f72e0645a448e2d03a7b957bcc18d919f",
+                "bugfix_commit_date": "2014-11-26 21:22:03",
+                "issue_created_at": "2014-01-29 15:43:09.798000",
+                "name": "CONFIGURATION-564",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "a3fec41476ade3604519145f929e68a6cbef21ff",
+                "bugfix_commit_date": "2016-10-07 20:00:41",
+                "issue_created_at": "2016-09-29 15:03:27.885000",
+                "name": "CONFIGURATION-640",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d4e93fdceff7245e58e16be15b15454228306987",
+                "bugfix_commit_date": "2013-10-21 22:12:36",
+                "issue_created_at": "2013-03-16 20:28:18.827000",
+                "name": "CONFIGURATION-534",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "6ea0ce4faab0239946a0282ecb34c8cf6e300deb",
+                "bugfix_commit_date": "2013-03-17 17:42:51",
+                "issue_created_at": "2013-03-16 20:28:18.827000",
+                "name": "CONFIGURATION-534",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/PropertiesConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/PropertyConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/BaseConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/DatabaseConfiguration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bfbc68c3988bfd8e097fa229a29621ff93087cfb",
+                "bugfix_commit_date": "2012-09-21 19:08:18",
+                "issue_created_at": "2012-08-21 14:18:46.325000",
+                "name": "CONFIGURATION-504",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/DefaultConfigurationBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/web/ServletContextConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/TreeUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/OverrideCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/StrictConfigurationComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/Configuration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/web/AppletConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/SubsetConfiguration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d6dec7e33327c4efa2995e0e009181786e6bc65b",
+                "bugfix_commit_date": "2013-10-21 22:02:27",
+                "issue_created_at": "2013-06-09 12:02:54.017000",
+                "name": "CONFIGURATION-546",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "db5ceca8103c900126d1bb68debe03bcaf95654f",
+                "bugfix_commit_date": "2013-06-12 20:08:22",
+                "issue_created_at": "2013-06-09 12:02:54.017000",
+                "name": "CONFIGURATION-546",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/beanutils/BeanHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/XMLConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/HierarchicalReloadableConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/web/ServletRequestConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/HierarchicalConfigurationXMLReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/web/BaseWebConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/resolver/DefaultEntityResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/beanutils/DefaultBeanFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/beanutils/ConfigurationDynaClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/PatternSubtreeConfigurationWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/UnionCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/interpol/ConfigurationInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/XMLPropertiesConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/DefaultExpressionEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/DefaultConfigurationNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/xpath/XPathExpressionEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/FileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/INIConfiguration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bea5ca1141531a4c2c14c4059ebfcf0b00862d42",
+                "bugfix_commit_date": "2016-05-26 19:53:21",
+                "issue_created_at": "2016-05-23 01:25:02.963000",
+                "name": "CONFIGURATION-632",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/CompositeConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/HierarchicalINIConfiguration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cc3c0a92368f8976ec3f611bd36184c37f14c15a",
+                "bugfix_commit_date": "2014-10-29 20:19:37",
+                "issue_created_at": "2010-11-03 22:53:18.729000",
+                "name": "CONFIGURATION-427",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "0130a3f20814ffdc6165fda25ce094cee4c5d324",
+                "bugfix_commit_date": "2012-07-30 19:59:36",
+                "issue_created_at": "2012-07-30 19:52:32.739000",
+                "name": "CONFIGURATION-501",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/configuration/plist/XMLPropertyListConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/ConfigurationNodeVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/xpath/ConfigurationNodeIteratorChildren.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/configuration/tree/ViewNode.java"
+    }
+]

@@ -1,0 +1,1064 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer11.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e1cb1a34fff33ccf202337928c91075d2494b637",
+                "bugfix_commit_date": "2012-03-16 10:01:18",
+                "issue_created_at": "2012-03-14 19:51:45.142000",
+                "name": "SANTUARIO-301",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "447fafcc5d16f8aa413c602fd169d5aae1f744a7",
+                "bugfix_commit_date": "2012-03-16 10:17:56",
+                "issue_created_at": "2012-03-14 19:51:45.142000",
+                "name": "SANTUARIO-301",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/org/apache/xml/security/encryption/XMLCipher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/XMLSignatureInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/XMLUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverDirectHTTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/ResourceResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/AlgorithmMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/KeySelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/KeySelectorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/KeySelectorResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/MarshalException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/NodeSetData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/NoSuchMechanismException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/OctetStreamData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/URIDereferencer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/URIReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/URIReferenceException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/XMLCryptoContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/XMLStructure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dom/DOMCryptoContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dom/DOMStructure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dom/DOMURIReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/CanonicalizationMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/DigestMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/Manifest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/Reference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/SignatureMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/SignatureProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/SignatureProperty.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/SignedInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/Transform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/TransformException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/TransformService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/XMLDSigSecurity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/XMLObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/XMLSignature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/XMLSignatureException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/XMLSignatureFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/XMLSignContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/XMLValidateContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/dom/DOMSignContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/dom/DOMValidateContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/keyinfo/KeyInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/keyinfo/KeyInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/keyinfo/KeyName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/keyinfo/KeyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/keyinfo/PGPData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/keyinfo/RetrievalMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/keyinfo/X509Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/keyinfo/X509IssuerSerial.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/C14NMethodParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/DigestMethodParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/ExcC14NParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/HMACParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/SignatureMethodParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/TransformParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/XPathFilter2ParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/XPathFilterParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/XPathType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/javax/xml/crypto/dsig/spec/XSLTTransformParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/Init.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/Algorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/JCEMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/MessageDigestAlgorithm.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "91d78cca54660d2146dd0c1af4ff8662ca533c6c",
+                "bugfix_commit_date": "2011-07-18 09:21:08",
+                "issue_created_at": "2006-10-27 08:14:56",
+                "name": "SANTUARIO-102",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "91d78cca54660d2146dd0c1af4ff8662ca533c6c",
+                "bugfix_commit_date": "2011-07-18 09:21:08",
+                "issue_created_at": "2011-06-21 17:50:15.068000",
+                "name": "SANTUARIO-281",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/org/apache/xml/security/algorithms/SignatureAlgorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/SignatureAlgorithmSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/CanonicalizationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/Canonicalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/CanonicalizerSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/InvalidCanonicalizerException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/AgreementMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/CipherData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/CipherReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/CipherValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptedData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptedKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptedType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptionMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptionProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptionProperty.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/Reference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/ReferenceList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/Transforms.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/XMLCipherInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/XMLCipherParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/XMLEncryptionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/exceptions/AlgorithmAlreadyRegisteredException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/exceptions/Base64DecodingException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/exceptions/XMLSecurityException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/exceptions/XMLSecurityRuntimeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/ContentHandlerAlreadyRegisteredException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/KeyInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/KeyUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/InvalidDigestValueException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/InvalidSignatureValueException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/Manifest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/MissingResourceFailureException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/NodeFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/ObjectContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/Reference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/ReferenceNotInitializedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/SignatureProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/SignatureProperty.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/SignedInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/XMLSignature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/XMLSignatureException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/XMLSignatureInputDebugger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/InvalidTransformException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/Transform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/TransformationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/TransformParam.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/Transforms.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/TransformSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/Base64.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/CachedXPathAPIHolder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/CachedXPathFuncHereAPI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/ClassLoaderUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/DigesterOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/ElementChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/ElementCheckerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/ElementProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/EncryptionConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/EncryptionElementProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/HelperNodeList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/I18n.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/IdResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/IgnoreAllErrorHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/JavaUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/RFC2253Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/SignatureElementProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/SignerOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/UnsyncBufferedOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/UnsyncByteArrayOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/XPathFuncHereAPI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/implementations/IntegrityHmac.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/implementations/SignatureBaseRSA.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/implementations/SignatureDSA.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/implementations/SignatureECDSA.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/helper/AttrCompare.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/helper/C14nHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer11_OmitComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer11_WithComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315Excl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315ExclOmitComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315ExclWithComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315OmitComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315WithComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/NameSpaceSymbTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/UtfHelpper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/KeyInfoContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/KeyName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/KeyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/MgmtData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/PGPData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/RetrievalMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/SPKIData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/X509Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/InvalidKeyResolverException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/KeyResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/KeyResolverException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/KeyResolverSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/StorageResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/StorageResolverException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/StorageResolverSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/FuncHere.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/FuncHereContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformBase64Decode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformC14N.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformC14N11.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformC14N11_WithComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformC14NExclusive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformC14NExclusiveWithComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformC14NWithComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformEnvelopedSignature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformXPath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformXPath2Filter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformXPointer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformXSLT.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/params/InclusiveNamespaces.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/params/XPath2FilterContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/params/XPath2FilterContainer04.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/params/XPathContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/params/XPathFilterCHGPContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/ResourceResolverException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/ResourceResolverSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/keyvalues/DSAKeyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/keyvalues/KeyValueContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/keyvalues/RSAKeyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509Certificate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509CRL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509DataContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509IssuerSerial.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509SKI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509SubjectName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/DSAKeyValueResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/EncryptedKeyResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/RetrievalMethodResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/RSAKeyValueResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/X509CertificateResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/X509IssuerSerialResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/X509SKIResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/X509SubjectNameResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/implementations/CertsInFilesystemDirectoryResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/implementations/KeyStoreResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/implementations/SingleCertificateResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverAnonymous.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverFragment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverLocalFilesystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverXPointer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/DigesterOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/MacOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/SignerOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/ApacheCanonicalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/ApacheData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/ApacheNodeSetData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/ApacheOctetStreamData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/ApacheTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMBase64Transform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMCanonicalizationMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMCanonicalXMLC14N11Method.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMCanonicalXMLC14NMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMCryptoBinary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMDigestMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMEnvelopedTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMExcC14NMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMHMACSignatureMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMKeyInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMKeyInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMKeyName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMKeyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMManifest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMPGPData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMRetrievalMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMSignatureMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMSignatureProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMSignatureProperty.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMSignedInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMStructure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMSubTreeData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMURIDereferencer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMX509Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMX509IssuerSerial.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMXMLObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMXMLSignature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMXMLSignatureFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMXPathFilter2Transform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMXPathTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/DOMXSLTTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/Utils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/jcp/xml/dsig/internal/dom/XMLDSigRI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/CanonicalizerBase.java"
+    }
+]

@@ -1,0 +1,471 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/changes/Change.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8e5f665d8f3ee23a1804a90d415af530e0ba5095",
+                "bugfix_commit_date": "2014-04-13 08:56:31",
+                "issue_created_at": "2014-04-11 04:53:48.846000",
+                "name": "COMPRESS-274",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/changes/ChangeSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/changes/ChangeSetPerformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/changes/ChangeSetResults.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/CompressorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/CompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/CompressorOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "557800a53cedad99afc951032a11931f3e39bf13",
+                "bugfix_commit_date": "2014-04-12 17:05:57",
+                "issue_created_at": "2014-04-11 11:07:56.769000",
+                "name": "COMPRESS-277",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/utils/IOUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b11dca2f006da939879c9729a8af09f8519df007",
+                "bugfix_commit_date": "2010-02-18 11:55:21",
+                "issue_created_at": "2009-09-30 14:58:58.179000",
+                "name": "COMPRESS-85",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "040e42d0f0bebc15ca80cb80fb6db53804b2e082",
+                "bugfix_commit_date": "2013-08-08 16:18:45",
+                "issue_created_at": "2013-08-02 10:31:14.612000",
+                "name": "COMPRESS-236",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "040e42d0f0bebc15ca80cb80fb6db53804b2e082",
+                "bugfix_commit_date": "2013-08-08 16:18:45",
+                "issue_created_at": "2013-08-02 10:31:14.612000",
+                "name": "COMPRESS-236",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b11dca2f006da939879c9729a8af09f8519df007",
+                "bugfix_commit_date": "2010-02-18 11:55:21",
+                "issue_created_at": "2009-09-30 14:58:58.179000",
+                "name": "COMPRESS-85",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "14684241489dbe1b607aafd3423ebaf34be377b1",
+                "bugfix_commit_date": "2010-02-17 16:00:21",
+                "issue_created_at": "2009-09-30 14:58:58.179000",
+                "name": "COMPRESS-85",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/jar/JarArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/jar/JarArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/jar/JarArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7ee6b67c1983aa06e4585eb76fab0d7441fe0a3d",
+                "bugfix_commit_date": "2012-02-22 23:42:49",
+                "issue_created_at": "2012-02-09 07:26:25.232000",
+                "name": "COMPRESS-175",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "aa0c705ed4680055eb1ffedaafbc6a53b8f862aa",
+                "bugfix_commit_date": "2014-04-13 08:32:47",
+                "issue_created_at": "2014-04-11 05:03:17.815000",
+                "name": "COMPRESS-276",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "fdac1475918e93444b08a024d096b4ec39d6733d",
+                "bugfix_commit_date": "2011-10-23 12:15:13",
+                "issue_created_at": "2011-10-21 13:23:08.906000",
+                "name": "COMPRESS-160",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1eb9dbb7fd336b1e8a160977722b570354040798",
+                "bugfix_commit_date": "2010-10-26 09:44:59",
+                "issue_created_at": "2010-10-04 12:28:53.211000",
+                "name": "COMPRESS-119",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarBuffer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "33cd35e5d60f03e191ce74f85523b099a3c1944c",
+                "bugfix_commit_date": "2010-05-09 20:38:20",
+                "issue_created_at": "2010-05-09 20:37:52.799000",
+                "name": "COMPRESS-110",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarConstants.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "35e4e4fb6848ddfa3878270523f3f9336ae7f9b8",
+                "bugfix_commit_date": "2010-06-02 11:00:25",
+                "issue_created_at": "2010-05-13 15:30:40.933000",
+                "name": "COMPRESS-113",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "2d858d5c7cc30313c9c3c8ef4a5e8d34d67a395e",
+                "bugfix_commit_date": "2010-05-17 14:51:17",
+                "issue_created_at": "2010-05-17 12:05:11.499000",
+                "name": "COMPRESS-114",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bebc6eddeddb8bd40c1299fa6e468b56edd997fc",
+                "bugfix_commit_date": "2010-02-16 11:37:44",
+                "issue_created_at": "2009-06-04 10:59:07.948000",
+                "name": "COMPRESS-73",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "124f97c18eb3fc29fd4e03c982905cadac1feb0b",
+                "bugfix_commit_date": "2010-02-12 11:35:14",
+                "issue_created_at": "2009-06-04 10:59:07.948000",
+                "name": "COMPRESS-73",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/FallbackZipEncoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/JarMarker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/Simple8BitZipEncoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnicodeCommentExtraField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnicodePathExtraField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnixStat.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bebc6eddeddb8bd40c1299fa6e468b56edd997fc",
+                "bugfix_commit_date": "2010-02-16 11:37:44",
+                "issue_created_at": "2009-06-04 10:59:07.948000",
+                "name": "COMPRESS-73",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "91695e47a11e0ca7eb09555ea5c06f711d117036",
+                "bugfix_commit_date": "2010-02-16 13:59:03",
+                "issue_created_at": "2009-06-04 10:59:07.948000",
+                "name": "COMPRESS-73",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "7be979633a4ab427d820c591a1cb940c2721ba1a",
+                "bugfix_commit_date": "2010-01-26 05:24:17",
+                "issue_created_at": "2010-01-06 22:33:15.747000",
+                "name": "COMPRESS-94",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "5066e9aeb98f386b29a31cd4acb97aa43844cd30",
+                "bugfix_commit_date": "2010-01-07 09:34:55",
+                "issue_created_at": "2010-01-06 22:33:15.747000",
+                "name": "COMPRESS-94",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d7ea9ff05a28a73508b57f369a0b06b3fab46479",
+                "bugfix_commit_date": "2010-03-12 15:35:44",
+                "issue_created_at": "2010-03-12 15:13:16.865000",
+                "name": "COMPRESS-101",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "dc3fc4703211876fb38cccf55adc92ee5cbc28d0",
+                "bugfix_commit_date": "2009-10-30 05:29:17",
+                "issue_created_at": "2009-10-24 21:28:02.549000",
+                "name": "COMPRESS-87",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d7ea9ff05a28a73508b57f369a0b06b3fab46479",
+                "bugfix_commit_date": "2010-03-12 15:35:44",
+                "issue_created_at": "2010-03-12 15:13:16.865000",
+                "name": "COMPRESS-101",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipEncoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipExtraField.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b4d7505f8eb531a70d0a56e2b76b36bc302b212b",
+                "bugfix_commit_date": "2011-07-13 13:53:18",
+                "issue_created_at": "2011-07-13 13:40:22.794000",
+                "name": "COMPRESS-139",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipLong.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipShort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ccf4ce767a6cc07f1a88a0c33393e394af3c328b",
+                "bugfix_commit_date": "2017-12-28 16:02:43",
+                "issue_created_at": "2017-10-19 06:25:52.685000",
+                "name": "COMPRESS-424",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "20fd83a914183fdfa63aa21ff4a025802c0a3cc1",
+                "bugfix_commit_date": "2011-11-07 16:36:51",
+                "issue_created_at": "2011-07-24 00:00:39.698000",
+                "name": "COMPRESS-146",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/Rand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipUtils.java"
+    }
+]

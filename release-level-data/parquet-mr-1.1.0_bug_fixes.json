@@ -1,0 +1,959 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "parquet-common/src/main/java/parquet/Ints.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-common/src/main/java/parquet/Log.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-common/src/main/java/parquet/ParquetRuntimeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-common/src/main/java/parquet/Preconditions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-common/src/main/java/parquet/Version.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-common/src/main/java/parquet/bytes/BytesUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-avro/src/main/java/parquet/avro/AvroIndexedRecordConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-avro/src/main/java/parquet/avro/AvroParquetInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-avro/src/main/java/parquet/avro/AvroParquetOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-avro/src/main/java/parquet/avro/AvroParquetReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-avro/src/main/java/parquet/avro/AvroParquetWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-avro/src/main/java/parquet/avro/AvroReadSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-avro/src/main/java/parquet/avro/AvroRecordMaterializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-avro/src/main/java/parquet/avro/AvroSchemaConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-avro/src/main/java/parquet/avro/AvroWriteSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-cascading/src/main/java/parquet/cascading/ParquetTBaseScheme.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-cascading/src/main/java/parquet/cascading/ParquetTupleScheme.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-cascading/src/main/java/parquet/cascading/ParquetValueScheme.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-cascading/src/main/java/parquet/cascading/SchemaIntersection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-cascading/src/main/java/parquet/cascading/TupleReadSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-cascading/src/main/java/parquet/cascading/convert/TupleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-cascading/src/main/java/parquet/cascading/convert/TupleRecordMaterializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/ColumnDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/ColumnReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/ColumnReadStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/ColumnWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/ColumnWriteStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/Dictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/Encoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/UnknownColumnException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/ValuesType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/filter/AndRecordFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/filter/ColumnPredicates.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/filter/ColumnRecordFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/filter/PagedRecordFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/filter/RecordFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/filter/UnboundRecordFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/BaseRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/ColumnIO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/ColumnIOFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/CompilationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/EmptyRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/FilteredRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/GroupColumnIO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/InvalidRecordException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/MessageColumnIO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/ParquetDecodingException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/ParquetEncodingException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/PrimitiveColumnIO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/RecordConsumerLoggingWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/RecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/RecordReaderImplementation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/ValidatingRecordConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/schema/ConversionPatterns.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/schema/GroupType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/schema/MessageType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/schema/MessageTypeParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/schema/OriginalType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/schema/PrimitiveType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/schema/Type.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/schema/TypeConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/schema/TypeVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/impl/ColumnReaderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/impl/ColumnReadStoreImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/impl/ColumnWriterImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/impl/ColumnWriteStoreImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/page/DictionaryPage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/page/Page.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/page/PageReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/page/PageReadStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/page/PageWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/page/PageWriteStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/ValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/ValuesWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/api/Binary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/api/Converter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/api/GroupConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/api/PrimitiveConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/api/RecordConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/io/api/RecordMaterializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/bitpacking/BitPackingValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/bitpacking/BitPackingValuesWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/bitpacking/ByteBitPackingValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/bitpacking/ByteBitPackingValuesWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/boundedint/BitReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/boundedint/BitWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/boundedint/BoundedIntValuesFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/boundedint/BoundedIntValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/boundedint/BoundedIntValuesWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/boundedint/DevNullValuesWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/boundedint/ZeroIntegerValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/dictionary/DictionaryValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/dictionary/DictionaryValuesWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/dictionary/IntList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/dictionary/PlainValuesDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/plain/BinaryPlainValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/plain/BooleanPlainValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/plain/BooleanPlainValuesWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/plain/PlainValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/plain/PlainValuesWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/rle/RunLengthBitPackingHybridDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/rle/RunLengthBitPackingHybridEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/rle/RunLengthBitPackingHybridValuesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-column/src/main/java/parquet/column/values/rle/RunLengthBitPackingHybridValuesWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/bytes/BytesInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/bytes/CapacityByteArrayOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/bytes/LittleEndianDataInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/bytes/LittleEndianDataOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/column/values/bitpacking/BitPacking.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/column/values/bitpacking/ByteBasedBitPackingEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/column/values/bitpacking/BytePacker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/column/values/bitpacking/BytePackerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/column/values/bitpacking/IntPacker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/column/values/bitpacking/IntPackerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-encoding/src/main/java/parquet/column/values/bitpacking/Packer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-generator/src/main/java/parquet/encoding/Generator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-generator/src/main/java/parquet/encoding/bitpacking/ByteBasedBitPackingGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-generator/src/main/java/parquet/encoding/bitpacking/IntBasedBitPackingGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/BadConfigurationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/CodecFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ColumnChunkPageReadStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ColumnChunkPageWriteStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/Footer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b7a82a918f0a595a96047f7eef2672fd95d5626c",
+                "bugfix_commit_date": "2014-12-11 22:01:27",
+                "issue_created_at": "2014-12-09 12:14:16.024000",
+                "name": "PARQUET-145",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "32a9c6d42a3a48314d3f9fe2956bfc8bf49ac5d5",
+                "bugfix_commit_date": "2015-01-30 01:32:54",
+                "issue_created_at": "2014-12-29 18:34:31.748000",
+                "name": "PARQUET-157",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "2d8ebdbe00786823658bcdd2817e6b5afee15b25",
+                "bugfix_commit_date": "2014-07-16 13:50:29",
+                "issue_created_at": "2014-06-27 00:57:21.089000",
+                "name": "PARQUET-9",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/InternalParquetRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/InternalParquetRecordWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetFileReader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e505e1fea57e0ab9f1d5edab92546d778a5f41e0",
+                "bugfix_commit_date": "2015-01-30 01:29:06",
+                "issue_created_at": "2014-10-31 04:33:48.008000",
+                "name": "PARQUET-124",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetFileWriter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5dffe3521588016cf3519792953b0879054c3bfd",
+                "bugfix_commit_date": "2014-07-18 23:02:09",
+                "issue_created_at": "2014-06-20 03:45:29.647000",
+                "name": "PARQUET-4",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetInputSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetOutputCommitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetOutputFormat.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b4380f20059dc9e4ccfe2b709587e8069ac0fa34",
+                "bugfix_commit_date": "2015-01-30 01:31:04",
+                "issue_created_at": "2014-12-04 22:43:20.647000",
+                "name": "PARQUET-142",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetRecordWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/ParquetWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/PrintFooter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f4e754e66e3661274df624bc328991cd88dd03d6",
+                "bugfix_commit_date": "2015-07-03 17:53:22",
+                "issue_created_at": "2015-07-01 20:25:40.492000",
+                "name": "PARQUET-324",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "parquet-hadoop/src/main/java/parquet/format/converter/ParquetMetadataConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/api/ReadSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/api/WriteSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/codec/NonBlockedCompressorStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/codec/NonBlockedDecompressorStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/codec/SnappyCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/codec/SnappyCompressor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/codec/SnappyDecompressor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/codec/SnappyUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/mapred/Container.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/mapred/DeprecatedParquetInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/metadata/BlockMetaData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/metadata/ColumnChunkMetaData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/metadata/ColumnChunkProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/metadata/ColumnPath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/metadata/CompressionCodecName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/metadata/EncodingList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/metadata/FileMetaData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/metadata/ParquetMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/util/BenchmarkCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/util/ConfigurationUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hadoop/src/main/java/parquet/hadoop/util/ContextUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/BufferedProtocolReadToWrite.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ParquetProtocol.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ParquetReadProtocol.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ParquetWriteProtocol.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ProtocolPipe.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ProtocolReadToWrite.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/TBaseRecordConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ThriftMetaData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ThriftParquetReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ThriftParquetWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ThriftReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ThriftRecordConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/ThriftSchemaConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/hadoop/thrift/ParquetThriftBytesOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/hadoop/thrift/ParquetThriftInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/hadoop/thrift/ParquetThriftOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/hadoop/thrift/ThriftBytesWriteSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/hadoop/thrift/ThriftReadSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/hadoop/thrift/ThriftToParquetFileWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/hadoop/thrift/ThriftWriteSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/struct/JSON.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/struct/ThriftField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/struct/ThriftType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-thrift/src/main/java/parquet/thrift/struct/ThriftTypeID.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/DeprecatedParquetInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/DeprecatedParquetOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/ManageJobConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/convert/ArrayWritableGroupConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/convert/DataWritableGroupConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/convert/DataWritableRecordConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/convert/ETypeConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/convert/HiveGroupConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/convert/HiveSchemaConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/read/DataWritableReadSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/serde/ArrayWritableObjectInspector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/serde/ParquetHiveArrayInspector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/serde/ParquetHiveMapInspector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/serde/ParquetHiveSerDe.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/writable/BigDecimalWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/writable/BinaryWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/write/DataWritableWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-hive/src/main/java/parquet/hive/write/DataWritableWriteSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/ParquetLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/ParquetStorer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/PigMetaData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/PigSchemaConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/SchemaConversionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/TupleConversionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/TupleReadSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/TupleWriteSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/convert/MapConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/convert/ParentValueContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/convert/TupleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/convert/TupleRecordMaterializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/BagSummaryData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/EnumStat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/FieldSummaryData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/MapSummaryData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/NumberSummaryData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/StringSummaryData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/Summary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/SummaryData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/TupleSummaryData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-pig/src/main/java/parquet/pig/summary/ValueStat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-scrooge/src/main/java/parquet/scrooge/ParquetScroogeScheme.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "parquet-scrooge/src/main/java/parquet/scrooge/ScroogeRecordConverter.java"
+    }
+]

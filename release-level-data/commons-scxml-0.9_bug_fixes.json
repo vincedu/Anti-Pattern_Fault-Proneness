@@ -1,0 +1,371 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/invoke/SimpleSCXMLInvoker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/io/SCXMLParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/State.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Assign.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/SCXMLExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/TriggerEvent.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e65c1a25744e1406a6ae013bfa43c81003714218",
+                "bugfix_commit_date": "2013-11-28 06:46:24",
+                "issue_created_at": "2012-08-21 15:43:28.219000",
+                "name": "SCXML-167",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/scxml/env/SimpleScheduler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/Builtin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/Context.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/ErrorReporter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/Evaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/EventDispatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/PathResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/SCXMLExpressionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/SCXMLListener.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6aa36d77b79482839e2cc1aa7e5aa8927bd04140",
+                "bugfix_commit_date": "2013-12-04 14:36:26",
+                "issue_created_at": "2013-12-03 13:29:41.598000",
+                "name": "SCXML-180",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/scxml/SCXMLSemantics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/Status.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/Step.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/LogUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/SimpleContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/SimpleDispatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/SimpleErrorHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/SimpleErrorReporter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/SimpleSCXMLListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/Tracer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/URLResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/invoke/InvokerException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Cancel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/CustomAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Datamodel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Else.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/ElseIf.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Executable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Exit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/ExternalContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Final.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Finalize.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/History.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6aa36d77b79482839e2cc1aa7e5aa8927bd04140",
+                "bugfix_commit_date": "2013-12-04 14:36:26",
+                "issue_created_at": "2013-12-03 13:29:41.598000",
+                "name": "SCXML-180",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/scxml/model/If.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Initial.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Invoke.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Log.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/ModelException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/NamespacePrefixesHolder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/OnEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/OnExit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Param.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/PathResolverHolder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Var.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/semantics/ErrorConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/semantics/TransitionTargetComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/faces/SessionContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/jexl/JexlContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/jexl/JexlEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/jsp/ELContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/jsp/ELEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/jsp/RootContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/servlet/ServletContextResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "xdocs/usecases/shale-dialogs/SCXMLDialogNavigationHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/SCInstance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/AbstractSCXMLListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/env/AbstractStateMachine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Event.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Parallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Transition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/invoke/Invoker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Action.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/SCXML.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6aa36d77b79482839e2cc1aa7e5aa8927bd04140",
+                "bugfix_commit_date": "2013-12-04 14:36:26",
+                "issue_created_at": "2013-12-03 13:29:41.598000",
+                "name": "SCXML-180",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/scxml/semantics/SCXMLSemanticsImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/NotificationRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/invoke/AsyncTrigger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Send.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2e4735c8b63fed1e34d1dfb11c665544494320d8",
+                "bugfix_commit_date": "2011-06-06 22:49:05",
+                "issue_created_at": "2011-06-06 20:02:10.860000",
+                "name": "SCXML-161",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "ac979de2d67c998203f016dd24c7f562b4372fce",
+                "bugfix_commit_date": "2011-06-06 22:47:09",
+                "issue_created_at": "2011-06-06 20:02:10.860000",
+                "name": "SCXML-161",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/scxml/SCXMLHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/io/SCXMLSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/io/ModelUpdater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/io/SCXMLDigester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/Path.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/scxml/model/TransitionTarget.java"
+    }
+]

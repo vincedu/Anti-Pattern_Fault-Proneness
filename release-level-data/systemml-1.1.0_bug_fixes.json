@@ -1,0 +1,4625 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/utils/IntArrayList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/DMLAppMasterStatusReporter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/DataPartitionMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/GroupedAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/DataPartitionerRemoteMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/DataPartitionerRemoteSpark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MRConfigurationNames.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptNodeStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/stat/Stat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Checkpoint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/CM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/DiagIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Divide.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Equals.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/FileFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/FunctionObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/GreaterThan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/GreaterThanEquals.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/IndexFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/IntegerDivide.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/KahanPlusSq.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/LessThan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/CacheStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/LessThanEquals.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Minus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Minus1Multiply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/MinusNz.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Modulus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Multiply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Multiply2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/NotEquals.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Power.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Power2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/ReduceAll.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/ReduceCol.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/ReduceDiag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/ReduceRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/RemoveFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/RenameFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/RevIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/SwapIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/ValueComparisonFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/ValueFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/LanguageException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/opt/ReachabilityGraph.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/common/CommonSyntacticValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/pydml/PydmlSyntacticValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/SortIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/util/IDSequence.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/SparseRowVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/ReorgCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ColGroupDDC2.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca615ca10afdd793487c28afb9d5d937a9935eb4",
+                "bugfix_commit_date": "2018-04-14 01:00:55",
+                "issue_created_at": "2018-04-14 00:44:47.944000",
+                "name": "SYSTEMML-2240",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ColGroupOLE.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca615ca10afdd793487c28afb9d5d937a9935eb4",
+                "bugfix_commit_date": "2018-04-14 01:00:55",
+                "issue_created_at": "2018-04-14 00:44:47.944000",
+                "name": "SYSTEMML-2240",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ColGroupRLE.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca615ca10afdd793487c28afb9d5d937a9935eb4",
+                "bugfix_commit_date": "2018-04-14 01:00:55",
+                "issue_created_at": "2018-04-14 00:44:47.944000",
+                "name": "SYSTEMML-2240",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ColGroupValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/lite/BuildLite.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9861d7a3ce8eacb6b20c714ad6615eb1bc377a39",
+                "bugfix_commit_date": "2018-06-02 03:40:25",
+                "issue_created_at": "2018-05-23 04:24:39.279000",
+                "name": "SYSTEMML-2340",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "233b38c1482972cf8038f26de8fb992d37ab3d03",
+                "bugfix_commit_date": "2018-06-06 02:45:11",
+                "issue_created_at": "2018-06-05 02:57:14.718000",
+                "name": "SYSTEMML-2362",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/parser/DataExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/opt/InterestingPoint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/LocalVariableMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameWriterTextCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/IOUtilFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/ReaderTextCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/WriterMatrixMarket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/WriterTextCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/WriterTextCSV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/WriteCSVMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/BinaryBlockToRowBlockConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeLocalFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/util/PairWritableBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/MatrixIndexes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/WriteSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TextToBinaryCellConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f700df2c88e3f60c5603cccf83927738771f6d8b",
+                "bugfix_commit_date": "2018-04-06 01:01:55",
+                "issue_created_at": "2017-05-24 23:18:37.687000",
+                "name": "SYSTEMML-1626",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibCommonsMath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/ReblockMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/compile/Dag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeTernary.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f1bf97baf342035764c676b50d361e36e2bbae62",
+                "bugfix_commit_date": "2018-07-13 00:46:30",
+                "issue_created_at": "2018-07-13 00:11:26.046000",
+                "name": "SYSTEMML-2431",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/template/TemplateCell.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ebe9e8a6e26139fa48689f48d81aa620abf8f02f",
+                "bugfix_commit_date": "2018-07-14 02:17:10",
+                "issue_created_at": "2018-07-14 02:11:38.745000",
+                "name": "SYSTEMML-2441",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/utils/RDDConverterUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/dml/DMLParserWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/pydml/PyDMLParserWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/MLContextUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/ForProgramBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/FrameObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/Task.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/TaskPartitionerFactoring.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/TaskPartitionerFixedsize.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/BooleanObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/CovarianceCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/DoubleObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/IntObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/ScalarObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/StringObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/UaggOuterChainCPInstruction.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "45a93396aff1bbaad8f8cd94ad61fd01acef588b",
+                "bugfix_commit_date": "2018-05-01 02:47:45",
+                "issue_created_at": "2018-04-30 20:37:15.758000",
+                "name": "SYSTEMML-2293",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cpfile/MatrixIndexingCPFileInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/InstructionParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/BroadcastObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/DatasetObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/LineageObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/RDDObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptTreeConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteAlgebraicSimplificationDynamic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/template/CPlanOpRewriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/BinaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/BinaryMatrixMatrixCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/BinaryMatrixScalarCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/BinaryMatrixBVectorSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/BinaryMatrixMatrixSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/BinaryMatrixScalarSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/KahanFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeNary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Unary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/CorrMatrixBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/RowMatrixBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/FilterDiagBlocksFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/FilterNonEmptyBlocksFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/MatrixScalarUnaryFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/utils/FrameRDDAggregateUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/SparseBlockFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/MatrixBuiltinGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/LeftScalarOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/RightScalarOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/UnaryOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/FrameAppendCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/MatrixAppendCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/ScalarAppendCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/AggregateUnaryGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/ArithmeticBinaryGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/MatrixAppendGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/MatrixMatrixArithmeticGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/MatrixMatrixAxpyGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/MatrixMatrixBuiltinGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/MatrixMatrixRelationalBinaryGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/MMTSJGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/RelationalBinaryGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/ReorgGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/AppendGInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CSVReblockInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CumulativeAggregateInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/SystemMLLoaderUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/MatrixMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/Metadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/NativeHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/IndexingOp.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "233b38c1482972cf8038f26de8fb992d37ab3d03",
+                "bugfix_commit_date": "2018-06-06 02:45:11",
+                "issue_created_at": "2018-06-05 02:57:14.718000",
+                "name": "SYSTEMML-2362",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/api/jmlc/Connection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ParserWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/ScriptFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixDNNHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/opt/PlanSelectionFuseAll.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/ConfigurableAPI.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "233b38c1482972cf8038f26de8fb992d37ab3d03",
+                "bugfix_commit_date": "2018-06-06 02:45:11",
+                "issue_created_at": "2018-06-05 02:57:14.718000",
+                "name": "SYSTEMML-2362",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/MLContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/TfUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/DenseBlockFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixOuterAgg.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/LeftIndexingOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/LeftIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/RightIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/AggBinaryOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/ExternalFunctionProgramBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/ExternalFunctionProgramBlockCP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/FunctionProgramBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/FrameIndexingCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/MatrixIndexingGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/SparseRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/context/SparkExecutionContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/Frame.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/Matrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteConstantFolding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/lite/BuildLiteExecution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/TernaryAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/PartitionedBroadcast.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/OptimizerUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/LazyWriteBuffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/MatrixObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/MatrixBuiltinNaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/ScalarBuiltinNaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/CostEstimatorHops.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/CostEstimatorRuntime.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/Optimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptimizerHeuristic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/opt/PlanAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/opt/PlanPartition.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2d0102853805d533c0db4ec420c304555b2e4fb5",
+                "bugfix_commit_date": "2018-07-13 19:37:37",
+                "issue_created_at": "2018-07-13 19:03:45.743000",
+                "name": "SYSTEMML-2439",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/opt/PlanSelectionFuseCostBasedV2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/SortMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/AggregateInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/AggregateUnaryInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/AppendInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/BinaryInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/BinaryMInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/BinaryMRInstructionBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/BinUaggChainInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CM_N_COVInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CombineBinaryInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CombineUnaryInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CSVWriteInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CumulativeOffsetInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CumulativeSplitInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/DataGenMRInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/DataPartitionMRInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/GroupedAggregateInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/GroupedAggregateMInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/MapMultChainInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/MatrixReshapeMRInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/MMTSJMRInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/MRInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/ParameterizedBuiltinMRInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/PickByCountInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/PMMJMRInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/RandInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/RangeBasedReIndexInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/ReblockInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/ReorgInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/ReplicateInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/SeqInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/UaggOuterChainInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/UnaryMRInstructionBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/AggregateTernarySPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/AggregateUnarySPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/AppendGAlignedSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/AppendGSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/AppendMSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/AppendRSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/BinUaggChainSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/BuiltinNarySPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CastSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CentralMomentSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CompressionSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/ComputationSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CovarianceSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CSVReblockSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CumulativeAggregateSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CumulativeOffsetSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/IndexingSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/MapmmChainSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/MapmmSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/MultiReturnParameterizedBuiltinSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/PMapmmSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/PmmSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/QuantilePickSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/QuantileSortSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/QuaternarySPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/ReblockSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/ReorgSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/RmmSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/Tsmm2SPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/TsmmSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/UaggOuterChainSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/UnarySPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/ReaderTextCSV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/utils/LinearAlgebraUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/util/StagingFileUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CheckpointSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/BooleanExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/And.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/debug/DMLDebuggerFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Not.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Or.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Xor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/CumulativeSplitAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/ZeroOut.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/FrameSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/SGDNesterovUpdate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/DataPartitionerLocal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ExternalFunctionStatement.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0177a13108cd6fca80609dab029572b40b02d13c",
+                "bugfix_commit_date": "2018-06-09 07:38:02",
+                "issue_created_at": "2018-06-09 06:58:53.113000",
+                "name": "SYSTEMML-2377",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteAlgebraicSimplificationStatic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/CompressionCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/MatrixFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/Statistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/LiteralOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/BinaryScalarScalarCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/UnaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/UnaryMatrixCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/ScalarInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/UnaryInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/UnaryMatrixSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/encode/EncoderBin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/encode/EncoderOmit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/encode/EncoderPassThrough.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/debug/DMLProgramCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Aggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Append.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/AppendG.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/AppendGAlignedSP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/AppendM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/AppendR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/BinaryUAggChain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/CombineBinary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/CombineTernary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/CombineUnary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/CumulativeOffsetBinary.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "add561b38e55e16dca7fd0d8a520b5abca5671a3",
+                "bugfix_commit_date": "2018-06-05 02:44:32",
+                "issue_created_at": "2018-06-05 02:35:06.643000",
+                "name": "SYSTEMML-2361",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/lops/Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/MapMult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/MapMultChain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/PartialAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/PMapMult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/RepMat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/UAggOuterChain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedCrossEntropy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedCrossEntropyR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedDivMM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedDivMMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedSigmoid.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedSigmoidR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedSquaredLoss.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedSquaredLossR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedUnaryMM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/WeightedUnaryMMR.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9861d7a3ce8eacb6b20c714ad6615eb1bc377a39",
+                "bugfix_commit_date": "2018-06-02 03:40:25",
+                "issue_created_at": "2018-05-23 04:24:39.279000",
+                "name": "SYSTEMML-2340",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/parser/BinaryExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/BooleanIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ConditionalPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/DataIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/DoubleIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ForStatement.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9861d7a3ce8eacb6b20c714ad6615eb1bc377a39",
+                "bugfix_commit_date": "2018-06-02 03:40:25",
+                "issue_created_at": "2018-05-23 04:24:39.279000",
+                "name": "SYSTEMML-2340",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/parser/FunctionCallIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/FunctionStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/IfStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ImportStatement.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9861d7a3ce8eacb6b20c714ad6615eb1bc377a39",
+                "bugfix_commit_date": "2018-06-02 03:40:25",
+                "issue_created_at": "2018-05-23 04:24:39.279000",
+                "name": "SYSTEMML-2340",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/parser/IndexedIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/IntIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/IterablePredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/MultiAssignmentStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/PathStatement.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9861d7a3ce8eacb6b20c714ad6615eb1bc377a39",
+                "bugfix_commit_date": "2018-06-02 03:40:25",
+                "issue_created_at": "2018-05-23 04:24:39.279000",
+                "name": "SYSTEMML-2340",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/parser/RelationalExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/StringIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/VariableSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/WhileStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/FrameMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/IfProgramBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/WhileProgramBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/COV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/KahanPlus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Mean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/OffsetColumnIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/ParameterizedBuiltin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Plus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/Instruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameReaderTextCSV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/ReaderBinaryBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeTpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/template/TemplateMultiAgg.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/DataPartitionerRemoteSparkMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/LocalTaskQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteDPParForMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteDPParForSpark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteParForColocatedFileSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteParWorkerMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/BreakPointInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/CM_COV_Object.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/KahanObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/FrameAppendMSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/FrameAppendRSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/FrameIndexingSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/BinaryBlockToBinaryCellConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/BinaryBlockToTextCellConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/BinaryCellToRowBlockConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/BinaryCellToTextConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/IdenticalConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/IJV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/PartialBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/SparseRowScalar.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/Tagged.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TaggedFirstSecondIndexes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TaggedMatrixIndexes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TaggedTripleIndexes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TextCellToRowBlockConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TripleIndexes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/UnPaddedOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/WeightedCellToSortInputConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/WeightedPair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CachedValueMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CSVReblockMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/FrameReblockBuffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/GMRCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/GroupedAggMRMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/IndexedMatrixValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MMCJMRCombinerReducerBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MRBaseForCommonInstructions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/CompactInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/CompactOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/SamplingSortMRInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/ValueSortReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/decode/DecoderRecode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/encode/EncoderMVImpute.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/meta/TfOffsetMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/mqo/MergedMRJobInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/mqo/PiggybackingWorker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/mqo/PiggybackingWorkerTimeSequential.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/mqo/PiggybackingWorkerUtilDecayParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/mqo/PiggybackingWorkerUtilTimeParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/mqo/RuntimePiggybacking.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptTreePlanChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptTreePlanMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptTreePlanMappingAbstract.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptTreePlanMappingRuntime.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/stat/StatisticMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/PartitionedBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ConvertFrameBlockToIJVLines.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ConvertStringToLongTextPair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/CopyBinaryCellFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/CopyBlockPairFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/CopyFrameBlockPairFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/CopyTextInputFunction.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "addd6e121ac8d81af0f90859666b9ac1ec1e5009",
+                "bugfix_commit_date": "2018-04-01 04:27:34",
+                "issue_created_at": "2018-04-01 01:20:12.777000",
+                "name": "SYSTEMML-2225",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ExtractBlockForBinaryReblock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ExtractGroup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ExtractGroupNWeights.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/GetMIMBFromRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/MatrixVectorBinaryOpPartitionFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/OuterVectorBinaryOpFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ReorgMapFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ReplicateBlockFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ReplicateVectorFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/utils/FrameRDDConverterUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/hadoopfix/MultipleInputs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/DataGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/AggUnaryOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/SpoofCompiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/QuaternaryOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/debug/DMLFrame.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/PickByCount.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ConstIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ExpressionList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ParameterExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ParForStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ParseException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/DMLRuntimeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/DMLScriptException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/BinaryObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/FunctionParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/JSONHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/MLContextException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/ScriptType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/InterestingProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/Summary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/HopRewriteRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/ProgramRewriteStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/compile/LopComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/common/ExpressionInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/common/StatementInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/ReadProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/CMCOVMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/GroupedAggMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/MMCJMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/MMRJMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/BinaryBlockRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/IndexRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/BinningWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/DynamicProjectMatrixCP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/GatherWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/TimeWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/MRJobResourceInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/YarnClusterConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/gdfgraph/GDFGraph.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/gdfresolve/GDFMismatchHeuristic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/gdfresolve/GDFMismatchHeuristicBlocksizeOrFirst.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/gdfresolve/GDFMismatchHeuristicFirst.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/CacheException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeRemotePartitioning.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/TaskPartitionerFactoringCmax.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/TaskPartitionerFactoringCmin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/TaskPartitionerNaive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/TaskPartitionerStatic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/IDistributedCacheConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/Converter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/CSVFileFormatProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/MatrixBlockDataOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/Pair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TaggedAdaptivePartialBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TaggedMatrixBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TaggedMatrixCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TaggedMatrixPackedCell.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "addd6e121ac8d81af0f90859666b9ac1ec1e5009",
+                "bugfix_commit_date": "2018-04-01 04:27:34",
+                "issue_created_at": "2018-04-01 01:20:12.777000",
+                "name": "SYSTEMML-2225",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d1bf80ac501e1430876660cf5ed55b7e26aeb575",
+                "bugfix_commit_date": "2018-04-18 07:44:38",
+                "issue_created_at": "2016-10-10 04:11:15.743000",
+                "name": "SYSTEMML-1029",
+                "severity": "blocker",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/MatrixBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/IndexSortComparable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/IndexSortComparableDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/IndexSortMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/IndexSortReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/IndexSortStitchupReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/ReadWithZeros.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/decode/Decoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/mqo/RuntimePiggybackingUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptTree.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/stat/Timing.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/util/Cell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/util/PairWritableCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/LazyIterableIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/SerLongWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/SerText.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/AggregateDropCorrectionFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/CopyBlockFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/CopyFrameBlockFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/CreateSparseBlockFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/IsFrameBlockInRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/MatrixMatrixBinaryOpFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/PerformGroupByAggInCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/PerformGroupByAggInReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/hadoopfix/TaggedInputSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/utils/RDDAggregateUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/utils/SparkUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/NaryOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Nary.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9861d7a3ce8eacb6b20c714ad6615eb1bc377a39",
+                "bugfix_commit_date": "2018-06-02 03:40:25",
+                "issue_created_at": "2018-05-23 04:24:39.279000",
+                "name": "SYSTEMML-2340",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "f700df2c88e3f60c5603cccf83927738771f6d8b",
+                "bugfix_commit_date": "2018-04-06 01:01:55",
+                "issue_created_at": "2017-05-24 23:18:37.687000",
+                "name": "SYSTEMML-1626",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/parser/BuiltinFunctionExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/Expression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/dml/DmlSyntacticValidator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca615ca10afdd793487c28afb9d5d937a9935eb4",
+                "bugfix_commit_date": "2018-04-14 01:00:55",
+                "issue_created_at": "2018-04-14 00:44:47.944000",
+                "name": "SYSTEMML-2240",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/Builtin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/CPInstructionParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/BuiltinNaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/EvalNaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "15971f7979499b55f0e4befdd99dcabdefb6d865",
+                "bugfix_commit_date": "2018-06-07 05:42:53",
+                "issue_created_at": "2018-06-07 05:32:57.673000",
+                "name": "SYSTEMML-2370",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/FunctionCallCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeLocalMemory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixCuMatMult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/ProgramBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/ConvolutionParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/SparseBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/SparseBlockCSR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteRemoveUnnecessaryCasts.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ConvolutionOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/ConvolutionTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/GPUInstructionParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/ConvolutionCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/ConvolutionGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/ConvolutionSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixCuDNN.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixCuDNNPoolingDescriptors.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixDNNPooling.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/LiveVariableAnalysis.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteElementwiseMultChainOptimization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/conf/ConfigurationManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteRemovePersistentReadWrite.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/runtime/RunMRJobs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/MRJobInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/GMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/JobReturn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/MetaData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/MetaDataFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/MetaDataNumItemsByEachReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/ResourceOptimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/PickFromCompactInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteIndexingVectorization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixBincell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/ScalarOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/HopsException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/ExternalFunctionInvocationInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/PackageFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Ctable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/AggregateBinaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/CtableCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/QuaternaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/AggregateBinaryInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CombineTernaryInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/CtableInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/QuaternaryInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CtableSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/ZipmmSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/CM_N_COVCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/MatrixCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/MatrixValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/GMRReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MMCJMRReducerWithAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/ReduceBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixDNNConv2d.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixDNNIm2Col.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/DMLScript.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/ScriptExecutorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/conf/DMLConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/GPUStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/ScriptExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/LongLongDoubleHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/GPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/DoublePrecisionCudaSupportFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixCuDNNConvolutionAlgorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixCuDNNInputRowFetcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/BuiltinBinaryGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/ScalarMatrixBuiltinGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixCUDA.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/context/CSRPointer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/context/GPUContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/context/GPUMemoryManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/context/GPUObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteParForSpark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/FastBufferedDataInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/CacheDataInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/decode/DecoderDummycode.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "36a06ab6876d3d92e01b8c94a46c77841d654792",
+                "bugfix_commit_date": "2018-04-18 07:14:27",
+                "issue_created_at": "2018-04-18 07:05:50.485000",
+                "name": "SYSTEMML-2254",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/decode/DecoderPassThrough.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/MatrixBlockDataInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/SpoofFused.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/codegen/ByteClassLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/FrameFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/BinaryM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/CentralMoment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/CoVariance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/CumulativePartialAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/DataPartition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Group.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/GroupedAggregateM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/MMCJ.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/MMRJ.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/MMTSJ.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/MMZip.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/PMMJ.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/ReBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/Program.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/AggregateTernaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/AppendCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/DataPartitionCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/IndexingCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/MatrixReshapeCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/MMChainCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/MMTSJCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/MultiReturnBuiltinCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/MultiReturnParameterizedBuiltinCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/PMMJCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/QuantilePickCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/QuantileSortCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/SpoofCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/StringInitCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/ScalarMatrixArithmeticGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/ScalarMatrixRelationalBinaryGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/AggregateBinaryOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/AggregateOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/AggregateTernaryOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/AggregateUnaryOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/CMOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/COVOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/Operator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/QuaternaryOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/ReIndexOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/ReorgOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/SimpleOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/ZeroOutOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/ConvolutionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixDNNRotate180.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/LopProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ReaderColumnSelection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/utils/DblArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/CacheBlockFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/CacheDataOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteParForJobReturn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeRemoteMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/TaskPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/SparseBlockMCSR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/ByteBuffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/CacheBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/CTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/CumSumProd.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMerge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeLocalAutomatic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeRemoteMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeRemoteReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeRemoteSpark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeRemoteSparkWCompare.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MRJobConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/NormalPRNGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/PoissonPRNGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/PRNGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/UniformPRNGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/DataGenMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeOuterProduct.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/WeightedCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/MLContextProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/RowClassMeet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/DataPartitionerRemoteMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteParForColocatedNLineInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/opt/PlanSelection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/opt/PlanSelectionFuseNoRedundancy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/template/TemplateBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/LocalFileUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/AggregateBinaryGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/context/ExecutionConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/UnaryCP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/PrintStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteRemoveDanglingParentReferences.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/opt/PlanSelectionFuseCostBased.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/UnaryScalarCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixDNNRelu.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "23df1484fa51a414169c6c1d9ed4e73c7e6160d0",
+                "bugfix_commit_date": "2018-06-16 01:58:47",
+                "issue_created_at": "2018-06-16 01:38:43.580000",
+                "name": "SYSTEMML-2400",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/hops/recompile/Recompiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/DMLTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/IPAPassApplyStaticHopRewrites.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/ProgramRewriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteCompressedReblock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteForLoopVectorization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteInjectSparkLoopCheckpointing.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteInjectSparkPReadCheckpointing.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteMarkLoopVariablesUpdateInPlace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteMergeBlockSequence.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteRemoveEmptyBasicBlocks.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteRemoveUnnecessaryBranches.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteSplitDagDataDependentOperators.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteSplitDagUnknownCSVRead.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/StatementBlockRewriteRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptimizationWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptimizerRuleBased.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/context/GPUContextPool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/IsBlockInList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/IsBlockInRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/utils/RDDSortUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/Identifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeUnary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/template/CPlanMemoTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/dml/DmlPreprocessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Compression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/debug/DMLDebugger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/utils/RDDConverterUtilsExt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/DMLYarnClientProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/DynamicReadMatrixCP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/DynamicReadMatrixRcCP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/DynamicWriteMatrixCP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/OrderWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/GridEnumeration.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b65f8ba3349305bac48f0e498b891e9989a2fa5c",
+                "bugfix_commit_date": "2018-05-02 00:28:22",
+                "issue_created_at": "2018-05-02 00:17:14.329000",
+                "name": "SYSTEMML-2294",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d100013813f15d0e3bcc43b0905aa2a863677073",
+                "bugfix_commit_date": "2018-06-01 04:05:10",
+                "issue_created_at": "2018-06-01 03:31:30.022000",
+                "name": "SYSTEMML-2353",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/parser/ParForStatementBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/MatrixIndexingSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/MatrixReshapeSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/ProgramRecompiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/MultiInputCbind.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ColGroup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ColGroupDDC1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/CTableMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/GMRCtableBuffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/DMLAppMaster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameReaderBinaryBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameReaderTextCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/ReaderBinaryCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/WriterBinaryCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/CleanupMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/DataPartitionerRemoteReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/DataPartitionerRemoteSparkReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/lite/LiteCheck.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/BinaryOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/DataGenOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/FunctionOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/SparseBlockCOO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/MLContextConversionUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/cost/CostEstimator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/compile/JobType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/CombineMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/CSVReblockMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/DataGenMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/ReblockMR.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "233b38c1482972cf8038f26de8fb992d37ab3d03",
+                "bugfix_commit_date": "2018-06-06 02:45:11",
+                "issue_created_at": "2018-06-05 02:57:14.718000",
+                "name": "SYSTEMML-2362",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/util/MapReduceTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/SortUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/DataPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteParForMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cpfile/ParameterizedBuiltinCPFileInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/AppendMInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/AppendRInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/ZeroOutInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/MatrixAppendMSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/MatrixAppendRSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/MatrixPackedCell.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CMCOVMRMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CMCOVMRReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/DistributedCacheInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/GMRMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MapperBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MMCJMRCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MMCJMRMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MMRJMRMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MMRJMRReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/HopDagValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/SpoofFusedOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/conf/CompilerConfig.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "93ebb3822034af2c4e29b66238f18df852ad05a3",
+                "bugfix_commit_date": "2018-08-03 19:36:30",
+                "issue_created_at": "2018-08-03 19:29:00.814000",
+                "name": "SYSTEMML-2483",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/ReblockBuffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameWriterBinaryBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameWriterTextCSV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/CudaSupportFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/debug/DMLDebuggerInterface.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameReaderFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/RandNPair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/YarnOptimizerUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/TaggedMatrixValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/MMCJMRInputCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/PartialAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/util/IDHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/Matrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/ComputationCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/DataGenCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/RandSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/DataConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeTaggedMatrixIndexes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/UnaryOp.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca615ca10afdd793487c28afb9d5d937a9935eb4",
+                "bugfix_commit_date": "2018-04-14 01:00:55",
+                "issue_created_at": "2018-04-14 00:44:47.944000",
+                "name": "SYSTEMML-2240",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ColGroupOffset.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/OperationsOnMatrixValues.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/DenseBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/DenseBlockDRB.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/DenseBlockLDRB.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "54c52ab3c4b8c1d176a17ada497209a8477077f2",
+                "bugfix_commit_date": "2018-04-21 01:24:23",
+                "issue_created_at": "2018-04-21 01:19:25.384000",
+                "name": "SYSTEMML-2265",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/codegen/SpoofOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/RandomMatrixGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/StatementBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ParseInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/Statement.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9861d7a3ce8eacb6b20c714ad6615eb1bc377a39",
+                "bugfix_commit_date": "2018-06-02 03:40:25",
+                "issue_created_at": "2018-05-23 04:24:39.279000",
+                "name": "SYSTEMML-2340",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/parser/ForStatementBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/FunctionStatementBlock.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9861d7a3ce8eacb6b20c714ad6615eb1bc377a39",
+                "bugfix_commit_date": "2018-06-02 03:40:25",
+                "issue_created_at": "2018-05-23 04:24:39.279000",
+                "name": "SYSTEMML-2340",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/parser/IfStatementBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/WhileStatementBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/GDFEnumOptimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/encode/Encoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/encode/EncoderComposite.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/encode/EncoderDummycode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/OutputStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/MatrixReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/DMLException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/template/TemplateRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/Hop.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/FunctionCallGraph.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a1eb7bcedef100ef66f35eada2054fcbff00f6bc",
+                "bugfix_commit_date": "2018-07-08 21:27:36",
+                "issue_created_at": "2018-07-08 20:50:02.085000",
+                "name": "SYSTEMML-2429",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "e83ae65349d8f479f7bad60f551cd145527b6071",
+                "bugfix_commit_date": "2018-07-08 21:27:29",
+                "issue_created_at": "2018-07-08 19:20:03.359000",
+                "name": "SYSTEMML-2428",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "15971f7979499b55f0e4befdd99dcabdefb6d865",
+                "bugfix_commit_date": "2018-06-07 05:42:53",
+                "issue_created_at": "2018-06-07 05:32:57.673000",
+                "name": "SYSTEMML-2370",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/InterProceduralAnalysis.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/IPAPass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/IPAPassFlagFunctionsRecompileOnce.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a1eb7bcedef100ef66f35eada2054fcbff00f6bc",
+                "bugfix_commit_date": "2018-07-08 21:27:36",
+                "issue_created_at": "2018-07-08 20:50:02.085000",
+                "name": "SYSTEMML-2429",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "1fbf939d7b4e9d989520a1022e318c17a373b8e2",
+                "bugfix_commit_date": "2018-06-12 20:10:43",
+                "issue_created_at": "2018-06-12 19:58:04.321000",
+                "name": "SYSTEMML-2388",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/IPAPassInlineFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/IPAPassPropagateReplaceLiterals.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/IPAPassRemoveConstantBinaryOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/IPAPassRemoveUnnecessaryCheckpoints.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/IPAPassRemoveUnusedFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ColGroupUncompressed.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/utils/ConverterUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/context/ExecutionContextFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixNative.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/AssignmentStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/DMLProgram.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/BuiltinUnaryGPUInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/CacheableData.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0f7190c8766e4376b1e0da8600c6079bfe993111",
+                "bugfix_commit_date": "2018-06-07 04:09:11",
+                "issue_created_at": "2018-06-07 04:00:22.226000",
+                "name": "SYSTEMML-2369",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/SpoofSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/stat/InfrastructureAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ConvertMatrixBlockToIJVLines.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/cost/CostEstimatorNumMRJobs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/cost/VarStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/GlobalOptimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/GlobalOptimizerWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/RewriteConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteTransientWriteParentHandling.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/gdfresolve/MismatchHeuristicFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/BinarySPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/debug/DMLDebuggerException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/LopsException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/CpmmSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/gpu/context/JCudaKernels.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/AdaptivePartialBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/InputInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/decode/DecoderComposite.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/CostEstimator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/MinusMultiply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/PlusMultiply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/TernaryValueFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/BinaryOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/CachedReuseVariables.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeRemoteGrouping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ResultMergeRemoteSorting.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/AddDummyWeightConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CollectMultipleConvertedOutputs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CSVWriteMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/ValueSortMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "36a06ab6876d3d92e01b8c94a46c77841d654792",
+                "bugfix_commit_date": "2018-04-18 07:14:27",
+                "issue_created_at": "2018-04-18 07:05:50.485000",
+                "name": "SYSTEMML-2254",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/decode/DecoderFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/encode/EncoderFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/meta/TfMetaUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca615ca10afdd793487c28afb9d5d937a9935eb4",
+                "bugfix_commit_date": "2018-04-14 01:00:55",
+                "issue_created_at": "2018-04-14 00:44:47.944000",
+                "name": "SYSTEMML-2240",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ColGroupDDC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/context/ExecutionContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/VariableCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/debug/DebugState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/debug/DMLBreakpointManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/debug/DMLDebuggerProgramInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/DataOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/MemoTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/FunctionCallCP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/OutputParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/SortKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/Scalar.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/Explain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/GenerateClassesForMLContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/DMLAppMasterUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/DMLYarnClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/jmlc/JMLCUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/jmlc/ResultVariables.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/MLResults.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/ProjectInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/mlcontext/Script.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/cost/CostEstimationWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/MemoStructure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/Plan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/PlanSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ipa/FunctionCallSizeInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/recompile/LiteralReplacement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/recompile/RecompileStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteCommonSubexpressionElimination.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteMatrixMultChainOptimization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteRemoveReadAfterWrite.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/common/CustomErrorListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/pydml/PydmlPreprocessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/BitmapEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ReaderColumnSelectionDense.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ReaderColumnSelectionDenseSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/ReaderColumnSelectionSparse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/udf/lib/RemoveEmptyRows.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/GridEnumerationEqui.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/GridEnumerationExp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/GridEnumerationHybrid.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/GridEnumerationMemory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/ResourceConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/YarnClusterAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/template/CPlanCSERewriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/gdfgraph/GDFCrossBlockNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/gdfgraph/GDFLoopNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/gdfgraph/GraphBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/cocode/ColumnGroupPartitionerStatic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/cocode/PlanningMemoTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/utils/DblArrayIntListHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/utils/DoubleIntListHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/caching/PageCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/FileFormatProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/OutputInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CSVAssignRowIDReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CSVWriteReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/GroupedAggMRCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/GroupedAggMRReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/ReblockReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/data/BlockPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/hadoopfix/DelegatingInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/template/TemplateOuterProduct.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameWriterFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/MatrixReaderFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/MatrixWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/MatrixWriterFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/MultipleOutputCommitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CSVReblockReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/sort/IndexSortStitchupMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/AggregateUnaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/CentralMomentCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/CSVReBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/RewriteBlockSizeAndReblock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/mapred/CSVAssignRowIDMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/ParForProgramBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/InstructionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ParForBody.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ParWorker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/ProgramConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteParForSparkWorker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteParForUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d74bda4c3474cff0296f792a7c136859d38d8348",
+                "bugfix_commit_date": "2018-05-01 02:47:43",
+                "issue_created_at": "2018-04-30 20:37:15.758000",
+                "name": "SYSTEMML-2293",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "b65f8ba3349305bac48f0e498b891e9989a2fa5c",
+                "bugfix_commit_date": "2018-05-02 00:28:22",
+                "issue_created_at": "2018-05-02 00:17:14.329000",
+                "name": "SYSTEMML-2294",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/opt/OptimizerConstrained.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/functions/ComputeBinaryBlockNnzFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/FrameBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/FunctionCallCPSingle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/InstallDependencyForIntegrationTests.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/ParameterBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/BinaryBlockSerialization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/MatrixIndexingCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteDPParWorkerReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/codegen/SpoofCellwise.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/codegen/SpoofMultiAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/codegen/SpoofOuterProduct.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/codegen/SpoofRowwise.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca615ca10afdd793487c28afb9d5d937a9935eb4",
+                "bugfix_commit_date": "2018-04-14 01:00:55",
+                "issue_created_at": "2018-04-14 00:44:47.944000",
+                "name": "SYSTEMML-2240",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/CompressedMatrixBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameReaderBinaryBlockParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameReaderTextCellParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameReaderTextCSVParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameWriterBinaryBlockParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameWriterTextCellParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/FrameWriterTextCSVParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/ReaderBinaryBlockParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/ReaderTextCellParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/ReaderTextCSVParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/WriterBinaryBlockParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/WriterMatrixMarketParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/WriterTextCellParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/WriterTextCSVParallel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/CommonThreadPool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/UtilFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/cocode/PlanningCoCoder.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca615ca10afdd793487c28afb9d5d937a9935eb4",
+                "bugfix_commit_date": "2018-04-14 01:00:55",
+                "issue_created_at": "2018-04-14 00:44:47.944000",
+                "name": "SYSTEMML-2240",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "97f684d2b47030f2992853bf7b695b4c4e355d0f",
+                "bugfix_commit_date": "2018-06-12 01:45:54",
+                "issue_created_at": "2018-06-12 01:04:00.324000",
+                "name": "SYSTEMML-2383",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "54c52ab3c4b8c1d176a17ada497209a8477077f2",
+                "bugfix_commit_date": "2018-04-21 01:24:23",
+                "issue_created_at": "2018-04-21 01:19:25.384000",
+                "name": "SYSTEMML-2265",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "f3b8b88fefc8b0f9bb730717bcd9ff7a6ae7780d",
+                "bugfix_commit_date": "2018-04-21 00:19:21",
+                "issue_created_at": "2018-04-20 23:59:11.272000",
+                "name": "SYSTEMML-2264",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixAgg.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixDatagen.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "73f9d417d8c36de009b4d2071c5e5cd6ae4fcfc7",
+                "bugfix_commit_date": "2018-05-21 04:58:57",
+                "issue_created_at": "2018-05-21 04:46:55.199000",
+                "name": "SYSTEMML-2338",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "b4dedfeb7291311491d8a48f9c4681007cd2366c",
+                "bugfix_commit_date": "2018-05-15 01:06:22",
+                "issue_created_at": "2018-05-15 00:56:03.647000",
+                "name": "SYSTEMML-2325",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixDNN.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9de00dbb2d7441ed694ec4d092a9269b6f7ccccc",
+                "bugfix_commit_date": "2018-06-19 06:38:41",
+                "issue_created_at": "2018-06-19 06:34:01.155000",
+                "name": "SYSTEMML-2408",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixMult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/LibMatrixReorg.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/cocode/ColumnGroupPartitionerBinPacking.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/data/SinglePrecisionCudaSupportFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ParserFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/codegen/LibSpoofPrimitives.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/api/jmlc/PreparedScript.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/parser/ParameterizedBuiltinFunctionExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/io/WriterBinaryBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/estim/CompressedSizeEstimatorSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/ParameterizedBuiltinSPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/codegen/CodegenUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/RemoteDPParForSparkWorker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/utils/EnvironmentHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/globalopt/gdfgraph/GDFNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/FastBufferedDataOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/FastStringTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/cocode/ColumnGroupPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/InputStreamInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/controlprogram/parfor/LocalParWorker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/template/TemplateUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ParameterizedBuiltinOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/ParameterizedBuiltin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/rewrite/HopRewriteUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/MatrixCharacteristics.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "36a06ab6876d3d92e01b8c94a46c77841d654792",
+                "bugfix_commit_date": "2018-04-18 07:14:27",
+                "issue_created_at": "2018-04-18 07:05:50.485000",
+                "name": "SYSTEMML-2254",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/ParameterizedBuiltinCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/RemoveEmptyMRInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/UncompressedBitmap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/cocode/PlanningCoCodingGroup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/estim/CompressedSizeEstimator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/estim/CompressedSizeEstimatorExact.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/estim/CompressedSizeInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/compress/estim/SizeEstimatorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/TernaryOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Lop.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Ternary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/cost/CostEstimatorStaticRuntime.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/IfElse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/MRInstructionParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/SPInstructionParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca615ca10afdd793487c28afb9d5d937a9935eb4",
+                "bugfix_commit_date": "2018-04-14 01:00:55",
+                "issue_created_at": "2018-04-14 00:44:47.944000",
+                "name": "SYSTEMML-2240",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeBinary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/CPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/CPOperand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/ScalarObjectFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/cp/TernaryCPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/mr/TernaryInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/SPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/instructions/spark/TernarySPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/matrix/operators/TernaryOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/util/BinaryBlockInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/yarn/ropt/ResourceOptimizerCPMigration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/ReorgOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Transform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/transform/encode/EncoderRecode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/Binary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/lops/BinaryScalar.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/BitwAnd.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/BitwOr.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/BitwShiftL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/BitwShiftR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/runtime/functionobjects/BitwXor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/sysml/hops/codegen/cplan/CNodeMultiAgg.java"
+    }
+]
