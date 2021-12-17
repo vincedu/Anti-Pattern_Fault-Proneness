@@ -1,0 +1,13 @@
+project,url,jira,key,releases
+ant-ivy,https://github.com/apache/ant-ivy.git,https://issues.apache.org/jira/projects/IVY/,IVY,"1.4.1, 2.0.0, 2.1.0, 2.2.0, 2.3.0, 2.4.0"
+archiva,https://github.com/apache/archiva.git,https://issues.apache.org/jira/projects/MRM/,MRM,"archiva-1.0, archiva-1.1, archiva-1.2, archiva-1.3, archiva-2.0.0, archiva-2.1.0, archiva-2.2.0"
+calcite,https://github.com/apache/calcite.git,https://issues.apache.org/jira/projects/CALCITE/,CALCITE,"calcite-1.8.0, calcite-1.9.0, calcite-1.10.0, calcite-1.11.0, calcite-1.12.0, calcite-1.13.0, calcite-1.14.0, calcite-1.15.0"
+cayenne,https://github.com/apache/cayenne.git,https://issues.apache.org/jira/projects/CAY/,CAY,"STABLE-3.0, STABLE-3.1"
+commons-bcel,https://github.com/apache/commons-bcel.git,https://issues.apache.org/jira/projects/BCEL/,BCEL,"BCEL_5_2, BCEL_6_0, BCEL_6_1, BCEL_6_2"
+commons-beanutils,https://github.com/apache/commons-beanutils.git,https://issues.apache.org/jira/projects/BEANUTILS/,BEANUTILS,"BEANUTILS_1_7_0, BEANUTILS_1_8_0, BEANUTILS_1_9_0"
+commons-codec,https://github.com/apache/commons-codec.git,https://issues.apache.org/jira/projects/CODEC/,CODEC,"CODEC_1_2, CODEC_1_3, commons-codec-1.5, 1_6, 1.7, 1.8, 1.9, 1.10"
+commons-collections,https://github.com/apache/commons-collections.git,https://issues.apache.org/jira/projects/COLLECTIONS/,COLLECTIONS,"collections-1.0, collections-2.0, collections-2.1, collections-3.0, collections-3.1, collections-3.2, collections-3.3,  collections-4.0,  collections-4.1"
+commons-compress,https://github.com/apache/commons-compress.git,https://issues.apache.org/jira/projects/COMPRESS/,COMPRESS,"rel/1.9, rel/1.10, rel/1.11, rel/1.12, rel/1.13, rel/1.14, rel/1.15, rel/1.16"
+commons-configuration,https://github.com/apache/commons-configuration.git,https://issues.apache.org/jira/projects/CONFIGURATION/,CONFIGURATION,"CONFIGURATION_1_4, CONFIGURATION_1_5, CONFIGURATION_1_6, CONFIGURATION_1_7, CONFIGURATION_1_8, CONFIGURATION_1_9, CONFIGURATION_1_10, CONFIGURATION_2_2"
+commons-dbcp,https://github.com/apache/commons-dbcp.git,https://issues.apache.org/jira/projects/DBCP/,DBCP,"DBCP_1_3, DBCP_1_4, DBCP_2_0, DBCP_2_1, DBCP_2_2_0, DBCP_2_3_0, common-dbcp-2.4.0, common-dbcp-2.5.0"
+commons-digester,https://github.com/apache/commons-digester.git,https://issues.apache.org/jira/projects/DIGESTER/,DIGESTER,"DIGESTER_1_4, DIGESTER_1_5, DIGESTER_1_6, DIGESTER_1_7, DIGESTER_1_8, DIGESTER3_3_0, DIGESTER3_3_1, DIGESTER3_3_2"
