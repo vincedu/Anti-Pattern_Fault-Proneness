@@ -1,0 +1,876 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/PasswordRequiredException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/Lister.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/StreamingNotSupportedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/changes/Change.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "40e010931f91f4f2989fc5f892f990a8890808e1",
+                "bugfix_commit_date": "2009-04-09T07:15:32.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/changes/ChangeSet.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ec0f5850f8342c0b1eecb20eca7286a9a4a362e1",
+                "bugfix_commit_date": "2013-01-01T13:33:33.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/changes/ChangeSetPerformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/changes/ChangeSetResults.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/CompressorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/CompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/CompressorOutputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "121cae778dcb63a4ca4f1ee2743e58bffcbfe4be",
+                "bugfix_commit_date": "2015-02-15T17:49:01.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "07b15a15038f69612d2bba75f750814cbfbe0a08",
+                "bugfix_commit_date": "2014-01-24T09:41:14.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/compressors/CompressorStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/FileNameUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/parallel/FileBasedScatterGatherBackingStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/parallel/InputStreamSupplier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/ArchiveUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/BitInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/BoundedInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/CharsetNames.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/Charsets.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/ChecksumVerifyingInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/CountingInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/CountingOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/CRC32VerifyingInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/utils/IOUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/arj/LocalFileHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/arj/MainHeader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "040e42d0f0bebc15ca80cb80fb6db53804b2e082",
+                "bugfix_commit_date": "2013-08-08T12:18:45.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d50feb67569fb5881b8a2ff5996f656c5f207c2e",
+                "bugfix_commit_date": "2015-02-16T18:13:01.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "040e42d0f0bebc15ca80cb80fb6db53804b2e082",
+                "bugfix_commit_date": "2013-08-08T12:18:45.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f331a7d122ea31e844b16e37ff1711b633aa6214",
+                "bugfix_commit_date": "2012-03-31T14:24:38.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d50feb67569fb5881b8a2ff5996f656c5f207c2e",
+                "bugfix_commit_date": "2015-02-16T18:13:01.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/cpio/CpioUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/Dirent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d50feb67569fb5881b8a2ff5996f656c5f207c2e",
+                "bugfix_commit_date": "2015-02-16T18:13:01.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f331a7d122ea31e844b16e37ff1711b633aa6214",
+                "bugfix_commit_date": "2012-03-31T14:24:38.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveSummary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/DumpArchiveUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/InvalidFormatException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/ShortFileException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/UnrecognizedFormatException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/UnsupportedCompressionAlgorithmException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/jar/JarArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/jar/JarArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/jar/JarArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/Archive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/BindPair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/BoundedRandomAccessFileInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/CLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/Coder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/CoderBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/DeltaDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/Folder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/NID.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZMethodConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/StartHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/StreamMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/SubStreamsInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/AsiExtraField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/BinaryTree.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/BitStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/CircularBuffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ExplodingInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/FallbackZipEncoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/GeneralPurposeBit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/JarMarker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/NioZipEncoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ScatterStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/Simple8BitZipEncoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/StreamCompressor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnicodeCommentExtraField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnicodePathExtraField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnixStat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnparseableExtraFieldData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f25588258e520cbf1d388d3d9b48a4942d3d7c28",
+                "bugfix_commit_date": "2015-08-11T14:18:34.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/UnsupportedZipFeatureException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/Zip64Mode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/Zip64RequiredException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntryPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipConstants.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ccc7441a3a7a6d216770cc00dc0fa0b7146bd7f5",
+                "bugfix_commit_date": "2013-01-07T19:01:55.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipEightByteInteger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipEncoding.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "eb9318d8fda86d26eb3c6cbcd691f6820abf972b",
+                "bugfix_commit_date": "2013-10-21T12:19:46.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipEncodingHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipExtraField.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ccc7441a3a7a6d216770cc00dc0fa0b7146bd7f5",
+                "bugfix_commit_date": "2013-01-07T19:01:55.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipLong.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipMethod.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ccc7441a3a7a6d216770cc00dc0fa0b7146bd7f5",
+                "bugfix_commit_date": "2013-01-07T19:01:55.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipShort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/BlockSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2Utils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/CRC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/Rand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/lzma/LZMACompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/pack200/InMemoryCachingStreamBridge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/pack200/Pack200Strategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/pack200/StreamBridge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/pack200/TempFileCachingStreamBridge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/snappy/PureJavaCrc32C.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/xz/XZCompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/xz/XZUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f25588258e520cbf1d388d3d9b48a4942d3d7c28",
+                "bugfix_commit_date": "2015-08-11T14:18:34.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/compressors/z/ZCompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/parallel/ScatterGatherBackingStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/parallel/ScatterGatherBackingStoreSupplier.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "915e8ef9a42c4fc2561917116620543402cace91",
+                "bugfix_commit_date": "2012-02-22T19:36:15.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8682c8d4f2281f838765a213d0241366255c99a0",
+                "bugfix_commit_date": "2015-06-09T00:18:23.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/X000A_NTFS.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5127ee6b5830003c90f56d60bc67068e09c40f6d",
+                "bugfix_commit_date": "2013-06-04T00:22:05.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f62cf85eecf7ce4f3ebc595e00cef36e93f85fdf",
+                "bugfix_commit_date": "2013-05-25T13:47:00.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "1a237bddc94187290b58a74ac9f8b98bd4e5b13c",
+                "bugfix_commit_date": "2013-05-20T11:33:57.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/deflate/DeflateParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/lzma/LZMAUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f25588258e520cbf1d388d3d9b48a4942d3d7c28",
+                "bugfix_commit_date": "2015-08-11T14:18:34.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/compressors/lzw/LZWInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/pack200/Pack200CompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/pack200/Pack200CompressorOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/pack200/Pack200Utils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/xz/XZCompressorOutputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cbb5a1ad9b0b80f717ee71dc0fc765afdc1601c0",
+                "bugfix_commit_date": "2014-01-22T00:13:34.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/sevenz/Coders.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/PKWareExtraHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/X0014_X509Certificates.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/X0015_CertificateIdForFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/X0016_CertificateIdForCentralDirectory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/X0019_EncryptionRecipientCertificateList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ar/ArArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c1ae99e7dd9f1a2ad0623202ea179b1ae8f8d8da",
+                "bugfix_commit_date": "2014-03-28T01:04:45.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "2221ee87b406cf1781f0a4f18914812db2256b01",
+                "bugfix_commit_date": "2013-12-06T00:22:12.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "d4baeb15bae488bb7cf534457a9ef65922cb3564",
+                "bugfix_commit_date": "2013-04-25T09:36:09.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f331a7d122ea31e844b16e37ff1711b633aa6214",
+                "bugfix_commit_date": "2012-03-31T14:24:38.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c2bc7a49a03dbee6ccebc91e6c2ea9bb5048c617",
+                "bugfix_commit_date": "2012-03-23T09:47:59.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5c136a3f9089fd8b787258462b40cb057195b5d6",
+                "bugfix_commit_date": "2011-12-07T10:01:27.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6e24766377e705e89358fb9cf6253e2e9e645db",
+                "bugfix_commit_date": "2015-08-22T15:01:32.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/X7875_NewUnix.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d50feb67569fb5881b8a2ff5996f656c5f207c2e",
+                "bugfix_commit_date": "2015-02-16T18:13:01.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0b33b14271675a78b8bc2e538089af2ecde7d2a0",
+                "bugfix_commit_date": "2015-02-15T18:09:26.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9bdacbfb9631d3a3710a64f35482c643b78a2e79",
+                "bugfix_commit_date": "2012-07-07T01:30:40.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/ArchiveStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/dump/TapeInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipUtil.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "dc3fc4703211876fb38cccf55adc92ee5cbc28d0",
+                "bugfix_commit_date": "2009-10-30T01:29:17.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ab456436d20f386641e605c17de24cc8cd3c1770",
+                "bugfix_commit_date": "2012-08-05T15:51:15.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "915e8ef9a42c4fc2561917116620543402cace91",
+                "bugfix_commit_date": "2012-02-22T19:36:15.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "35e4e4fb6848ddfa3878270523f3f9336ae7f9b8",
+                "bugfix_commit_date": "2010-06-02T07:00:25.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/compress/archivers/tar/TarUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.java"
+    }
+]

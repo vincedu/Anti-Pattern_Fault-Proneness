@@ -1,0 +1,150 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/xmlrules/CircularIncludeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/xmlrules/DigesterLoadingException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/xmlrules/DigesterRulesSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/xmlrules/XmlLoadException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/AbstractObjectCreationFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/CallParamRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/NodeCreateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/CallMethodRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/Digester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/BeanPropertySetterRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/ExtendedBaseRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/FactoryCreateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/ObjectCreationFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/RegexMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/RegexRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/SetNextRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/SetPropertiesRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/SetPropertyRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/SetRootRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/SetTopRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/SimpleRegexMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/rss/Channel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/rss/Image.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/rss/Item.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/rss/TextInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/xmlrules/DigesterLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/xmlrules/DigesterRuleParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/xmlrules/FromXmlRuleSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/Rules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/RulesBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/Rule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/ObjectCreateRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/RuleSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/RuleSetBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/rss/RSSDigester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/AbstractRulesImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/digester/ObjectParamRule.java"
+    }
+]

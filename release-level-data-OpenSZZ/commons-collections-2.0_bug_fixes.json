@@ -1,0 +1,178 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/BinaryHeap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/DefaultMapBag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/ProxyIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/ProxyListIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/ArrayIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/DefaultMapEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/IteratorEnumeration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/MapUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/CollectionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/HashBag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/SortedBag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/TreeBag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/Bag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/FastArrayList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/FastHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/FastTreeMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/ProxyMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/comparators/ReverseComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/comparators/ComparatorChain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/ArrayEnumeration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/FilterListIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/StringStack.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/ArrayStack.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/SequencedHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/Closure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/CursorableLinkedList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/EnumerationIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/ExtendedProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/FilterIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/ListUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/MultiHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/MultiMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/Predicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/SingletonIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/SoftRefHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/SynchronizedPriorityQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/Transformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/TransformIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/BeanMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/comparators/ComparableComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/PriorityQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/DoubleOrderedMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/LRUMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/AbstractBag.java"
+    }
+]

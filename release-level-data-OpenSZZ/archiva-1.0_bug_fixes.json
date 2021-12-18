@@ -1,0 +1,1888 @@
+[
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/repository/AbstractRepositoryPurge.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/repository/RepositoryPurgeConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-lucene-consumers/src/main/java/org/apache/maven/archiva/consumers/lucene/IndexContentConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/AbstractRemoteRepositoriesAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/AddManagedRepositoryAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/AddRemoteRepositoryAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/EditManagedRepositoryAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/EditRemoteRepositoryAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/MavenProxyPropertyLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/functors/FiletypeToMapClosure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/functors/NetworkProxyComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/executors/ArchivaDatabaseUpdateTaskExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/tasks/RepositoryTaskSelectionPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/ArchivaConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/PolicyConfigurationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/PolicyViolationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/PostDownloadPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/PreDownloadPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/ManagedRepositoryContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/AbstractDefaultRepositoryContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/ManagedDefaultRepositoryContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/ManagedLegacyRepositoryContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/ProjectsByArtifactUsageConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-proxy/src/main/java/org/apache/maven/archiva/proxy/NotFoundException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-proxy/src/main/java/org/apache/maven/archiva/proxy/NotModifiedException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-proxy/src/main/java/org/apache/maven/archiva/proxy/RepositoryProxyConnectors.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/ConfigurationNames.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/functors/RepositoryConfigurationComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/ArchivaRepositoryByUrlConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/MostRecentRepositoryScanStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/interceptor/ConfigurationInterceptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/RepositoriesAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/readers/ProjectModel300Reader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/CopyPasteSnippet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/CopyPasteSnippetTag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/repository/ArchivaMimeTypeLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-common/src/main/java/org/apache/maven/archiva/common/utils/PathUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/functors/PermanentConsumerPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/updater/DatabaseConsumers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-converter/src/main/java/org/apache/maven/archiva/converter/legacy/LegacyConverterArtifactConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/GroupIdLink.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/DownloadArtifact.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-common/src/main/java/org/apache/maven/archiva/common/ArchivaException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-common/src/main/java/org/apache/maven/archiva/common/utils/BaseFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-common/src/main/java/org/apache/maven/archiva/common/utils/DateUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/InvalidConfigurationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/BaseConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/ConsumerException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/ConsumerMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-converter/src/main/java/org/apache/maven/archiva/converter/RepositoryConversionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-converter/src/main/java/org/apache/maven/archiva/converter/legacy/LegacyRepositoryConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/RepositoryIndexException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/RepositoryIndexSearchException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/bytecode/BytecodeAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/bytecode/BytecodeHandlers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/bytecode/BytecodeKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/filecontent/FileContentAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/filecontent/FileContentHandlers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/hashcodes/HashcodesAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/hashcodes/HashcodesHandlers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/hashcodes/HashcodesKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/LuceneEntryConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/LuceneIndexHandlers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/query/CompoundQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/query/CompoundQueryTerm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/query/Query.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/query/QueryTerm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/query/RangeQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/query/SingleTermQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/analyzers/ClassnameTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/analyzers/FilenamesTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/analyzers/GroupIdTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/analyzers/VersionTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/ArchivaArtifactPlatformDetails.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/CompoundKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/RepositoryURL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/platform/JavaArtifactHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/urlcache/DefaultUrlFailureCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/urlcache/UrlFailureCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-proxy/src/main/java/org/apache/maven/archiva/proxy/ProxyException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/RepositoryException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/layout/LayoutException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/metadata/RepositoryMetadataException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/metadata/RepositoryMetadataMerge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/ProjectModelException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/ProjectModelFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/ProjectModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/ProjectModelResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-xml-tools/src/main/java/org/apache/maven/archiva/xml/LatinEntities.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-xml-tools/src/main/java/org/apache/maven/archiva/xml/LatinEntityResolutionReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-xml-tools/src/main/java/org/apache/maven/archiva/xml/XMLException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-cli/src/main/java/org/apache/maven/archiva/cli/ArtifactCountConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/ArchivaDatabaseException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/ArtifactDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/Constraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/ObjectNotFoundException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/RepositoryProblemDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/AbstractSimpleConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/ArtifactsProcessedConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/OlderArtifactsByAgeConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/OlderSnapshotArtifactsByAgeConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/RecentArtifactsByAgeConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/RepositoryProblemByTypeConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/jdo/JdoArtifactDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/jdo/JdoRepositoryProblemDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/updater/DatabaseUpdater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-report-manager/src/main/java/org/apache/maven/archiva/reporting/DataLimits.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-report-manager/src/main/java/org/apache/maven/archiva/reporting/DefaultReportingManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-report-manager/src/main/java/org/apache/maven/archiva/reporting/DynamicReportSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-report-manager/src/main/java/org/apache/maven/archiva/reporting/ReportingException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-report-manager/src/main/java/org/apache/maven/archiva/reporting/ReportingManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-report-manager/src/main/java/org/apache/maven/archiva/reporting/RepositoryProblemMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-artifact-reports/src/main/java/org/apache/maven/archiva/reporting/artifact/DuplicateArtifactReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-artifact-reports/src/main/java/org/apache/maven/archiva/reporting/artifact/LocationArtifactsReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-artifact-reports/src/main/java/org/apache/maven/archiva/reporting/artifact/OldArtifactReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-artifact-reports/src/main/java/org/apache/maven/archiva/reporting/artifact/OldSnapshotArtifactReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-metadata-reports/src/main/java/org/apache/maven/archiva/reporting/metadata/MetadataReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-metadata-reports/src/main/java/org/apache/maven/archiva/reporting/metadata/MetadataValidateConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-project-reports/src/main/java/org/apache/maven/archiva/reporting/project/MissingDependenciesReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-project-reports/src/main/java/org/apache/maven/archiva/reporting/project/ProjectDependenciesConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/tasks/ArchivaTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/tasks/DatabaseTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/tasks/RepositoryTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-applet/src/main/java/org/apache/maven/archiva/applet/ChecksumApplet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/DownloadArtifactTag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/ExpressionTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/GroupIdLinkTag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/util/ContextUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/util/VersionMerger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/validator/IntervalValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/validator/SyncedRepositoryValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/appearance/CompanyInfoAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/SchedulerAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/ProjectModelResolverFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/resolvers/ManagedRepositoryProjectResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/RepositoryContentStatisticsDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/AbstractRepositoriesAdminAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/DeleteRemoteRepositoryAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/ArtifactClassifierMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/RepositoryRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/RepositoryTaskJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-database-consumers/src/main/java/org/apache/maven/archiva/consumers/database/ArtifactUpdateDatabaseConsumer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b2a4a02c00b70a0265251bd57fc772bebafba434",
+                "bugfix_commit_date": "2007-05-11T18:25:12.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/scanner/RepositoryContentConsumers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/scanner/functors/ConsumerProcessFileClosure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/functors/UnprocessedArtifactPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/updater/JdoDatabaseUpdater.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "912b15a3474696311b1e294dfc68b86a692e8bd7",
+                "bugfix_commit_date": "2007-10-15T16:39:26.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/AbstractManagedRepositoriesAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/metadata/RepositoryMetadataReader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "40001e82b165e97abdaafd44537431e36a9eb93f",
+                "bugfix_commit_date": "2007-10-26T19:49:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/ArchivaArtifact.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "40001e82b165e97abdaafd44537431e36a9eb93f",
+                "bugfix_commit_date": "2007-10-26T19:49:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/Keys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/util/ArchivaXworkUser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-xml-tools/src/main/java/org/apache/maven/archiva/xml/XMLReader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/repository/ArtifactFilenameFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-proxy/src/main/java/org/apache/maven/archiva/proxy/ProxyConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/ContentNotFoundException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/RemoteRepositoryContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/RepositoryContentFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/RepositoryNotFoundException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/connector/RepositoryConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/RemoteDefaultRepositoryContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/RemoteLegacyRepositoryContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/AbstractArtifactKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/AbstractProjectKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/AbstractVersionedKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/jpox/ArchivaArtifactJavaDetailsKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/jpox/ArchivaArtifactModelKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/jpox/ArchivaProjectModelKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/jpox/ArchivaRepositoryMetadataKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/jpox/ArtifactReferenceKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/jpox/ProjectReferenceKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/jpox/VersionedReferenceKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-artifact-converter/src/main/java/org/apache/maven/archiva/converter/artifact/ArtifactConversionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-artifact-converter/src/main/java/org/apache/maven/archiva/converter/artifact/ArtifactConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-artifact-converter/src/main/java/org/apache/maven/archiva/converter/artifact/AsciiFileUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-artifact-converter/src/main/java/org/apache/maven/archiva/converter/artifact/LegacyToDefaultConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-artifact-converter/src/main/java/org/apache/maven/archiva/converter/artifact/Messages.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-transaction/src/main/java/org/apache/maven/archiva/transaction/CopyFileEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-transaction/src/main/java/org/apache/maven/archiva/transaction/CreateFileEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-transaction/src/main/java/org/apache/maven/archiva/transaction/TransactionEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-transaction/src/main/java/org/apache/maven/archiva/transaction/TransactionException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e7664898d68e9230f12a111cc3e18bbc6a3374bf",
+                "bugfix_commit_date": "2007-06-17T00:50:05.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-consumers/archiva-database-consumers/src/main/java/org/apache/maven/archiva/consumers/database/ProjectModelToDatabaseConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/ArchivaDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/RepositoryContentStatisticsByRepositoryConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/jdo/JdoArchivaDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/jdo/JdoRepositoryContentStatisticsDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/executors/ArchivaRepositoryScanningTaskExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/repositories/DeleteManagedRepositoryAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-common/src/main/java/org/apache/maven/archiva/common/utils/VersionComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/search/CrossRepositorySearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/search/DefaultCrossRepositorySearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/ProjectModelDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/browsing/BrowsingResults.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/browsing/DefaultRepositoryBrowsing.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/browsing/GroupIdFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/browsing/RepositoryBrowsing.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/SqlBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/UniqueArtifactIdConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/UniqueGroupIdConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/UniqueVersionConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/jdo/JdoProjectModelDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-security/src/main/java/org/apache/maven/archiva/security/AccessDeniedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-security/src/main/java/org/apache/maven/archiva/security/ArchivaRoleConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-security/src/main/java/org/apache/maven/archiva/security/ArchivaSecurityException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-security/src/main/java/org/apache/maven/archiva/security/ArchivaStandardRolesCheck.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-security/src/main/java/org/apache/maven/archiva/security/ArchivaUser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-security/src/main/java/org/apache/maven/archiva/security/DefaultUserRepositories.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-security/src/main/java/org/apache/maven/archiva/security/PrincipalNotFoundException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-security/src/main/java/org/apache/maven/archiva/security/SecurityStartup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-security/src/main/java/org/apache/maven/archiva/security/UserRepositories.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/BrowseAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/GlobalResults.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/SearchAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/ShowArtifactAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/startup/SecuritySynchronization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/ArtifactsByRepositoryConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/ArchivaArtifactConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/repository/RepositoryPurge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-database-consumers/src/main/java/org/apache/maven/archiva/consumers/database/BytecodeStatsToDatabaseConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-database-consumers/src/main/java/org/apache/maven/archiva/consumers/database/VerifyMetadataAgainstDatabaseConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-lucene-consumers/src/main/java/org/apache/maven/archiva/consumers/lucene/IndexArchiveTableOfContentsConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-lucene-consumers/src/main/java/org/apache/maven/archiva/consumers/lucene/IndexJavaPublicMethodsConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/ArchivaModelCloner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/ArtifactsRelatedConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/PlexusTagUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/filters/EffectiveProjectModelFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "3b5e25770ceb3b50bae8e2571120ec98a524391e",
+                "bugfix_commit_date": "2007-08-29T21:22:19.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-proxy/src/main/java/org/apache/maven/archiva/proxy/DefaultRepositoryProxyConnectors.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/ArtifactsByChecksumConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/AbstractMonitoredConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/RepositoryContentConsumer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b2a4a02c00b70a0265251bd57fc772bebafba434",
+                "bugfix_commit_date": "2007-05-11T18:25:12.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/scanner/DefaultRepositoryScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/scanner/RepositoryScannerInstance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/scanner/functors/ConsumerWantsFilePredicate.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/MetadataUpdaterConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/DatabaseTaskJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-lucene-consumers/src/main/java/org/apache/maven/archiva/consumers/lucene/IndexArtifactConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-artifact-reports/src/main/java/org/apache/maven/archiva/reporting/artifact/CorruptArtifactReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/dependencies/ProjectModelBasedGraphBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/resolvers/FalseProjectResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/resolvers/FilesystemBasedResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/resolvers/NopProjectResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/resolvers/ProjectModelResolverStack.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/project/DatabaseProjectModelResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/project/ProjectModelToDatabaseListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/audit/Auditable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/audit/AuditEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/audit/AuditListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/audit/AuditLog.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "09fff6ad6e15bc4d815d4814b28c5b392309f967",
+                "bugfix_commit_date": "2007-05-15T22:01:24.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/repository/RepositoryServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/appearance/ConfigureAppearanceAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/appearance/EditPomAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/networkproxies/NetworkProxiesAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-database-consumers/src/main/java/org/apache/maven/archiva/consumers/database/DatabaseCleanupRemoveArtifactConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-database-consumers/src/main/java/org/apache/maven/archiva/consumers/database/DatabaseCleanupRemoveProjectConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/RepositoryProblemByGroupIdConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/RepositoryProblemConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/ConfigurationRuntimeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/IndeterminateConfigurationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/database/DatabaseAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/scanning/RepositoryScanningAction.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f4330d5248c89f5902bf6a9e53ff6ee8e9278c64",
+                "bugfix_commit_date": "2007-10-01T20:44:21.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/reports/GenerateReportAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/FileTypes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-transaction/src/main/java/org/apache/maven/archiva/transaction/AbstractTransactionEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-transaction/src/main/java/org/apache/maven/archiva/transaction/FileTransaction.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/repository/RetentionCountRepositoryPurge.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2ae3268ff900a8b649f8cc46fe6a23302978cacc",
+                "bugfix_commit_date": "2007-05-17T18:16:57.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/DefaultArchivaConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/ProjectModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/ArtifactKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/bytecode/BytecodeEntryConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/bytecode/BytecodeRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/functors/IndexExistsPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/functors/SearchableTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/hashcodes/HashcodesEntryConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/hashcodes/HashcodesRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/LuceneDocumentMaker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/LuceneQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/LuceneRepositoryContentRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/search/SearchResultLimits.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/DependencyManagementStack.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/ProjectModelMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-xml-tools/src/main/java/org/apache/maven/archiva/xml/ElementTextListClosure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/SimpleConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/updater/ProcessArchivaArtifactClosure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/AbstractDeclarativeConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/jdo/JdoAccess.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e641f56dfde7a7bd530b3de19f672607804f5eae",
+                "bugfix_commit_date": "2007-09-09T22:59:47.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/metadata/MetadataTools.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/scanner/RepositoryScanStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/AbstractLegacyRepositoryContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/LegacyPathParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-lucene-consumers/src/main/java/org/apache/maven/archiva/consumers/lucene/LuceneCleanupRemoveIndexedConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/RepositoryContentIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/LuceneRepositoryContentIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/functors/FiletypeSelectionPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/functors/NetworkProxySelectionPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/functors/ProxyConnectorSelectionPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/InvalidRepositoryContentConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/KnownRepositoryContentConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-common/src/main/java/org/apache/maven/archiva/common/utils/VersionUtil.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/repository/CleanupReleasedSnapshotsRepositoryPurge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/functors/ProxyConnectorConfigurationOrderComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-proxy/src/main/java/org/apache/maven/archiva/proxy/ProxyConnectorOrderComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/appearance/AbstractAppearanceAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/connectors/proxy/AbstractProxyConnectorAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/connectors/proxy/AbstractProxyConnectorFormAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/connectors/proxy/AddProxyConnectorAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/connectors/proxy/DeleteProxyConnectorAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/connectors/proxy/EditProxyConnectorAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/connectors/proxy/ProxyConnectorsAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/connectors/proxy/SortProxyConnectorsAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-common/src/main/java/org/apache/maven/archiva/common/utils/Checksums.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/repository/RepositoryPurgeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/startup/ArchivaVersion.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/repository/DaysOldRepositoryPurge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/ArchivaTaskScheduler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-scheduled/src/main/java/org/apache/maven/archiva/scheduled/DefaultArchivaTaskScheduler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/startup/ArchivaStartup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/startup/Banner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/startup/ResolverFactoryInit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/DatabaseCleanupConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-consumer-api/src/main/java/org/apache/maven/archiva/consumers/DatabaseUnprocessedArtifactConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/database/AddAdminDatabaseConsumerClosure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/database/AdminDatabaseConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/database/AdminDatabaseConsumerComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/scanning/AddAdminRepoConsumerClosure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/scanning/AdminRepositoryConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/scanning/AdminRepositoryConsumerComparator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "750d651eee2954c5bd56786bd0f617972d27b6cf",
+                "bugfix_commit_date": "2007-11-22T02:38:01.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/repository/ProxiedDavServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/ArtifactExtensionMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/DefaultPathParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/content/FilenameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/metadata/RepositoryMetadataWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-xml-tools/src/main/java/org/apache/maven/archiva/xml/XMLWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/ArtifactMissingChecksumsConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-artifact-reports/src/main/java/org/apache/maven/archiva/reporting/artifact/DuplicateArtifactsConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-reporting/archiva-artifact-reports/src/main/java/org/apache/maven/archiva/reporting/artifact/LocationArtifactsConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/mapper/RepositoryActionMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1b44cd6cc14f893bf1469350be32bb8fb00764ab",
+                "bugfix_commit_date": "2007-10-26T20:00:04.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/DependencyTree.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1b44cd6cc14f893bf1469350be32bb8fb00764ab",
+                "bugfix_commit_date": "2007-10-26T20:00:04.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/tags/DependencyTreeTag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/filecontent/FileContentConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/filecontent/FileContentKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/filecontent/FileContentRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/search/SearchResultHit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/search/SearchResults.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/filters/ProjectModelExpressionFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/readers/ProjectModel400Reader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/writers/ProjectModel400Writer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/ConfigurationEvent.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e6bf5123682cc82597a80b7ee893c10840c0b163",
+                "bugfix_commit_date": "2007-10-10T05:47:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-base/archiva-configuration/src/main/java/org/apache/maven/archiva/configuration/ConfigurationListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/RepositoryProblemReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/DeclarativeConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/RangeConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/RepositoryProblemByRepositoryIdConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-database/src/main/java/org/apache/maven/archiva/database/constraints/UniqueFieldConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/repository/PolicingServletRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-converter/src/main/java/org/apache/maven/archiva/converter/legacy/DefaultLegacyRepositoryConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/AutoRemoveConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/AutoRenameConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-consumers/archiva-core-consumers/src/main/java/org/apache/maven/archiva/consumers/core/ValidateChecksumConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/RepositoryContentIndexFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/functors/BytecodeIndexTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/functors/FileContentIndexTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/functors/HashcodesIndexTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/functors/UserAllowedToSearchRepositoryPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-indexer/src/main/java/org/apache/maven/archiva/indexer/lucene/LuceneRepositoryContentIndexFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/scanner/RepositoryScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/scanner/functors/TriggerBeginScanClosure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-cli/src/main/java/org/apache/maven/archiva/cli/AbstractProgressConsumer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b2a4a02c00b70a0265251bd57fc772bebafba434",
+                "bugfix_commit_date": "2007-05-11T18:25:12.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "archiva-cli/src/main/java/org/apache/maven/archiva/cli/ArchivaCli.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-cli/src/main/java/org/apache/maven/archiva/cli/ProjectReaderConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/DependencyGraphFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/DependencyGraph.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/DependencyGraphBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/DependencyGraphEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/DependencyGraphKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/DependencyGraphNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/DependencyGraphUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/DependencyResolutionEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/GraphListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/GraphPhaseEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/GraphTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/GraphTaskException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/PotentialCyclicEdgeProducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/EdgeCyclicPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/EdgeDisabledPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/EdgeExactScopePredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/EdgeExcludedPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/EdgeFromPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/EdgeScopeClosure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/EdgeToPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/EdgeWithinScopePredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/NodeFromParentPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/NodeInEdgePredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/NodePredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/OrphanedNodePredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/ToArtifactReferenceTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/functors/UnresolvedGraphNodePredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/AbstractReduceEdgeVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/DependencyManagementApplier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/FlagCyclicEdgesTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/FlagCyclicEdgesVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/FlagExcludedEdgesTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/FlagExcludedEdgesVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/GraphCopier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/PopulateDependencyManagementTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/PopulateGraphMasterTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/ReduceEnabledEdgesTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/ReduceEnabledEdgesVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/ReduceScopeTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/ReduceScopeVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/ReduceTransitiveEdgesTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/ReduceTransitiveEdgesVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/RefineConflictsTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/RefineConflictsVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/ResolveGraphTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/UpdateScopesTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/tasks/UpdateScopesVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/walk/BaseVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/walk/DependencyGraphVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/walk/DependencyGraphWalker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/walk/WalkBreadthFirstSearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-dependency-graph/src/main/java/org/apache/maven/archiva/dependency/graph/walk/WalkDepthFirstSearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-model/src/main/java/org/apache/maven/archiva/model/DependencyScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/ProjectModelMerge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-repository-layer/src/main/java/org/apache/maven/archiva/repository/project/resolvers/ProjectModelResolutionListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/AbstractUpdatePolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/CachedFailuresPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/ChecksumPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/DownloadPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/ReleasesPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-base/archiva-policies/src/main/java/org/apache/maven/archiva/policies/SnapshotsPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "archiva-web/archiva-webapp/src/main/java/org/apache/maven/archiva/web/action/admin/networkproxies/ConfigureNetworkProxyAction.java"
+    }
+]

@@ -1,0 +1,256 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/ManagedDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/BasicManagedDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/BasicDataSourceMXBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/BasicDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/PoolingConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/PoolingDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/PoolingDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/LocalXAConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/ManagedConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/TransactionContextListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/XAConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/PoolableManagedConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/AbandonedTrace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/BasicDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/ConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/DataSourceConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/DelegatingCallableStatement.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "42b0cfd4e0febb6df6c94b621e593cad13736c36",
+                "bugfix_commit_date": "2014-02-04T08:44:12.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/dbcp2/DelegatingConnection.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "42b0cfd4e0febb6df6c94b621e593cad13736c36",
+                "bugfix_commit_date": "2014-02-04T08:44:12.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/dbcp2/DelegatingDatabaseMetaData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/DelegatingPreparedStatement.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "42b0cfd4e0febb6df6c94b621e593cad13736c36",
+                "bugfix_commit_date": "2014-02-04T08:44:12.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/dbcp2/DelegatingResultSet.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "42b0cfd4e0febb6df6c94b621e593cad13736c36",
+                "bugfix_commit_date": "2014-02-04T08:44:12.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/dbcp2/DelegatingStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/DriverConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/DriverManagerConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/PoolableCallableStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/PoolableConnection.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cefa0bd3f5964d6eaec5ab17d64e4e6350bab2cb",
+                "bugfix_commit_date": "2014-02-02T15:38:02.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/dbcp2/PoolableConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/PoolableConnectionMXBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/PoolablePreparedStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/PStmtKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/SwallowedExceptionLogger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/Utils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/cpdsadapter/ConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/cpdsadapter/DriverAdapterCPDS.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/cpdsadapter/PooledConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/cpdsadapter/PStmtKeyCPDS.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/CPDSConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/InstanceKeyDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/InstanceKeyDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/KeyedCPDSConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/PerUserPoolDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/PerUserPoolDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/PooledConnectionAndInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/PooledConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/PoolKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/SharedPoolDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/SharedPoolDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/datasources/UserPassKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/DataSourceXAConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/TransactionContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "42b0cfd4e0febb6df6c94b621e593cad13736c36",
+                "bugfix_commit_date": "2014-02-04T08:44:12.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/TransactionRegistry.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cefa0bd3f5964d6eaec5ab17d64e4e6350bab2cb",
+                "bugfix_commit_date": "2014-02-02T15:38:02.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/dbcp2/managed/PoolableManagedConnectionFactory.java"
+    }
+]
