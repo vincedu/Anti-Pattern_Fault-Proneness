@@ -1,0 +1,22 @@
+ant-ivy
+{'ComplexClass': 6, 'LongMethod': 6, 'LongParameterList': 6}
+archiva
+{'LongMethod': 5, 'ComplexClass': 5, 'LongParameterList': 4}
+calcite
+{'LongMethod': 8, 'ComplexClass': 8, 'LongParameterList': 8, 'ClassDataShouldBePrivate': 6, 'Blob': 6, 'LazyClass': 7, 'BaseClassShouldBeAbstract': 2}
+cayenne
+{'LongMethod': 2, 'ComplexClass': 2, 'AntiSingleton': 1, 'LongParameterList': 2, 'Blob': 2, 'SpeculativeGenerality': 1}
+commons-beanutils
+{'LongMethod': 2, 'ComplexClass': 2}
+commons-codec
+{'ComplexClass': 5, 'LongMethod': 4}
+commons-collections
+{'ComplexClass': 3, 'LongParameterList': 3, 'LongMethod': 3}
+commons-compress
+{'LongMethod': 6, 'ComplexClass': 6, 'Blob': 1}
+commons-configuration
+{'LongMethod': 7, 'ComplexClass': 8}
+commons-dbcp
+{'LongMethod': 7, 'ComplexClass': 8}
+commons-digester
+{}

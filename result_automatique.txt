@@ -1,0 +1,22 @@
+ant-ivy
+{'LazyClass': 6, 'LongMethod': 6, 'ClassDataShouldBePrivate': 1, 'ComplexClass': 6, 'AntiSingleton': 1, 'LongParameterList': 6, 'Blob': 2}
+archiva
+{'LongMethod': 7, 'ClassDataShouldBePrivate': 7, 'LongParameterList': 7, 'LazyClass': 7, 'ComplexClass': 7, 'Blob': 6, 'AntiSingleton': 4}
+calcite
+{'LongParameterList': 8, 'RefusedParentBequest': 8, 'ClassDataShouldBePrivate': 8, 'LongMethod': 8, 'BaseClassShouldBeAbstract': 8, 'SpeculativeGenerality': 8, 'ComplexClass': 8, 'LazyClass': 8, 'Blob': 8, 'ManyFieldAttributesButNotComplex': 1}
+cayenne
+{'LongMethod': 2, 'ClassDataShouldBePrivate': 2, 'LazyClass': 2, 'SpeculativeGenerality': 2, 'Blob': 2, 'BaseClassShouldBeAbstract': 2, 'ComplexClass': 2, 'RefusedParentBequest': 2, 'AntiSingleton': 2, 'LongParameterList': 2, 'SpaghettiCode': 1}
+commons-beanutils
+{'ComplexClass': 3, 'LongParameterList': 3, 'LongMethod': 3, 'AntiSingleton': 3, 'LazyClass': 3, 'BaseClassShouldBeAbstract': 1, 'RefusedParentBequest': 1}
+commons-codec
+{'LazyClass': 6, 'ComplexClass': 8, 'LongParameterList': 2, 'LongMethod': 7}
+commons-collections
+{'LongMethod': 9, 'LongParameterList': 9, 'AntiSingleton': 7, 'BaseClassShouldBeAbstract': 7, 'ComplexClass': 9, 'LazyClass': 8, 'SpeculativeGenerality': 7, 'RefusedParentBequest': 1, 'ClassDataShouldBePrivate': 4}
+commons-compress
+{'LongParameterList': 8, 'LongMethod': 8, 'Blob': 8, 'ComplexClass': 8, 'LazyClass': 8}
+commons-configuration
+{'LazyClass': 8, 'ClassDataShouldBePrivate': 8, 'AntiSingleton': 8, 'LongMethod': 8, 'ComplexClass': 8, 'LongParameterList': 1, 'BaseClassShouldBeAbstract': 5}
+commons-dbcp
+{'LongMethod': 8, 'LazyClass': 8, 'LongParameterList': 3, 'ComplexClass': 8, 'ClassDataShouldBePrivate': 6}
+commons-digester
+{'Blob': 8, 'LazyClass': 8, 'LongMethod': 8, 'ComplexClass': 8, 'ClassDataShouldBePrivate': 3, 'AntiSingleton': 3, 'SpeculativeGenerality': 2, 'LongParameterList': 3}
