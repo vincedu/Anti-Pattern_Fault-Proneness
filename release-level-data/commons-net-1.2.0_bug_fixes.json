@@ -1,0 +1,712 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/CharGenTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/CharGenUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DatagramSocketClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DatagramSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DaytimeTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DaytimeUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DefaultDatagramSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DefaultSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DiscardTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DiscardUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/EchoTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/EchoUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/FingerClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/MalformedServerReplyException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ProtocolCommandEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ProtocolCommandListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ProtocolCommandSupport.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4705df354608830db5d53e6dfb476b2b032e886c",
+                "bugfix_commit_date": "2009-02-05 18:18:21",
+                "issue_created_at": "2008-09-01 14:32:54.107000",
+                "name": "NET-232",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/SocketClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/SocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/TimeTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/TimeUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/WhoisClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/DefaultFTPFileListParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPConnectionClosedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPFileEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPFileIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPFileList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPFileListParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPListParseEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPReply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/bsd/RCommandClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/bsd/RExecClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/bsd/RLoginClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/CopyStreamAdapter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/CopyStreamEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/CopyStreamException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/CopyStreamListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/DotTerminatedMessageReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/DotTerminatedMessageWriter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9de4928a1860c043a8aec6a7bdf150650a33632f",
+                "bugfix_commit_date": "2010-07-11 23:15:47",
+                "issue_created_at": "2010-07-10 23:19:51.397000",
+                "name": "NET-328",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/io/FromNetASCIIInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/FromNetASCIIOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/SocketInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/SocketOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/ToNetASCIIInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/ToNetASCIIOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/Util.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/ArticlePointer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NewGroupsOrNewsQuery.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7ddf77b60a9f65925d166a5e8b6fa2a7aeff6156",
+                "bugfix_commit_date": "2009-05-05 12:02:04",
+                "issue_created_at": "2009-05-02 17:28:25.409000",
+                "name": "NET-276",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "62e40452d71a4d7c0b6c237b905fa284c0e26363",
+                "bugfix_commit_date": "2007-03-29 15:37:00",
+                "issue_created_at": "2007-03-26 08:50:49.934000",
+                "name": "NET-155",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/nntp/NewsgroupInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NNTPConnectionClosedException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "79a19d63165db326c918a9cb96c9f55f96fce359",
+                "bugfix_commit_date": "2009-05-05 12:20:48",
+                "issue_created_at": "2009-05-03 07:25:02.756000",
+                "name": "NET-277",
+                "severity": "trivial",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/nntp/NNTPReply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/SimpleNNTPHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/pop3/POP3.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b9b9bae63e08432f620abd1c0e35abf662a6008d",
+                "bugfix_commit_date": "2011-01-31 18:20:55",
+                "issue_created_at": "2011-01-31 17:08:09.182000",
+                "name": "NET-351",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "ba59205df65fa1c3edad0dffa6d811514c64e875",
+                "bugfix_commit_date": "2011-01-31 18:28:35",
+                "issue_created_at": "2011-01-31 17:08:09.182000",
+                "name": "NET-351",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/pop3/POP3Client.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/pop3/POP3Command.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/pop3/POP3MessageInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/pop3/POP3Reply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/RelayPath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SimpleSMTPHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTPCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTPConnectionClosedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTPReply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/EchoOptionHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/InvalidTelnetOptionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/SimpleOptionHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/SuppressGAOptionHandler.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9fc7e85de43213ae797b27dea5005c0cd58a943d",
+                "bugfix_commit_date": "2011-03-03 01:26:16",
+                "issue_created_at": "2010-11-19 22:52:43.955000",
+                "name": "NET-345",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "baec3f0f99abd5d3f4f1d6b033aba0e39b323241",
+                "bugfix_commit_date": "2010-05-11 00:05:11",
+                "issue_created_at": "2009-03-12 15:18:53.292000",
+                "name": "NET-264",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/telnet/Telnet.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "796a288e0c2e17ddf7dc44a4cd790a7eab4e158d",
+                "bugfix_commit_date": "2017-02-07 23:52:49",
+                "issue_created_at": "2016-07-05 13:55:22.928000",
+                "name": "NET-596",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "4705df354608830db5d53e6dfb476b2b032e886c",
+                "bugfix_commit_date": "2009-02-05 18:18:21",
+                "issue_created_at": "2008-09-01 14:32:54.107000",
+                "name": "NET-232",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetCommand.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3d5e169b975731cb028a7974d81e7be0f2f60282",
+                "bugfix_commit_date": "2013-06-06 11:32:38",
+                "issue_created_at": "2013-02-07 22:07:28.449000",
+                "name": "NET-501",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "9fc7e85de43213ae797b27dea5005c0cd58a943d",
+                "bugfix_commit_date": "2011-03-03 01:26:16",
+                "issue_created_at": "2010-11-19 22:52:43.955000",
+                "name": "NET-345",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "571c9eac8a1471ad1a088e71e06a1a61a95e9646",
+                "bugfix_commit_date": "2008-03-05 09:25:48",
+                "issue_created_at": "2006-04-21 21:15:58",
+                "name": "NET-73",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "3c394cece81c20dce6747dc5512c25a82194b847",
+                "bugfix_commit_date": "2008-03-05 00:17:28",
+                "issue_created_at": "2006-04-21 21:15:58",
+                "name": "NET-73",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "c266a88173dd8d12da5519f0b4f114e9441e92d6",
+                "bugfix_commit_date": "2012-01-10 14:44:25",
+                "issue_created_at": "2012-01-09 15:16:10.509000",
+                "name": "NET-437",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "4b95006a95ba1c4b756c0dfaab8b5a9ab43f3e6d",
+                "bugfix_commit_date": "2011-03-03 13:45:01",
+                "issue_created_at": "2010-12-29 20:29:30.413000",
+                "name": "NET-348",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetNotificationHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetOptionHandler.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "72ea0f2be8d01e1559aff14889967c8ccbf1822f",
+                "bugfix_commit_date": "2014-07-30 22:28:51",
+                "issue_created_at": "2014-07-23 19:13:48.660000",
+                "name": "NET-549",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TerminalTypeOptionHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPAckPacket.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "760661dfd35d3c51f4aaddf914b32223787ad0c7",
+                "bugfix_commit_date": "2012-01-10 19:14:47",
+                "issue_created_at": "2011-05-26 00:47:20.150000",
+                "name": "NET-410",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPDataPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPErrorPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPPacketException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPReadRequestPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPRequestPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPWriteRequestPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/util/ListenerList.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7ddf77b60a9f65925d166a5e8b6fa2a7aeff6156",
+                "bugfix_commit_date": "2009-05-05 12:02:04",
+                "issue_created_at": "2009-05-02 17:28:25.409000",
+                "name": "NET-276",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "8dbb4478ddaae61c259b9e0a2328f3d0416eaf67",
+                "bugfix_commit_date": "2011-03-09 01:16:02",
+                "issue_created_at": "2009-05-02 17:28:25.409000",
+                "name": "NET-276",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "62e40452d71a4d7c0b6c237b905fa284c0e26363",
+                "bugfix_commit_date": "2007-03-29 15:37:00",
+                "issue_created_at": "2007-03-26 08:50:49.934000",
+                "name": "NET-155",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/nntp/NNTPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/ParserInitializationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/VMSVersioningFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/FTPClient2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/FTPFileEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/FTPFileIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/FTPFileList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/AIXFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/EnterpriseUnixFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/MatchApparatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/NTFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/OS2FTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/UnixFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/VMSFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8dbb4478ddaae61c259b9e0a2328f3d0416eaf67",
+                "bugfix_commit_date": "2011-03-09 01:16:02",
+                "issue_created_at": "2009-05-02 17:28:25.409000",
+                "name": "NET-276",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/nntp/NNTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NNTPCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/DefaultFTPFileEntryParserFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/FTPFileEntryParserFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4cd3d1c5ea6d15316713a633196185c78e5a8fc",
+                "bugfix_commit_date": "2008-08-15 19:03:23",
+                "issue_created_at": "2008-07-02 11:05:37.946000",
+                "name": "NET-225",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "f4509e7fff01493c2f1683c1ef0b9cbbcf3b4c09",
+                "bugfix_commit_date": "2008-08-15 19:02:19",
+                "issue_created_at": "2008-07-02 11:05:37.946000",
+                "name": "NET-225",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/ftp/FTPFileEntryParserImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPFileListParserImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/CompositeFileEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/NTFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/OS2FTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/OS400FTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/RegexFTPFileEntryParserImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0dd2e79fbdf14f62db132a837f987fe38f831243",
+                "bugfix_commit_date": "2008-03-16 20:19:37",
+                "issue_created_at": "2008-03-09 20:20:59.353000",
+                "name": "NET-201",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "1078ab218d3c0e62c313eec88545d18813b0efb7",
+                "bugfix_commit_date": "2008-03-16 20:19:52",
+                "issue_created_at": "2008-03-09 20:20:59.353000",
+                "name": "NET-201",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/net/ftp/parser/UnixFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/parser/VMSFTPEntryParser.java"
+    }
+]

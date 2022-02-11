@@ -1,0 +1,2232 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/OutboundUsernameSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/HttpsTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/WSSecurityStreamReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/SecurityTokenReferenceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/OperationPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/AssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/DerivedKeyTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/str/STRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/str/STRParserParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/str/STRParserResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/SecurityHeaderOrder.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "59a8c92f883e1cad8968ab582331a1c94c567e11",
+                "bugfix_commit_date": "2015-09-11 19:44:37",
+                "issue_created_at": "2015-09-11 03:45:52.685000",
+                "name": "WSS-553",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "b88c9405b9f461326fd702dfa9425308f669cc04",
+                "bugfix_commit_date": "2015-09-14 09:54:53",
+                "issue_created_at": "2015-09-11 03:45:52.685000",
+                "name": "WSS-553",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/TimestampOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/DsaKeyValueSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/ECKeyValueSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/RsaKeyValueSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/principal/PublicKeyPrincipal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/principal/PublicKeyPrincipalImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/ext/WSInboundSecurityContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/DerivedKeyTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/EncryptedKeyTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/EncryptedPartSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/IssuedTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/KerberosTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/KeyValueTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/RelTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/SamlTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/SecurityContextTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/SignedPartSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/UsernameTokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/X509TokenSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/DsaKeyValueSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/ECKeyValueSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/HttpsSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/KerberosServiceSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/KeyValueSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/RsaKeyValueSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/SecureConversationSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/SecurityTokenReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/SubjectAndPrincipalSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/X509SecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/BinarySecurityTokenValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/SamlTokenValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/SecurityContextTokenValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/SignatureTokenValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/SignatureTokenValidatorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/TokenContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/UsernameTokenValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/ReferenceListInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/SecurityContextTokenInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/SecurityTokenReferenceInputHandler.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "596adf5222d0896c58a77c7d2bbb09db41f0bc6b",
+                "bugfix_commit_date": "2015-10-15 09:27:21",
+                "issue_created_at": "2015-10-14 18:26:35.953000",
+                "name": "WSS-559",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "5f222ea2a8d7cbf641090cba431a9f0671bbe60b",
+                "bugfix_commit_date": "2015-10-15 09:27:55",
+                "issue_created_at": "2015-10-14 18:26:35.953000",
+                "name": "WSS-559",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/TimestampInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/SignatureEncryptionActionToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/cache/MemoryReplayCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/AlgorithmSuite.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/CertificateStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/ext/Attachment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/NSStack.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/AdviceBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/AttributeBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/AudienceRestrictionBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/AuthDecisionStatementBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/ProxyRestrictionBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/builder/SAML1ComponentBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/builder/SAML2ComponentBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/KeyValueTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/validate/SignatureTrustValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/ActionBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/AttributeStatementBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/SubjectBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/builder/SAML1Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/builder/SAML2Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/handler/WSHandlerConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/SAMLTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/util/XmlSchemaDateFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/AuthenticationStatementBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/CryptoType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/NoSecuritySecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/EncryptedDataInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosTokenDecoderException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/WSSec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/transformer/AttachmentContentSignatureTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/ExternalSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/KerberosClientSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/KerberosServiceSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/SecurityHeaderInputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/WSS4JConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/bsp/BSPEnforcer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/token/BinarySecurity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/token/DOMX509Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/token/DOMX509IssuerSerial.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/token/PKIPathSecurity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/token/Reference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/token/SecurityTokenReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/token/TokenElementCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/token/X509Security.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/WSConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/WSSecurityEngineResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/BinarySecurityTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/EncryptedDataProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/EncryptedKeyProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/ReferenceListProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/saml/WSSSAMLKeyInfoProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/str/DerivedKeyTokenSTRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/str/EncryptedKeySTRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/str/SecurityTokenRefSTRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/str/SignatureSTRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/str/STRParserUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/transform/STRTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/transform/STRTransformUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/validate/Credential.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/validate/KerberosTokenValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/token/DerivedKeyToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/token/KerberosSecurity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/token/SignatureConfirmation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/token/Timestamp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/token/UsernameToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/transform/AttachmentContentSignatureTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/BinarySecurityTokenValidatorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/HttpsSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/SecureConversationSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/UsernameSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/X509DefaultSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/DerivedKeyTokenInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/WSSecurityEventConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecSecurityContextToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/PolicyConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/ext/WSPasswordCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/WSCurrentTimeSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/WSTimeSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/Trust10Builder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/Trust13Builder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/UsernameTokenValidatorImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "311cad0cc87b6a82c796b213b6ea7b49cde641ed",
+                "bugfix_commit_date": "2016-09-19 09:27:06",
+                "issue_created_at": "2016-09-19 08:14:10.054000",
+                "name": "WSS-587",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "f05abe0161f11c54b60fab1ad56b641dc79f1737",
+                "bugfix_commit_date": "2016-09-19 09:40:06",
+                "issue_created_at": "2016-09-19 08:14:10.054000",
+                "name": "WSS-587",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "b9404d9801116117484213276e77bde0d9204231",
+                "bugfix_commit_date": "2016-09-19 09:35:28",
+                "issue_created_at": "2016-09-19 08:14:10.054000",
+                "name": "WSS-587",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/cache/EHCacheManagerHolder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/IssuedTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/SamlTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/SignatureConfirmationSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/SignatureConfirmationInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/validate/SamlAssertionValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/SamlTokenValidatorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosTokenDecoderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/AttachmentUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/WSSecurityTokenConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/AbstractDerivedAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/X509V3SecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/BootstrapPolicyBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/BootstrapPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SecureConversationToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/EncryptionActionToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/WSEncryptionPart.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/Action.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/handler/HandlerAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/cache/ReplayCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/principal/CustomTokenPrincipal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/ConditionsBean.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "31b8ad5c41beb79c5460fdfabefe318beee1a6d2",
+                "bugfix_commit_date": "2015-09-24 15:43:45",
+                "issue_created_at": "2015-09-24 15:42:39.041000",
+                "name": "WSS-556",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "69ae0091ba92c34b3aa4e01a3b1a496a1cec3be9",
+                "bugfix_commit_date": "2015-09-24 15:49:40",
+                "issue_created_at": "2015-09-24 15:42:39.041000",
+                "name": "WSS-556",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/AlgorithmSuite.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/AlgorithmSuiteAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/CryptoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/WSProviderConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/BinarySecurityTokenInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/SP11Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/SP12Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/SPConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/RequiredPartsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/SignedElementsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/AbstractSymmetricAsymmetricBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/AbstractToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/HttpsToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/KerberosToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/Layout.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/RelToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/RequiredElements.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/RequiredParts.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SamlToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/UsernameToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/SamlSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/Loader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/WSS4JResourceBundle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/ext/WSSecurityException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/ext/InboundWSSec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/X509IssuerSerialTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/X509PKIPathv1SecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/X509SecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/X509SKISecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/X509ThumbprintSHA1SecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/CallbackLookup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/SOAP11Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/SOAP12Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/principal/SAMLTokenPrincipal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/principal/SAMLTokenPrincipalImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/principal/UsernameTokenPrincipal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/principal/WSUsernameTokenPrincipalImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/transform/STRTransformProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/UsernameSecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/JAASUsernameTokenValidatorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/ext/WSSConfigurationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/OperationSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/RequiredElementSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/RequiredPartSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityEvent/TimestampSecurityEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/TimestampValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/Validator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/resourceResolvers/ResolverXPointer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/OperationInputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/SignatureConfirmationInputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/PolicyUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/SignatureProtectionAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/TokenProtectionAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/HttpsTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/derivedKey/DerivedKeyUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/SpnegoContextTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/TokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/DateUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/UsernameTokenUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/PasswordEncryptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosClientAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosContextAndServiceNameCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosServiceAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosServiceContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/spnego/SpnegoTokenContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/ext/WSSCrypto.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/SamlSecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/WSSSignatureReferenceVerifyInputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/WSSSignatureOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/ext/OutboundWSSec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/CustomTokenAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/derivedKey/ConversationConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/Merlin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/cache/EHCacheReplayCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/SP13Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/AsymmetricBindingBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/ContentEncryptedElementsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/EncryptedElementsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/EncryptedPartsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/EncryptionTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/InitiatorEncryptionTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/InitiatorSignatureTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/InitiatorTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/IssuedTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/KerberosTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/LayoutBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/ProtectionTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/RecipientEncryptionTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/RecipientSignatureTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/RecipientTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/RelTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/RequiredElementsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/SamlTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/SecureConversationTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/SecurityContextTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/SignatureTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/SignedPartsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/SpnegoContextTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/SupportingTokensBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/SymmetricBindingBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/TransportBindingBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/TransportTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/UsernameTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/WSS10Builder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/WSS11Builder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/X509TokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/AbstractBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/AbstractSecurityAssertion.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/AbstractTokenWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/AsymmetricBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/Attachments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/ContentEncryptedElements.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/EncryptedElements.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/EncryptedParts.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/EncryptionToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/Header.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/InitiatorEncryptionToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/InitiatorSignatureToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/InitiatorToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/IssuedToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/KeyValueToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/ProtectionToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/RecipientEncryptionToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/RecipientSignatureToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/RecipientToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SecurityContextToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SignatureToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SignedElements.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SignedParts.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SpnegoContextToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SupportingTokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SymmetricBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/TransportBinding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/TransportToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/Trust10.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/Wss10.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/Wss11.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/X509Token.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/XPath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecEncrypt.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c194ba28ac1f774e94a3faeacf8bda499960457b",
+                "bugfix_commit_date": "2016-02-18 08:58:42",
+                "issue_created_at": "2016-02-17 18:08:30.610000",
+                "name": "WSS-567",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "742965d93450b76159bd880fe968570d14ff4b9a",
+                "bugfix_commit_date": "2016-02-18 09:22:02",
+                "issue_created_at": "2016-02-17 18:08:30.610000",
+                "name": "WSS-567",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "5594fab3eb0066df3c2bbc559c0950fe58aee591",
+                "bugfix_commit_date": "2016-02-18 09:07:23",
+                "issue_created_at": "2016-02-17 18:08:30.610000",
+                "name": "WSS-567",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "9feb51fcf63e2700b6f3171ba3c0533cc26d6bf4",
+                "bugfix_commit_date": "2017-07-10 08:48:18",
+                "issue_created_at": "2017-07-08 15:39:41.909000",
+                "name": "WSS-610",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "ad9750313aabd5fd6ed832d7d8e44a9be9609436",
+                "bugfix_commit_date": "2017-07-10 09:01:32",
+                "issue_created_at": "2017-07-08 15:39:41.909000",
+                "name": "WSS-610",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "b2f07bfc7e2e59d4cda376e5341089b84589e82a",
+                "bugfix_commit_date": "2017-07-10 08:52:53",
+                "issue_created_at": "2017-07-08 15:39:41.909000",
+                "name": "WSS-610",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/util/WSSecurityUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/NamePasswordCallbackHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/DERDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/validate/JAASUsernameTokenValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/SignatureConfirmationProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/TimestampProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/XMLUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/WSSSignatureInputHandler.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "58ec2d710ed3877569a53d2ecf92919eba729dc6",
+                "bugfix_commit_date": "2016-06-03 09:46:13",
+                "issue_created_at": "2016-06-02 17:17:10.280000",
+                "name": "WSS-580",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "e732662d1bbb82f05019708efa3360e17280f930",
+                "bugfix_commit_date": "2016-06-03 09:56:02",
+                "issue_created_at": "2016-06-02 17:17:10.280000",
+                "name": "WSS-580",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "91090d21aa0bb2d251317657485ef07865834cad",
+                "bugfix_commit_date": "2016-06-03 09:47:30",
+                "issue_created_at": "2016-06-02 17:17:10.280000",
+                "name": "WSS-580",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/ThreadLocalSecurityProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/SecurityActionToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/JasyptPasswordEncryptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/derivedKey/P_SHA1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosClientExceptionAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosServiceExceptionAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/SAMLUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/cache/EHCacheReplayCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/cache/MemoryReplayCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/HttpsTokenBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/WSDocInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/WSSecurityEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/handler/WSHandlerResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/ext/WSSConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/ext/WSSUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/InboundWSSecurityContextImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/SecurityTokenFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/transformer/STRTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/DecryptInputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/SAMLTokenInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/BinarySecurityTokenOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/CustomTokenOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/DerivedKeyTokenOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/EncryptedKeyOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/EncryptEndingOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/EncryptOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/SecurityContextTokenOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/SecurityHeaderOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/SignatureConfirmationOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "59a8c92f883e1cad8968ab582331a1c94c567e11",
+                "bugfix_commit_date": "2015-09-11 19:44:37",
+                "issue_created_at": "2015-09-11 03:45:52.685000",
+                "name": "WSS-553",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "b88c9405b9f461326fd702dfa9425308f669cc04",
+                "bugfix_commit_date": "2015-09-14 09:54:53",
+                "issue_created_at": "2015-09-11 03:45:52.685000",
+                "name": "WSS-553",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/UsernameTokenOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/WSSSignatureEndingOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecSignature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/ext/AttachmentRequestCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/ext/AttachmentResultCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/CRLFOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/resolvers/ResolverAttachment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/transform/AttachmentCiphertextTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/transform/AttachmentCompleteSignatureTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/transform/AttachmentCompleteSignatureTransformProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/transform/AttachmentContentSignatureTransformProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/transform/AttachmentTransformParameterSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/resourceResolvers/ResolverAttachment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/transformer/AttachmentCompleteSignatureTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/bsp/BSPRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/SantuarioUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/X509SubjectPublicKeyInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosTokenDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/derivedKey/AlgoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/derivedKey/DerivationAlgorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/SAMLKeyInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/SAMLKeyInfoProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/Mapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/KeyInfoBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/SubjectConfirmationDataBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/SubjectLocalityBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/WsuIdAllocator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/Processor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/validate/NoOpValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/validate/Validator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/DummyPolicyAsserter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/PolicyAsserter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/IncludeTimeStampAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/KerberosTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/KeyValueTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/OnlySignEntireHeadersAndBodyAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/ProtectionOrderAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/RelTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/SecureConversationTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/SecurityContextTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/SignatureConfirmationAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/UsernameTokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/X509TokenAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/SPUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/builders/AlgorithmSuiteBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/SupportingTokens.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "policy/src/main/java/org/apache/wss4j/policy/model/Trust13.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/SignatureProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/OpenSAMLBootstrap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/OpenSAMLUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/AlgorithmSuiteValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/SecurityContextTokenValidatorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/securityToken/EncryptedKeySha1SecurityTokenImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/SAMLTokenOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/WSSEncryptedKeyInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/ConfigurationConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/ConfigurationConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/input/UsernameTokenInputHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/ext/WSSSecurityProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/validate/TimestampValidatorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/WSSConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/EncryptionAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/EncryptionDerivedAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/SAMLTokenSignedAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/SAMLTokenUnsignedAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/SignatureAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/SignatureConfirmationAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/SignatureDerivedAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/TimestampAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/UsernameTokenAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/action/UsernameTokenSignedAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/handler/RequestData.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5c1ac0263427cd916f4d176fbff7502443636fb4",
+                "bugfix_commit_date": "2015-08-24 13:56:11",
+                "issue_created_at": "2015-08-22 01:22:44.632000",
+                "name": "WSS-551",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "60513b8f3395f931dd3aa4bee98e8f95ad14f239",
+                "bugfix_commit_date": "2015-08-24 13:56:31",
+                "issue_created_at": "2015-08-22 01:22:44.632000",
+                "name": "WSS-551",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "f116c49c412733e773653d1da6e0bc052272c001",
+                "bugfix_commit_date": "2016-07-01 15:31:02",
+                "issue_created_at": "2016-07-01 15:30:31.053000",
+                "name": "WSS-582",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "024efecef4a5e28c6d5a91b4a669bb0f155867b9",
+                "bugfix_commit_date": "2016-07-01 16:00:58",
+                "issue_created_at": "2016-07-01 15:30:31.053000",
+                "name": "WSS-582",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "08896ed5d7c84fa596b5b7532fd41209875fddf2",
+                "bugfix_commit_date": "2016-07-01 15:56:14",
+                "issue_created_at": "2016-07-01 15:30:31.053000",
+                "name": "WSS-582",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/handler/WSHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecDerivedKeyBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecDKEncrypt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecDKSign.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f4bf656a986f2ae50ae0d457fca336fca1af652c",
+                "bugfix_commit_date": "2015-07-29 09:18:38",
+                "issue_created_at": "2015-07-21 14:57:25.127000",
+                "name": "WSS-548",
+                "severity": "critical",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "970fb52e93726f02516ce25b10a7874b6251eaba",
+                "bugfix_commit_date": "2015-07-29 09:24:04",
+                "issue_created_at": "2015-07-21 14:57:25.127000",
+                "name": "WSS-548",
+                "severity": "critical",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "e4e54a9b012cf9fe4e85530e8533548b9dcc36d6",
+                "bugfix_commit_date": "2015-07-29 09:31:27",
+                "issue_created_at": "2015-07-21 14:57:25.127000",
+                "name": "WSS-548",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecEncryptedKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecSAMLToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecSignatureBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecSignatureConfirmation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecTimestamp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecUsernameToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/UsernameTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/saml/WSSecSignatureSAML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/validate/TimestampValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/validate/UsernameTokenValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/SOAPConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/Assertable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/PolicyInputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/PolicyViolationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/WSSPolicyException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/InetAddressUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/ReferenceListOutputProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/CryptoBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/DOM2Writer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/DOMCallbackLookup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/WSSecHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/EncryptedAssertionProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/SecurityContextTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/processor/X509Util.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/message/token/SecurityContextToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/processor/output/SecurityHeaderReorderProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/util/KeyUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/cache/ReplayCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/SAMLCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/bean/Version.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/PolicyEnforcer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/PolicyEnforcerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/ContentEncryptedElementsAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/EncryptedElementsAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/EncryptedPartsAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/LayoutAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/RequiredElementsAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/RequiredPartsAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/SignedElementsAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-policy-stax/src/main/java/org/apache/wss4j/policy/stax/assertionStates/SignedPartsAssertionState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/impl/resourceResolvers/ResolverSameDocument.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/MerlinDevice.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/WSDataRef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/principal/WSDerivedKeyTokenPrincipal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/crypto/Crypto.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bc458a5b045a9d3c08a9f82950dd77c69f80859e",
+                "bugfix_commit_date": "2017-03-22 15:41:24",
+                "issue_created_at": "2017-03-22 15:13:32.524000",
+                "name": "WSS-603",
+                "severity": "blocker",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d4d46b40339d498351836f4653a44e29e8d1c3b5",
+                "bugfix_commit_date": "2017-03-22 15:52:10",
+                "issue_created_at": "2017-03-22 15:13:32.524000",
+                "name": "WSS-603",
+                "severity": "blocker",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "a84ec3ed0df928d90b3c0970f5d7782f225cecac",
+                "bugfix_commit_date": "2017-03-22 15:46:36",
+                "issue_created_at": "2017-03-22 15:13:32.524000",
+                "name": "WSS-603",
+                "severity": "blocker",
+                "type": "bug"
+            }
+        ],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/saml/SamlAssertionWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/kerberos/KerberosContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/spnego/DefaultSpnegoClientAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/spnego/DefaultSpnegoServiceAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/spnego/SpnegoClientAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/spnego/SpnegoServiceAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-common/src/main/java/org/apache/wss4j/common/SignatureActionToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-stax/src/main/java/org/apache/wss4j/stax/securityToken/EncryptedKeySha1SecurityToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "ws-security-dom/src/main/java/org/apache/wss4j/dom/saml/DOMSAMLUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/AttributedString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/BinarySecurityTokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/EmbeddedType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/EncodedString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/KeyIdentifierType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/ObjectFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/PasswordString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/ReferenceType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/SecurityHeaderType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/SecurityTokenReferenceType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/TransformationParametersType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss10/UsernameTokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss11/EncryptedHeaderType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss11/ObjectFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wss11/SignatureConfirmationType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc/AbstractDerivedKeyTokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc/AbstractPropertiesType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc/AbstractSecurityContextTokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc13/DerivedKeyTokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc13/ObjectFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc13/PropertiesType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc13/SecurityContextTokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc200502/DerivedKeyTokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc200502/ObjectFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc200502/PropertiesType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wssc200502/SecurityContextTokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wsu10/AbstractAttributedDateTime.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wsu10/AttributedDateTime.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wsu10/AttributedURI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wsu10/ObjectFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "bindings/src/main/java/org/apache/wss4j/binding/wsu10/TimestampType.java"
+    }
+]

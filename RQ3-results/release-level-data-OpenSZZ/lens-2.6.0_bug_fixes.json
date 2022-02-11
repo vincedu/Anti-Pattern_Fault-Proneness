@@ -1,0 +1,3627 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/util/Util.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/constants/MetastoreURL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/helpers/MetastoreHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/helpers/ServiceManagerHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/helpers/SessionHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/error/InvalidStateTransitionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobInstanceEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/StateTransitioner.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d264c9a44b3f0b889e87241a6eb9ec1051f7c6a5",
+                "bugfix_commit_date": "2016-05-09T07:13:42.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "93536b8f3f7dd8d9cc8fa13cec655cf40d398fb5",
+                "bugfix_commit_date": "2015-03-10T09:32:50.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/LensConfConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/events/SchedulerAlarmEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/TimerangeResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/WeightedQueryCostDriverSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/metrics/MetricsService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/constraint/MaxConcurrentDriverQueriesConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/constraint/MaxConcurrentDriverQueriesConstraintFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a736f4697ee91fa7949e4e895407dbcbf3d5e62b",
+                "bugfix_commit_date": "2016-07-05T05:34:05.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ee2bda93f1587148a8a5e86ba88d04d1f3549d4f",
+                "bugfix_commit_date": "2016-02-28T09:31:31.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "2f1ddd46375e7b0e2411e4232a5a6390602f33f5",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0b3203d047d9738141d153e9f7894fcc6ac64f79",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f1387c31537eb7f73ba2de503e7a17120df1e691",
+                "bugfix_commit_date": "2015-07-10T02:49:10.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "bd72a69a6d8f541a9c3385770dd45b1acd789ad6",
+                "bugfix_commit_date": "2014-12-08T02:01:10.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CandidateFact.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3b3f42da51808e1bb0d23357e1bfaecaca978896",
+                "bugfix_commit_date": "2016-04-27T00:22:06.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "2f1ddd46375e7b0e2411e4232a5a6390602f33f5",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0b3203d047d9738141d153e9f7894fcc6ac64f79",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "09baa12880ba27c00323bbf881e9c69acb580117",
+                "bugfix_commit_date": "2015-11-24T01:35:05.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f1387c31537eb7f73ba2de503e7a17120df1e691",
+                "bugfix_commit_date": "2015-07-10T02:49:10.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "022b589ee7c0ba4a33c3054b7b1ac116625316c4",
+                "bugfix_commit_date": "2015-06-12T02:15:25.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/ExpressionResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-jdbc/src/main/java/org/apache/lens/driver/jdbc/MaxJDBCConnectionCheckConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-jdbc/src/main/java/org/apache/lens/driver/jdbc/MaxJDBCConnectionCheckConstraintFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1bcdfd1aeedd49a657b84753d8461357fe1dadca",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "30c22c3e09d407c8f6c5cbad4cd744c29c00a33a",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/session/SessionResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/session/SessionService.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1bcdfd1aeedd49a657b84753d8461357fe1dadca",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "30c22c3e09d407c8f6c5cbad4cd744c29c00a33a",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/save/SavedQueryResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/UnioningWaitingQueriesSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/constraint/DefaultQueryLaunchingConstraintsChecker.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3b3f42da51808e1bb0d23357e1bfaecaca978896",
+                "bugfix_commit_date": "2016-04-27T00:22:06.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ede537e6bf22176dd689d5d727605e8c6442dae5",
+                "bugfix_commit_date": "2015-06-17T05:15:47.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/ColumnResolver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9ace50b3e657922de0430df5e1a44d0571ebd699",
+                "bugfix_commit_date": "2016-06-08T09:35:05.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/QueryResultPurger.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "df75a4b838f5572ff6ef2c7466681853ac00ecb4",
+                "bugfix_commit_date": "2016-06-08T13:41:40.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "fcc0cafd61dc8d2ea2009277c370236127e9d27e",
+                "bugfix_commit_date": "2016-06-02T03:41:13.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5d2dccb00606844a877b7ff379e80ae0a3b965a9",
+                "bugfix_commit_date": "2016-01-18T23:44:31.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "7080b76c63a82e09b5d42c2d2b7458f80b1085f8",
+                "bugfix_commit_date": "2015-10-08T05:44:57.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/session/LensSessionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/session/SessionClassLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/LensConnection.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0190ef5676f160678c8e66c601f8168cf9a42938",
+                "bugfix_commit_date": "2016-07-19T06:23:38.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/error/GenericExceptionMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7ae4a547294e23ec0b61d89679c9137f86709fb2",
+                "bugfix_commit_date": "2016-08-01T07:48:21.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9b402aee35e52fcf235974429cee760883b42271",
+                "bugfix_commit_date": "2016-07-29T08:37:28.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5c25e68fe71670df6c72d3b8dc08fcbcad6011c4",
+                "bugfix_commit_date": "2016-05-25T07:23:22.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "56c5813024759dfa4c143f1a940442390360f55b",
+                "bugfix_commit_date": "2015-03-30T06:51:51.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "423aec25150e8e3a9f68e7c8604bce403e9a11f0",
+                "bugfix_commit_date": "2015-03-18T05:44:21.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "1f33b5025bd5ada135ae689c31c7dc0bdeb37854",
+                "bugfix_commit_date": "2015-03-01T06:52:07.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "db436ebd75c19c7672c93fa2625a431891d4cec8",
+                "bugfix_commit_date": "2015-01-22T23:33:37.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ef2355f34c5c880ea470329720ebc5ed9587ea38",
+                "bugfix_commit_date": "2015-01-21T08:16:36.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-driver-jdbc/src/main/java/org/apache/lens/driver/jdbc/JDBCDriver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7080b76c63a82e09b5d42c2d2b7458f80b1085f8",
+                "bugfix_commit_date": "2015-10-08T05:44:57.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/LensApplication.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/LensRequestLoggingFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/model/MappedDiagnosticLogSegregationContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/annotations/LensSegmentationCommands.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ad8f4a88bee24c008f1cb5e73a049123ec26bcdb",
+                "bugfix_commit_date": "2015-07-24T07:14:47.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "4c7252669fb07f5b38e6a6653cc26830ccfe6329",
+                "bugfix_commit_date": "2015-07-24T03:26:18.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a4f18620257076d9e4c8ce68f8073e09f7e5bba2",
+                "bugfix_commit_date": "2015-02-02T06:12:24.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-client/src/main/java/org/apache/lens/client/LensMetadataClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/Segment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/Segmentation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/ReferencedDimAttribute.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "df75a4b838f5572ff6ef2c7466681853ac00ecb4",
+                "bugfix_commit_date": "2016-06-08T13:41:40.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/session/DatabaseResourceService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/session/UncloseableClassLoader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "58ab86f2440f74c815f1c2ea6199f0b7765120b4",
+                "bugfix_commit_date": "2015-07-03T02:12:04.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/SupportedQuerySubmitOperations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/result/LensAPIResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/error/LensServerErrorCode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/error/UnSupportedQuerySubmitOpException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/DriverQueryHook.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a5091fe0c2b351bd5d8643de9edaac23f2bd3793",
+                "bugfix_commit_date": "2016-02-02T06:06:07.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ef2355f34c5c880ea470329720ebc5ed9587ea38",
+                "bugfix_commit_date": "2015-01-21T08:16:36.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/LensDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/NoOpDriverQueryHook.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8750e72169fa9b7c01b376bf165e9abcc9206e8d",
+                "bugfix_commit_date": "2015-04-08T21:16:45.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/LensServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/constants/DriverConfig.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "42c4dfcb64f59c341ad244b96872a921ea9043db",
+                "bugfix_commit_date": "2016-07-05T01:43:49.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "b7773d6c74cc323be10c0f416f4ec93d8711fe00",
+                "bugfix_commit_date": "2016-03-04T21:15:27.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/BaseLensCommand.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a33cc53b38d559ba743b3d9664735698e22623c3",
+                "bugfix_commit_date": "2016-06-29T03:56:00.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "b805ee989188c5889e6472b48572d126b6515414",
+                "bugfix_commit_date": "2016-02-05T03:42:29.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-api/src/main/java/org/apache/lens/api/LensSessionHandle.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a33cc53b38d559ba743b3d9664735698e22623c3",
+                "bugfix_commit_date": "2016-06-29T03:56:00.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-api/src/main/java/org/apache/lens/api/ToXMLString.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "46f18c339d04819b524103a049f57b5d1aa1327b",
+                "bugfix_commit_date": "2015-03-18T08:44:45.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "765664c5e93325302a59e98ab73ddbb326dc1294",
+                "bugfix_commit_date": "2015-03-04T05:17:17.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e4bccced6d66693f11570429ebbd6e959c3355e4",
+                "bugfix_commit_date": "2015-02-05T10:07:01.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/session/HiveSessionService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/SessionValidator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "11593f468d39126ffe6dfc27cb7eb6f3493a13cc",
+                "bugfix_commit_date": "2015-07-28T21:26:27.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a4f18620257076d9e4c8ce68f8073e09f7e5bba2",
+                "bugfix_commit_date": "2015-02-02T06:12:24.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/metastore/CubeMetastoreService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobInstanceInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobInstanceRun.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobInstanceState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CubeQueryConfUtil.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2f1ddd46375e7b0e2411e4232a5a6390602f33f5",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0b3203d047d9738141d153e9f7894fcc6ac64f79",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/DefaultQueryAST.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bd72a69a6d8f541a9c3385770dd45b1acd789ad6",
+                "bugfix_commit_date": "2014-12-08T02:01:10.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/DimHQLContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "91ccec775bfff7732da41b6a6d13e01752750f7f",
+                "bugfix_commit_date": "2016-01-21T07:13:26.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/join/AutoJoinContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/scheduler/AlarmService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/scheduler/ScheduleResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/scheduler/SchedulerEventListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/scheduler/SchedulerQueryEventListener.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9ace50b3e657922de0430df5e1a44d0571ebd699",
+                "bugfix_commit_date": "2016-06-08T09:35:05.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f211309921d1ba32626df7d34e8211c24ab50e24",
+                "bugfix_commit_date": "2016-04-26T07:10:01.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "06d96815107e75df909a3992b2ea4a7cd5f174ce",
+                "bugfix_commit_date": "2016-04-26T06:54:47.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "aeca66ad432d7717b9d7651d7a3c9277da25bb70",
+                "bugfix_commit_date": "2016-03-28T06:07:11.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "8750e72169fa9b7c01b376bf165e9abcc9206e8d",
+                "bugfix_commit_date": "2015-04-08T21:16:45.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "423aec25150e8e3a9f68e7c8604bce403e9a11f0",
+                "bugfix_commit_date": "2015-03-18T05:44:21.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "fc459da8f02c8467e7a02f8e73b4766874c30741",
+                "bugfix_commit_date": "2015-02-27T16:09:38.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9b1dd5236ff041bdd90a0e59306105754de969e6",
+                "bugfix_commit_date": "2015-02-27T15:54:30.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/QueryExecutionServiceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/BaseLensService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/scheduler/SchedulerService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/AbstractLensDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/PartiallyFetchedInMemoryResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/QueryStatus.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "935647ca0cfdee1f300e0054d354c6c8f6469060",
+                "bugfix_commit_date": "2016-03-02T05:29:23.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensQueryCommands.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "77e7cc64118acaabc01a613e9ead438b03cf43a0",
+                "bugfix_commit_date": "2016-07-19T07:22:51.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a4f18620257076d9e4c8ce68f8073e09f7e5bba2",
+                "bugfix_commit_date": "2015-02-02T06:12:24.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-client/src/main/java/org/apache/lens/client/LensClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/LensStatement.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "eafc892d7d39f53e9f9cfb659d4bb06542a45f86",
+                "bugfix_commit_date": "2015-08-05T00:02:51.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/LensServerDAO.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1bcdfd1aeedd49a657b84753d8461357fe1dadca",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "30c22c3e09d407c8f6c5cbad4cd744c29c00a33a",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/QueryServiceResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/helpers/LensServerHelper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f2fe73fd3e383c41544a8da6592d98e8f4271065",
+                "bugfix_commit_date": "2014-12-29T03:02:16.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/util/UtilityMethods.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-jdbc/src/main/java/org/apache/lens/driver/jdbc/JDBCDriverConfConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryExecutionService.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c73d5844b6e74eb3184b70aea283bf26b1bd267c",
+                "bugfix_commit_date": "2016-01-08T06:53:19.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/DateUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/BetweenTimeRangeWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobHandle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobInstanceHandle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/scheduler/SchedulerJobStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/additional/java/SampleUdf.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "fbe44ff0be1ceca163a3d74310fa10b5ac5918eb",
+                "bugfix_commit_date": "2016-08-04T01:21:56.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "1254a1e2e774752ecb672a0100fffdc7d3779a5c",
+                "bugfix_commit_date": "2015-05-30T07:06:28.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-client/src/main/java/org/apache/lens/client/LensClientSingletonWrapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f211309921d1ba32626df7d34e8211c24ab50e24",
+                "bugfix_commit_date": "2016-04-26T07:10:01.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/AbstractQueryContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d37e84994042622b7e68a5c564d3cb31fed5c45f",
+                "bugfix_commit_date": "2016-08-10T09:51:43.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a33cc53b38d559ba743b3d9664735698e22623c3",
+                "bugfix_commit_date": "2016-06-29T03:56:00.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/scheduler/SchedulerDAO.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d37e84994042622b7e68a5c564d3cb31fed5c45f",
+                "bugfix_commit_date": "2016-08-10T09:51:43.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/scheduler/SchedulerServiceImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "eabd4e4910390dc6970491c4b117973a6971e7e7",
+                "bugfix_commit_date": "2016-07-07T08:15:35.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5f79cc6b216b8fc864c1cca34b929b6e9cc868cb",
+                "bugfix_commit_date": "2016-06-28T04:35:59.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f211309921d1ba32626df7d34e8211c24ab50e24",
+                "bugfix_commit_date": "2016-04-26T07:10:01.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "b71be2dc906688b6f283bb16afa778d19fc1c0bf",
+                "bugfix_commit_date": "2015-11-25T08:09:07.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5741aee71c8aeff595db3cf7116ef51ea30c9a6e",
+                "bugfix_commit_date": "2015-10-14T20:21:18.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "278e0e857ccc02f7b673147e5fe0fafa28ea2245",
+                "bugfix_commit_date": "2015-04-03T11:24:42.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "72691f12f7b153be209dea09b02bbab34b1d41a4",
+                "bugfix_commit_date": "2015-03-31T00:40:53.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9b1dd5236ff041bdd90a0e59306105754de969e6",
+                "bugfix_commit_date": "2015-02-27T15:54:30.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "db436ebd75c19c7672c93fa2625a431891d4cec8",
+                "bugfix_commit_date": "2015-01-22T23:33:37.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ef2355f34c5c880ea470329720ebc5ed9587ea38",
+                "bugfix_commit_date": "2015-01-21T08:16:36.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "6d87ffae70e4d7b3dc2381b54d90fa9e918be676",
+                "bugfix_commit_date": "2014-12-12T22:49:55.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-driver-hive/src/main/java/org/apache/lens/driver/hive/HiveDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/exceptions/LensClientIOException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/resultset/AbstractResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/resultset/CsvResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/resultset/CsvResultSetReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/resultset/ResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/resultset/ResultSetReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/resultset/ZippedCsvResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/resultset/ZippedCsvResultSetReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/resultset/ZippedResultSetReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/LensClientConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/constants/QueryInventory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/helpers/QueryHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/type/MapBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/BaseDimAttribute.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/ColumnMeasure.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "04217628ad3349d3397e7a7ac13929d5797d0493",
+                "bugfix_commit_date": "2015-03-22T06:06:05.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/CubeColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/CubeDimAttribute.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/CubeMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/MetastoreConstants.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "aeca66ad432d7717b9d7651d7a3c9277da25bb70",
+                "bugfix_commit_date": "2016-03-28T06:07:11.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/ResultFormatter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "020b651678969289ab12290d292d6043b734b144",
+                "bugfix_commit_date": "2016-06-09T00:27:59.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "d264c9a44b3f0b889e87241a6eb9ec1051f7c6a5",
+                "bugfix_commit_date": "2016-05-09T07:13:42.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/AbstractFileFormatter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d264c9a44b3f0b889e87241a6eb9ec1051f7c6a5",
+                "bugfix_commit_date": "2016-05-09T07:13:42.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0d8a841be344eabd1690821bc1fab856a03e1621",
+                "bugfix_commit_date": "2015-02-06T08:30:23.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "1eb9b6150733362e31da5e265e67b08a80c0547f",
+                "bugfix_commit_date": "2015-02-06T08:30:23.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "92c5ba344b1278b1cc91a459892fbc8769ed16cd",
+                "bugfix_commit_date": "2015-01-01T08:39:33.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/LensServices.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8fcc1a12b652c667fb153bb0e95e4a8de4f8638a",
+                "bugfix_commit_date": "2016-08-22T07:50:25.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/metrics/MetricsServiceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/BaseApp.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4d7c8e4db3e9aa81da042921a31dfd670982ce38",
+                "bugfix_commit_date": "2015-12-24T06:44:31.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "11593f468d39126ffe6dfc27cb7eb6f3493a13cc",
+                "bugfix_commit_date": "2015-07-28T21:26:27.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "4ded4c5c088f71f5cb6f4c7c76fd34ea25e3b7ec",
+                "bugfix_commit_date": "2015-07-06T01:13:14.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a4f18620257076d9e4c8ce68f8073e09f7e5bba2",
+                "bugfix_commit_date": "2015-02-02T06:12:24.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0c3b0537f3152231e5a6b9e939272fcf093c1241",
+                "bugfix_commit_date": "2015-01-15T04:48:02.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "df74cdbd16a1eff1d3fa573f532d1d5f2a4e389c",
+                "bugfix_commit_date": "2014-11-28T08:16:29.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/metastore/CubeMetastoreServiceImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ca19ead475e4f929a7154de4ca9c92dc034b0f2c",
+                "bugfix_commit_date": "2016-09-08T00:13:09.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "1bcdfd1aeedd49a657b84753d8461357fe1dadca",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "30c22c3e09d407c8f6c5cbad4cd744c29c00a33a",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e5691d8d655c94cdd64e0d83028ec59735d73edc",
+                "bugfix_commit_date": "2015-11-24T01:37:17.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a4f18620257076d9e4c8ce68f8073e09f7e5bba2",
+                "bugfix_commit_date": "2015-02-02T06:12:24.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/metastore/MetastoreResource.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2f0e5fdbf079c301bcd41724e61b90b9af4fad33",
+                "bugfix_commit_date": "2016-02-01T10:53:01.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e5691d8d655c94cdd64e0d83028ec59735d73edc",
+                "bugfix_commit_date": "2015-11-24T01:37:17.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/error/LensCubeErrorCode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/JoinChain.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "11593f468d39126ffe6dfc27cb7eb6f3493a13cc",
+                "bugfix_commit_date": "2015-07-28T21:26:27.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/Storage.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "09baa12880ba27c00323bbf881e9c69acb580117",
+                "bugfix_commit_date": "2015-11-24T01:35:05.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "09419a577f6b4d4ac8890be10de7ddf256ef616b",
+                "bugfix_commit_date": "2015-10-27T11:37:29.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c8d38f7cfdb630558339377e8b427c7fbee8b3cf",
+                "bugfix_commit_date": "2015-07-10T01:50:41.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5f859118c2ea49cc09dd59472d266064d36ca978",
+                "bugfix_commit_date": "2015-06-22T04:52:13.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "b33e6e18da3578afc442b016a7a168c8f0ba88db",
+                "bugfix_commit_date": "2015-06-12T06:45:46.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c37ab19eddd717bbb7a8545c0ac6d72830fe2ca5",
+                "bugfix_commit_date": "2015-02-02T07:12:39.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "43930e525ab2d7fa586fa510d79a33c6d5aea78c",
+                "bugfix_commit_date": "2015-01-23T03:46:29.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "bf6c614e599cdc7cdf98a247d8806bff11fed214",
+                "bugfix_commit_date": "2014-12-14T06:04:06.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "061440480d918c7e5ae03af83dffcf3bfb78b709",
+                "bugfix_commit_date": "2014-12-10T08:43:17.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "3838c6fc412e13efed9b1874d50705c47f6a7732",
+                "bugfix_commit_date": "2014-12-08T03:58:33.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "be6fb66ce30282b761ae4020a61018b12bde7c26",
+                "bugfix_commit_date": "2014-12-01T11:08:45.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CandidateTableResolver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2f1ddd46375e7b0e2411e4232a5a6390602f33f5",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0b3203d047d9738141d153e9f7894fcc6ac64f79",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f1387c31537eb7f73ba2de503e7a17120df1e691",
+                "bugfix_commit_date": "2015-07-10T02:49:10.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5f859118c2ea49cc09dd59472d266064d36ca978",
+                "bugfix_commit_date": "2015-06-22T04:52:13.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c823ec14c5b3b52f1208fbe06e3f5dfcd2413f13",
+                "bugfix_commit_date": "2015-06-17T03:18:33.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c37ab19eddd717bbb7a8545c0ac6d72830fe2ca5",
+                "bugfix_commit_date": "2015-02-02T07:12:39.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "43930e525ab2d7fa586fa510d79a33c6d5aea78c",
+                "bugfix_commit_date": "2015-01-23T03:46:29.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "bf6c614e599cdc7cdf98a247d8806bff11fed214",
+                "bugfix_commit_date": "2014-12-14T06:04:06.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "75b6b139a2815d40ea4cf318c60d9f62f8dbd927",
+                "bugfix_commit_date": "2014-12-11T07:40:29.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "061440480d918c7e5ae03af83dffcf3bfb78b709",
+                "bugfix_commit_date": "2014-12-10T08:43:17.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "bd72a69a6d8f541a9c3385770dd45b1acd789ad6",
+                "bugfix_commit_date": "2014-12-08T02:01:10.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CubeQueryContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/FieldValidator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d7f09ede37e1f2d75e3e3d62a2e3a0a2375575cc",
+                "bugfix_commit_date": "2015-09-30T09:47:26.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5e492d93f013ad533b0865ed74155ed7c5940224",
+                "bugfix_commit_date": "2015-04-07T01:31:54.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f2c0c0278ac12db3116a707d7300218d32bcd566",
+                "bugfix_commit_date": "2015-02-06T08:25:05.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c37ab19eddd717bbb7a8545c0ac6d72830fe2ca5",
+                "bugfix_commit_date": "2015-02-02T07:12:39.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/StorageTableResolver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a4b4b85d8179f1d7c7f0773f47b7aeebe2a0234d",
+                "bugfix_commit_date": "2016-05-25T07:17:03.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "2f1ddd46375e7b0e2411e4232a5a6390602f33f5",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0b3203d047d9738141d153e9f7894fcc6ac64f79",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/SingleFactMultiStorageHQLContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e5691d8d655c94cdd64e0d83028ec59735d73edc",
+                "bugfix_commit_date": "2015-11-24T01:37:17.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "11593f468d39126ffe6dfc27cb7eb6f3493a13cc",
+                "bugfix_commit_date": "2015-07-28T21:26:27.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "42ffb4e1a837320c0014fae7ce0665fb182d97d6",
+                "bugfix_commit_date": "2015-03-27T04:49:09.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e5bc9e9b791adf2e704bc3b0532ee0177ff8c69f",
+                "bugfix_commit_date": "2015-03-27T03:09:38.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a4f18620257076d9e4c8ce68f8073e09f7e5bba2",
+                "bugfix_commit_date": "2015-02-02T06:12:24.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/CubeMetastoreClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/ExprColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/MetastoreUtil.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c17908134e004c646724d7e464252ec76a43113d",
+                "bugfix_commit_date": "2015-12-18T01:20:33.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/AggregateResolver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "75b6b139a2815d40ea4cf318c60d9f62f8dbd927",
+                "bugfix_commit_date": "2014-12-11T07:40:29.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/AliasReplacer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4e822031f4a3d75b45281ec5aadaf8f64cbb7542",
+                "bugfix_commit_date": "2016-05-09T00:38:31.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ecb791119353ee09ac1093cbb9cfed18394b2c1c",
+                "bugfix_commit_date": "2014-12-16T02:38:14.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/HQLParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/scheduler/LensScheduler.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b805ee989188c5889e6472b48572d126b6515414",
+                "bugfix_commit_date": "2016-02-05T03:42:29.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "4c7252669fb07f5b38e6a6653cc26830ccfe6329",
+                "bugfix_commit_date": "2015-07-24T03:26:18.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-api/src/main/java/org/apache/lens/api/APIResult.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b805ee989188c5889e6472b48572d126b6515414",
+                "bugfix_commit_date": "2016-02-05T03:42:29.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-api/src/main/java/org/apache/lens/api/DateTime.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b805ee989188c5889e6472b48572d126b6515414",
+                "bugfix_commit_date": "2016-02-05T03:42:29.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-api/src/main/java/org/apache/lens/api/LensConf.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/Priority.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/StringList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/ToYAMLString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/UUIDAdapter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/error/ErrorCollection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/error/ErrorCollectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/error/ErrorMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/error/LensCommonErrorCode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/error/LensError.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/error/LensHttpStatus.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4f00c11b49a46a97420a4d1617653c14e0002535",
+                "bugfix_commit_date": "2016-03-02T04:43:04.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-api/src/main/java/org/apache/lens/api/jaxb/LensJAXBContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/jaxb/LensJAXBContextResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/jaxb/LensJAXBValidationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/jaxb/YAMLToStringStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/InMemoryQueryResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/LensPreparedQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/LensQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/PersistentQueryResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/QueryCostType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/QueryHandle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/QueryHandleWithResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/QueryPlan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/QueryPrepareHandle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/QueryResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/QueryResultSetMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/QuerySubmitResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/ResultColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/ResultColumnType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/ResultRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/SubmitOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/result/LensErrorTO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/result/NoErrorPayload.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/result/NoResultData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/result/PrettyPrintable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/result/QueryCostTO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/util/CommonUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/util/MoxyJsonConfigurationContextResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/util/PathValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/save/ListResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/save/Parameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/save/ParameterCollectionType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/save/ParameterDataType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/save/ParameterParserResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/save/ResourceModifiedResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-api/src/main/java/org/apache/lens/api/query/save/SavedQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/BaseTableCrudCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/ConceptualTableCrudCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensConnectionCommands.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensCRUDCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensCubeCommands.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensDatabaseCommands.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensDimensionCommands.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d597314cb2fa8a26c64e050b80978c6024ae6eb7",
+                "bugfix_commit_date": "2015-04-07T08:12:51.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a4f18620257076d9e4c8ce68f8073e09f7e5bba2",
+                "bugfix_commit_date": "2015-02-02T06:12:24.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensDimensionTableCommands.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d597314cb2fa8a26c64e050b80978c6024ae6eb7",
+                "bugfix_commit_date": "2015-04-07T08:12:51.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a4f18620257076d9e4c8ce68f8073e09f7e5bba2",
+                "bugfix_commit_date": "2015-02-02T06:12:24.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensFactCommands.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensLogResourceCommands.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensNativeTableCommands.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LensStorageCommands.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/LogicalTableCrudCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/config/LensCliConfigConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/skel/LensBanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/skel/LensHistoryFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/skel/LensPromptProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/table/CollectionTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/table/CollectionTableFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/table/XFlattenedColumnTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/table/XJoinChainTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cli/src/main/java/org/apache/lens/cli/commands/annotations/UserDocumentation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/Credentials.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3eddcb5b2f5025bfc032155c71171c33683db67d",
+                "bugfix_commit_date": "2015-06-22T01:21:06.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-client/src/main/java/org/apache/lens/client/LensClientResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/LensConnectionBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/LensConnectionParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/RequestFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/exceptions/LensBriefErrorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/exceptions/LensClientException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/exceptions/LensClientServerConnectionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/jdbc/JDBCUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/jdbc/LensJdbcConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/jdbc/LensJdbcDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/jdbc/LensJdbcResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/jdbc/LensJdbcResultSetMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/jdbc/LensJdbcStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/model/BriefError.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/model/IdBriefErrorTemplate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/model/IdBriefErrorTemplateKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/model/ProxyLensQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/client/LensMLClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/client/LensMLJerseyClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/rdd/HCatRecordToObjectListMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/rdd/LensRDDClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/api/LensML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/api/MLTestReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/api/ModelMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/api/TestReport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/dao/MLDBUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/impl/HiveMLUDF.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "001970de5ff73bb6effba630c474550b286b2a3b",
+                "bugfix_commit_date": "2015-04-16T01:28:18.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/impl/LensMLImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/impl/MLRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/impl/MLTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/impl/MLUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "55f03d38bcb2f3532b285746f9b7f7fb9d85b51b",
+                "bugfix_commit_date": "2015-08-11T07:41:11.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/impl/ModelLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/impl/QueryRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/impl/TableTestingSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/server/MLApp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/server/MLService.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "001970de5ff73bb6effba630c474550b286b2a3b",
+                "bugfix_commit_date": "2015-04-16T01:28:18.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/server/MLServiceImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1bcdfd1aeedd49a657b84753d8461357fe1dadca",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "30c22c3e09d407c8f6c5cbad4cd744c29c00a33a",
+                "bugfix_commit_date": "2016-03-09T05:02:03.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/server/MLServiceResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/api/AlgoParam.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/api/Algorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/api/MLAlgo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/api/MLDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/api/MLModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/lib/AlgoArgParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/lib/Algorithms.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/lib/ClassifierBaseModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/lib/ForecastingModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/lib/LabelledPrediction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/lib/MultiPrediction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/BaseSparkAlgo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/BaseSparkClassificationModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/ColumnFeatureFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/DoubleValueMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/FeatureFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/FeatureValueMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/HiveTableRDD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/SparkMLDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/TableTrainingSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/dt/DecisionTreeAlgo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/dt/DecisionTreeClassificationModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/dt/SparkDecisionTreeModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/kmeans/KMeansAlgo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/kmeans/KMeansClusteringModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/lr/LogisticRegressionAlgo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/lr/LogitRegressionClassificationModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/nb/NaiveBayesAlgo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/nb/NaiveBayesClassificationModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/svm/SVMAlgo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-ml-lib/src/main/java/org/apache/lens/ml/algo/spark/svm/SVMClassificationModel.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9b51b46f7b4bc3e3f233adb2533a492f0512ae69",
+                "bugfix_commit_date": "2015-05-06T05:34:49.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/error/ColUnAvailableInTimeRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/error/ColUnAvailableInTimeRangeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/error/ConflictingFields.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/error/FieldsCannotBeQueriedTogetherException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/error/NoCandidateDimAvailableException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/error/NoCandidateFactAvailableException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/AbstractBaseTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/AbstractCubeTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/CaseInsensitiveStringHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/Cube.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/CubeDimensionTable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c73d5844b6e74eb3184b70aea283bf26b1bd267c",
+                "bugfix_commit_date": "2016-01-08T06:53:19.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/CubeFactTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/CubeInterface.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/CubeTableType.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "81302fad5cc904a747214a4ccb6addeb930f7897",
+                "bugfix_commit_date": "2015-04-23T06:09:00.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "d527c2786d9bea3a26dd01ce7e068602c4064a0e",
+                "bugfix_commit_date": "2015-04-23T06:09:00.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/DerivedCube.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/Dimension.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "57f547a215f8f34b22147cf2177f527cffc3b709",
+                "bugfix_commit_date": "2016-02-18T23:12:05.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/FactPartition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/HDFSStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/HierarchicalDimAttribute.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/Named.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/PartitionMetahook.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/ReferencedDimAtrribute.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "42ffb4e1a837320c0014fae7ce0665fb182d97d6",
+                "bugfix_commit_date": "2015-03-27T04:49:09.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/StorageConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/StoragePartitionDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/StorageTableDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/TableReference.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "86f251a75b3a010a795f29be982ee19d9b2ba780",
+                "bugfix_commit_date": "2015-08-31T00:49:56.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "1a419dd21df36178645f3d8468fcd31a8b397920",
+                "bugfix_commit_date": "2015-05-05T06:36:34.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/TimePartition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/TimePartitionRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/TimePartitionRangeList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/TimeRange.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "86f251a75b3a010a795f29be982ee19d9b2ba780",
+                "bugfix_commit_date": "2015-08-31T00:49:56.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/UpdatePeriod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/AbridgedTimeRangeWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/AliasDecider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/Aliased.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CandidateDim.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CandidateTable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f1387c31537eb7f73ba2de503e7a17120df1e691",
+                "bugfix_commit_date": "2015-07-10T02:49:10.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f2c0c0278ac12db3116a707d7300218d32bcd566",
+                "bugfix_commit_date": "2015-02-06T08:25:05.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c37ab19eddd717bbb7a8545c0ac6d72830fe2ca5",
+                "bugfix_commit_date": "2015-02-02T07:12:39.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "43930e525ab2d7fa586fa510d79a33c6d5aea78c",
+                "bugfix_commit_date": "2015-01-23T03:46:29.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CandidateTablePruneCause.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CheckColumnMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CheckTableNames.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/ContextRewriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CubeQueryRewriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/DefaultAliasDecider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2f1ddd46375e7b0e2411e4232a5a6390602f33f5",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0b3203d047d9738141d153e9f7894fcc6ac64f79",
+                "bugfix_commit_date": "2016-02-08T01:30:53.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "91ccec775bfff7732da41b6a6d13e01752750f7f",
+                "bugfix_commit_date": "2016-01-21T07:13:26.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f57a9a149f0e670f47b586080f14113ccd533ed8",
+                "bugfix_commit_date": "2015-03-31T00:35:56.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c37ab19eddd717bbb7a8545c0ac6d72830fe2ca5",
+                "bugfix_commit_date": "2015-02-02T07:12:39.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "43930e525ab2d7fa586fa510d79a33c6d5aea78c",
+                "bugfix_commit_date": "2015-01-23T03:46:29.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "75b6b139a2815d40ea4cf318c60d9f62f8dbd927",
+                "bugfix_commit_date": "2014-12-11T07:40:29.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/DenormalizationResolver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bd72a69a6d8f541a9c3385770dd45b1acd789ad6",
+                "bugfix_commit_date": "2014-12-08T02:01:10.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/DimOnlyHQLContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "022b589ee7c0ba4a33c3054b7b1ac116625316c4",
+                "bugfix_commit_date": "2015-06-12T02:15:25.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c7bb16615692e3bf02729e1d72c824e1c005ea22",
+                "bugfix_commit_date": "2014-12-29T01:54:37.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/GroupbyResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/HQLContextInterface.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5f859118c2ea49cc09dd59472d266064d36ca978",
+                "bugfix_commit_date": "2015-06-22T04:52:13.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0393d7bef931462d1aeb4a4eb2f067c0e05843eb",
+                "bugfix_commit_date": "2015-03-05T22:45:20.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "c37ab19eddd717bbb7a8545c0ac6d72830fe2ca5",
+                "bugfix_commit_date": "2015-02-02T07:12:39.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "8ef8cf42bc9d2d31108929e628cf006e33cea3fb",
+                "bugfix_commit_date": "2015-02-02T00:07:23.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "43930e525ab2d7fa586fa510d79a33c6d5aea78c",
+                "bugfix_commit_date": "2015-01-23T03:46:29.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "b8d09b17e8b116aee9d9a798e4f8ca932e702cc4",
+                "bugfix_commit_date": "2014-12-16T05:34:08.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "bf6c614e599cdc7cdf98a247d8806bff11fed214",
+                "bugfix_commit_date": "2014-12-14T06:04:06.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "061440480d918c7e5ae03af83dffcf3bfb78b709",
+                "bugfix_commit_date": "2014-12-10T08:43:17.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/JoinResolver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c37ab19eddd717bbb7a8545c0ac6d72830fe2ca5",
+                "bugfix_commit_date": "2015-02-02T07:12:39.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/LeastPartitionResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/LightestDimensionResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/LightestFactResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/MaxCoveringFactResolver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b5defa9cf434c917d068167db1aceebe9b510422",
+                "bugfix_commit_date": "2015-04-30T03:06:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/MultiFactHQLContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/ORTimeRangeWriter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d7f09ede37e1f2d75e3e3d62a2e3a0a2375575cc",
+                "bugfix_commit_date": "2015-09-30T09:47:26.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/PartitionRangesForPartitionColumns.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c37ab19eddd717bbb7a8545c0ac6d72830fe2ca5",
+                "bugfix_commit_date": "2015-02-02T07:12:39.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/PruneCauses.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/QueryAST.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/SimpleHQLContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/SingleFactSingleStorageHQLContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/StorageUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/TimeRangeUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/TimeRangeWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/TrackQueriedColumns.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/UnionHQLContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/ValidationRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/join/JoinPath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/join/TableRelationship.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/timeline/EndsAndHolesPartitionTimeline.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/timeline/PartitionTimeline.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/timeline/PartitionTimelineFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/timeline/RangesPartitionTimeline.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/metadata/timeline/StoreAllPartitionTimeline.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/join/BridgeTableJoinContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7035de9d73f2df1e72111d43875b0e21d82feaf5",
+                "bugfix_commit_date": "2016-01-25T03:30:31.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/join/JoinClause.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7035de9d73f2df1e72111d43875b0e21d82feaf5",
+                "bugfix_commit_date": "2016-01-25T03:30:31.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/join/JoinTree.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/join/JoinUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/query/cost/FactPartitionBasedQueryCostCalculator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/ASTTraverserForES.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a5091fe0c2b351bd5d8643de9edaac23f2bd3793",
+                "bugfix_commit_date": "2016-02-02T06:06:07.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/ESDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/ESDriverConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/ESQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/client/ESClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/client/ESResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/exceptions/ESClientException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/exceptions/InvalidQueryException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/grammar/Aggregations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/grammar/LogicalOperators.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/grammar/Predicates.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/translator/ASTCriteriaVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/translator/ASTVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/translator/CriteriaVisitorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/translator/ESVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/client/jest/JestClientImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/translator/impl/ESAggregateVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/translator/impl/ESCriteriaVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/translator/impl/ESCriteriaVisitorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/translator/impl/ESTermVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-hive/src/main/java/org/apache/lens/driver/hive/HivePersistentResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-hive/src/main/java/org/apache/lens/driver/hive/HiveResultSetMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-hive/src/main/java/org/apache/lens/driver/hive/ThriftConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-jdbc/src/additional/java/ClassLoaderTestClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-jdbc/src/additional/java/DatabaseJarSerde.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-jdbc/src/main/java/org/apache/lens/driver/jdbc/ConnectionProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-jdbc/src/main/java/org/apache/lens/driver/jdbc/DataSourceConnectionProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/AbstractOutputFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/CSVSerde.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/FileFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/FileSerdeFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/HadoopFileFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/JSonSerde.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/LensFileOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/WrappedFileFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/ZipFileFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/util/HadoopUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/constants/QueryURL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/constants/SessionURL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/helpers/LensHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/testHelper/BaseTestClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/type/FormBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/type/PrepareQueryHandles.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/core/type/QueryHandles.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/additional/java/ClassLoaderTestClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/additional/java/ClassLoaderTestClass2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/additional/java/DatabaseJarSerde.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/ConsistentStateFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "73f92430c70664cf5b8c63ec9b174a4a1b27d2ad",
+                "bugfix_commit_date": "2015-12-15T07:52:40.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/EventServiceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/IndexApp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/IndexResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/LensApplicationListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/LensRequestListener.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7080b76c63a82e09b5d42c2d2b7458f80b1085f8",
+                "bugfix_commit_date": "2015-10-08T05:44:57.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "8750e72169fa9b7c01b376bf165e9abcc9206e8d",
+                "bugfix_commit_date": "2015-04-08T21:16:45.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/LensServerConf.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8750e72169fa9b7c01b376bf165e9abcc9206e8d",
+                "bugfix_commit_date": "2015-04-08T21:16:45.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/LensServletContextListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/LogResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/ServerModeFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/ServiceProviderFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/error/LensJAXBValidationExceptionMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/healthcheck/LensServiceHealthCheck.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/metastore/AuthorizationFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/metastore/MetastoreApp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/AuthorizationFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/FIFOQueryComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/LensPersistentResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/QueryApp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/QueryComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/QueryCostComparator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "aeca66ad432d7717b9d7651d7a3c9277da25bb70",
+                "bugfix_commit_date": "2016-03-28T06:07:11.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "73f92430c70664cf5b8c63ec9b174a4a1b27d2ad",
+                "bugfix_commit_date": "2015-12-15T07:52:40.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/QueryEndNotifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/QueryExecutionStatisticsGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/QueryPriorityComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/quota/QuotaApp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/quota/QuotaResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/quota/QuotaServiceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/rewrite/CubeKeywordRemover.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/rewrite/UserQueryToCubeQueryRewriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/scheduler/SchedulerApp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/session/SessionApp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/StatisticsService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/user/DatabaseUserConfigLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/user/FixedUserConfigLoader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f2fe73fd3e383c41544a8da6592d98e8f4271065",
+                "bugfix_commit_date": "2014-12-29T03:02:16.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/user/LDAPBackedDatabaseUserConfigLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/user/PropertyBasedUserConfigLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/user/UserConfigLoaderFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a57426e4b0276e612033f773ad3a602a6bb238af",
+                "bugfix_commit_date": "2016-03-01T06:07:56.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/util/FairPriorityBlockingQueue.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e5a0ff19aa179fbc858dbb3f70308186875ec728",
+                "bugfix_commit_date": "2015-08-06T04:56:50.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/util/ScannedPaths.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/DefaultQueryCollection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/EstimatedQueryCollection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/MutableQueryCollection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/QueryCollection.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7fb9be4562b5437b90d9489ea8f028a3ac960239",
+                "bugfix_commit_date": "2015-10-14T20:23:25.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5a40ee60c152a5acb547aa69dc714f51c42777ff",
+                "bugfix_commit_date": "2015-10-14T20:23:25.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/ThreadSafeEstimatedQueryCollection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/ThreadSafeQueryCollection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/UserSpecificWaitingQueriesSelectionPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/UserSpecificWaitingQueriesSelectionPolicyFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/WaitingQueriesSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/constraint/QueryLaunchingConstraintsChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/constraint/TotalQueryCostCeilingConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/constraint/TotalQueryCostCeilingConstraintFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/save/SavedQueryApp.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "06c6f47b361421cad53550bae72c7a892af8f516",
+                "bugfix_commit_date": "2016-08-02T05:46:50.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/save/SavedQueryDao.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/save/SavedQueryServiceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/event/LensStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/event/LoggableLensStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/store/StatisticsStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/event/query/QueryDriverStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/event/query/QueryExecutionStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/store/log/LogStatisticsStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/store/log/PartitionEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/store/log/StatisticsLogFileScannerTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/store/log/StatisticsLogLayout.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/store/log/StatisticsLogRollupHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/LensErrorInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/LensService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/ServiceProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/ServiceProviderFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/model/LensContainerRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/model/LensResourceMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/model/LogSegregationContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/annotations/MultiPurposeResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/common/BackOffRetryHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/common/ConfigBasedObjectCreationFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/common/FailureContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/common/FibonacciExponentialBackOffRetryHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/common/OperationRetryHandlerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/DriverEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/DriverQueryPlan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/DriverQueryStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/DriverSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/DriverSessionStarted.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/InMemoryResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/LensResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/MinQueryCostSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/PersistentResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/QueryCompletionListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/error/LensDriverErrorCode.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9132b967e2bd32d1478ca6425bd086bbb6d46d12",
+                "bugfix_commit_date": "2015-05-06T04:08:29.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/error/LensException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/error/LensMultiCauseException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "aeca66ad432d7717b9d7651d7a3c9277da25bb70",
+                "bugfix_commit_date": "2016-03-28T06:07:11.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "73f92430c70664cf5b8c63ec9b174a4a1b27d2ad",
+                "bugfix_commit_date": "2015-12-15T07:52:40.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/events/AsyncEventListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/events/LensEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/events/LensEventListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/events/LensEventService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/health/HealthCheckable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/health/HealthStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/metrics/DisabledMethodMetricsContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/metrics/LensMetricsRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/metrics/MethodMetricGauge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/metrics/MethodMetrics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/metrics/MethodMetricsContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/metrics/MethodMetricsFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "511418a6be7d2f4e27c28531908d60a38efc19bb",
+                "bugfix_commit_date": "2015-03-31T08:50:02.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/DriverSelectorQueryContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/ExplainQueryContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/FinishedLensQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/InMemoryOutputFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/PersistedOutputFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/PreparedQueryContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/PriorityChange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryAccepted.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryAcceptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryCancelled.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryClosed.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryEnded.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryExecuted.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryFailed.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryLaunched.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryOutputFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryQueued.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryRejected.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryRunning.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QuerySuccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueuePositionChange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/StatusChange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/quota/QuotaService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/session/SessionClosed.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/session/SessionEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/session/SessionExpired.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/session/SessionOpened.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/session/SessionRestored.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/user/UserConfigLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/user/UserConfigLoaderException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/collect/DriverSpecificWaitingQueriesSelectionPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/collect/DriverSpecificWaitingQueriesSelectionPolicyFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/collect/EstimatedImmutableQueryCollection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/collect/ImmutableQueryCollection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/collect/WaitingQueriesSelectionPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/constraint/QueryLaunchingConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/cost/FactPartitionBasedQueryCost.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/cost/QueryCost.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/cost/QueryCostCalculator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/cost/QueryCostTOBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/priority/CostRangePriorityDecider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/priority/CostToPriorityRangeConf.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/priority/QueryPriorityDecider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/priority/RangeConf.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/rewrite/Phase1Rewriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/rewrite/QueryRewriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/SavedQueryHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/SavedQueryService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/exception/MissingParameterException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/exception/ParameterCollectionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/exception/ParameterValueException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/exception/PrivilegeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/exception/SavedQueryNotFound.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/exception/ValueEncodeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/param/ParameterCollectionTypeEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/param/ParameterDataTypeEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/param/ParameterParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/save/param/ParameterResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-storage-db/src/main/java/org/apache/lens/storage/db/DBSerde.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-storage-db/src/main/java/org/apache/lens/storage/db/DBStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-storage-db/src/main/java/org/apache/lens/storage/db/DBStorageConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-storage-db/src/main/java/org/apache/lens/storage/db/DBStorageHandler.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "39046c70bcc2fd4958bf7e153d396477e601cf2a",
+                "bugfix_commit_date": "2015-03-05T06:50:23.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "d27bf4ca31d30965223693b0866eee7024f70c5e",
+                "bugfix_commit_date": "2015-02-11T01:02:25.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "6bbbe68af9f4bfc1ee27f3122b890ddcbb6bcf3a",
+                "bugfix_commit_date": "2015-02-11T01:02:25.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a4f18620257076d9e4c8ce68f8073e09f7e5bba2",
+                "bugfix_commit_date": "2015-02-02T06:12:24.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server/src/main/java/org/apache/lens/server/metastore/JAXBUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/rewrite/RewriteUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/driver/LensResultSetMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/cube/parse/CubeSemanticAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-hive/src/main/java/org/apache/lens/driver/hive/EmbeddedThriftConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-hive/src/main/java/org/apache/lens/driver/hive/HiveQueryPlan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-hive/src/main/java/org/apache/lens/driver/hive/RemoteThriftConnection.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3eddcb5b2f5025bfc032155c71171c33683db67d",
+                "bugfix_commit_date": "2015-06-22T01:21:06.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "18aea0295aa51ff8fc23eae5a48c0d6d7716b082",
+                "bugfix_commit_date": "2015-03-20T07:36:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-driver-jdbc/src/main/java/org/apache/lens/driver/jdbc/JDBCResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-query-lib/src/main/java/org/apache/lens/lib/query/FilePersistentFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/query/collect/DefaultEstimatedQueryCollection.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f211309921d1ba32626df7d34e8211c24ab50e24",
+                "bugfix_commit_date": "2016-04-26T07:10:01.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5741aee71c8aeff595db3cf7116ef51ea30c9a6e",
+                "bugfix_commit_date": "2015-10-14T20:21:18.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ef2355f34c5c880ea470329720ebc5ed9587ea38",
+                "bugfix_commit_date": "2015-01-21T08:16:36.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/query/QueryContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-client/src/main/java/org/apache/lens/client/exceptions/LensAPIException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-regression/src/main/java/org/apache/lens/regression/util/AssertUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-cube/src/main/java/org/apache/lens/driver/cube/RewriterPlan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server/src/main/java/org/apache/lens/server/stats/store/log/StatisticsLogPartitionHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-server-api/src/main/java/org/apache/lens/server/api/util/LensUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-es/src/main/java/org/apache/lens/driver/es/client/jest/JestResultSetTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "lens-driver-hive/src/main/java/org/apache/lens/driver/hive/HiveInMemoryResultSet.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ccf71332f90f7dd36eac0a84c3b32f9ff76d2812",
+                "bugfix_commit_date": "2015-10-27T09:50:53.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "05921c497d57d83b435ddd916d270f86544b8ef3",
+                "bugfix_commit_date": "2015-10-25T01:58:46.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e486e1dbe481da90643438c17741ced7e552aeed",
+                "bugfix_commit_date": "2015-07-06T01:07:01.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "1f33b5025bd5ada135ae689c31c7dc0bdeb37854",
+                "bugfix_commit_date": "2015-03-01T06:52:07.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "043d2a02831eadbf994d06d5b1e89376e5a6fa08",
+                "bugfix_commit_date": "2014-12-12T21:59:31.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "b747c24455576ce1d687f252412dab831252d2f2",
+                "bugfix_commit_date": "2014-12-10T07:32:04.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "55ccc89d954903df0d94d04f6989e97b4ee81e5c",
+                "bugfix_commit_date": "2014-12-02T03:30:50.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "358f3244fdef946dfb9c369ca5968964f276237d",
+                "bugfix_commit_date": "2014-12-01T07:02:19.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f5e5eccc7b9964abc97fde3abd7b22500f7c3833",
+                "bugfix_commit_date": "2014-12-01T03:06:53.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "lens-driver-jdbc/src/main/java/org/apache/lens/driver/jdbc/ColumnarSQLRewriter.java"
+    }
+]

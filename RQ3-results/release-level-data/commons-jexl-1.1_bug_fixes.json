@@ -1,0 +1,342 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/Script.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/ExpressionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/Expression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTIntegerLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/ClassMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/AbstractExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTEmptyFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTEQNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTExpressionExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTBitwiseOrNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTBitwiseXorNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTBlock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTDivNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/GetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTBitwiseAndNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTBitwiseComplNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/VelPropertySet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/ScriptImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/context/HashMapContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTIfStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/Uberspect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTFalseNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTFloatLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTForeachStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/SimpleNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/BooleanPropertyExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/MethodMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/Info.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/ExpressionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/VelPropertyGet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTSubtractNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTTrueNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTUnaryMinusNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTWhileStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/Node.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/PropertyExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTReferenceExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTSizeFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTSizeMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTStatementExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTStringLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/Introspector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTGENode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTGTNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/JJTParserState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ParseException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ParserConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ParserTokenManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ParserTreeConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/SimpleCharStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/Token.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/TokenMgrError.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/IntrospectorBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTJexlScript.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTLENode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTLTNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTAssignment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTAddNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTAndNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTArrayAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/ScriptFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/resolver/FlatResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTModNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTMulNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/VelMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/ArrayIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/EnumerationIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/Coercion.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTNENode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTNotNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/UberspectImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTOrNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/junit/Asserter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/JexlContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/JexlExprResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/JexlHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/Introspector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ParserVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/parser/ASTNullLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jexl/util/introspection/UberspectLoggable.java"
+    }
+]

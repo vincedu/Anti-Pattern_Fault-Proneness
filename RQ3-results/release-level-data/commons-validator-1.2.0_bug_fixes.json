@@ -1,0 +1,153 @@
+[
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "702283a604f830a4b26227a985001e1eeeb08a72",
+                "bugfix_commit_date": "2011-05-27 15:16:36",
+                "issue_created_at": "2010-01-25 12:26:42.474000",
+                "name": "VALIDATOR-282",
+                "severity": "blocker",
+                "type": "bug"
+            }
+        ],
+        "file": "src/share/org/apache/commons/validator/GenericTypeValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/ValidatorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/ValidatorResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/Form.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/Arg.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/CreditCardValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/DateValidator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b66045712d5867a57229e2e8303f16a9aa80fdcf",
+                "bugfix_commit_date": "2006-11-23 13:09:27",
+                "issue_created_at": "2006-06-01 23:48:40",
+                "name": "VALIDATOR-190",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/share/org/apache/commons/validator/EmailValidator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cd20d69f5369dd661c8eed5e7f9f924aeaf11ee4",
+                "bugfix_commit_date": "2006-05-30 17:41:51",
+                "issue_created_at": "2006-05-30 12:29:13",
+                "name": "VALIDATOR-189",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/share/org/apache/commons/validator/Field.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/GenericValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/ISBNValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/Msg.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c772b42fd6a49bc009c818b04c473596fe58a97c",
+                "bugfix_commit_date": "2006-10-06 21:44:55",
+                "issue_created_at": "2006-10-06 00:34:35",
+                "name": "VALIDATOR-204",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/share/org/apache/commons/validator/UrlValidator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6c455e0d54cb9d09836920d48a996bf6022e2e2f",
+                "bugfix_commit_date": "2006-11-22 22:25:19",
+                "issue_created_at": "2006-03-30 14:38:24",
+                "name": "VALIDATOR-19",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/share/org/apache/commons/validator/Validator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/ValidatorAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/ValidatorResults.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "562c880b48b56d6cef6095be3f4793141fd9fa24",
+                "bugfix_commit_date": "2015-01-04 04:43:00",
+                "issue_created_at": "2012-07-30 21:06:29.266000",
+                "name": "VALIDATOR-308",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/share/org/apache/commons/validator/util/Flags.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/util/ValidatorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/Var.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7f6d2217fe853ff3c0085395aa724b1e5bb8e9c5",
+                "bugfix_commit_date": "2006-11-22 23:51:09",
+                "issue_created_at": "2006-06-28 21:35:06",
+                "name": "VALIDATOR-195",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/share/org/apache/commons/validator/ValidatorResources.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/FormSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/share/org/apache/commons/validator/FormSetFactory.java"
+    }
+]

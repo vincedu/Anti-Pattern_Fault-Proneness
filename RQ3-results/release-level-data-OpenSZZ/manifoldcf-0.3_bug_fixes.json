@@ -1,0 +1,1976 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocCleanupResetManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocDeleteResetManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocumentCleanupStufferThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocumentDeleteStufferThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocumentDeleteThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/ExpireStufferThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/ResetManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/StartDeleteThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/StufferThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/WorkerResetManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/system/ManifoldCF.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/NewOperation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IAbortActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IEventActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IHistoryActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/INamingActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/ISeedingActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IVersionActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ICacheDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/NewConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/NewConfigurationNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/ManifoldCF.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IHierarchyParent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/cmis/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/cmis/CmisAuthorityConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/cmis/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/cmis/MatchMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocumentCleanupSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocumentDeleteSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/AgentRun.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/rss/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/rss/RSSConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/rss/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/rss/WebURL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/WebURL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/BasicTokenStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/JobNotificationThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/system/IdleCleanupThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/IdleCleanupThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/cachemanager/CacheManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/cachemanager/GeneralCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/BaseAuthoritiesInitializationCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/BaseCrawlerInitializationCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/TransactionalCrawlerInitializationCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/BaseAgentsInitializationCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/TransactionalAgentsInitializationCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/DBInitializationCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/InitializationCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/ChangeAuthSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/CheckAll.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/CheckConfigured.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/DefineAuthorityConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/DeleteAuthorityConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/RegisterAuthority.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/SynchronizeAuthorities.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/UnRegisterAllAuthorities.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/UnRegisterAuthority.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/AbortJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/AddScheduledTime.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/ChangeJobDocSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/CheckConfigured.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/DefineJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/DefineRepositoryConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/DeleteJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/DeleteRepositoryConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/ExportConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/FindJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/GetJobSchedule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/ImportConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/ListJobs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/ListJobStatuses.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/PauseJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/Register.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/RestartJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/RunDocumentStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/RunMaxActivityHistory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/RunMaxBandwidthHistory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/RunQueueStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/RunResultHistory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/RunSimpleHistory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/StartJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/SynchronizeConnectors.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/UnRegister.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/UnRegisterAll.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/WaitForJobDeleted.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/WaitForJobInactive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/WaitJobPaused.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/authorities/BaseAuthorityConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/authority/AuthorityConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/interfaces/AuthorityConnectionManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/interfaces/AuthorityConnectorManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/interfaces/AuthorizationResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/interfaces/CacheKeyFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/interfaces/IAuthorityConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/interfaces/IAuthorityConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/interfaces/IAuthorityConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/interfaces/IAuthorityConnectorManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/system/AuthCheckThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/system/AuthRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/system/Logging.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/system/ManifoldCF.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/system/RequestQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/BlockingDocuments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/BucketDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/CacheKeyFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/ConnectorManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/DepthStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/DocumentDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/DocumentSpecification.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/EnumeratedValues.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/FilterCriteria.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IConnectorManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IDocumentIdentifierStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IJobDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IRepositoryConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/JobManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/JobStartRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/JobStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/PerformanceStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/QueueTracker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/RegExpCriteria.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/RepositoryConnectionManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/ScheduleRecord.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/SortOrder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/StatusFilterCriteria.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/DeleteDependency.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/JobDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/ScheduleList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/repository/RepositoryConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/CrawlerAgent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DeleteQueuedDocument.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocumentDeleteQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocumentQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/FinisherThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/JobDeleteThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/JobResetThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/JobStartThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/Logging.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/QueuedDocument.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/QueuedDocumentSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/SeedingActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/SetPriorityThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/AgentStop.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/DefineOutputConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/DeleteOutputConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/Install.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/Register.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/RegisterOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/SynchronizeAll.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/SynchronizeOutputs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/Uninstall.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/UnRegister.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/UnRegisterAll.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/UnRegisterAllOutputs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/UnRegisterOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/common/XMLContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/common/XMLFileContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/common/XMLOutputStreamContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/common/XMLStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/common/XMLStringContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/AgentFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/AgentManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/CacheKeyFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/DocumentIngestStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IAgent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IAgentManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IIngestLogger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IncrementalIngesterFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IOutputActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IOutputAddActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IOutputConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IOutputConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IOutputConnectorManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IOutputHistoryActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IOutputNotifyActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IOutputRemoveActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/OutputConnectionManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/OutputConnectorManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/OutputSpecification.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/ServiceInterruption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/outputconnection/OutputConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/system/Logging.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/system/ManifoldCF.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/api-servlet/src/main/java/org/apache/manifoldcf/api/APIServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/authority-servlet/src/main/java/org/apache/manifoldcf/authorityservice/servlet/UserACLServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/DBCreate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/DBDrop.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/Obfuscate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/cachemanager/ExecutorBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/common/Base64.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/common/XMLDoc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/BaseObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/ConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/MergedResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/TransactionHandle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/BinaryInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/CacheKeyFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/CacheManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/CharacterInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ColumnDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ConfigNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/DBInterfaceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ICacheClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ICacheCreateHandle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ICacheExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ICacheHandle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ICacheManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IDFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IHTTPOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IKeystoreManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ILimitChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ILockManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IndexDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IPostParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IShutdownHook.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IThreadContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/KeystoreManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/LockException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/LockManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ManifoldCFException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ResultSpecification.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/Specification.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/SpecificationNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/StringSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/StringSetBuffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/TempFileCharacterInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/TempFileInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ThreadContextFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/TimeMarker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/UTF8Stderr.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/UTF8Stdout.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/keystore/KeystoreManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/lockmanager/ExpiredObjectException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/lockmanager/LocalLockException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/lockmanager/LockManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/lockmanager/LockObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/lockmanager/LockPool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/system/Logging.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/system/ManifoldCFConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/threadcontext/ThreadContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/jetty-runner/src/main/java/org/apache/manifoldcf/jettyrunner/Connectors.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/ui-core/src/main/java/org/apache/manifoldcf/ui/beans/AdminProfile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/ui-core/src/main/java/org/apache/manifoldcf/ui/beans/ThreadContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/ui-core/src/main/java/org/apache/manifoldcf/ui/jsp/JspWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/ui-core/src/main/java/org/apache/manifoldcf/ui/multipart/MultipartWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/ui-core/src/main/java/org/apache/manifoldcf/ui/util/Encoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/ui-core/src/main/java/org/apache/manifoldcf/ui/util/Formatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/ui-core/src/main/java/org/apache/manifoldcf/ui/util/MultilineParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/DCTM/MatchMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/implementation/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/DocumentumFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/implementation/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/DocumentumImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/implementation/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/DocumentumObjectImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/implementation/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/DocumentumResultImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/interface/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/DocumentumException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/interface/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/IDocumentum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/interface/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/IDocumentumFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/interface/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/IDocumentumObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/interface/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/IDocumentumResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/interface/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/LocalClientSocket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/interface/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/RMILocalClientSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/interface/src/main/java/org/apache/manifoldcf/crawler/common/DCTM/RMILocalSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/registry/src/main/java/org/apache/manifoldcf/crawler/registry/DCTM/DCTM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/server/src/main/java/org/apache/manifoldcf/crawler/server/DCTM/DCTM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/filenet/DocClassSpec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/implementation/src/main/java/org/apache/manifoldcf/crawler/common/filenet/FilenetFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/DocumentClassDefinition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/FileInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/FilenetException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/FileSeedInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/IFilenetFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/LocalClientSocket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/MetadataFieldDefinition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/NameDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/RMILocalClientSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/RMILocalSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/registry/src/main/java/org/apache/manifoldcf/crawler/registry/filenet/Filenet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/server/src/main/java/org/apache/manifoldcf/crawler/server/filenet/Filenet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jcifs/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharedrive/GetConnectionInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jcifs/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharedrive/MatchMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jcifs/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharedrive/SharedDriveHelpers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jcifs/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharedrive/SharedDriveParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jdbc/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/jdbc/IDynamicResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jdbc/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/jdbc/JDBCConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jdbc/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/jdbc/JDBCConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jdbc/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/jdbc/JDBCConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/livelink/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/livelink/GetConnectionInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/livelink/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/livelink/LiveLinkParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/livelink/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/livelink/LLSERVER.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/livelink/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/livelink/MatchMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/memex/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/memex/MatchMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/memex/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/memex/NameDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/CommonsHTTPSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/ConnectionConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/MatchMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/MeridioClassContents.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/MeridioSecureSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/meridiowrapper/DMSearchResults.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/meridiowrapper/MeridioDataSetException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/meridiowrapper/MeridioWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/meridiowrapper/MeridioWrapperException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/rss/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/rss/GetSeedList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/rss/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/rss/IThrottledConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/rss/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/rss/Robots.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/rss/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/rss/SetSeedList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/rss/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/rss/ThrottledFetcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/sharepoint/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharepoint/CommonsHTTPSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/sharepoint/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharepoint/MatchMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/sharepoint/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharepoint/NameValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/sharepoint/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharepoint/SPSProxyHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/sharepoint/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharepoint/VersionsHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/AuthenticationCredentials.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/BasicParseState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/CookieSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/CredentialsDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/FormData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/FormDataAccumulator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/FormDataElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/FormItem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/FormParseState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/IDiscoveredLinkHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/IRedirectionHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/IXMLHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/LoginCookies.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/LoginParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/PageCredentials.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/ScriptParseState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/SequenceCredentials.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/ThrottleDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/TrustsDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/gts/connector/src/main/java/org/apache/manifoldcf/agents/output/gts/GTSConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/CDL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/Cookie.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/CookieList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/HTTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/HTTPTokener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/JSONArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/JSONException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/JSONML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/JSONObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/JSONString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/JSONStringer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/JSONTokener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/JSONWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/Test.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/XML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "json/org/json/XMLTokener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/POSTCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/PUTCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/IfCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/system/ManifoldCFResourceLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IFingerprintActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/output/BaseOutputConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IIncrementalIngester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/IOutputConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/MeridioConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/sharepoint/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharepoint/SharePointRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/WebcrawlerConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/IThrottledConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/ThrottledFetcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/WebcrawlerConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/JobQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/LockClean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/Database.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IRepositoryConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/repository/RepositoryConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/repository/RepositoryHistoryManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/DBInterfaceDerby.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/DBInterfacePostgreSQL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IDBInterface.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/ErrorCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/NewArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filesystem/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/filesystem/FileConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/DocumentSetAndFlags.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/CleanupQueuedDocument.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocumentCleanupQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/DBInterfaceHSQLDB.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/DocumentCleanupThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/ExpireThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/SeedingThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/StartupThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/system/WorkerThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/livelink/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/livelink/LivelinkConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/opensearchserver/connector/src/main/java/org/apache/manifoldcf/agents/output/opensearchserver/OpenSearchServerAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/opensearchserver/connector/src/main/java/org/apache/manifoldcf/agents/output/opensearchserver/OpenSearchServerConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/opensearchserver/connector/src/main/java/org/apache/manifoldcf/agents/output/opensearchserver/OpenSearchServerConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/opensearchserver/connector/src/main/java/org/apache/manifoldcf/agents/output/opensearchserver/OpenSearchServerConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/opensearchserver/connector/src/main/java/org/apache/manifoldcf/agents/output/opensearchserver/OpenSearchServerDelete.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/opensearchserver/connector/src/main/java/org/apache/manifoldcf/agents/output/opensearchserver/OpenSearchServerIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/opensearchserver/connector/src/main/java/org/apache/manifoldcf/agents/output/opensearchserver/OpenSearchServerParam.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/opensearchserver/connector/src/main/java/org/apache/manifoldcf/agents/output/opensearchserver/OpenSearchServerSchema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/opensearchserver/connector/src/main/java/org/apache/manifoldcf/agents/output/opensearchserver/OpenSearchServerSpecs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/ScriptException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/DCTM/DCTM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/InsertCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/NewDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/RemoveCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/Variable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/ICarrydownActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/cachemanager/BaseDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/filenet/FilenetConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jcifs/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/sharedrive/SharedDriveConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/WaitCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/connector/BaseConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/gts/connector/src/main/java/org/apache/manifoldcf/agents/output/gts/GTSConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/solr/connector/src/main/java/org/apache/manifoldcf/agents/output/solr/HttpPoster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/solr/connector/src/main/java/org/apache/manifoldcf/agents/output/solr/SolrConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/solr/connector/src/main/java/org/apache/manifoldcf/agents/output/solr/SolrConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/ScriptParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableBoolean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableConnectionName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableDict.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableFloat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableInt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableURL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/DELETECommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/GETCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/PrintCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/WhileCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/activedirectory/connector/src/main/java/org/apache/manifoldcf/authorities/authorities/activedirectory/ActiveDirectoryConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/NewURL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/ContextVariableReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/NullVariableReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/RepositoryDocument.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/gts/connector/src/main/java/org/apache/manifoldcf/agents/output/gts/HttpPoster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/common/XMLWriterContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/cmis/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/cmis/CmisRepositoryConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/NewConnectionName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/IHTMLHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/IMetaTagHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/LinkParseState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/MetaParseState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/authconnmgr/AuthorityConnectorManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/authority/AuthorityConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/connmgr/ConnectorManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/Carrydown.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/EventManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/HopCount.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/HopDeleteDeps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/HopFilterManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/IntrinsicLink.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/Jobs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/PrereqEventManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/ScheduleManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/repository/ThrottleSpecManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/agentmanager/AgentManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/outputconnection/OutputConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/outputconnmgr/OutputConnectorManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/CookieManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/DNSManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/RobotsManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/Configuration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ConfigurationNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/BreakCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/CharacterStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/Command.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/RewindableTokenStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/SetCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/Token.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/TokenStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/authorities/interfaces/AuthorityConnectorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/RepositoryConnectorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/interfaces/OutputConnectorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/connectors/BaseRepositoryConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IRepositoryConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/QueryDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/RRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/RSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/ConfigParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/interfaces/IResultRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/activedirectory/connector/src/main/java/org/apache/manifoldcf/authorities/authorities/activedirectory/ActiveDirectoryAuthority.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/nullauthority/connector/src/main/java/org/apache/manifoldcf/authorities/authorities/nullauthority/NullAuthority.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/documentum/connector/src/main/java/org/apache/manifoldcf/crawler/authorities/DCTM/AuthorityConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/livelink/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/livelink/LivelinkAuthority.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/meridio/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/meridio/MeridioAuthority.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/nulloutput/connector/src/main/java/org/apache/manifoldcf/agents/output/nullconnector/NullConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IProcessActivity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/jdbc/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/jdbc/JDBCConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/implementation/src/main/java/org/apache/manifoldcf/crawler/common/filenet/FilenetImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/filenet/interface/src/main/java/org/apache/manifoldcf/crawler/common/filenet/IFilenet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/rss/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/rss/DataCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "connectors/webcrawler/connector/src/main/java/org/apache/manifoldcf/crawler/connectors/webcrawler/DataCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/DBInterfaceMySQL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/agents/src/main/java/org/apache/manifoldcf/agents/incrementalingest/IncrementalIngester.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/jobs/JobManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/core/src/main/java/org/apache/manifoldcf/core/database/BaseTable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e04630554e03a4a9cc83fa7fc28c8b8d1d082d7f",
+                "bugfix_commit_date": "2011-09-09T04:37:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "framework/script-engine/src/main/java/org/apache/manifoldcf/scriptengine/VariableConfigurationNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/pull-agent/src/main/java/org/apache/manifoldcf/crawler/interfaces/IJobManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "framework/jetty-runner/src/main/java/org/apache/manifoldcf/jettyrunner/ManifoldCFJettyRunner.java"
+    }
+]

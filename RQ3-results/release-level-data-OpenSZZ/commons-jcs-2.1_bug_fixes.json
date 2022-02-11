@@ -1,0 +1,1644 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/JCS.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/AbstractAuxiliaryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/AbstractAuxiliaryCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/AbstractAuxiliaryCacheEventLogging.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/AbstractAuxiliaryCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/AbstractAuxiliaryCacheMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/AuxiliaryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/AuxiliaryCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/AuxiliaryCacheConfigurator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/AuxiliaryCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/AbstractCacheEventQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheAdaptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheElementSerialized.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d6ae360653de7813c0d15e315d733aaee372df3d",
+                "bugfix_commit_date": "2017-01-09T14:36:17.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheEventQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheEventQueueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheGroup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheListeners.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CacheWatchRepairable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/CompositeCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/ElementAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/PooledCacheEventQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/ZombieCacheService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/ZombieCacheServiceNonLocal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/ZombieCacheWatch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/AbstractCacheAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/CacheAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/GroupCacheAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/PartitionedCacheAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/admin/CacheElementInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/admin/CacheRegionInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/admin/CountingOnlyOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/admin/JCSAdminBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/admin/JCSJMXBean.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b6c2d3fd1f70e51aa88f8d12aff006f6b390deb4",
+                "bugfix_commit_date": "2015-11-27T06:49:19.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/io/ObjectInputStreamClassLoaderAware.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/LateralCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/LateralCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/LateralCacheMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/LateralCacheNoWait.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/LateralCacheNoWaitFacade.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/LateralCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/LateralElementDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/AbstractDiskCache.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6912f621d22ce66e8b94710f0decdcae3354ca76",
+                "bugfix_commit_date": "2015-04-01T11:24:50.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/AbstractDiskCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/PurgatoryElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/AbstractRemoteAuxiliaryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/AbstractRemoteCacheListener.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e650290f85e431f59ba3e11953fbd1afdd16687a",
+                "bugfix_commit_date": "2016-09-24T08:51:28.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/AbstractRemoteCacheNoWaitFacade.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/CommonRemoteCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e650290f85e431f59ba3e11953fbd1afdd16687a",
+                "bugfix_commit_date": "2016-09-24T08:51:28.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e650290f85e431f59ba3e11953fbd1afdd16687a",
+                "bugfix_commit_date": "2016-09-24T08:51:28.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e650290f85e431f59ba3e11953fbd1afdd16687a",
+                "bugfix_commit_date": "2016-09-24T08:51:28.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheFailoverRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheListener.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "eee7e7c4b278274240ad7458da9d9073b7374415",
+                "bugfix_commit_date": "2016-09-25T08:12:01.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e650290f85e431f59ba3e11953fbd1afdd16687a",
+                "bugfix_commit_date": "2016-09-24T08:51:28.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheNoWait.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e650290f85e431f59ba3e11953fbd1afdd16687a",
+                "bugfix_commit_date": "2016-09-24T08:51:28.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteCacheNoWaitFacade.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteLocation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/RemoteUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/AbstractDoubleLinkedListMemoryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/AbstractMemoryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICacheElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICacheElementSerialized.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICacheEventQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICacheListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICacheObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICacheService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICacheServiceAdmin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICacheServiceNonLocal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICacheType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICompositeCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/ICompositeCacheManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/IElementAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/IElementSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/IProvideScheduler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/IRequireScheduler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/IShutdownObservable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/IShutdownObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/behavior/IZombie.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7b7341a69bd379484d8e073d979b3f9acb465902",
+                "bugfix_commit_date": "2016-05-09T08:07:32.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/CompositeCache.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "80fced6db6c15d7833e2c06fac4098640ff4c742",
+                "bugfix_commit_date": "2016-01-30T10:24:32.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/CompositeCacheConfigurator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "80fced6db6c15d7833e2c06fac4098640ff4c742",
+                "bugfix_commit_date": "2016-01-30T10:24:32.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/CompositeCacheManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/logging/CacheEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/logging/CacheEventLoggerDebugLogger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/match/KeyMatcherPatternImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/stats/CacheStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/stats/StatElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/stats/Stats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/behavior/ICacheAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/behavior/ICacheAccessManagement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/behavior/IGroupCacheAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/exception/CacheException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/exception/ConfigurationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/exception/InvalidArgumentException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/exception/InvalidGroupException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/exception/InvalidHandleException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/exception/ObjectExistsException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/access/exception/ObjectNotFoundException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/admin/servlet/JCSAdminServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/access/AbstractJCSWorkerHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/access/JCSWorker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/access/JCSWorkerHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/config/OptionConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/config/PropertySetter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/config/PropertySetterException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/DiscoveredService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/UDPCleanupRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/UDPDiscoveryAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/UDPDiscoveryManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/UDPDiscoveryMessage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/UDPDiscoveryReceiver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/UDPDiscoverySender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/UDPDiscoverySenderThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/UDPDiscoveryService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/net/HostNameUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/props/AbstractPropertyContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/props/PropertiesFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/props/PropertiesFactoryFileImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/props/PropertyLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/serialization/CompressingSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/serialization/SerializationConversionUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/serialization/StandardSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/servlet/JCSServletContextListener.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "32fb3adb49f4e729ea541f9dabe960d7aee04de0",
+                "bugfix_commit_date": "2015-11-25T08:10:22.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/struct/AbstractLRUMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/struct/DoubleLinkedList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/struct/DoubleLinkedListNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/struct/LRUElementDescriptor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "32fb3adb49f4e729ea541f9dabe960d7aee04de0",
+                "bugfix_commit_date": "2015-11-25T08:10:22.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/struct/LRUMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/struct/LRUMapEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/threadpool/DaemonThreadFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/threadpool/PoolConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/threadpool/ThreadPoolManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/timing/ElapsedTimer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/zip/CompressionUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/behavior/ILateralCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/behavior/ILateralCacheListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/behavior/IDiskCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f11bea50aa42035f426343e1d0e5058e75e0d928",
+                "bugfix_commit_date": "2016-02-06T12:56:22.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/block/BlockDisk.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7b7341a69bd379484d8e073d979b3f9acb465902",
+                "bugfix_commit_date": "2016-05-09T08:07:32.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/block/BlockDiskCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/block/BlockDiskCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cb5c4dd73597780fce451e1b643c9b25d4ce7b4c",
+                "bugfix_commit_date": "2015-11-20T08:29:15.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/block/BlockDiskCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/block/BlockDiskElementDescriptor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "32fb3adb49f4e729ea541f9dabe960d7aee04de0",
+                "bugfix_commit_date": "2015-11-25T08:10:22.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/block/BlockDiskKeyStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/indexed/IndexedDisk.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "32fb3adb49f4e729ea541f9dabe960d7aee04de0",
+                "bugfix_commit_date": "2015-11-25T08:10:22.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/indexed/IndexedDiskCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/indexed/IndexedDiskCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cb5c4dd73597780fce451e1b643c9b25d4ce7b4c",
+                "bugfix_commit_date": "2015-11-20T08:29:15.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/indexed/IndexedDiskCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/indexed/IndexedDiskDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/indexed/IndexedDiskElementDescriptor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e25521c7482657965447c373ef2d9f966e79c8e8",
+                "bugfix_commit_date": "2014-06-06T09:51:01.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ef6b7a9b0c1f1c5c2b86b9da3077fd169a0ae577",
+                "bugfix_commit_date": "2014-05-11T12:20:49.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/JDBCDiskCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/ShrinkerThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/TableState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/behavior/ICommonRemoteCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/behavior/IRemoteCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/behavior/IRemoteCacheClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/behavior/IRemoteCacheConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/behavior/IRemoteCacheDispatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/behavior/IRemoteCacheListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RegistryKeepAliveRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerAttributes.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e650290f85e431f59ba3e11953fbd1afdd16687a",
+                "bugfix_commit_date": "2016-09-24T08:51:28.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "d2d23c8aa02960549451c58ed3f0e84fd5ab3821",
+                "bugfix_commit_date": "2015-04-01T11:29:52.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheServerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/RemoteCacheStartupServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/TimeoutConfigurableRMISocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/util/RemoteCacheRequestFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/value/RemoteCacheRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/value/RemoteCacheResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/value/RemoteRequestType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/socket/tcp/LateralTCPCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/socket/tcp/LateralTCPDiscoveryListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/socket/tcp/LateralTCPListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/socket/tcp/LateralTCPSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/socket/tcp/LateralTCPService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/socket/tcp/TCPLateralCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/lateral/socket/tcp/behavior/ITCPLateralCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/DataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/JndiDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/dsfactory/SharedPoolDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/hsql/HSQLDiskCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/mysql/MySQLDiskCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/mysql/MySQLDiskCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/mysql/MySQLDiskCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/mysql/MySQLTableOptimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/disk/jdbc/mysql/util/ScheduleParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/behavior/IRemoteHttpCacheConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/AbstractHttpClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheDispatcher.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e650290f85e431f59ba3e11953fbd1afdd16687a",
+                "bugfix_commit_date": "2016-09-24T08:51:28.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpCacheMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/RemoteHttpClientListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/server/AbstractRemoteCacheService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/server/RemoteHttpCacheServerAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/server/RemoteHttpCacheService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/server/RemoteHttpCacheServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/behavior/IRemoteCacheServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/behavior/IRemoteCacheServerAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/server/behavior/RemoteType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/auxiliary/remote/http/client/behavior/IRemoteHttpCacheClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/lru/LHMLRUMemoryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/lru/LRUMemoryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/behavior/IMemoryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/fifo/FIFOMemoryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/mru/MRUMemoryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/shrinking/ShrinkerThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/soft/SoftReferenceMemoryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/util/DefaultMemoryElementDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/util/MemoryElementDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/memory/util/SoftReferenceElementDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/event/ElementEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/event/ElementEventQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/group/GroupAttrName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/group/GroupId.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/logging/behavior/ICacheEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/logging/behavior/ICacheEventLogger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/match/behavior/IKeyMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/stats/behavior/ICacheStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/stats/behavior/IStatElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/stats/behavior/IStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/event/behavior/ElementEventType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/event/behavior/IElementEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/event/behavior/IElementEventHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/engine/control/event/behavior/IElementEventQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-core/src/main/java/org/apache/commons/jcs/utils/discovery/behavior/IDiscoveryListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/xmlrpc/LateralCacheXMLRPCListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/xmlrpc/LateralGroupCacheXMLRPCListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/xmlrpc/LateralXMLRPCReceiver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/xmlrpc/LateralXMLRPCReceiverConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/xmlrpc/LateralXMLRPCSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/xmlrpc/LateralXMLRPCService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/socket/udp/LateralCacheUDPListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/socket/udp/LateralGroupCacheUDPListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/socket/udp/LateralUDPReceiver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/socket/udp/LateralUDPSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/socket/udp/LateralUDPService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/http/broadcast/LateralCacheMulticaster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/http/broadcast/LateralCacheThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/http/broadcast/LateralCacheUnicaster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/http/remove/DeleteLateralCacheMulticaster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/http/remove/DeleteLateralCacheUnicaster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/http/server/AbstractDeleteCacheServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/http/server/DeleteCacheServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/http/server/LateralCacheServletReciever.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/xmlrpc/behavior/ILateralCacheXMLRPCListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/xmlrpc/behavior/IXMLRPCConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/auxiliary/lateral/xmlrpc/utils/XMLRPCSocketOpener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/engine/memory/arc/ARCMemoryCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/experimental/org/apache/commons/jcs/engine/memory/arc/ARCMemoryCacheUnitTest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/filecache/src/main/java/org/apache/commons/jcs/auxiliary/disk/file/FileDiskCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/filecache/src/main/java/org/apache/commons/jcs/auxiliary/disk/file/FileDiskCacheAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/filecache/src/main/java/org/apache/commons/jcs/auxiliary/disk/file/FileDiskCacheFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/filecache/src/main/java/org/apache/commons/jcs/auxiliary/disk/file/FileDiskCacheManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/CacheChangeEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/CacheChangeSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/CacheClearEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/CachePutBeanCloneEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/CachePutBeanCopyEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/CachePutCopyEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/CachePutEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/CacheRemoveEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/ICacheChangeHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/beans/ICacheChangeListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/config/PerCacheConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/config/YajCacheConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/core/CacheEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/core/CacheManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/core/CacheType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/core/ICache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/core/ICacheSafe.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/core/SafeCacheWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/file/CacheFileContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/file/CacheFileContentCorrupted.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/file/CacheFileContentType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/file/CacheFileDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/file/CacheFileUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/soft/SoftRefCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/soft/SoftRefFileCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/util/BeanUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/util/ClassUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/util/CollectionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/util/EqualsUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/util/SerializeUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/CopyRightApache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/CopyRightType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/Immutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/Implements.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/JavaBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/NonNullable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/TestOnly.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/ThreadSafety.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/ThreadSafetyType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/TODO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/annotation/UnsupportedOperation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/ref/IKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/ref/KeyedRefCollector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/ref/KeyedSoftReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/lang/ref/KeyedWeakReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/util/concurrent/locks/IKeyedReadWriteLock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-sandbox/yajcache/src/main/java/org/apache/commons/jcs/yajcache/util/concurrent/locks/KeyedReadWriteLock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/Asserts.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/EvictionListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/ImmutableIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/ImmutableIterator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "00c1cc0cc0b16daaf8b284ac0e7e9328caba5022",
+                "bugfix_commit_date": "2016-12-31T08:34:09.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "66b24cabe95485abbe4398ff468a57e5ea0e3cf8",
+                "bugfix_commit_date": "2016-12-15T10:44:21.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/JCSCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/JCSCacheEntryEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/JCSCachingManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/JCSCachingProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/JCSConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/JCSEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/JCSListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/JCSMutableEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/NoFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/NoLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/NoWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/Statistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/TempStateCacheView.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/Times.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheInvocationContextImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheInvocationParameterImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheKeyGeneratorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheKeyInvocationContextImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheMethodDetailsImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CachePutInterceptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheRemoveAllInterceptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheRemoveInterceptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheResolverFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheResolverImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CacheResultInterceptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/CDIJCacheHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/GeneratedCacheKeyImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/cdi/MakeJCacheCDIInterceptorFriendly.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/jmx/ConfigurableMBeanServerIdBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/jmx/JCSCacheMXBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/jmx/JCSCacheStatisticsMXBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/jmx/JMXs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/lang/DefaultSubsitutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/lang/Lang3Substitutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/lang/Subsitutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/proxy/ClassLoaderAwareCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/proxy/ExceptionWrapperHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/serialization/Serializations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache/src/main/java/org/apache/commons/jcs/jcache/thread/DaemonThreadFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/cdi/AnyLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/cdi/CacheManagerBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/cdi/CacheProviderBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/cdi/DefaultLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/cdi/ExtraJCacheExtension.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/closeable/Closeables.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/loader/CacheLoaderAdapter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/loader/CompositeCacheLoader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2e6a9131a07ee0e8844e8e79e84460b7f56ae646",
+                "bugfix_commit_date": "2015-04-01T13:00:55.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/web/InMemoryResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/web/JCacheFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/writer/AsyncCacheWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/writer/CacheWriterAdapter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-extras/src/main/java/org/apache/commons/jcs/jcache/extras/writer/CompositeCacheWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-openjpa/src/main/java/org/apache/commons/jcs/jcache/openjpa/OpenJPAJCacheDataCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-openjpa/src/main/java/org/apache/commons/jcs/jcache/openjpa/OpenJPAJCacheDataCacheManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-openjpa/src/main/java/org/apache/commons/jcs/jcache/openjpa/OpenJPAJCacheDerivation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-jcs-jcache-openjpa/src/main/java/org/apache/commons/jcs/jcache/openjpa/OpenJPAJCacheQueryCache.java"
+    }
+]

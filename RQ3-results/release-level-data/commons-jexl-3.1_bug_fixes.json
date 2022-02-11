@@ -1,0 +1,342 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/MapBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/SetBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/Scope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/ClassMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/Introspector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JexlBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JexlEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/Engine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTIdentifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTReferenceExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/JavaccError.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ParseException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/StringParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/IndexedType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/BooleanGetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/DuckGetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/DuckSetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/MapGetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/MapSetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTAnnotation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ParserVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTJexlScript.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/Script.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTArrayLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTJxltLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTMapLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTSetLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTStringLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/AbstractExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/ArrayListWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/EnumerationIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/MethodKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/SandboxUberspect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/Uberspect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/MapContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/SimpleNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/scripting/JexlScriptEngineFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/scripting/Main.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/TemplateEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/Closure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTNumberLiteral.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTIdentifierAccess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/TemplateDebugger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JexlExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/TokenMgrError.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTVar.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JexlInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/ObjectContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/introspection/JexlMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/introspection/JexlPropertyGet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/introspection/JexlPropertySet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/introspection/JexlUberspect.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/scripting/JexlScriptEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/MethodExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/PropertyGetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/PropertySetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/ArrayBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/NumberParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JexlScript.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/InterpreterBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/SoftCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/JexlNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/FieldGetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/FieldSetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/ListGetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/ListSetExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JexlArithmetic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JexlContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JexlException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JexlOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/JxltEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/introspection/JexlSandbox.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/TemplateInterpreter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/JexlParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/Interpreter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/TemplateScript.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/parser/ASTJexlLambda.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/LongRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/Permissions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/Debugger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/ConstructorMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/Operators.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/IntegerRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/annotations/NoJexl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/jexl3/internal/introspection/ArrayIterator.java"
+    }
+]

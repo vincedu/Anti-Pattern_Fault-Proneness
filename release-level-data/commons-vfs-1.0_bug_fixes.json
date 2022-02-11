@@ -1,0 +1,1220 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/cache/WeakRefFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/SynchronizedFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractRandomAccessStreamContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/URLFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/https/HttpsFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/https/HttpsFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/sftp/TrustEveryoneUserInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/url/UrlFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/webdav/WebdavConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/webdav/WebdavMethodRetryHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ftp/FtpRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/http/HttpRandomAccesContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/sftp/SftpRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/webdav/WebdavFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileSystemManager.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c263cabec40901ce653bc1de8e1235adda1b855b",
+                "bugfix_commit_date": "2007-05-14 18:19:47",
+                "issue_created_at": "2007-05-14 14:18:09.105000",
+                "name": "VFS-144",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "6a65f16e362e14c110f22154d669fafa3b7f118c",
+                "bugfix_commit_date": "2009-03-20 00:34:04",
+                "issue_created_at": "2009-03-17 16:10:42.525000",
+                "name": "VFS-242",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/DefaultFileSystemManager.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4d3e14584fa170dc3e4e4e8fa13b23344de967a",
+                "bugfix_commit_date": "2013-01-16 09:51:52",
+                "issue_created_at": "2009-10-18 15:26:26.718000",
+                "name": "VFS-285",
+                "severity": "critical",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "101315cfc9996e6a50665b118eb3c40d7c6fabca",
+                "bugfix_commit_date": "2007-05-14 14:00:08",
+                "issue_created_at": "2007-05-14 13:53:15.430000",
+                "name": "VFS-140",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractFileObject.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "eff38bf063fbd052cfe47bca56e4b2d8073b6ce6",
+                "bugfix_commit_date": "2010-11-22 23:23:59",
+                "issue_created_at": "2010-11-22 08:24:35.862000",
+                "name": "VFS-343",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d57060f6a7a345be121bb2f3b17bcb7a5292d87b",
+                "bugfix_commit_date": "2007-03-19 19:47:13",
+                "issue_created_at": "2007-02-27 08:45:33.583000",
+                "name": "VFS-112",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/TarFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/zip/ZipFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/DefaultFileMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ftp/FtpFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/AllFileSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/CacheStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/Capability.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileChangeEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileContentInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileContentInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileDepthSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileFilterSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileSelectInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9c22e5297c7cb9dd75adec7ebcba06448e993bd8",
+                "bugfix_commit_date": "2009-03-22 19:59:51",
+                "issue_created_at": "2007-07-12 15:25:23.380000",
+                "name": "VFS-169",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileSystemException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "15fe9a9eb6966237dc42dac1223ac0689fd13495",
+                "bugfix_commit_date": "2009-08-18 12:04:08",
+                "issue_created_at": "2007-04-18 11:14:48.001000",
+                "name": "VFS-126",
+                "severity": "trivial",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileSystemOptions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileTypeSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/FileUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/NameScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/RandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/Selectors.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/UserAuthenticationData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/UserAuthenticator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/VFS.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/VfsLog.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/auth/StaticUserAuthenticator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/cache/AbstractFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/cache/DefaultFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/cache/FileSystemAndNameKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/cache/LRUFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/cache/NullFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/cache/OnCallRefreshFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/cache/SoftRefFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/events/AbstractFileChangeEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/events/ChangedEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/events/CreateEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/events/DeleteEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/DecoratedFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/DefaultFileContentInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/DefaultFileReplicator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/DefaultFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/DefaultProviderConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/DefaultVfsComponentContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/FileContentInfoFilenameFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/FileTypeMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/PrivilegedFileReplicator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/ProviderConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/Resource.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "79f8be9d026dc5b2aa73531f5d10d9a41a76d9a6",
+                "bugfix_commit_date": "2007-05-14 06:00:47",
+                "issue_created_at": "2007-05-14 13:03:10.935000",
+                "name": "VFS-136",
+                "severity": "trivial",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/StandardFileSystemManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/URLStreamHandlerProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/VFSClassLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/VirtualFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/VirtualFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/impl/VirtualFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/AbstractFileOperation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/AbstractFileOperationProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/DefaultFileOperations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/FileOperation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/FileOperationProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/FileOperations.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9c95a92a5a515ddc6abe9e8efa0927d9489961cf",
+                "bugfix_commit_date": "2007-05-14 13:31:48",
+                "issue_created_at": "2007-05-14 13:14:50.706000",
+                "name": "VFS-138",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractFileProvider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b3028cfc9922fb266b2d0da59989b7782532f24d",
+                "bugfix_commit_date": "2015-09-28 18:25:02",
+                "issue_created_at": "2015-09-28 18:21:11.692000",
+                "name": "VFS-583",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractLayeredFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractOriginatingFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractVfsComponent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/AbstractVfsContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/CompositeFileProvider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ebfa9238effab582f48400c371a4b8c07e8d3bf3",
+                "bugfix_commit_date": "2014-11-17 22:12:13",
+                "issue_created_at": "2007-05-14 14:00:11.719000",
+                "name": "VFS-142",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "c830b993cbbfd460138ee3ce846e820a911d6a07",
+                "bugfix_commit_date": "2007-05-14 05:54:12",
+                "issue_created_at": "2007-05-14 04:55:38.814000",
+                "name": "VFS-134",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/DefaultFileContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/DefaultFileSelectorInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/DefaultURLConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/DefaultURLStreamHandler.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e1e03c7b41650f1647c87f3f98a90db2f46d52eb",
+                "bugfix_commit_date": "2007-05-14 18:17:52",
+                "issue_created_at": "2007-05-14 14:04:44.126000",
+                "name": "VFS-143",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/DelegateFileObject.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c830b993cbbfd460138ee3ce846e820a911d6a07",
+                "bugfix_commit_date": "2007-05-14 05:54:12",
+                "issue_created_at": "2007-05-14 04:55:38.814000",
+                "name": "VFS-134",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/FileContentThreadData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/FileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/FileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/FileReplicator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/FileSystemKey.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0874e439c254e22865162166b3fee0722788f7ac",
+                "bugfix_commit_date": "2009-05-09 15:27:59",
+                "issue_created_at": "2007-07-12 15:25:23.380000",
+                "name": "VFS-169",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/GenericFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/HostFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/LayeredFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/LayeredFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/LocalFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/TemporaryFileStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/UriParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/URLFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/VfsComponent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/VfsComponentContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/tasks/AbstractSyncTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/tasks/CopyTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/tasks/DeleteTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/tasks/MkdirTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/tasks/MoveTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/tasks/ShowFileTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/tasks/SyncTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/tasks/VfsTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/DelegatingFileSystemOptionsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/FileObjectUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/Messages.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/MonitorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/MonitorOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/MonitorRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/Os.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/OsFamily.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/RandomAccessMode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/util/UserAuthenticatorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsAdd.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsCheckout.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsCommit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsCommitListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsDelete.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsLog.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsLogEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsLogEntryHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsModifyListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsRevert.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsUpdate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/operations/vcs/VcsUpdateListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/bzip2/BZip2Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/bzip2/Bzip2FileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/bzip2/Bzip2FileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/bzip2/Bzip2FileSystem.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "89e91c960f095966972aff619a48b75bf473d344",
+                "bugfix_commit_date": "2009-03-17 15:54:04",
+                "issue_created_at": "2008-01-17 07:42:49.806000",
+                "name": "VFS-191",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/bzip2/CBZip2InputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/bzip2/CBZip2OutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/bzip2/CRC.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ffc6adf7d493def070e26592bf828accbeecef2d",
+                "bugfix_commit_date": "2012-05-16 16:34:18",
+                "issue_created_at": "2012-03-22 19:02:26.809000",
+                "name": "VFS-408",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/compressed/CompressedFileFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/compressed/CompressedFileFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/compressed/CompressedFileFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ftp/FtpClient.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "40e50c9024c4b0072b2a219fc1f15317de49ee26",
+                "bugfix_commit_date": "2012-05-12 20:33:44",
+                "issue_created_at": "2010-01-12 17:03:28.906000",
+                "name": "VFS-296",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ftp/FtpClientFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ftp/FTPClientWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ftp/FtpFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ftp/FtpFileProvider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4360f78a803e60d7857be0c64b94f40867d11c79",
+                "bugfix_commit_date": "2007-06-19 07:58:51",
+                "issue_created_at": "2006-10-31 14:55:52",
+                "name": "VFS-98",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ftp/FtpFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ftp/FtpFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/gzip/GzipFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/gzip/GzipFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/gzip/GzipFileSystem.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "607627168519405b3727ae869e5f491f65a33163",
+                "bugfix_commit_date": "2015-05-12 20:48:16",
+                "issue_created_at": "2015-02-04 10:27:24.474000",
+                "name": "VFS-560",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "0874e439c254e22865162166b3fee0722788f7ac",
+                "bugfix_commit_date": "2009-05-09 15:27:59",
+                "issue_created_at": "2007-07-12 15:25:23.380000",
+                "name": "VFS-169",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/http/HttpClientFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0e681a785066d2bbecaed0deb9366586d156ca49",
+                "bugfix_commit_date": "2012-07-16 20:18:57",
+                "issue_created_at": "2012-07-11 19:46:51.461000",
+                "name": "VFS-427",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/http/HttpFileContentInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/http/HttpFileNameParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0e681a785066d2bbecaed0deb9366586d156ca49",
+                "bugfix_commit_date": "2012-07-16 20:18:57",
+                "issue_created_at": "2012-07-11 19:46:51.461000",
+                "name": "VFS-427",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/http/HttpFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/http/HttpFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/http/HttpFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/http/HttpFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/jar/JarFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/jar/JarFileProvider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b9938e323d0fbc9bfb3b5a25746a7c741ed19a94",
+                "bugfix_commit_date": "2009-03-17 16:06:52",
+                "issue_created_at": "2008-01-17 07:49:46.266000",
+                "name": "VFS-192",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/jar/JarFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/jar/JarURLConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/local/DefaultLocalFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/local/GenericFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/local/LocalFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/local/LocalFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/local/LocalFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/local/LocalFileRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "563c0c459497a5f07a970068d4e84c835b20a4e0",
+                "bugfix_commit_date": "2015-09-23 15:41:29",
+                "issue_created_at": "2009-08-19 09:39:45.838000",
+                "name": "VFS-279",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/local/LocalFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/local/WindowsFileName.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2b9dd184be2aa29b7876b15436e9967a1683d8e1",
+                "bugfix_commit_date": "2014-05-18 03:25:55",
+                "issue_created_at": "2010-11-10 23:19:12.618000",
+                "name": "VFS-338",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/local/WindowsFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ram/RamFileData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ram/RamFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ram/RamFileOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ram/RamFileProvider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b89a509acec0dec627929f998971385b49331493",
+                "bugfix_commit_date": "2008-03-25 07:52:27",
+                "issue_created_at": "2008-01-17 07:35:57.015000",
+                "name": "VFS-190",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ram/RamFileRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ram/RamFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/ram/RamFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/res/ResourceFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/res/ResourceFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/sftp/SftpClientFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/sftp/SftpFileNameParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c435354f3e1e8753abcdc6156e16d0a2c6b179da",
+                "bugfix_commit_date": "2007-03-19 19:51:36",
+                "issue_created_at": "2007-02-28 13:39:26.686000",
+                "name": "VFS-113",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/sftp/SftpFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/sftp/SftpFileProvider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "84c5386d736344633e1020e04e14f963247445a5",
+                "bugfix_commit_date": "2007-08-10 18:58:49",
+                "issue_created_at": "2007-03-30 09:03:46.109000",
+                "name": "VFS-120",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/sftp/SftpFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/sftp/SftpFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/TarBuffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/TarConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/TarEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/TarFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/TarFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/TarInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/TarUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/Tbz2FileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/tar/TgzFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/temp/TemporaryFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/url/UrlFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/url/UrlFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/url/UrlFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/url/UrlFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/zip/ZipFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/commons/vfs/provider/zip/ZipFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/util/FileObjectDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/util/SharedRandomContentInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/mime/MimeAttributesMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/mime/MimeFileContentInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/mime/MimeFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/mime/MimeFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/mime/MimeFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/smb/SmbFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/smb/SmbFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/smb/SmbFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/smb/SmbFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/smb/SmbFileRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/smb/SmbFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/webdav/WebdavClientFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/webdav/WebdavFileProvider.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0874e439c254e22865162166b3fee0722788f7ac",
+                "bugfix_commit_date": "2009-05-09 15:27:59",
+                "issue_created_at": "2007-07-12 15:25:23.380000",
+                "name": "VFS-169",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/webdav/WebDavFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "sandbox/src/main/java/org/apache/commons/vfs/provider/webdav/WebdavFileSystemConfigBuilder.java"
+    }
+]

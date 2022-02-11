@@ -1,0 +1,1049 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/BisectionSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/DifferentiableUnivariateRealFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/NewtonSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/SecantSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/UnivariateRealFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/UnivariateRealInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/UnivariateRealSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/UnivariateRealSolverFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/UnivariateRealSolverFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/UnivariateRealSolverImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b9d8c68e2f5f7f3a13773140a7ee4bf62972f17c",
+                "bugfix_commit_date": "2009-07-07 09:19:46",
+                "issue_created_at": "2009-07-06 21:26:57.539000",
+                "name": "MATH-280",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/analysis/UnivariateRealSolverUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/linear/BigMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/linear/InvalidMatrixException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/linear/MatrixIndexException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/linear/MatrixUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/linear/QRDecomposition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/linear/QRDecompositionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/linear/RealMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/util/ContinuedFraction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/util/DefaultTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/util/DoubleArray.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cd5f65c4c7bd17d81ecb3924f444f2078a3ff580",
+                "bugfix_commit_date": "2008-03-23 12:22:59",
+                "issue_created_at": "2008-03-18 23:06:45.678000",
+                "name": "MATH-198",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/complex/ComplexFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/AbstractContinuousDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/AbstractDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/BinomialDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/BinomialDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/CauchyDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/CauchyDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/ChiSquaredDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/ChiSquaredDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/ContinuousDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/DiscreteDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/Distribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/DistributionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/DistributionFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/ExponentialDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/ExponentialDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/FDistribution.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "dbd8ffb54f72f45acc644f1f16709dd549d0cfc9",
+                "bugfix_commit_date": "2008-09-26 19:51:13",
+                "issue_created_at": "2008-09-25 08:23:07.950000",
+                "name": "MATH-227",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "57e0c33a52a0f1e641161e6bf1278e63ee6384cc",
+                "bugfix_commit_date": "2008-09-26 03:09:53",
+                "issue_created_at": "2008-09-25 08:23:07.950000",
+                "name": "MATH-227",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/distribution/FDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/GammaDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/GammaDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/HypergeometricDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/HypergeometricDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/IntegerDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/NormalDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/NormalDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/PascalDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/PascalDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/PoissonDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/TDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/TDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/WeibullDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/WeibullDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/fraction/FractionFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/fraction/ProperFractionFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/geometry/RotationOrder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/FirstOrderDifferentialEquations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/optimization/ConvergenceChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/AbstractRandomGenerator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e1e21f2f6895333304f6efe8272549d32ede20be",
+                "bugfix_commit_date": "2008-09-16 21:00:28",
+                "issue_created_at": "2008-09-16 20:08:48.948000",
+                "name": "MATH-226",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/random/CorrelatedRandomVectorGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/EmpiricalDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/JDKRandomGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/RandomAdaptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/special/Beta.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/special/Erf.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/special/Gamma.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/AbstractStorelessUnivariateStatistic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/AbstractUnivariateStatistic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/StatisticalSummary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/StatisticalSummaryValues.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/TTestImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/regression/SimpleRegression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/FirstMoment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/FourthMoment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/Kurtosis.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/SecondMoment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/Skewness.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/StandardDeviation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/ThirdMoment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/rank/Max.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/rank/Median.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/rank/Min.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/rank/Percentile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/summary/Product.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/summary/Sum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/summary/SumOfLogs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/summary/SumOfSquares.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/Mean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/DescriptiveStatistics.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c09247c09bae47a842a638c6704876dec3da9cd8",
+                "bugfix_commit_date": "2009-10-27 01:32:19",
+                "issue_created_at": "2009-10-24 14:23:13.307000",
+                "name": "MATH-306",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/complex/Complex.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "86545dab3ed57872ad98b23e46924d67ddad03fc",
+                "bugfix_commit_date": "2013-08-31 19:43:02",
+                "issue_created_at": "2013-06-24 17:21:18.058000",
+                "name": "MATH-996",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d7c0f27e9fac104f613dcb672c243d3dc7eaf655",
+                "bugfix_commit_date": "2012-08-01 21:24:27",
+                "issue_created_at": "2012-07-31 17:04:25.690000",
+                "name": "MATH-836",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/fraction/Fraction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/DescriptiveStatisticsImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/UnivariateStatistic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/SwitchingFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/SwitchState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/OneWayAnovaImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/TestFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/TestFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/VectorialCovariance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/VectorialMean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/util/ResizableDoubleArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/GeometricMean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/Frequency.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/util/TransformerMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/DormandPrince54Integrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/DormandPrince54StepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/DormandPrince853Integrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/DormandPrince853StepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/DummyStepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/EmbeddedRungeKuttaIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/GraggBulirschStoerIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/HighamHall54Integrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/HighamHall54StepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/MidpointIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/SummaryStatisticsImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/EmpiricalDistributionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/ValueServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/geometry/Rotation.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f11d7217fd977897eb3ef6c443770795f947599c",
+                "bugfix_commit_date": "2008-06-23 13:46:46",
+                "issue_created_at": "2008-05-06 20:33:57.823000",
+                "name": "MATH-204",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "9232ea98fc333c8ede952406d3f70da8ae89682a",
+                "bugfix_commit_date": "2008-05-07 13:36:33",
+                "issue_created_at": "2008-05-06 20:33:57.823000",
+                "name": "MATH-204",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "a0b4b4b79865987b93cea23a9a81a63d6a020351",
+                "bugfix_commit_date": "2010-02-23 21:09:25",
+                "issue_created_at": "2010-02-23 20:23:21.942000",
+                "name": "MATH-344",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/analysis/BrentSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/estimation/SimpleEstimationProblem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ArgumentOutsideDomainException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ConvergenceException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/DimensionMismatchException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/DuplicateSampleAbscissaException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/FunctionEvaluationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/MathConfigurationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/MathException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/MaxIterationsExceededException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/MessagesResources_fr.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/DividedDifferenceInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/LaguerreSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/MullerSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/NevilleInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/PolynomialFunctionLagrangeForm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/PolynomialFunctionNewtonForm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/RiddersSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/RombergIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/SimpsonIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/TrapezoidIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/UnivariateRealIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/UnivariateRealIntegratorImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8bf548c5e83e067503d10f304d9f855ced1a449c",
+                "bugfix_commit_date": "2009-02-21 13:54:25",
+                "issue_created_at": "2009-01-21 21:15:30.597000",
+                "name": "MATH-243",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "944446a1a8a3004ddd81298e0e922e4d47b99997",
+                "bugfix_commit_date": "2009-01-19 23:52:02",
+                "issue_created_at": "2009-01-16 23:34:23.583000",
+                "name": "MATH-241",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "dabf3a5beb9ab697d570154b9961078a8586c787",
+                "bugfix_commit_date": "2009-01-16 23:06:32",
+                "issue_created_at": "2009-01-16 22:24:24.471000",
+                "name": "MATH-238",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "e4886c0a39944ba9fb7a2175cb2d1026747910e1",
+                "bugfix_commit_date": "2009-01-19 19:43:01",
+                "issue_created_at": "2009-01-16 22:43:04.162000",
+                "name": "MATH-240",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/util/MathUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/estimation/EstimatedParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/estimation/EstimationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/estimation/EstimationProblem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/estimation/Estimator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "faead6c3fbe343ba97e70f8eda74a488c916b29a",
+                "bugfix_commit_date": "2008-03-23 13:36:03",
+                "issue_created_at": "2008-03-20 22:56:33.431000",
+                "name": "MATH-199",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/estimation/LevenbergMarquardtEstimator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/estimation/WeightedMeasurement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/fraction/FractionConversionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/geometry/CardanEulerSingularityException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/geometry/NotARotationMatrixException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/AbstractStepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/AdaptiveStepsizeIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/ClassicalRungeKuttaIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/ClassicalRungeKuttaStepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/ContinuousOutputModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/DerivativeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/DummyStepHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/EulerIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/EulerStepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/FirstOrderConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/FirstOrderIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/FixedStepHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/GillIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/GillStepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/GraggBulirschStoerStepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/IntegratorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/MidpointStepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/RungeKuttaIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/SecondOrderDifferentialEquations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/SecondOrderIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/StepHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/StepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/StepNormalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/SwitchingFunctionsHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/ThreeEighthesIntegrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/ThreeEighthesStepInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/optimization/CostException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/optimization/CostFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/optimization/DirectSearchOptimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/optimization/MultiDirectional.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/optimization/NelderMead.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/optimization/PointCostPair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/GaussianRandomGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/NormalizedRandomGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/UncorrelatedRandomVectorGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/transform/FastCosineTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/transform/FastFourierTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/transform/FastSineTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/SummaryStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/ChiSquareTestImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/UnknownDistributionChiSquareTest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/OneWayAnova.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/SynchronizedDescriptiveStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/RandomGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/SynchronizedSummaryStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/MultivariateSummaryStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/SynchronizedMultivariateSummaryStatistics.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2c443ab8b0efce5485f63eed62213091a188c993",
+                "bugfix_commit_date": "2008-03-28 20:06:54",
+                "issue_created_at": "2008-03-25 22:22:21.714000",
+                "name": "MATH-200",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/estimation/AbstractEstimator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/estimation/GaussNewtonEstimator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/complex/ComplexUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/linear/BigMatrixImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/linear/RealMatrixImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/StatUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/StorelessUnivariateStatistic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/ChiSquareTest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/TTest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/moment/Variance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/inference/TestUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/stat/descriptive/StatisticalMultivariateSummary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/PolynomialFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/PolynomialSplineFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/analysis/SplineInterpolator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/NotPositiveDefiniteMatrixException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/RandomData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/RandomDataImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/RandomVectorGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/random/UniformRandomGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/ode/RungeKuttaStepInterpolator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "fbbb96eb1784f1e7f8ac1ffc5c66fffa227206b2",
+                "bugfix_commit_date": "2011-04-03 14:33:29",
+                "issue_created_at": "2011-04-03 14:14:38.712000",
+                "name": "MATH-554",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/math/geometry/Vector3D.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/distribution/AbstractIntegerDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/math/util/NumberTransformer.java"
+    }
+]

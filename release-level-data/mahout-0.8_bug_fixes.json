@@ -1,0 +1,3947 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/GenericPreference.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f2eb7e1b759bada8130cfc00b1d72d8f3b83febb",
+                "bugfix_commit_date": "2013-11-29 19:06:13",
+                "issue_created_at": "2013-07-15 21:31:28.450000",
+                "name": "MAHOUT-1285",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/arff/ARFFVectorIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/EncodingMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/collocations/llr/CollocDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/MutableRecommendedItem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/PredictionMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/RecommenderJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/SharingMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/common/PartialVectorMergeReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/similarity/jdbc/MySQLJDBCInMemoryItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/similarity/jdbc/SQL92JDBCInMemoryItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/MultiLabelVectorWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/ep/Payload.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/GroupedOnlineAuc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/L1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/PriorFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/UniformPrior.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/ConfusionMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/driver/MahoutDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/ep/EvolutionaryProcess.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/DictionaryVectorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/TFIDF.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/VectorWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/OnlineAuc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/minhash/MinHashMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/SequentialAccessSparseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/ParallelCountingMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/MatrixColumnMeansJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/neighborhood/BruteSearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/neighborhood/HashedVector.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "25efc4357261656d5edcbe0e2ae3852d5ebe6100",
+                "bugfix_commit_date": "2013-11-30 17:29:50",
+                "issue_created_at": "2013-08-12 22:12:58.362000",
+                "name": "MAHOUT-1312",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/math/neighborhood/LocalitySensitiveHashSearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/neighborhood/ProjectionSearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/AllSimilarItemsCandidateItemsStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/AllUnknownItemsCandidateItemsStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/pruner/WordsPrunerReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/GenericBooleanPrefItemBasedRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/ItemAverageRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/ItemUserAverageRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/PreferredItemsNeighborhoodCandidateItemsStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/CachingItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/term/TermCountCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/term/TermCountReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/ALS.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/eval/RelevantItemsDataSplitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/ParallelALSFactorizationJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/file/FileItemItemSimilarityIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/file/FileItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/AggregateAndRecommendReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/ItemFilterAsVectorAndPrefsReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/ItemFilterMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/ItemIDIndexMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/ItemIDIndexReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/PartialMultiplyMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/RecommenderJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/SimilarityMatrixRowWrapperMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/ToUserVectorsReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/ToVectorAndPrefReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/UserVectorSplitterMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/VectorAndPrefsWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/preparation/ToItemVectorsMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/preparation/ToItemVectorsReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/GenericRelevantItemsDataSplitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/DescriptorException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "44cc7b3e9102a05aa5c963a8d0a2aba241553b6d",
+                "bugfix_commit_date": "2013-12-15 12:56:19",
+                "issue_created_at": "2013-12-15 04:52:04.389000",
+                "name": "MAHOUT-1378",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/Dataset.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/tools/FrequenciesJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/conditions/Condition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/conditions/Equals.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/conditions/GreaterOrEquals.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/conditions/Lesser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/streaming/cluster/StreamingKMeans.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/streaming/mapreduce/StreamingKMeansUtilsMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/topdown/postprocessor/ClusterCountReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/common/AffinityMatrixInputJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/common/MatrixDiagonalizeJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/ABtDenseOutJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/ABtJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/QJob.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b717cfc0d9720607517e0380eb6cb8e8ee13bde4",
+                "bugfix_commit_date": "2013-08-08 06:05:32",
+                "issue_created_at": "2013-08-08 05:49:55.328000",
+                "name": "MAHOUT-1306",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/VJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/arff/ARFFModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/BenchmarkRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/CloneBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/ClosestCentroidBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/DistanceBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/MinusBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/PlusBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/TimesBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/TextParagraphSplittingJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/conversion/InputDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/RegexConverterDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/stats/LogLikelihood.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/PrefAndSimilarityColumnWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/StandardNaiveBayesClassifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/DecisionForest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/BayesUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/NaiveBayesModel.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "52d824f3ea1f1de9e371b3d7db89ae1c7f688ae2",
+                "bugfix_commit_date": "2014-03-18 00:12:16",
+                "issue_created_at": "2014-03-17 19:12:31.845000",
+                "name": "MAHOUT-1467",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/clustering/classify/ClusterClassifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/discriminative/LinearModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/discriminative/LinearTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/discriminative/PerceptronTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/discriminative/TrainingException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/discriminative/WinnowTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/ClusterIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/kmeans/RandomSeedGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/ErrorEstimate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/MahalanobisDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/dirichlet/DirichletDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/dirichlet/UncommonDistributions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/WeightedDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/meanshift/MeanShiftCanopy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/meanshift/MeanShiftCanopyClusterer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/meanshift/MeanShiftCanopyClusterMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/meanshift/MeanShiftCanopyConfigKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/meanshift/MeanShiftCanopyCreatorMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/meanshift/MeanShiftCanopyDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/meanshift/MeanShiftCanopyMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/meanshift/MeanShiftCanopyReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/minhash/HashFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/minhash/HashFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/minhash/MinHashDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/minhash/MinHashReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/document/SequenceFileTokenizerMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/pruner/PrunedPartialVectorMergeReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/tfidf/TFIDFConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/AggregatorMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/AggregatorReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/CountDescendingPairComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/FPGrowthDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/MultiTransactionTreeIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/ParallelCountingReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/ParallelFPGrowthCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/ParallelFPGrowthMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/ParallelFPGrowthReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/PFPGrowth.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/TransactionTree.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/TransactionTreeIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/pseudo/RecommenderJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/pseudo/RecommenderReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/pseudo/ReducerMetrics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/pseudo/UserIDsMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/slopeone/ByItemIDComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/slopeone/FullRunningAverageAndStdDevWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/slopeone/SlopeOneAverageDiffsJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/slopeone/SlopeOneDiffsToAveragesReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/slopeone/SlopeOnePrefsToDiffsReducer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c113a8c9314a7f21ffb282d043565006a9d5c9c7",
+                "bugfix_commit_date": "2015-11-05 03:50:50",
+                "issue_created_at": "2015-09-11 08:36:24.528000",
+                "name": "MAHOUT-1772",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/file/FileDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/slopeone/MemoryDiffStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/slopeone/SlopeOneRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/slopeone/file/FileDiffStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/DataUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/Instance.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/split/IgSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/split/Split.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/dirichlet/models/AbstractVectorModelDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/dirichlet/models/DistanceMeasureClusterDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/dirichlet/models/DistributionDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/dirichlet/models/GaussianCluster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/dirichlet/models/GaussianClusterDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/eigencuts/EigencutsAffinityCutsJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/eigencuts/EigencutsDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/eigencuts/EigencutsKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/eigencuts/EigencutsSensitivityJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/eigencuts/EigencutsSensitivityMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/eigencuts/EigencutsSensitivityNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/eigencuts/EigencutsSensitivityReducer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b717cfc0d9720607517e0380eb6cb8e8ee13bde4",
+                "bugfix_commit_date": "2013-08-08 06:05:32",
+                "issue_created_at": "2013-08-08 05:49:55.328000",
+                "name": "MAHOUT-1306",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/SSVDHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/convertors/ContextStatusUpdater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/convertors/ContextWriteOutputCollector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/convertors/SequenceFileOutputCollector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/convertors/StatusUpdater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/convertors/TopKPatternsOutputConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/convertors/TransactionIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/qr/QRFirstStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth/FPGrowth.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth/FPTree.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth/FPTreeDepthCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth/FrequentPatternMaxHeap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth/LeastKCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth/Pattern.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth2/FPGrowthIds.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth2/FPGrowthObj.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/fpgrowth2/FPTree.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/convertors/integer/IntegerStringOutputConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/convertors/string/StringOutputConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/fpm/pfpgrowth/convertors/string/TopKStringPatterns.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/decomposer/DistributedLanczosSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/collocations/llr/CollocMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/decomposer/HdfsBackedLanczosState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/CalculateEntropyMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/CalculateEntropyReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/CalculateSpecificConditionalEntropyMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/ConditionalEntropy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/DoubleSumReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/Entropy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/GroupAndCountByKeyAndValueMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/InformationGain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/InformationGainRatio.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/KeyCounterMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/SpecificConditionalEntropyMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/SpecificConditionalEntropyReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/ValueCounterMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/entropy/VarIntSumReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/evaluation/RepresentativePointsDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/wikipedia/WikipediaDatasetCreatorMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "09b4ef12001f21f55089baf36a8a4281641cdd27",
+                "bugfix_commit_date": "2013-12-01 12:16:43",
+                "issue_created_at": "2013-11-29 14:20:03.321000",
+                "name": "MAHOUT-1367",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/text/wikipedia/WikipediaXmlSplitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/wikipedia/XmlInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/clustering/ClusterDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/io/ChunkedWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/GenericJDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/arff/ARFFIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/io/DelimitedTermInfoWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/io/SequenceFileVectorWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/io/TextualVectorWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/Multinomial.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ebec1e32185bdcc10f48972f791487fe376d4c7b",
+                "bugfix_commit_date": "2014-03-27 02:51:57",
+                "issue_created_at": "2014-03-26 23:56:08.692000",
+                "name": "MAHOUT-1491",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/kmeans/SpectralKMeansDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/ChebyshevDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/ManhattanDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/MinkowskiDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/TanimotoDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/qr/GivensThinSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/Centroid.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/ConstantVector.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c9d978a460203736732af546f8b88120795c5d33",
+                "bugfix_commit_date": "2014-07-21 23:06:20",
+                "issue_created_at": "2014-07-09 22:03:27.780000",
+                "name": "MAHOUT-1595",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "bef1e8e81b69c968afaebd747efe07a956e2211d",
+                "bugfix_commit_date": "2014-01-24 02:27:57",
+                "issue_created_at": "2014-01-24 02:16:24.218000",
+                "name": "MAHOUT-1409",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "math/src/main/java/org/apache/mahout/math/MatrixVectorView.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/WeightedVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/transforms/PreferenceTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/transforms/SimilarityTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/transforms/CaseAmplification.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/transforms/Counters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/transforms/InverseUserFrequency.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/transforms/ZScore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/TF.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/Weight.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/EncodedVectorsFromSequenceFiles.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/AdaptiveLogisticRegression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/ModelDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/commandline/DefaultOptionCreator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/term/TermCountMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/term/TermDocumentCountReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/collocations/llr/CollocCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/SequenceFileDirIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/SequenceFileDirValueIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stats/BasicStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/MatrixSlice.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/MailArchivesClusteringAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/Bump125.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/clustering/GraphMLClusterWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/lucene/LuceneIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/CholeskyDecomposition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/MurmurHash3.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/RandomTrinaryMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/collections/Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/list/AbstractObjectList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/list/SimpleLongArrayList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/map/OpenHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/map/PrimeFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/map/QuickOpenIntIntHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/Empirical.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/IndianBuffet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/Normal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/set/AbstractSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/set/OpenHashSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/solver/ConjugateGradientSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/solver/LSMR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/CommandLineUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/AbstractJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/ElasticBandPrior.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/IntIntDoubleFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/lucene/IteratorTokenStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/sampling/RandomSampler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/Factorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/fuzzykmeans/FuzzyKMeansClusterer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/VectorizerConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/GenericItemPreferenceArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/GenericUserPreferenceArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stats/StandardDeviationCalculatorReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/IntegerTuple.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/StringTuple.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/FixedSizeSamplingIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/StableFixedSizeSamplingIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/Dictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/RandomRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/TopItems.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/OrthonormalityVerifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/hebbian/TrainingState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/PrefixAdditionFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/DefaultGradient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/Gradient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/CrossFoldLearner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/LongPair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/VarIntWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/VarLongWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/canopy/CanopyConfigKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/fuzzykmeans/FuzzyKMeansConfigKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/ClusteringPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/kmeans/KMeansConfigKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/topdown/PathDirectory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/SamplingIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/StringRecordIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/lucene/TokenStreamIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/mapreduce/MergeVectorsCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/parameters/AbstractParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/parameters/Parameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/common/NoSuchItemException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/common/NoSuchUserException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/eval/DataModelBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/eval/RecommenderEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/eval/RecommenderIRStatsEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/EntityEntityWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/ToItemPrefsMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/model/JDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/model/PreferenceArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/IDRescorer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/FixedRunningAverage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/FixedRunningAverageAndStdDev.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/InvertedRunningAverage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/InvertedRunningAverageAndStdDev.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/LongPrimitiveIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/SamplingLongPrimitiveIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/AbstractDifferenceRecommenderEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/IRStatisticsImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/LoadEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/AbstractIDMigrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/AbstractJDBCIDMigrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/BooleanItemPreferenceArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/BooleanPreference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/BooleanUserPreferenceArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/MemoryIDMigrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/PlusAnonymousConcurrentUserDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/PlusAnonymousUserDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/neighborhood/CachingUserNeighborhood.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/AbstractFactorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/AbstractSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/CityBlockSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/LogLikelihoodSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/TanimotoCoefficientSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/ImplicitLinearRegressionFactorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/RatingSGDFactorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/SVDPlusPlusFactorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/DataLoader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b717cfc0d9720607517e0380eb6cb8e8ee13bde4",
+                "bugfix_commit_date": "2013-08-08 06:05:32",
+                "issue_created_at": "2013-08-08 05:49:55.328000",
+                "name": "MAHOUT-1306",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/UJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/MultiNormal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/ByValueRecommendedItemComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/NullRescorer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/similarity/ItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/GenericItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/GenericUserSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/wikipedia/WikipediaAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/clustering/CSVClusterWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/RegexMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/MySQLBooleanPrefJDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/similarity/jdbc/MySQLJDBCItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/similarity/jdbc/SQL92JDBCItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/recommender/slopeone/jdbc/MySQLJDBCDiffStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/csv/CSVVectorIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/lucene/AbstractLuceneIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/lucene/LuceneIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/stats/OnlineExponentialAverage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/kmeans/KMeansUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/Matrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/SparseRowMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/item/VectorOrPrefWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/similarity/precompute/BatchItemSimilarities.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/Bagging.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/builder/DefaultTreeBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/builder/TreeBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/DescriptorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/MapredMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/MapredOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/node/Leaf.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/node/Node.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/node/NumericalNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/ref/SequentialBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/split/DefaultIgSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/inmem/InMemBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/inmem/InMemMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/partial/PartialBuilder.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4e1b7a6ebf54a444e01ffa613fe44a1f11f06e31",
+                "bugfix_commit_date": "2014-02-16 05:58:15",
+                "issue_created_at": "2014-02-13 08:37:12.825000",
+                "name": "MAHOUT-1417",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/partial/Step1Mapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/partial/TreeID.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "40907b1f5cbf02a6eb64cce11e1fcaa27f6c4f18",
+                "bugfix_commit_date": "2013-11-18 17:54:35",
+                "issue_created_at": "2013-11-18 07:58:22.872000",
+                "name": "MAHOUT-1358",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/clustering/streaming/mapreduce/StreamingKMeansThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/ClassUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/ep/State.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/DistributedRowMatrixWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/ComplementaryNaiveBayesClassifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/RecordFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/SVDPreference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/FileLineIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/MultipleTextFileInputFormat.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c87196e4e24a758d652b5ba36e26701c35726654",
+                "bugfix_commit_date": "2013-12-20 17:18:47",
+                "issue_created_at": "2013-08-26 18:28:30.816000",
+                "name": "MAHOUT-1319",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/text/WholeFileRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/Varint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/neighborhood/AbstractUserNeighborhood.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/neighborhood/NearestNUserNeighborhood.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/neighborhood/ThresholdUserNeighborhood.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/PearsonCorrelationSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/UncenteredCosineSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/CityBlockSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/CooccurrenceCountSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/CosineSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/CountbasedMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/VectorSimilarityMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/TimesSquaredJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/tfidf/TFIDFPartialVectorReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/Builder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/common/VectorCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/BtJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/SequenceFilesFromDirectoryFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/MatrixView.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/QR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/RegressionResultAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/DataConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/node/CategoricalNode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/split/OptIgSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/qr/QRLastStep.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/AbstractSamplerFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/Sampler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/Version.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/CosineDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/wikipedia/WikipediaMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/AsyncEigenVerifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/Mult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/SquareRootFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/OnlineGaussianAccumulator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/CopyConstructorIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/CountingIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/RunningSumsGaussianAccumulator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/jdbc/EachRowIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/MultithreadedSharingMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/jdbc/ResultSetIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/file/FileItemItemSimilarityIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/GenericDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/common/RandomUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/LengthCachingVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/AbstractCluster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/AbstractNaiveBayesClassifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/AbstractOnlineLogisticRegression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/ModelDissector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/classify/ClusterClassificationMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/CIMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/WeightedEuclideanDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/WeightedManhattanDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/mapreduce/TransposeMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/MatrixMultiplicationJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/TransposeJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/GlobalOnlineAuc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/term/TermDocumentCountMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/similarity/item/ItemSimilarityJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/training/ComplementaryThetaTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/training/StandardThetaTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/common/UnitVectorizerJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/common/VectorMatrixMultiplicationJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/model/IDMigrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/model/UpdatableIDMigrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/Omega.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/UpperTriangular.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/YtYJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/RowSimilarityJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/EuclideanDistanceSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/PearsonCorrelationSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/cdbw/CDbwEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/evaluation/ClusterEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/AbstractVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/DelegatingVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/FileBasedSparseBinaryMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/NamedVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/PermutedVectorView.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/Vector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/VectorView.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/WeightedVectorComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/als/AlternatingLeastSquaresSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/als/ImplicitFeedbackAlternatingLeastSquaresSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/recommender/slopeone/jdbc/AbstractJDBCDiffStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/WeightedThing.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/IntPairWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/lucene/AnalyzerUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/EntityPrefWritable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5f070b4312060a04e857386fbaea9a189a5a3727",
+                "bugfix_commit_date": "2014-04-19 14:31:03",
+                "issue_created_at": "2014-04-18 23:02:28.368000",
+                "name": "MAHOUT-1517",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/ALSWRFactorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/GenericBooleanPrefDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/LoadCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/LoadStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/StatsCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/SplitPartitionedWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/collocations/llr/GramKeyGroupComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/VectorFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/clustering/ClusterDumperWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/classifier/ConfusionMatrixDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/MatrixDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/SplitInputJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/SQL92BooleanPrefJDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/SQL92JDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/cassandra/CassandraDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/Sorting.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/solver/EigenDecomposition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/hebbian/HebbianUpdater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/BitSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/lanczos/LanczosState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/Pair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/ep/Mapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/lda/cvb/CVB0TopicTermVectorNormalizerMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/DoubleDoubleFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/DoubleFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/Functions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/PlusMult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/TimesFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/lanczos/LanczosSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/math/Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/AbstractDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/Cluster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/Model.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/fuzzykmeans/SoftCluster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/web/RecommenderWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/AbstractBooleanPrefJDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/MySQLJDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/similarity/jdbc/AbstractJDBCInMemoryItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/similarity/jdbc/AbstractJDBCItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/CachingValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/FeatureVectorEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/io/TermInfoWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/io/VectorWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/lucene/TermInfoClusterInOut.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/SeedVectorUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/OrderedIntDoubleMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/MurmurHash.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/conversion/meanshift/InputMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/ChineseRestaurant.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/Missing.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/LuceneSegmentInputSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/SequenceFilesFromLuceneStorageDriver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "379863d8f9dff8c0a42c341c68044c9c52b597e0",
+                "bugfix_commit_date": "2014-11-09 17:45:39",
+                "issue_created_at": "2014-08-28 07:22:03.269000",
+                "name": "MAHOUT-1611",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/utils/ConcatenateVectorsJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/PathFilters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/ItemBasedRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/similarity/precompute/SimilarItemsWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/streaming/cluster/BallKMeans.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/RecommendedItem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/GenericRecommendedItem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/VectorIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/lda/cvb/ModelTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/lda/cvb/TopicModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/IntFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/SingularVectorVerifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/streaming/mapreduce/CentroidWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/AbstractContinousDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/DFUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/ModelSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/mapreduce/MergeVectorsReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/FactorizationEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/FilePersistenceStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/precompute/FileSimilarItemsWriter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "84a4bce9e4a4964d396a4ada3da35df4d842a9fe",
+                "bugfix_commit_date": "2014-05-24 15:17:20",
+                "issue_created_at": "2014-05-23 23:47:10.944000",
+                "name": "MAHOUT-1560",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/precompute/MultithreadedBatchItemSimilarities.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/tools/UDistrib.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sequencelearning/hmm/BaumWelchTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sequencelearning/hmm/RandomSequenceGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sequencelearning/hmm/ViterbiEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/Vectors.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/TopItemsQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/SerializationBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/SequenceFileDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/lda/LDAPrintTopics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/similarity/precompute/SimilarItem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/similarity/item/TopSimilarItemsQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/RowIdJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/VectorDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/OldQRDecomposition.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1f9188d0789640a6514e1120bf4b44061a886165",
+                "bugfix_commit_date": "2015-04-24 23:33:41",
+                "issue_created_at": "2015-04-24 22:31:46.566000",
+                "name": "MAHOUT-1696",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "1efca59f3ebbbad0ffd631e5e70a086b3285cd93",
+                "bugfix_commit_date": "2015-04-24 23:39:41",
+                "issue_created_at": "2015-04-24 22:31:46.566000",
+                "name": "MAHOUT-1696",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "math/src/main/java/org/apache/mahout/math/QRDecomposition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/set/HashUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/MutableElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/TopElementsQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/GenericRecommenderIRStatsEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/GradientMachine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/CIReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/RefreshHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/knn/KnnItemBasedRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/data/Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/Recommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/EstimatedPreferenceCapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/ChainTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/fuzzykmeans/FuzzyKMeansUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/lucene/Driver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/HighDFWordsPruner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sequencelearning/hmm/HmmModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sequencelearning/hmm/LossyHmmSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/AverageAbsoluteDifferenceRecommenderEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/RMSRecommenderEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/common/TasteException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/UserBasedRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/PlusAnonymousUserLongPrimitiveIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/ByRescoreComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/AveragingPreferenceInferrer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/arff/ARFFType.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f2eb7e1b759bada8130cfc00b1d72d8f3b83febb",
+                "bugfix_commit_date": "2013-11-29 19:06:13",
+                "issue_created_at": "2013-07-15 21:31:28.450000",
+                "name": "MAHOUT-1285",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/arff/MapBackedARFFModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/eval/IRStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/TimingStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/SparseVectorsFromSequenceFiles.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/L2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/canopy/CanopyDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/classify/ClusterClassificationDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/kmeans/KMeansDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/term/TFPartialVectorReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/DenseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/Classifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/SparseRowBlockWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/lda/cvb/InMemoryCollapsedVariationalBayes0.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/topdown/postprocessor/ClusterOutputPostProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/topdown/postprocessor/ClusterOutputPostProcessorDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/topdown/postprocessor/ClusterOutputPostProcessorMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/topdown/postprocessor/ClusterOutputPostProcessorReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/SequenceFileIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/SequenceFileValueIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/VectorDistanceSimilarityJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/VectorBenchmarks.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/LuceneIndexFileNameFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/LuceneSegmentRecordReader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3cc95f4fc8e167417e12def3948b13bd7e1f57f6",
+                "bugfix_commit_date": "2013-11-16 19:09:35",
+                "issue_created_at": "2013-07-25 17:48:17.595000",
+                "name": "MAHOUT-1292",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/text/LuceneSeqFileHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/ReadOnlyFileSystemDirectory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3cc95f4fc8e167417e12def3948b13bd7e1f57f6",
+                "bugfix_commit_date": "2013-11-16 19:09:35",
+                "issue_created_at": "2013-07-25 17:48:17.595000",
+                "name": "MAHOUT-1292",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/text/SequenceFilesFromLuceneStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/ConcatenateVectorsReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/SplitInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/clustering/AbstractClusterWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/email/MailProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/AnalyzerTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/hbase/HBaseDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/arff/Driver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/lucene/ClusterLabels.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/AbstractMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/VectorBinaryAggregate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/VectorBinaryAssign.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/CandidateItemsStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/MostSimilarItemsCandidateItemsStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/AbstractCandidateItemsStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/GenericItemBasedRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/SVDRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/GaussianAccumulator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/TanimotoCoefficientSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/RecommendedItemsWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/MatrixUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stats/StandardDeviationCalculatorMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/fuzzykmeans/FuzzyKMeansDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/ssvd/SequentialBigSvd.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/NoPersistenceStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/PersistenceStrategy.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c3e0b8c5bee2314e3c4799f7fac411f6f38a3f70",
+                "bugfix_commit_date": "2013-07-27 05:07:51",
+                "issue_created_at": "2013-07-18 17:39:35.480000",
+                "name": "MAHOUT-1287",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/CsvRecordFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/nlp/collocations/llr/BloomTokenFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/kmeans/EigenSeedGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/canopy/CanopyReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/decomposer/EigenVerificationJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/stats/OnlineSummarizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/ConnectionPoolDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/IOUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/PassiveAggressive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/ToEntityPrefsMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/training/AbstractThetaTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/SparseRowBlockAccumulator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/collocations/llr/GramKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/conversion/meanshift/InputDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/email/MailOptions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/io/ChunkedWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/io/IOWriterWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/io/WrappedWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/TermEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/TermInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/DiagonalMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/SimpleEigenVerifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/NegativeBinomial.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/Normal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/MemoryUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/FileLineIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/eval/OrderBasedRecommenderEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/ClusterSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/SamplingCandidateItemsStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/TreeClusteringRecommender2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/BiasedItemBasedRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/slopeone/DiffStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/common/AffinityMatrixInputReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/ParallelSGDFactorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/hebbian/HebbianSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/decomposer/EigenVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/web/RecommenderServlet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/evaluation/Auc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/PolymorphicWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/PathType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/GenericBooleanPrefUserBasedRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/jdbc/AbstractJDBCComponent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/common/AffinityMatrixInputMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/VectorDistanceInvertedMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/conversion/InputMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/web/RecommenderSingleton.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/Algebra.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/solver/JacobiConditioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/solver/Preconditioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/AbstractDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/HadoopUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/neighborhood/FastProjectionSearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/random/RandomProjector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/SolveExplicitFeedbackMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/SolveImplicitFeedbackMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "785668906b5e69db6c9352ffba961b49bda450d2",
+                "bugfix_commit_date": "2015-08-08 18:35:41",
+                "issue_created_at": "2015-02-19 17:48:58.927000",
+                "name": "MAHOUT-1642",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/similarity/precompute/SimilarItems.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/builder/DecisionTreeBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sequencelearning/hmm/HmmTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/solver/DistributedConjugateGradientSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/collocations/llr/GramKeyPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/collocations/llr/LLRReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/benchmark/DotBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/WikipediaToSequenceFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/wikipedia/WikipediaDatasetCreatorDriver.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "95c68de3eb275c9333bd067b1ed1cf00e7fcb40a",
+                "bugfix_commit_date": "2013-12-08 23:35:02",
+                "issue_created_at": "2013-11-01 12:59:17.506000",
+                "name": "MAHOUT-1349",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/VectorHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/mongodb/MongoDBDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/BinarySearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/DenseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/FileBasedMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/RandomAccessSparseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/collections/Arithmetic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/map/HashFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/math/Arithmetic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/AbstractDiscreteDistribution.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/Poisson.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/Uniform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/stat/Probability.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/engine/RandomEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/canopy/Canopy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/classify/WeightedPropertyVectorWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/classify/WeightedVectorWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/ClusteringPolicyWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/DistanceMeasureCluster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/FullRunningAverage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/FullRunningAverageAndStdDev.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/RunningAverage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/WeightedRunningAverageAndStdDev.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/CachingRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/RunningAverageAndStdDev.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/lda/cvb/CachingCVB0PerplexityMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/collocations/llr/CollocReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/evaluation/RepresentativePointsReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/FPGFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/IdentityFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/IdentityTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/RegexFormatter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/RegexTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/RegexUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/regex/URLDecodeTransformer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/canopy/CanopyClusterer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/mapreduce/VectorSumReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/ConstantValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/FastByIDMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/FastIDSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/FastMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/Factorization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/TPrior.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/VectorSimilarityMeasures.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/TextValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sequencelearning/hmm/HmmAlgorithms.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/Exponential.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/Gamma.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/ClassifierResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/StringUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/DocumentProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/SimpleTextEncodingVectorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/Vectorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/classify/ClusterClassificationConfigKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/CanopyClusteringPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/DirichletClusteringPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/FuzzyKMeansClusteringPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/KMeansClusteringPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/MeanShiftClusteringPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/kmeans/Kluster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/ssvd/SequentialOutOfCoreSvd.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/stats/Sampler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/common/PartialVectorMerger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/AdaptiveWordValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/CachingContinuousValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/CachingStaticWordValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/ContinuousValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/preparation/PreparePreferenceMatrixJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/tools/ForestVisualizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/tools/Frequencies.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/training/IndexInstancesMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/mapreduce/inmem/InMemInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stats/VarianceTotals.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/DenseBlockWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/qr/GramSchmidt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/cooccurrence/measures/LoglikelihoodSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/collocations/llr/Gram.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/clustering/ClusterWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/PersistentObject.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d15537b19c6b6d221c20567dcaefddeb39eed7f5",
+                "bugfix_commit_date": "2014-01-02 06:41:51",
+                "issue_created_at": "2014-01-02 06:03:40.615000",
+                "name": "MAHOUT-1390",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "math/src/main/java/org/apache/mahout/math/SingularValueDecomposition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/SparseColumnMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/list/AbstractList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/CardinalityException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/IndexException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/LuceneSegmentInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/LuceneStorageConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/SequenceFilesFromLuceneStorageMRJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/PivotedMatrix.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3e9cd90fa55c6300d60b36d1d02bc9f632625412",
+                "bugfix_commit_date": "2014-02-11 14:56:37",
+                "issue_created_at": "2014-02-11 11:58:19.181000",
+                "name": "MAHOUT-1415",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "math/src/main/java/org/apache/mahout/math/SparseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/DistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/EuclideanDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/OnlineLearner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/parameters/DoubleParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/tools/Describe.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/tools/TreeVisualizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/SamplingIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/OnlineLogisticRegression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sequencelearning/hmm/HmmUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/clustering/evaluation/RepresentativePointsMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/common/RandomWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/random/PoissonSampler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/lucene/CachedTermInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/utils/vectors/lucene/TFDFMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/SequenceFileDirIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/SequenceFileDirValueIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/SequenceFileIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/iterator/sequencefile/SequenceFileValueIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/lda/cvb/CachingCVB0Mapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/lda/cvb/CVB0DocInferenceMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/lda/cvb/CVB0Driver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/kernel/IKernelProfile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/kernel/TriangularKernelProfile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/CachingTextValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/InteractionValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/WordValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/AbstractItemSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/distance/SquaredEuclideanDistanceMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/parameters/ClassParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/parameters/Parametered.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/parameters/PathParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/SSVDCli.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/Cache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/GenericUserBasedRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/CachingUserSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/LongPairMatchPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/als/DatasetSplitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/Arrays.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/Swapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/FloatFunction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/ObjectObjectProcedure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/function/ObjectProcedure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/ssvd/EigenSolverWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/AbstractLongPrimitiveIterator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b717cfc0d9720607517e0380eb6cb8e8ee13bde4",
+                "bugfix_commit_date": "2013-08-08 06:05:32",
+                "issue_created_at": "2013-08-08 05:49:55.328000",
+                "name": "MAHOUT-1306",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/stochasticsvd/SSVDSolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/LongPrimitiveArrayIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/AbstractRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/SpearmanCorrelationSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/file/FileIDMigrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/RankingGradient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/Parameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/common/IntDoublePairWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/spectral/common/VertexWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/ResultAnalyzer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/canopy/CanopyMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ede812b2b7c6519cd2a4eebfca0538a65b7d7a8d",
+                "bugfix_commit_date": "2013-12-30 10:55:05",
+                "issue_created_at": "2013-12-30 08:30:51.020000",
+                "name": "MAHOUT-1389",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/training/TrainNaiveBayesJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/training/WeightsMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/hebbian/EigenUpdater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/DistributedRowMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/AbstractClusteringPolicy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/WeightedRunningAverage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/SimilarUser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/similarity/EuclideanDistanceSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/math/Polynomial.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/random/engine/MersenneTwister.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/hadoop/similarity/VectorDistanceMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/LuceneTextValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/vectorizer/encoders/StaticWordValueEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/df/split/RegressionSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sequencelearning/hmm/HmmEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/sgd/MixedGradient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/model/DataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/naivebayes/training/ThetaMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/ReloadFromJDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/MatrixWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/iterator/ClusterWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/AbstractJDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/jet/stat/Gamma.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/classifier/AbstractVectorClassifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/ClusteringUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/decomposer/EigenStatus.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "06205a6cd43d9d2fac4b59184e03d52725fde536",
+                "bugfix_commit_date": "2013-12-15 09:25:29",
+                "issue_created_at": "2013-12-15 09:17:37.162000",
+                "name": "MAHOUT-1380",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "6a8cfcde4d862689b0b2db3a48328de4884f2776",
+                "bugfix_commit_date": "2013-12-23 19:20:30",
+                "issue_created_at": "2013-11-18 07:58:22.872000",
+                "name": "MAHOUT-1358",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/clustering/streaming/mapreduce/StreamingKMeansDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/clustering/streaming/mapreduce/StreamingKMeansMapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0c1b4a1e07fa6be269615c08a3813af04a71d46e",
+                "bugfix_commit_date": "2013-11-18 07:50:29",
+                "issue_created_at": "2013-08-18 14:07:48.074000",
+                "name": "MAHOUT-1314",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/clustering/streaming/mapreduce/StreamingKMeansReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/PostgreSQLBooleanPrefJDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/cf/taste/impl/model/jdbc/PostgreSQLJDBCDataModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/wikipedia/WikipediaDatasetCreatorReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "math/src/main/java/org/apache/mahout/math/list/ObjectArrayList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/ClusteringRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/FarthestNeighborClusterSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/NearestNeighborClusterSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/TreeClusteringRecommender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/knn/ConjugateGradientOptimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/knn/NonNegativeQuadraticOptimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/knn/Optimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/recommender/svd/FunkSVDFactorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/common/nlp/NGrams.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c87196e4e24a758d652b5ba36e26701c35726654",
+                "bugfix_commit_date": "2013-12-20 17:18:47",
+                "issue_created_at": "2013-08-26 18:28:30.816000",
+                "name": "MAHOUT-1319",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/text/SequenceFilesFromDirectory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/SequenceFilesFromDirectoryMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/SequenceFilesFromMailArchives.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "integration/src/main/java/org/apache/mahout/text/SequenceFilesFromMailArchivesMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/neighborhood/Searcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/math/neighborhood/UpdatableSearcher.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6d8fbe246b46a1a935767bb4d2c8be7e27ec15a3",
+                "bugfix_commit_date": "2013-11-28 14:46:54",
+                "issue_created_at": "2013-06-13 15:09:15.663000",
+                "name": "MAHOUT-1261",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/hadoop/TasteHadoopUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3cc95f4fc8e167417e12def3948b13bd7e1f57f6",
+                "bugfix_commit_date": "2013-11-16 19:09:35",
+                "issue_created_at": "2013-07-25 17:48:17.595000",
+                "name": "MAHOUT-1292",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "integration/src/main/java/org/apache/mahout/text/SequenceFilesFromLuceneStorageMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/model/MySQLJDBCIDMigrator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/similarity/UserSimilarity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/Retriever.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/common/Refreshable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/common/Weighting.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/eval/RecommenderBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/model/Preference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/neighborhood/UserNeighborhood.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/recommender/Rescorer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/similarity/PreferenceInferrer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "core/src/main/java/org/apache/mahout/cf/taste/impl/common/SkippingIterator.java"
+    }
+]

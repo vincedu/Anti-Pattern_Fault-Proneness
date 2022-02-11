@@ -1,0 +1,662 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/FuncHereContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformXPath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/Reference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/HexDump.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/provider/ApacheXMLProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/CanonicalizationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/InvalidCanonicalizerException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/exceptions/AlgorithmAlreadyRegisteredException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/ContentHandlerAlreadyRegisteredException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/KeyUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/InvalidDigestValueException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/InvalidSignatureValueException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/MissingResourceFailureException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/ReferenceNotInitializedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/XMLSignatureException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/InvalidTransformException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/TransformationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/TransformSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/I18n.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/JavaUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/RFC2253Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/X509CertificateValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/XPathFuncHereAPI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/helper/AlwaysAcceptNodeFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/helper/AttrCompare.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/helper/C14nNodeFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/helper/NamespaceSearcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315OmitComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315WithComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315WithoutXPathSupportOmitComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315WithoutXPathSupportWithComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/KeyInfoContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/InvalidKeyResolverException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/KeyResolverException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/StorageResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/StorageResolverException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/StorageResolverSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformC14N.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformC14NWithComments.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformXPointer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformXSLT.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/ResourceResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/ResourceResolverException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/ResourceResolverSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/keyvalues/KeyValueContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509DataContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/implementations/CertsInFilesystemDirectoryResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/implementations/KeyStoreResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/storage/implementations/SingleCertificateResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverDirectHTTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/Algorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/CarriedKeyName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/CipherData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/CipherReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/CipherValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/DataReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptionProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptionProperty.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/KeyReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/ReferenceList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/Transforms.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/exceptions/XMLSecurityException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/KeyInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/ObjectContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/SignatureProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/SignatureProperty.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/SignedInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/Transform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/EncryptionElementProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/IdResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/SignatureElementProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/implementations/SignatureDSA.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/helper/XPathContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/KeyName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/KeyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/MgmtData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/PGPData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/RetrievalMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/SPKIData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/X509Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/params/OAEPParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/params/StreamParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/keyvalues/DSAKeyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/keyvalues/RSAKeyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509Certificate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509CRL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509IssuerSerial.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509SKI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/content/x509/XMLX509SubjectName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/FuncHere.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/Base64.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformBase64Decode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptedKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/provider/Alias.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/provider/ApacheKeyStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/provider/CertificateElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/provider/KeyBaseType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/provider/KeyElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/provider/ProviderTest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/Version.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/X509SubjectNameResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/provider/KeyStoreElement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/EncryptedData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/EncryptionMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/Transforms.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/Canonicalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/CanonicalizerSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/implementations/Canonicalizer20010315WithoutXPathSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/c14n/helper/C14nHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/XMLSignatureInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/provider/ApacheKeyStoreConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/JCEMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/BlockEncryptionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/KeyResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/KeyResolverSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/transforms/implementations/TransformEnvelopedSignature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/DSAKeyValueResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/RetrievalMethodResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/RSAKeyValueResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/X509CertificateResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/X509IssuerSerialResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/keys/keyresolver/implementations/X509SKIResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverFragment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverXPointer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/type/EncryptedType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/encryption/type/ReferenceType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/params/EncryptionMethodParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/BlockEncryptionImpl_AES128_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/BlockEncryptionImpl_AES192_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/BlockEncryptionImpl_AES256_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/BlockEncryptionImpl_TRIPLEDES_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/KeyWrapImpl_AES128_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/KeyWrapImpl_AES192_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/KeyWrapImpl_AES256_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/ElementProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/helper/AESWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/helper/TripleDESWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/KeyWrapImpl_AES_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/KeyWrapImpl_TRIPLEDES_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/CachedXPathFuncHereAPI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/IgnoreAllErrorHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/Init.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/HelperNodeList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/PRNG.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/EncryptionMethodSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/helper/InvalidCipherTextException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/helper/OAEPCipher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/helper/PKCS15Cipher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/KeyTransportImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/KeyTransportImpl_RSAOAEP_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/encryption/implementations/BC/KeyTransportImpl_RSAPKCS15_BC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/XMLSignature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/EncryptionConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/MessageDigestAlgorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/SignatureAlgorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/implementations/IntegrityHmac.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/implementations/SignatureBaseRSA.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/exceptions/Base64DecodingException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverLocalFilesystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/XMLUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/algorithms/SignatureAlgorithmSpi.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/utils/resolver/implementations/ResolverAnonymous.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/org/apache/xml/security/signature/Manifest.java"
+    }
+]

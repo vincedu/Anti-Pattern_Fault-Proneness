@@ -1,0 +1,2924 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-base/src/main/java/org/apache/eagle/alert/common/AlertEmailSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/dedup/AlertEmailDeduplicationExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/dedup/AlertEntityDeduplicationExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/executor/AlertExecutor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "12e4395fda473e6474d556843b21bb576b79c2fd",
+                "bugfix_commit_date": "2016-04-13 12:28:48",
+                "issue_created_at": "2016-04-12 05:04:35.009000",
+                "name": "EAGLE-239",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/SiddhiAlertPolicyValidateProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/DefaultPolicyPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/DynamicPolicyLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PartitionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyDistributionReportMethods.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyDistributionStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyDistributionStatsDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyDistroStatsLogReporter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyDistStatsDAOLogReporter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyEvaluationContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyEvaluatorServiceProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyLifecycleMethods.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/ResultRender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AbstractPolicyDefinitionEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AlertAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AlertContextSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AlertStreamEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AlertStreamSchemaEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/common/UrlBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/config/AbstractPolicyDefinition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/dao/AlertExecutorDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/dao/AlertExecutorDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/dao/AlertStreamDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/dao/AlertStreamDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/dao/AlertStreamSchemaDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/dao/AlertStreamSchemaDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/executor/IPolicyExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/AttributeType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/SiddhiEvaluationHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/SiddhiPolicyDefinition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/SiddhiPolicyEvaluatorServiceProviderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/StreamMetadataManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/extension/ExternalTimeBatchWindowProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/aggregate/AggregateExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/aggregate/AggregateResultRender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/persist/IPersistService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/aggregate/entity/AggregateDefinitionAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/aggregate/entity/AggregateEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/aggregate/entity/AggregateEntityRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/persist/druid/AggregateEntitySerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/persist/druid/KafkaPersistService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/MLAnomalyCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/impl/MLAnomalyCallbackImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/impl/MLPolicyEvaluatorServiceProviderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/model/MLPolicyDefinition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/util/LogParseUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-embed/eagle-embed-hbase/src/main/java/org/apache/eagle/service/hbase/Tables.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-embed/eagle-embed-hbase/src/main/java/org/apache/eagle/service/hbase/EmbeddedHbase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/impl/EagleServiceClientImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/impl/MLModelDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/config/EmailNotificationConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/EagleServiceConnector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/datastream/JavaMapperStormExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/datastream/utils/JavaReflections.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/StormSpoutProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/hdfs/HDFSSourcedStormSpoutProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/partition/CustomPartitionGrouping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/datastream/JavaMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/datastream/JavaTypeCompatible.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/HDFSFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-metric-collection/src/main/java/org/apache/eagle/metric/kafka/EagleMetricCollectorMain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-metric-collection/src/main/java/org/apache/eagle/metric/kafka/KafkaOffsetSourceSpoutProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-securitylog/src/main/java/org/apache/eagle/security/securitylog/HDFSSecurityLogProcessorMain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/partition/DataDistributionDaoImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-securitylog/src/main/java/org/apache/eagle/security/hbase/HbaseAuditLogProcessorMain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive/src/main/java/org/apache/eagle/security/hive/jobrunning/HiveJobRunningMonitoringMain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/HdfsAuditLogProcessorMain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-webservice/src/main/java/org/apache/eagle/service/security/auth/MonitorResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/GCLogProcessorMain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/common/GCConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/model/GCPausedEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/DateTimeParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/GCEventParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/GCEventParserEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/GCType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/OtherLogFormatParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/spout/GCLogDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/stream/GCStreamBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/exception/IgnoredLogFormatException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/exception/UnrecognizedLogFormatException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/full/ConcurrentModeFailureParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/full/NormalFullGCParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/full/ParaNewPromotionFailureParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/tenured/CMSInitialMarkParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/tenured/CMSRemarkParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/parser/young/ParaNewParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/config/EagleConfigHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-metric-collection/src/main/java/org/apache/eagle/metric/kafka/KafkaOffsetSpout.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f51474dee0c6ab40b4df965871b5d723c06f84a3",
+                "bugfix_commit_date": "2016-06-06 02:25:05",
+                "issue_created_at": "2016-06-03 09:25:39.332000",
+                "name": "EAGLE-327",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/executor/AlertExecutorCreationUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AlertExecutorEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/kafka/JsonSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/kafka/KafkaSourcedSpoutProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/kafka/KafkaSourcedSpoutScheme.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/dataproc/util/AbstractConfigOptionParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/dataproc/util/ConfigOptionParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/HbaseMetadataBrowseWebResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/HbaseMetadataBrowseWebResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/HbaseSensitivityResourceService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/HDFSResourceSensitivityDataJoiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/HDFSResourceSensitivityService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/rest/HDFSResourceWebResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/rest/HDFSResourceWebResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveSensitivityMetadataDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/res/HiveMetadataBrowseWebResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/res/HiveMetadataBrowseWebResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/entity/FileSensitivityAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/entity/FileStatusEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/entity/HbaseResourceEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/entity/HbaseResourceSensitivityAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/entity/HdfsUserCommandPatternEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/entity/HiveResourceEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/entity/HiveResourceSensitivityAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/entity/IPZoneEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/entity/SecurityEntityRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-securitylog/src/main/java/org/apache/eagle/security/hbase/sensitivity/HbaseResourceSensitivityPollingJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/HdfsUserCommandPatternByDBImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/HdfsUserCommandPatternByFileImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/HdfsUserCommandPatternDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/timer/FileSensitivityPollingJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/timer/IPZonePollingJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive/src/main/java/org/apache/eagle/security/hive/sensitivity/HiveResourceSensitivityPollingJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/extension/ContainsIgnoreCaseExtension.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/extension/EqualsIgnoreCaseExtension.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/extension/RegexpIgnoreCaseFunctionExtension.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-securitylog/src/main/java/org/apache/eagle/security/hbase/parse/HbaseAuditLogObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-securitylog/src/main/java/org/apache/eagle/security/hbase/parse/HbaseAuditLogParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/executor/GCLogAnalysorExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-gc/src/main/java/org/apache/eagle/gc/executor/GCMetricGeneratorExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/dedup/AlertDeduplicationExecutorBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/notification/AlertNotificationExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/persist/AlertPersistExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/executor/PolicyProcessExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/base/NotificationConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/base/NotificationStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/dao/AlertNotificationDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/dao/AlertNotificationDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/email/AlertEmailComponent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/email/AlertEmailContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6aeab62e15c5baabb37980b2107004b01f7e9bf5",
+                "bugfix_commit_date": "2016-06-16 17:58:28",
+                "issue_created_at": "2016-05-05 23:48:05.601000",
+                "name": "EAGLE-294",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/email/AlertEmailGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/email/AlertEmailGeneratorBuilder.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6aeab62e15c5baabb37980b2107004b01f7e9bf5",
+                "bugfix_commit_date": "2016-06-16 17:58:28",
+                "issue_created_at": "2016-05-05 23:48:05.601000",
+                "name": "EAGLE-294",
+                "severity": "critical",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "8dbbf7100f12ddd75215e1ae99384623dd5cf3f7",
+                "bugfix_commit_date": "2016-05-24 00:17:20",
+                "issue_created_at": "2016-05-12 00:32:50.818000",
+                "name": "EAGLE-297",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/email/AlertEmailSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/plugin/AlertEagleStorePersister.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "12e4395fda473e6474d556843b21bb576b79c2fd",
+                "bugfix_commit_date": "2016-04-13 12:28:48",
+                "issue_created_at": "2016-04-12 05:04:35.009000",
+                "name": "EAGLE-239",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/plugin/AlertEagleStorePlugin.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "12e4395fda473e6474d556843b21bb576b79c2fd",
+                "bugfix_commit_date": "2016-04-13 12:28:48",
+                "issue_created_at": "2016-04-12 05:04:35.009000",
+                "name": "EAGLE-239",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/plugin/AlertKafkaPlugin.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "12e4395fda473e6474d556843b21bb576b79c2fd",
+                "bugfix_commit_date": "2016-04-13 12:28:48",
+                "issue_created_at": "2016-04-12 05:04:35.009000",
+                "name": "EAGLE-239",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/plugin/KafkaProducerSingleton.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "12e4395fda473e6474d556843b21bb576b79c2fd",
+                "bugfix_commit_date": "2016-04-13 12:28:48",
+                "issue_created_at": "2016-04-12 05:04:35.009000",
+                "name": "EAGLE-239",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/plugin/NotificationPlugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/plugin/NotificationPluginLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/plugin/NotificationPluginManager.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "12e4395fda473e6474d556843b21bb576b79c2fd",
+                "bugfix_commit_date": "2016-04-13 12:28:48",
+                "issue_created_at": "2016-04-12 05:04:35.009000",
+                "name": "EAGLE-239",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/plugin/NotificationPluginManagerImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "12e4395fda473e6474d556843b21bb576b79c2fd",
+                "bugfix_commit_date": "2016-04-13 12:28:48",
+                "issue_created_at": "2016-04-12 05:04:35.009000",
+                "name": "EAGLE-239",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/utils/NotificationPluginUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AlertNotificationEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/common/AuditConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/common/AuditEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/common/AuditListenerMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/common/BaseAuditListenerMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/dao/ServiceAuditDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/dao/ServiceAuditDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/entity/GenericAuditEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/listener/AuditListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/listener/AuditListenerProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/listener/AuditSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-audit-base/src/main/java/org/apache/eagle/audit/entity/repo/AuditEntityRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/config/EagleConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/config/EagleConfigConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/config/EagleConfigFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/HBaseStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/HBaseStorageAudit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/datastream/JavaStormExecutorForAlertWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/aggregate/SimpleAggregateExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/persist/PersistExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-metric-collection/src/main/java/org/apache/eagle/metric/kafka/KafkaMessageDistributionExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/dataproc/core/JsonSerDeserUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/MLPolicyEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-securitylog/src/main/java/org/apache/eagle/security/hbase/sensitivity/HbaseResourceSensitivityDataJoinExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/FileSensitivityDataJoinExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/HdfsUserCommandReassembler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/IPZoneDataJoinExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive/src/main/java/org/apache/eagle/security/hive/jobrunning/HiveQueryParserExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive/src/main/java/org/apache/eagle/security/hive/jobrunning/JobConfigurationAdaptorExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive/src/main/java/org/apache/eagle/security/hive/sensitivity/HiveResourceSensitivityDataJoinExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/UserActivityAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/UserProfileAggregatorExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/UserProfileDetectionBatchMain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/UserProfileDetectionStreamMain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/impl/UserActivityAggregatorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/ServiceConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/reportor/EagleCounterMetric.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/reportor/EagleGaugeMetric.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/reportor/EagleMetric.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/reportor/EagleMetricKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/reportor/EagleMetricListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/reportor/EagleServiceReporterMetricListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/reportor/IEagleMetric.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/reportor/MetricEntityAdaptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/reportor/MetricKeyCodeDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-metric-collection/src/main/java/org/apache/eagle/metric/kafka/KafkaLatestOffsetFetcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/SiteApplicationObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/SiteApplicationResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AlertDataSourceEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AlertEntityRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/ApplicationDescServiceEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/FeatureDescServiceEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/GenericResourceEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/SiteApplicationServiceEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/SiteDescServiceEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/common/Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/generic/GenericEntityServiceResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/dao/HbaseMetadataAccessConfigDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/HDFSResourceUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/resolver/HDFSCommandResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveMetadataAccessConfigDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/hdfs/HDFSAuditLogParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "12e4395fda473e6474d556843b21bb576b79c2fd",
+                "bugfix_commit_date": "2016-04-13 12:28:48",
+                "issue_created_at": "2016-04-12 05:04:35.009000",
+                "name": "EAGLE-239",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-notification-plugin/src/main/java/org/apache/eagle/notification/plugin/AlertEmailPlugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/PolicyEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/alert/entity/AlertDefinitionAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/dao/PolicyDefinitionDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/dao/PolicyDefinitionEntityDAOImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9ad4b635d1bad7d7db9470b7ab48d99d1e4aa3e1",
+                "bugfix_commit_date": "2016-05-24 01:17:38",
+                "issue_created_at": "2016-05-05 23:48:05.601000",
+                "name": "EAGLE-294",
+                "severity": "critical",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "6aeab62e15c5baabb37980b2107004b01f7e9bf5",
+                "bugfix_commit_date": "2016-06-16 17:58:28",
+                "issue_created_at": "2016-05-05 23:48:05.601000",
+                "name": "EAGLE-294",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/SiddhiPolicyEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/EntityQualifierUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-hadoop-metric/src/main/java/org/apache/eagle/hadoop/metric/HadoopJmxMetricMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-hadoop-metric/src/main/java/org/apache/eagle/hadoop/metric/Utils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-base/src/main/java/org/apache/eagle/alert/email/AlertEmailComponent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-base/src/main/java/org/apache/eagle/alert/email/AlertEmailContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/config/DeduplicatorConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/config/NotificationConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/config/Remediation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/dedup/DefaultDeduplicator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/dedup/EntityDeduplicator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/dedup/EntityTagsUniq.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/persist/EaglePersist.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/AlertPolicyValidateProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/PolicyValidateResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/AttributeResolvable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/AttributeResolveException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/AttributeResolveResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/AttributeResolveResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/AttributeResolverFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/BadAttributeResolveRequestException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/GenericAttributeResolveRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/impl/BooleanAttributeResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-alert/eagle-alert-service/src/main/java/org/apache/eagle/service/alert/resolver/impl/EntityAttributeResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-embed/eagle-embed-server/src/main/java/org/apache/eagle/service/embedded/tomcat/EmbeddedServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/EagleServiceAsyncClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/EagleServiceClientException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/EagleServiceGroupByQueryRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/EagleServiceQueryBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/EagleServiceQueryRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/EagleServiceSingleEntityQueryRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/IEagleServiceClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/IEagleServiceRequestBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/ListGroupByQueryAPIResponseEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/ListQueryAPIResponseConvertHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/ListTimeSeriesQueryAPIResponseEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/RowkeyQueryAPIResponseConvertHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/TimeSeriesGroupByAPIResponseEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/impl/BatchSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/impl/ConcurrentSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/impl/DeleteRequestBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/impl/EagleServiceAsyncClientImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/impl/EagleServiceBaseClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/impl/MetricSender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/impl/SearchRequestBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-client-base/src/main/java/org/apache/eagle/service/client/security/SecurityConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/common/EagleExceptionWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/common/SplitFullScanEntityReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/generic/GenericObjectMapperProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/generic/ListQueryResource.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "30b671cf2a208dfac2657dddcba3390fbe8cc3f9",
+                "bugfix_commit_date": "2016-11-18 03:01:55",
+                "issue_created_at": "2016-11-15 14:08:45.711000",
+                "name": "EAGLE-773",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/generic/MetadataResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/metric/EagleMetricResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/rowkey/RowKeyQueryResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/rowkey/RowkeyResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/selfcheck/EagleServiceSelfCheckAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/selfcheck/EagleServiceSelfCheckResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-service-base/src/main/java/org/apache/eagle/service/selfcheck/ServiceResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/GenericEntityQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/GenericQuery.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9432fcf91ab94cd9e228eb353e1b93739f977e67",
+                "bugfix_commit_date": "2016-08-19 04:09:53",
+                "issue_created_at": "2016-08-17 13:48:07.760000",
+                "name": "EAGLE-473",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/ListQueryCompiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/QueryConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/AggregateAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/AggregateAPIEntityFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/AggregateCondition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/AggregateFunctionNotSupportedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/AggregateFunctionType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/AggregateFunctionTypeMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/AggregateParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/AggregateParamsValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/AggregateResultAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/Aggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/BucketQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/IllegalAggregateFieldTypeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/PostAggregateSorting.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/SortFieldOrderType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/SortFieldOrderTypeMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/Function.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/FunctionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/GroupbyKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/GroupbyKeyAggregatable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/GroupbyKeyComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/GroupbyKeyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/GroupbyKeyValueCreationListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/GroupbyValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/RawAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/RawGroupbyBucket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/raw/WritableList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/AbstractAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/Aggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/EntityCreationListenerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/FlatAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/GroupbyBucket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/GroupbyFieldsComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/HierarchicalAggregateEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/HierarchicalAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/PostFlatAggregateSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/PostHierarchicalAggregateSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/SortOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/SortOptionsParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/SynchronizedAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/SynchronizedEntityCreationListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/TimeSeriesAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/TimeSeriesBucket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-query-base/src/main/java/org/apache/eagle/query/aggregate/timeseries/TimeSeriesPostFlatAggregateSort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/ANDExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/AtomicExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/ComparisonOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/EagleANTLRErrorStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/EagleQueryFilterListenerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/EagleQueryParseException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/EagleQueryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/LogicalOperator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/ORExpression.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/TokenConstant.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/TokenType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/parser/UnsupportedExpressionOperatorException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/antlr/generated/EagleFilterBaseListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/antlr/generated/EagleFilterLexer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/antlr/generated/EagleFilterListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-antlr/src/main/java/org/apache/eagle/query/antlr/generated/EagleFilterParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/Base64.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/ByteUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/CircularArrayList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/CircularArrayListSortedSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/DateTimeUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/EagleBase64Wrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/EagleExceptionWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/Environment.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/OS.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6aeab62e15c5baabb37980b2107004b01f7e9bf5",
+                "bugfix_commit_date": "2016-06-16 17:58:28",
+                "issue_created_at": "2016-05-05 23:48:05.601000",
+                "name": "EAGLE-294",
+                "severity": "critical",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "8df78b185eaba1c094ae7b713b4342a476e9b92a",
+                "bugfix_commit_date": "2016-05-24 00:17:32",
+                "issue_created_at": "2016-05-12 00:32:50.818000",
+                "name": "EAGLE-297",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/email/EagleMailClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/metric/AlertContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/service/HadoopAccountService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/service/HadoopUser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/service/LdapService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/service/POSTResultEntityBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-common/src/main/java/org/apache/eagle/common/service/TrustAllSSLSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/AbstractHBaseLogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/BaseEntityRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/EntityCreationListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/EntityUniq.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericCreateAPIResponseEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericEntityBatchReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericEntityScanStreamReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericEntityStreamReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericEntityStreamReaderMT.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericEntityWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericMetricEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericMetricEntityBatchReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericMetricEntityDecompactionStreamReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericMetricShadowEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericServiceAPIResponseEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/GenericServiceAPIResponseEntityDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/HBaseInternalLogHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/HBaseLogReader2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/HBaseLogWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/InternalLog.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/ListQueryAPIResponseEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/LogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/LogWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/MetricMetadataEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/QualifierCreationListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/QualifierNotDefinedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/RowkeyBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/RowkeyQueryAPIResponseEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/SearchCondition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/StreamReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/expression/ExpressionParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/expression/ParsiiInvalidException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/expression/ParsiiUnknowVariableException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/base/taggedlog/EntityContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/base/taggedlog/NoSuchRowException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/base/taggedlog/RowkeyAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/base/taggedlog/TaggedLogAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/base/taggedlog/TaggedLogObjectMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/filter/BooleanExpressionComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/filter/HBaseFilterBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/filter/QualifierFilterEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/filter/RowValueFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6aeab62e15c5baabb37980b2107004b01f7e9bf5",
+                "bugfix_commit_date": "2016-06-16 17:58:28",
+                "issue_created_at": "2016-05-05 23:48:05.601000",
+                "name": "EAGLE-294",
+                "severity": "critical",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-alert/eagle-alert-process/src/main/java/org/apache/eagle/alert/siddhi/SiddhiAlertAPIEntityRender.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/filter/TypedByteArrayComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/index/IndexLogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/index/IndexStreamReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/index/NonClusteredIndexLogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/index/NonClusteredIndexStreamReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/index/RowKeyLogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/index/UniqueIndexLogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/index/UniqueIndexStreamReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/BooleanSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Column.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/ColumnFamily.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Double2DArraySerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/DoubleArraySerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/DoubleSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/EntityConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/EntityDefinition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/EntityDefinitionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/EntitySerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/EntitySerDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Index.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/IndexDefinition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Indexes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/IntArraySerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/IntSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/ListSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/LongSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/MapSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Metric.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/MetricDefinition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/NonUniqueIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/NonUniqueIndexes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/NullObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/NullSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Partition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Prefix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Qualifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Service.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/ServicePath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/StringArraySerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/StringSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Table.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/Tags.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/meta/TimeSeries.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/GenericByRowkeyReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/GenericDeleter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/GenericReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/GenericWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/HBaseLogByRowkeyReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/HBaseLogDeleter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/HBaseLogReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/LogDeleter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/RowkeyHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/old/Schema.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/repo/DefaultEntityRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/repo/EntityRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-entity-base/src/main/java/org/apache/eagle/log/entity/repo/EntityRepositoryScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/DataStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/DataStorageBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/DataStorageManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/exception/IllegalDataStorageException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/exception/IllegalDataStorageTypeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/exception/QueryCompileException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/operation/CompiledQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/operation/CreateStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/operation/DeleteStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/operation/QueryStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/operation/RawQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/operation/RowkeyQueryStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/operation/Statement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/operation/UpdateStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/result/ModifyResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/result/QueryResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/result/Result.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/spi/DataStorageServiceLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-base/src/main/java/org/apache/eagle/storage/spi/DataStorageServiceProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/SiddhiOutputStreamCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/GenericQueryBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/spi/HBaseStorageServiceProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/SiddhiQueryCallbackImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/aggregate/GenericAggregateQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-policy/eagle-policy-base/src/main/java/org/apache/eagle/policy/siddhi/SiddhiStreamMetadataUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/aggregate/GenericAggregateReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/AggregateClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/AggregateProtocol.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/AggregateProtocolEndPoint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/AggregateResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/AggregateResultCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/ProtoBufConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/_AggregateProtocolEndPoint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/generated/AggregateProtos.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/impl/AggregateClientImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-hbase/src/main/java/org/apache/eagle/storage/hbase/query/coprocessor/impl/AggregateResultCallbackImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/JdbcConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/JdbcStorage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/conn/ConnectionConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/conn/ConnectionConfigFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/conn/ConnectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/conn/ConnectionManagerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/conn/PrimaryKeyBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/conn/StatementExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/criteria/CriteriaBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/criteria/CriterionBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/JdbcEntityDeleter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/JdbcEntityReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/JdbcEntitySerDeserHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/JdbcEntityUpdater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/JdbcEntityWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/schema/JdbcEntityDefinition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/schema/JdbcEntityDefinitionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/spi/JdbcStorageServiceProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/conn/impl/TorqueConnectionManagerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/conn/impl/TorqueStatementPeerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/conn/impl/UUIDPrimaryKeyBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/criteria/impl/ExpressionCriterionBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/criteria/impl/PrimaryKeyCriteriaBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/criteria/impl/QueryCriteriaBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/impl/AggreagteRecordMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/impl/EntityRecordMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/impl/JdbcEntityDeleterImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/impl/JdbcEntityReaderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/impl/JdbcEntityUpdaterImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8dad5fe6fd83b76674e4df6e6bd50e0b11f3bec0",
+                "bugfix_commit_date": "2016-05-23 03:13:34",
+                "issue_created_at": "2016-05-03 21:42:03.652000",
+                "name": "EAGLE-291",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/entity/impl/JdbcEntityWriterImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/schema/ddl/JdbcEntityDdlManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/schema/serializer/DefaultJdbcSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/schema/serializer/JdbcSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-query/eagle-storage-jdbc/src/main/java/org/apache/eagle/storage/jdbc/schema/serializer/JsonJdbcSerDeser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-job-common/src/main/java/org/apache/eagle/job/DefaultJobPartitionerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-job-common/src/main/java/org/apache/eagle/job/JobFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-job-common/src/main/java/org/apache/eagle/job/JobFilterByPartition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-job-common/src/main/java/org/apache/eagle/job/JobPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/callback/DefaultRunningJobInputStreamCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/callback/RunningJobCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/callback/RunningJobMessageId.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/common/JobConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/config/RunningJobCrawlConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/counter/CounterGroupKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/counter/CounterKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/counter/JobCounters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/crawler/ConfigWorkTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/crawler/JobContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/crawler/ResourceFetcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/crawler/RMResourceFetcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/crawler/RunningJobCrawler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/crawler/RunningJobCrawlerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/crawler/XmlHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/ha/HAURLSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/ha/HAURLSelectorImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/storm/JobRunningContentFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/storm/JobRunningContentFilterImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/storm/JobRunningSpout.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/storm/JobRunningSpoutCollectorInterceptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/url/JobCompleteCounterServiceURLBuilderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/url/JobCompletedConfigServiceURLBuilderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/url/JobCompleteDetailServiceURLBuilderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/url/JobCountersServiceURLBuilderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/url/JobDetailServiceURLBuilderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/url/JobListServiceURLBuilderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/url/JobRunningConfigServiceURLBuilderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/url/JobStatusServiceURLBuilderImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/url/ServiceURLBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/util/InputStreamUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/util/JobUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/util/URLConnectionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/zkres/JobRunningZKStateLCM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/zkres/JobRunningZKStateManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/counter/parser/JobCountersParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/counter/parser/JobCountersParserImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/job/conf/JobConfParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/job/conf/JobConfParserImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/App.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/AppInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/Applications.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/AppsWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/AppWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/Counter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/CounterGroup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/JobCompleteWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/JobCounters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/JobCountersWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/JobDetailInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/Jobs.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-storm-jobrunning-spout/src/main/java/org/apache/eagle/jobrunning/yarn/model/JobsWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/hdfs/DataCollectionHDFSSpout.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/hdfs/UserProfileGenerationHDFSSpout.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/kafka/SpoutKafkaMessageDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/storm/zookeeper/ZKStateConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/partition/DataDistributionDao.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/partition/PartitionAlgorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/partition/PartitionStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/partition/PartitionStrategyImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/partition/Weight.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/dataproc/core/EagleOutputCollector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/dataproc/core/StreamingProcessConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-base/src/main/java/org/apache/eagle/dataproc/core/ValuesArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/MLConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/MLModelDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/model/MLAlgorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/model/MLCallbackResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/model/MLEntityRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/model/MLModelAPIEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/utils/MLReflectionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-metric/src/main/java/org/apache/eagle/metric/MetricConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/dao/HbaseMetadataAccessConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/dao/HbaseMetadataDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/resolver/HbaseActionResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/resolver/HbaseMetadataResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/resolver/HbaseRequestResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-web/src/main/java/org/apache/eagle/service/security/hbase/resolver/HbaseSensitivityTypeResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/HDFSResourceAccessConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/HDFSResourceConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/resolver/HDFSResourceResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/resolver/HDFSSensitivityTypeResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-web/src/main/java/org/apache/eagle/service/security/hdfs/rest/HDFSResourceWebRequestValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/BadHiveMetadataAccessConfigException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveMetadataAccessConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveMetadataAccessConfigDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveMetadataAccessType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveMetadataByHiveServer2DAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveMetadataByMetastoreDBDAOImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveMetadataDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveMetadataDAOFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/dao/HiveSensitivityMetadataDAO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/resolver/HiveCommandResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/resolver/HiveMetadataResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive-web/src/main/java/org/apache/eagle/service/security/hive/resolver/HiveSensitivityTypeResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-metric-collection/src/main/java/org/apache/eagle/metric/kafka/KafkaConsumerOffset.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-metric-collection/src/main/java/org/apache/eagle/metric/kafka/KafkaConsumerOffsetFetcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-metric-collection/src/main/java/org/apache/eagle/metric/kafka/KafkaOffsetCheckerConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-securitylog/src/main/java/org/apache/eagle/security/securitylog/HDFSSecurityLogKafkaDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-securitylog/src/main/java/org/apache/eagle/security/securitylog/parse/HDFSSecurityLogObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-securitylog/src/main/java/org/apache/eagle/security/securitylog/parse/HDFSSecurityLogParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/hdfs/HDFSAuditLogObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/partition/Bucket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/partition/BucketComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/partition/GreedyPartitionAlgorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/resolver/AbstractCommandResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/resolver/AbstractSensitivityTypeResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/util/AbstractResourceSensitivityPollingJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/util/BadMetadataAccessConfigException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/util/ExternalDataCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/util/ExternalDataJoiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-common/src/main/java/org/apache/eagle/security/util/JVMSingleQuartzScheduler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hbase-securitylog/src/main/java/org/apache/eagle/security/hbase/parse/HbaseAuditLogKafkaDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive/src/main/java/org/apache/eagle/security/hive/jobrunning/HiveJobRunningSourcedStormSpoutProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hive/src/main/java/org/apache/eagle/security/hive/ql/HiveQLParserContent.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cbf3c76ce148b73379698d9626df6e1baa5162ab",
+                "bugfix_commit_date": "2016-06-07 23:01:41",
+                "issue_created_at": "2016-06-07 06:59:01.745000",
+                "name": "EAGLE-330",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "11d4be769b9cc1decd97f9d18f96236afbf153bf",
+                "bugfix_commit_date": "2016-06-16 22:17:51",
+                "issue_created_at": "2016-06-08 15:30:59.658000",
+                "name": "EAGLE-333",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "eagle-security/eagle-security-hive/src/main/java/org/apache/eagle/security/hive/ql/Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/HdfsAuditLogKafkaDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/kafka/UserPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-hdfs-auditlog/src/main/java/org/apache/eagle/security/auditlog/util/SimplifyPath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/UserPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/UserProfileConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/UserProfileUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/model/ScheduleCommandEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/model/UserActivityAggModelDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/model/UserActivityAggModelEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/model/UserCommandStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/model/UserProfileEigenModelEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/model/UserProfileEntityRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/common/src/main/java/org/apache/eagle/security/userprofile/model/UserProfileKDEModelEntity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/TimeWindow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/UserProfileAnomalyDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/UserProfileDetectionConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/impl/AbstractUserProfileEigenEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/impl/AbstractUserProfileKDEEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/impl/TimeWindowImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/impl/UserProfileAnomalyEigenEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/impl/UserProfileAnomalyKDEEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/training/src/main/java/org/apache/eagle/security/userprofile/model/eigen/UserProfileEigenModeler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/training/src/main/java/org/apache/eagle/security/userprofile/model/kde/UserProfileKDEModeler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-webservice/src/main/java/org/apache/eagle/service/security/auth/AuthenticationResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-webservice/src/main/java/org/apache/eagle/service/security/auth/AuthenticationResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-webservice/src/main/java/org/apache/eagle/service/security/auth/LogoutSuccessHandlerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-webservice/src/main/java/org/apache/eagle/service/security/profile/EagleServiceProfileInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-webservice/src/main/java/org/apache/eagle/service/security/pwdgen/BasicAuthenticationEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-webservice/src/main/java/org/apache/eagle/service/security/pwdgen/PasswordEncoderGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-data-process/eagle-stream-process-api/src/main/java/org/apache/eagle/dataproc/impl/aggregate/AggregateExecutorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-core/eagle-machinelearning/eagle-machinelearning-base/src/main/java/org/apache/eagle/ml/MLAlgorithmEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/UserProfileMLAlgorithmEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/detection/src/main/java/org/apache/eagle/security/userprofile/UserProfileDetectionMain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "eagle-security/eagle-security-userprofile/training/src/main/java/org/apache/eagle/security/userprofile/model/JavaUserProfileModeler.java"
+    }
+]

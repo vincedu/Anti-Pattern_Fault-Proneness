@@ -1,0 +1,542 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/OpenSAMLBootstrap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/Reference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/builder/SAML2Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSDocInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/DOMURIDereferencer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/str/BSPEnforcer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSEncryptionPart.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/builder/SAML1ComponentBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/builder/SAML2ComponentBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSSecurityEngineResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/bean/ActionBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/bean/AttributeBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/bean/AttributeStatementBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/bean/AuthDecisionStatementBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/bean/AuthenticationStatementBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/bean/ConditionsBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/bean/KeyInfoBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/bean/SubjectBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/conversation/ConversationConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/conversation/dkalgo/AlgoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/action/SAMLTokenUnsignedAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/action/TimestampAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecDerivedKeyBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecDKEncrypt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/Processor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/SecurityContextTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/validate/NoOpValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/validate/Validator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/components/crypto/CertificateStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/components/crypto/Crypto.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/components/crypto/CryptoBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/components/crypto/CryptoType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/DOMX509IssuerSerial.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/DerivedKeyTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSSConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSSecurityEngine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/action/SAMLTokenSignedAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/action/SignatureConfirmationAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/handler/WSHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/EnvelopeIdResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecDKSign.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecEncrypt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecEncryptedKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecSAMLToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecSignature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecSignatureBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecSignatureConfirmation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecTimestamp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecUsernameToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/EncryptedDataProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/EncryptedKeyProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/ReferenceListProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/SAMLTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/SignatureConfirmationProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/SignatureProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/TimestampProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/UsernameTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/X509Util.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/SAMLIssuerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/SAMLIssuerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/WSSecSignatureSAML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/str/EncryptedKeySTRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/transform/STRTransform.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/transform/STRTransformUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/Loader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/NSStack.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/UUIDGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/WSSecurityUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/XmlSchemaDateFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/XMLUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/validate/SignatureTrustValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/validate/UsernameTokenValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/components/crypto/CryptoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/components/crypto/Merlin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/BinarySecurity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/DerivedKeyToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/SecurityTokenReference.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/Timestamp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/UsernameToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/AssertionWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/OpenSAMLUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/PublicKeyPrincipal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/SOAP11Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/SOAP12Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSSecurityException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSUsernameTokenPrincipal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/handler/WSHandlerConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/transform/STRTransformProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/Mapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/components/crypto/CredentialException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSPasswordCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/handler/RequestData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/action/EncryptionAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/action/SignatureAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/action/UsernameTokenAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/action/UsernameTokenSignedAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/SAMLCallback.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/validate/TimestampValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/SAMLKeyInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/SecurityContextToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/builder/SAML1Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/PKIPathSecurity.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/X509Security.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/SOAPConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSDataRef.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WSDerivedKeyTokenPrincipal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/WsuIdAllocator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/action/Action.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/conversation/ConversationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/handler/WSHandlerResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/WSSecSecurityContextToken.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/Base64.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/DOM2Writer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/util/StringUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/components/crypto/X509NameTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/conversation/dkalgo/DerivationAlgorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/conversation/dkalgo/P_SHA1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/DOMX509Data.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/token/SignatureConfirmation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/processor/BinarySecurityTokenProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/validate/Credential.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/validate/SamlAssertionValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/SAMLIssuer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/ext/SAMLParms.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/CustomTokenPrincipal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/str/DerivedKeyTokenSTRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/str/SecurityTokenRefSTRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/str/SignatureSTRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/str/STRParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/CallbackLookup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/message/DOMCallbackLookup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/ws/security/saml/SAMLUtil.java"
+    }
+]

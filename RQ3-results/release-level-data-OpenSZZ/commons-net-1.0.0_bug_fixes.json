@@ -1,0 +1,382 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/MatchApparatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/bsd/RCommandClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/bsd/RExecClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NNTPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/CopyStreamEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/CopyStreamException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/CopyStreamListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/DotTerminatedMessageReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/DotTerminatedMessageWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/FromNetASCIIInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/FromNetASCIIOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/SocketInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/SocketOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/ToNetASCIIInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/ToNetASCIIOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/Util.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/FTPFileEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/NTFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/OS2FTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/io/CopyStreamAdapter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/UnixFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/EnterpriseUnixFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/AIXFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/FTPClient2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/FTPFileIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/FTPFileList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/SocketClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/Telnet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPDataPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPErrorPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPRequestPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/util/ListenerList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "proposal/ftp2/src/java/org/apache/commons/net/ftp/ftp2/parser/VMSFTPEntryParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/CharGenTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/CharGenUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DatagramSocketClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DatagramSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DaytimeTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DaytimeUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DefaultDatagramSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DefaultSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DiscardTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/DiscardUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/EchoTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/EchoUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/FingerClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/MalformedServerReplyException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ProtocolCommandEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ProtocolCommandListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ProtocolCommandSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/SocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/TimeTCPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/TimeUDPClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/WhoisClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/bsd/RLoginClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/DefaultFTPFileListParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPConnectionClosedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPFileListParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/ftp/FTPReply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NewGroupsOrNewsQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NewsgroupInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NNTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NNTPCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NNTPConnectionClosedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/NNTPReply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/SimpleNNTPHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/pop3/POP3.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/pop3/POP3Client.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/pop3/POP3Command.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/pop3/POP3MessageInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/pop3/POP3Reply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/RelayPath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SimpleSMTPHeader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTPCommand.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTPConnectionClosedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/smtp/SMTPReply.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPAckPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPPacketException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPReadRequestPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/tftp/TFTPWriteRequestPacket.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/nntp/ArticlePointer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/net/telnet/TelnetCommand.java"
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/FileUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/TeeOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/CopyUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/IOUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/FileCleaner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/ByteArrayOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/SwappedDataInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/EndianUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/HexDump.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/AbstractFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/AndFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/DelegateFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/DirectoryFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/FalseFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/FileFilterUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/IOFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/NameFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/NotFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/OrFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/PrefixFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/SuffixFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/TrueFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/CountingInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/DemuxInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/ProxyInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/ProxyReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/CountingOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/DeferredFileOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/DemuxOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/LockableFileWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/NullOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/ProxyOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/ProxyWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/ThresholdingOutputStream.java"
+    }
+]

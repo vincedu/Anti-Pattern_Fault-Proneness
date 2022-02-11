@@ -1,0 +1,18 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/PropertyUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/ConvertUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/MappedPropertyDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanUtils.java"
+    }
+]

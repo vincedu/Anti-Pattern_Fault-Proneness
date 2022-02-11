@@ -1,0 +1,301 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/FileFilterUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a354d0a5ebbb00a9758f93e72d51078177576918",
+                "bugfix_commit_date": "2006-12-06 00:20:19",
+                "issue_created_at": "2006-12-06 00:00:37",
+                "name": "IO-102",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/io/EndianUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a360f974003c5c60c16d019e873314c09d965107",
+                "bugfix_commit_date": "2010-09-30 00:53:35",
+                "issue_created_at": "2009-07-23 10:36:48.306000",
+                "name": "IO-209",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "a8d59e345210ca6fd3fc426ab7fb7b3c2563cb04",
+                "bugfix_commit_date": "2010-09-29 19:30:10",
+                "issue_created_at": "2009-07-23 10:36:48.306000",
+                "name": "IO-209",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "d577693e0a85d59d7d0ac9458bf84eb1678efde1",
+                "bugfix_commit_date": "2010-03-06 01:57:43",
+                "issue_created_at": "2008-12-15 16:19:26.580000",
+                "name": "IO-187",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/io/FileSystemUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/DemuxInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/DemuxOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/AndFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/OrFileFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7bfef476d8a9e08223ec4bff31054ff23655da4c",
+                "bugfix_commit_date": "2008-08-11 11:21:38",
+                "issue_created_at": "2008-05-05 17:02:08.729000",
+                "name": "IO-168",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "f28c4933e6c92fed61431c7a4024b26c4f06a5e9",
+                "bugfix_commit_date": "2008-08-11 11:25:47",
+                "issue_created_at": "2008-05-05 17:02:08.729000",
+                "name": "IO-168",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "bf78bafa9586d847996d6d8e426d765026641645",
+                "bugfix_commit_date": "2006-12-04 23:35:54",
+                "issue_created_at": "2006-11-28 15:01:00",
+                "name": "IO-100",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "4cef5296135cf1a056f44158b00977239e4fc3ae",
+                "bugfix_commit_date": "2012-03-01 17:18:00",
+                "issue_created_at": "2011-06-23 01:21:40.417000",
+                "name": "IO-276",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "5526f2ed85647269b94d91353d72469822925b4e",
+                "bugfix_commit_date": "2010-03-05 01:27:08",
+                "issue_created_at": "2009-05-18 23:24:47.514000",
+                "name": "IO-207",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "ed01f165f9bbb7ccbd48dde7dd3106eb044dd859",
+                "bugfix_commit_date": "2010-09-29 03:44:01",
+                "issue_created_at": "2008-04-25 09:47:57.633000",
+                "name": "IO-166",
+                "severity": "minor",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "2f8d0922c8c7d1be2c12fba6264f08acdbae47d1",
+                "bugfix_commit_date": "2008-01-05 15:05:55",
+                "issue_created_at": "2007-11-30 22:09:59.252000",
+                "name": "IO-141",
+                "severity": "critical",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "e295faec880b136d5c19d4164c17d768d7037af7",
+                "bugfix_commit_date": "2010-09-29 18:13:37",
+                "issue_created_at": "2008-12-30 15:03:34.623000",
+                "name": "IO-190",
+                "severity": "trivial",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/io/FileUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/ConditionalFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/LockableFileWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/FileCleaner.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d55dd62cc0b07e1124369d74dd0095cc2b491dfe",
+                "bugfix_commit_date": "2008-11-29 01:50:11",
+                "issue_created_at": "2008-08-21 10:09:59.374000",
+                "name": "IO-179",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/io/FilenameUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4576857e33fc0aa9682ba77a6e464213ec15b829",
+                "bugfix_commit_date": "2007-11-20 12:13:31",
+                "issue_created_at": "2007-11-20 12:08:09.402000",
+                "name": "IO-136",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/io/HexDump.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/IOUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "56c87a17189ea320ff5799f7d10789ca8d9ce958",
+                "bugfix_commit_date": "2012-02-17 23:04:03",
+                "issue_created_at": "2012-02-17 09:20:19.299000",
+                "name": "IO-303",
+                "severity": "major",
+                "type": "bug"
+            },
+            {
+                "bugfix_commit": "aad6359c39d59176c51e0d4e5ee31def1bc10077",
+                "bugfix_commit_date": "2012-02-17 20:49:39",
+                "issue_created_at": "2012-02-17 09:20:19.299000",
+                "name": "IO-303",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/io/output/TeeOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/NullOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/ClassLoaderObjectInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/ProxyInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/ProxyReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/ProxyOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/ProxyWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/WildcardFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/AbstractFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/input/CountingInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/CountingOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/DeferredFileOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/ByteArrayOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/CopyUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "86e4b30ba700cb8bcf4d7488e0d60e07a75d6315",
+                "bugfix_commit_date": "2010-09-08 17:15:52",
+                "issue_created_at": "2010-04-03 00:35:50.704000",
+                "name": "IO-243",
+                "severity": "minor",
+                "type": "bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/io/input/SwappedDataInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/DelegateFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/DirectoryFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/FalseFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/IOFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/NameFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/NotFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/PrefixFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/SuffixFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/filefilter/TrueFileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/io/output/ThresholdingOutputStream.java"
+    }
+]

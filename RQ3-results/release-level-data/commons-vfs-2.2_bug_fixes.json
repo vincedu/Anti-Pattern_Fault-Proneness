@@ -1,0 +1,1068 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/AllFileSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/CacheStrategy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/Capability.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileChangeEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileContentInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileContentInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileDepthSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileExtensionSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileFilterSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileNotFolderException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileNotFoundException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileSelectInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileSystemException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileSystemManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileSystemOptions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileTypeHasNoContentException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileTypeSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/FileUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/InvertIncludeFileSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/NameScope.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/PatternFileSelector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/RandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/Selectors.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/UserAuthenticationData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/UserAuthenticator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/VFS.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/VfsLog.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractFileNameParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e9999fd04a6338058d27421f427304699dc53c29",
+                "bugfix_commit_date": "2018-09-19 22:34:40",
+                "issue_created_at": "2018-09-19 22:27:41.533000",
+                "name": "VFS-675",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractLayeredFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractOriginatingFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractRandomAccessStreamContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractVfsComponent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/AbstractVfsContainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/CompositeFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/DefaultFileContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/DefaultFileSelectorInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/DefaultURLConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/DefaultURLStreamHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/DelegateFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/FileContentThreadData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/FileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/FileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/FileReplicator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/FileSystemKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/GenericFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/HostFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/LayeredFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/LayeredFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/LocalFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/TemporaryFileStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/UriParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/URLFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/URLFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/VfsComponent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/VfsComponentContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "38d899e0f288a24173a6c4c5898bb176102ca9b9",
+                "bugfix_commit_date": "2018-07-23 15:59:37",
+                "issue_created_at": "2018-07-23 15:56:55.771000",
+                "name": "VFS-669",
+                "severity": "major",
+                "type": "bug"
+            }
+        ],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/CombinedResources.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/Cryptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/CryptorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/DefaultCryptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/DelegatingFileSystemOptionsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/EncryptUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/FileObjectUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/Messages.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/MonitorInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/MonitorOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/MonitorRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/Os.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/OsFamily.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/PosixPermissions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/RandomAccessMode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/UserAuthenticatorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/util/WeakRefFileListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/auth/StaticUserAuthenticator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/cache/AbstractFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/cache/DefaultFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/cache/FileSystemAndNameKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/cache/LRUFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/cache/NullFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/cache/OnCallRefreshFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/cache/SoftRefFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/cache/WeakRefFilesCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/events/AbstractFileChangeEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/events/ChangedEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/events/CreateEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/events/DeleteEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/DecoratedFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/DefaultFileContentInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/DefaultFileMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/DefaultFileReplicator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/DefaultFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/DefaultFileSystemManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/DefaultProviderConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/DefaultVfsComponentContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/FileContentInfoFilenameFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/FileTypeMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/PrivilegedFileReplicator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/ProviderConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/Resource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/StandardFileSystemManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/SynchronizedFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/URLStreamHandlerProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/VFSClassLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/VirtualFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/VirtualFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/impl/VirtualFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/AbstractFileOperation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/AbstractFileOperationProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/DefaultFileOperations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/FileOperation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/FileOperationProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/FileOperations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/tasks/AbstractSyncTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/tasks/CopyTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/tasks/DeleteTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/tasks/MkdirTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/tasks/MoveTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/tasks/ShowFileTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/tasks/SyncTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/tasks/VfsTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/bzip2/Bzip2FileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/bzip2/Bzip2FileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/bzip2/Bzip2FileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/compressed/CompressedFileFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/compressed/CompressedFileFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/compressed/CompressedFileFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FtpClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FtpClientFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FTPClientWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FtpFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FtpFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FtpFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FtpFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FtpFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FtpFileType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftp/FtpRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftps/FtpsClientFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftps/FtpsClientWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftps/FtpsDataChannelProtectionLevel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftps/FtpsFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftps/FtpsFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftps/FtpsFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ftps/FtpsMode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/gzip/GzipFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/gzip/GzipFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/gzip/GzipFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/hdfs/HdfsFileAttributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/hdfs/HdfsFileContentInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/hdfs/HdfsFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/hdfs/HdfsFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/hdfs/HdfsFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/hdfs/HdfsFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/hdfs/HdfsRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/http/HttpClientFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/http/HttpFileContentInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/http/HttpFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/http/HttpFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/http/HttpFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/http/HttpFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/http/HttpFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/http/HttpRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/https/HttpsFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/https/HttpsFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/jar/JarFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/jar/JarFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/jar/JarFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/jar/JarURLConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/local/DefaultLocalFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/local/GenericFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/local/LocalFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/local/LocalFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/local/LocalFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/local/LocalFileRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/local/LocalFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/local/WindowsFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/local/WindowsFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ram/RamFileData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ram/RamFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ram/RamFileOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ram/RamFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ram/RamFileRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ram/RamFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/ram/RamFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/res/ResourceFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/res/ResourceFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/IdentityInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/IdentityRepositoryFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/SftpClientFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/SftpFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/SftpFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/SftpFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/SftpFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/SftpFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/SftpRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/SftpStreamProxy.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/sftp/TrustEveryoneUserInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/tar/TarFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/tar/TarFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/tar/TarFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/tar/Tbz2FileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/tar/TgzFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/temp/TemporaryFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/url/UrlFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/url/UrlFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/url/UrlFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/url/UrlFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/url/UrlFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/webdav/ExceptionConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/webdav/WebdavFileContentInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/webdav/WebdavFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/webdav/WebdavFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/webdav/WebdavFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/webdav/WebdavFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/webdav/WebdavFileSystemConfigBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/webdav/WebdavMethodRetryHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/zip/ZipFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/zip/ZipFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/provider/zip/ZipFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsAdd.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsCheckout.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsCommit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsCommitListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsDelete.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsLog.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsLogEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsLogEntryHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsModifyListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsRevert.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsUpdate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2/src/main/java/org/apache/commons/vfs2/operations/vcs/VcsUpdateListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-examples/src/main/java/org/apache/commons/vfs2/libcheck/FtpCheck.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-examples/src/main/java/org/apache/commons/vfs2/libcheck/SftpCheck.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/util/FileObjectDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/util/RACRandomAccessFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/util/SharedRandomContentInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/mime/MimeAttributesMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/mime/MimeFileContentInfoFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/mime/MimeFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/mime/MimeFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/mime/MimeFileSystem.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/smb/SmbFileName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/smb/SmbFileNameParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/smb/SmbFileObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/smb/SmbFileProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/smb/SmbFileRandomAccessContent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "commons-vfs2-sandbox/src/main/java/org/apache/commons/vfs2/provider/smb/SmbFileSystem.java"
+    }
+]
