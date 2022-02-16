@@ -1,4 +1,5 @@
 Releases,Odds ratios (manually validated data),Odds ratios (szz generated data)
-1.7.0,6.2,nan
-1.8.0,10.13,0.7*
-1.9.0,nan,4.32*
+1.5.0,4.43*,nan
+1.6.0,11.28,nan
+2.0.0,8.35,3.48
+2.1.0,4.14,3.21
