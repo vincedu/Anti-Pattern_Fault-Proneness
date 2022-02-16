@@ -1,0 +1,130 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/ConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/AbandonedObjectPool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/AbandonedTrace.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingPreparedStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/BasicDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jocl/ConstructorUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/jocl/JOCLContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingCallableStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DelegatingResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolableConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DataSourceConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DbcpException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DriverConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/DriverManagerConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolingConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolingDriver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/AbandonedConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolablePreparedStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolingDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/cpdsadapter/ConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/cpdsadapter/DriverAdapterCPDS.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/cpdsadapter/PoolablePreparedStatementStub.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/cpdsadapter/PooledConnectionImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/jdbc2pool/CPDSConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/jdbc2pool/Jdbc2PoolDataSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/jdbc2pool/KeyedCPDSConnectionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/jdbc2pool/PoolKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/jdbc2pool/UserPassKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/BasicDataSourceFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/dbcp/PoolableConnectionFactory.java"
+    }
+]

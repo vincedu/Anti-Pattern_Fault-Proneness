@@ -1,0 +1,3244 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/EdgeReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/MappingReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/VertexReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/PageRankBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/ShortestPathsBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/WeightedPageRankBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/CentralizedServiceMaster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/combiner/MessageCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/SendDataCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/GlobalCommType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/MasterClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/SendPartitionCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/WorkerClientRequestProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/PerGraphTypeBoolean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/PerGraphTypeBooleanConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/PerGraphTypeEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/PerGraphTypeEnumConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/BooleanWritableToBooleanUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ByteWritableToByteUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ByteWritableToIntUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ByteWritableToLongUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ByteWritableToShortUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/AggregatorsBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/DoubleWritableToDoubleUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/FloatWritableToDoubleUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/FloatWritableToFloatUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/IntWritableToIntUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/IntWritableToLongUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/JavaWritablePair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/LongWritableToLongUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/WritableUnwrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/WritableUnwrappers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/WritableWrappers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/DefaultEdgeValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/DistributedCacheUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/DefaultVertexIdFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/DefaultVertexValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/EdgeValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/MessageValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/GiraphClasses.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/GiraphTypes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/ValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/VertexIdFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/counters/GiraphTimers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/VertexValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/DefaultVertexValueCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/ArrayListEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/GiraphConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/GraphType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/AbstractComputation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/HashMultimapEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/Computation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/ComputeCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/LongNullHashSetEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/BspOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/VertexValueCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/JythonComputation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/JythonGiraphComputation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/JythonOptions.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "13d84663bc4eedb2e9e4035af75622b0a3cb480e",
+                "bugfix_commit_date": "2014-01-30T11:47:30.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/GraphTaskManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/JythonUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/JythonJob.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/GraphMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/DefaultVertex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/ByteValueVertex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/TaskInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/BasicPartition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/Partition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/MasterGlobalCommUsage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/CombinedWorkerProgress.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/BooleanToBooleanWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/SimplePartitionStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ByteToByteWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ByteToIntWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ByteToLongWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/DoubleToDoubleWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/FloatToDoubleWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/FloatToFloatWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/IntToIntWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/IntToLongWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/LongToLongWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ShortToIntWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ShortToLongWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/WritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/AggregatorToGlobalCommTranslation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/BspServiceMaster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ReflectionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/GiraphConfigurationValidator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "585511f7c0d1cdb0d515a979dcc00641df2a026f",
+                "bugfix_commit_date": "2014-01-30T14:45:43.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/yarn/GiraphYarnClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/EdgeIterables.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f6845a374e39b91cb8d9292125a52048d71530a3",
+                "bugfix_commit_date": "2014-09-03T14:49:15.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ConfigurationUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "64428a9d0f8bca0edb1ccf34d281e89747b295f7",
+                "bugfix_commit_date": "2014-06-18T19:14:40.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/AbstractEdgeStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/yarn/GiraphApplicationMaster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/Trimmable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "64428a9d0f8bca0edb1ccf34d281e89747b295f7",
+                "bugfix_commit_date": "2014-06-18T19:14:40.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/SimpleEdgeStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ThreadUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/IntIntNullTextVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/EdgeInputSplitsCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/TextVertexValueInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/MappingInputSplitsCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/yarn/GiraphYarnTask.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/VertexInputSplitsCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerThreadGlobalCommUsage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/factories/JythonComputationFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/factories/JythonEdgeValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/factories/JythonFactoryBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/factories/JythonIncomingMessageValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/factories/JythonMessageValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/factories/JythonOutgoingMessageValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/factories/JythonVertexIdFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/factories/JythonVertexValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/output/AbstractVertexToHive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/output/HiveVertexWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/output/VertexToHive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendVertexRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/internal/WrappedEdgeReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/internal/WrappedMappingReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/internal/WrappedVertexReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/aggregators/AllAggregatorServerData.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/NettyClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/aggregators/GlobalCommValueOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/aggregators/OwnerAggregatorServerData.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/NettyServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/aggregators/SendGlobalCommCache.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/NettyWorkerClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/aggregators/WorkerAggregatorRequestProcessor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/NettyWorkerServer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/NettyMasterClient.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/NettyMasterServer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9325fa9869c2604172576f89311308915ebb416d",
+                "bugfix_commit_date": "2014-02-03T12:30:17.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/NettyWorkerAggregatorRequestProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendAggregatorsToWorkerRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendReducedToMasterRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendWorkerAggregatorsRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hcatalog/src/main/java/org/apache/giraph/io/hcatalog/HCatGiraphRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/column/HiveReadableColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/column/HiveWritableColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/common/LanguageAndType.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "01d11687dd2e89f97e0b5c557bbfd0cefb6ed625",
+                "bugfix_commit_date": "2014-03-21T17:51:41.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e6c4c4170aa675819dc17761470806eaec08bb33",
+                "bugfix_commit_date": "2014-01-28T00:48:47.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/RequestServerHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/HiveJythonRunner.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/WorkerRequestServerHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/JythonColumnReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/JythonColumnWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/JythonHiveIO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/JythonHiveReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/JythonHiveWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/JythonReadableColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/JythonVertexToHive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/primitives/PrimitiveValueReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/primitives/PrimitiveValueWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/values/HiveValueReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/values/HiveValueWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/edge/AbstractHiveToEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/common/HiveParsing.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/vertex/AbstractHiveToVertex.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "61cb37ecd50b0d9400873624e46692c3282e4cfc",
+                "bugfix_commit_date": "2014-07-08T15:08:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/MasterRequestServerHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/JythonHiveToEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/JythonHiveToVertex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/edge/SimpleHiveToEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/vertex/SimpleHiveToVertex.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "64428a9d0f8bca0edb1ccf34d281e89747b295f7",
+                "bugfix_commit_date": "2014-06-18T19:14:40.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/primitives/IntEdgeStore.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "64428a9d0f8bca0edb1ccf34d281e89747b295f7",
+                "bugfix_commit_date": "2014-06-18T19:14:40.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/primitives/LongEdgeStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/Algorithm.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/BasicVertexValueReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/EdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/ReverseEdgeDuplicator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/SimpleVertexWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/VertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/VertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/VertexValueInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/VertexWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/Aggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/AggregatorUsage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/AggregatorWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/BooleanAndAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/BooleanOrAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/BooleanOverwriteAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/DoubleMaxAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/DoubleMinAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/DoubleOverwriteAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/DoubleProductAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/DoubleSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/FloatMaxAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/FloatMinAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/FloatOverwriteAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/FloatProductAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/FloatSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/IntMaxAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/IntMinAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/IntOverwriteAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/IntProductAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/IntSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/LongMaxAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/LongMinAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/LongOverwriteAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/LongProductAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/LongSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/TextAggregatorWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/TextAppendAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/PageRankComputation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/RandomMessageBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/ShortestPathsComputation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/WeightedPageRankComputation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/ApplicationState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/BspInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/BspInputSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/BspRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/BspRecordWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/MasterServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/WorkerClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/WorkerServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/DefaultImmutableClassesGiraphConfigurable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/counters/GiraphHadoopCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/counters/HadoopCountersBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/ConfigurableOutEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/DefaultEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/Edge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/EdgeFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/EdgeNoValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/HashMapEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/MapMutableEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/MultiRandomAccessOutEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/MutableEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/MutableEdgesIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/MutableEdgesWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/MutableOutEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/OutEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/ReusableEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/ReuseObjectsOutEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/StrictRandomAccessOutEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/AddressesAndPartitionsWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/BasicComputation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/DefaultVertexResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/GiraphTransferRegulator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/GraphFunctions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/GraphState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/InputSplitEvents.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/InputSplitPaths.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/VertexChanges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/VertexEdgeCount.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/VertexResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/integration/SuperstepHashPartitionerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/DefaultMasterCompute.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/DefaultMasterObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/MasterInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/MasterObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/AggregatedMetric.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/GiraphTimer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/GiraphTimerContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/LongAndTimeUnit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/MeterDesc.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/MetricsRegistryDebugger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/NoOpMetricsRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/ResetSuperstepMetricsObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/ValueGauge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/ValueWithHostname.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/HashRangeWorkerPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/PartitionExchange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/PartitionStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/ReusesObjectsPartition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/time/FakeTime.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/time/SystemTime.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/time/Time.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/time/Times.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/AnnotationUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/CallableFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/CollectionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/EmptyIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/IncreasingBitSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/IntPair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/LoggerUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/LogStacktraceCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/MasterLoggingAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/MathUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/MemoryUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/PairList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/TaskIdsPermitsBarrier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/TimedLogger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/DefaultWorkerContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/EdgeInputSplitsCallableFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/InputSplitPathOrganizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/InputSplitsCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/InputSplitsHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/VertexInputSplitsCallableFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerAggregatorUsage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/zk/BspEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/zk/PredicateLock.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/zk/ZooKeeperExt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/filters/DefaultEdgeInputFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/filters/DefaultVertexInputFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/filters/EdgeInputFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/filters/VertexInputFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/AdjacencyListTextVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/AdjacencyListTextVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/GiraphTextInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/IntIntTextVertexValueInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/IntNullNullTextInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/IntNullReverseTextEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/IntNullTextEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/JsonBase64VertexFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/JsonBase64VertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/JsonBase64VertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/JsonLongDoubleFloatDoubleVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/LongDoubleDoubleAdjacencyListVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/PseudoRandomInputFormatConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/PseudoRandomIntNullLocalEdgesHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/PseudoRandomLocalEdgesHelper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/PseudoRandomUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/SequenceFileVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/TextDoubleDoubleAdjacencyListVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/iterables/EdgeReaderWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/iterables/EdgeWithSource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/iterables/GiraphReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/iterables/IteratorToReaderWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/superstep_output/MultiThreadedSuperstepOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/superstep_output/NoOpSuperstepOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/superstep_output/SuperstepOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/superstep_output/SynchronizedSuperstepOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/aggregators/CountingCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/aggregators/CountingOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/ByteArrayRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/ByteArrayWithSenderTaskIdRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/MasterRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SaslCompleteRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SaslTokenMessageRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendPartitionMutationsRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/WorkerRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/multi/InputFormatDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/multi/InputSplitWithInputFormatIndex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/multi/MultiInputUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/AddressRequestIdGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/ClientRequestId.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/WorkerRequestReservedMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/com/yammer/metrics/core/NoOpCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/com/yammer/metrics/core/NoOpExecutorService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/com/yammer/metrics/core/NoOpGuage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/com/yammer/metrics/core/NoOpHistogram.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/com/yammer/metrics/core/NoOpMeter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/com/yammer/metrics/core/NoOpTimer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-accumulo/src/main/java/org/apache/giraph/io/accumulo/AccumuloVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-accumulo/src/main/java/org/apache/giraph/io/accumulo/AccumuloVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hbase/src/main/java/org/apache/giraph/io/hbase/HBaseVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hbase/src/main/java/org/apache/giraph/io/hbase/HBaseVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hcatalog/src/main/java/org/apache/hcatalog/mapreduce/HCatUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hcatalog/src/main/java/org/apache/giraph/io/hcatalog/GiraphHCatInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hcatalog/src/main/java/org/apache/giraph/io/hcatalog/HCatalogEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hcatalog/src/main/java/org/apache/giraph/io/hcatalog/HCatalogVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hcatalog/src/main/java/org/apache/giraph/io/hcatalog/HCatalogVertexValueInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hcatalog/src/main/java/org/apache/giraph/io/hcatalog/HiveUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/common/DefaultConfigurableAndTableSchemaAware.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/output/HiveRecordSaver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/vertex/SimpleNoEdgesHiveToVertex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/ImmutableOutputCommitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/InMemoryVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/AbstractConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/BooleanConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/FloatConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/IntConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/LongConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/StrConfOption.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "58576c81fed9f4eccb03366151c1cf280765d237",
+                "bugfix_commit_date": "2014-06-18T18:38:30.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/ByteArrayEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/WattsStrogatzVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/multi/EdgeInputFormatDescription.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/multi/VertexInputFormatDescription.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "58576c81fed9f4eccb03366151c1cf280765d237",
+                "bugfix_commit_date": "2014-06-18T18:38:30.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteStructIterator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "58576c81fed9f4eccb03366151c1cf280765d237",
+                "bugfix_commit_date": "2014-06-18T18:38:30.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteStructVertexIdIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ExtendedByteArrayDataInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ExtendedDataInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/UnsafeArrayReads.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VertexIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/io/BigDataInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/BasicPartitionOwner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/HashMasterPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/HashWorkerPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/MasterGraphPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/PartitionBalancer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/PartitionOwner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/SimpleMasterPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/SimpleWorkerPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/WorkerGraphPartitioner.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5542c8a4f819cc6cb79ffd14fbcaa4722e25fa55",
+                "bugfix_commit_date": "2014-01-28T10:53:52.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/InternalVertexRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/io/ExtendedDataInputOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/constants/GiraphGoraConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/utils/DefaultKeyFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/utils/KeyFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/internal/WrappedEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/internal/WrappedVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/internal/WrappedVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2ce3efbb7e872f11c49f92a8830ff2ad2df5a22b",
+                "bugfix_commit_date": "2014-05-02T18:40:40.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/YourKitContext.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2ce3efbb7e872f11c49f92a8830ff2ad2df5a22b",
+                "bugfix_commit_date": "2014-05-02T18:40:40.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/YourKitProfiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/BenchmarkOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/ConfOptionType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/TypesHolder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/Language.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/IntIntNullTextInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/LongLongNullTextInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/zk/ComputationDoneName.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/EdgeStoreFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/InMemoryEdgeStoreFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/EnumConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/BspService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/DefaultGiraphJobRetryChecker.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f6845a374e39b91cb8d9292125a52048d71530a3",
+                "bugfix_commit_date": "2014-09-03T14:49:15.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/GiraphJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/GiraphJobRetryChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/CheckpointingUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/WritableUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ffdddff32e7ac6e2cbb5ae8471c1192c69ac6a94",
+                "bugfix_commit_date": "2014-06-10T19:12:23.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/BspServiceWorker.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e004359a1702cd01d7e40edba789d9fbfe65ac53",
+                "bugfix_commit_date": "2014-02-17T10:42:26.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/RecordReaderWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/AggregatedMetrics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/GiraphMetricsRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/WorkerSuperstepMetrics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/output/HiveVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/edge/HiveEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/vertex/HiveVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/JMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/primitives/IntFloatMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/primitives/LongDoubleMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/BasicAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/PartitionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ArrayWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/CentralizedServiceWorker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/CheckpointStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/SuperstepState.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/ServerData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/FinishedSuperstepStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/GlobalStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/HadoopUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/MasterThread.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/MatrixSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/DoubleDenseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/DoubleDenseMatrixSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/DoubleDenseVectorSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/FloatDenseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/FloatDenseMatrixSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/FloatDenseVectorSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/IntDenseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/IntDenseMatrixSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/IntDenseVectorSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/LongDenseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/LongDenseMatrixSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/LongDenseVectorSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/DoubleSparseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/DoubleSparseMatrixSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/DoubleSparseVectorSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/FloatSparseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/FloatSparseMatrixSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/FloatSparseVectorSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/IntSparseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/IntSparseMatrixSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/IntSparseVectorSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/LongSparseMatrix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/LongSparseMatrixSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/LongSparseVectorSumAggregator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/SimplePartition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/MessageStoreFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/out_of_core/DiskBackedMessageStoreFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/out_of_core/PartitionDiskBackedMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/out_of_core/SequentialFileMessageStore.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6d4af60e729a6b2153c220046cf6a3804427f1c1",
+                "bugfix_commit_date": "2014-08-01T14:46:52.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/queue/AsyncMessageStoreWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/GoraEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/GoraEdgeOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/GoraGEdgeEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/GoraGEdgeEdgeOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/GoraGVertexVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/GoraGVertexVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/GoraVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/GoraVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/generated/GEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/generated/GEdgeResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/generated/GVertex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/generated/GVertexResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/utils/ExtraGoraInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-gora/src/main/java/org/apache/giraph/io/gora/utils/GoraUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/HaltApplicationUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/CounterUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/ValueFactories.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/ReducersBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/AggregatorBroadcast.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/AggregatorReduceOperation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/MasterAggregatorHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/MasterAggregatorUsage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/MasterCompute.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/reducers/OnSameReduceOperation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/reducers/ReduceOperation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/reducers/Reducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerAggregatorDelegator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerAggregatorHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerBroadcastUsage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerGlobalCommUsage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerReduceUsage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/aggregators/AggregatorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendAggregatorsToOwnerRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/scripting/DeployedScript.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/scripting/DeployType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/GiraphInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/counters/GiraphStats.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "dbb021be4e82dd4433ac17c8f6eecdf8b8b82919",
+                "bugfix_commit_date": "2014-02-14T12:17:17.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/GiraphMetrics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/InMemoryVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/MappingInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/bsp/CentralizedService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/GeneratedVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/PseudoRandomEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/PseudoRandomIntNullVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/PseudoRandomVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/SequenceFileVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/TextEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/TextVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/combiner/DoubleSumMessageCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/combiner/FloatSumMessageCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/combiner/MinimumDoubleMessageCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/combiner/MinimumIntMessageCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/combiner/SimpleSumMessageCombiner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/IdAndNullArrayEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/IdAndValueArrayEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/SaslNettyClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/multi/MultiEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/SaslNettyServer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/multi/MultiVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/JobProgressTrackerClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/JobProgressTrackerClientNoOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/RetryableJobProgressTrackerClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/GiraphFileInputFormat.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6140c873a6b4938550a99f58b12bde4de8a6678e",
+                "bugfix_commit_date": "2014-02-26T14:58:38.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "763621a45cd7812ee968f78961775f85f5e95cb2",
+                "bugfix_commit_date": "2014-02-03T12:18:28.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/JobProgressTracker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/master/SuperstepClasses.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/mapping/AbstractLongByteOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/mapping/DefaultEmbeddedLongByteOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/mapping/DefaultLongByteOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/mapping/LongByteMappingStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/mapping/MappingEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/mapping/MappingStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/mapping/MappingStoreOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/GraphPartitionerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/HashPartitionerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/HashRangePartitionerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/LongMappingStorePartitionerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/scripting/ScriptLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/SimpleIntRangePartitionerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/SimpleLongRangePartitionerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/SimplePartitionerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/common/HiveInputOptions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/HiveInputChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/output/SimpleVertexToHive.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/edge/HiveEdgeReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/edge/HiveToEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/vertex/HiveToVertex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/vertex/HiveVertexReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/FileUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "4d9ed36cff191b223926cda95d60a308aa727d92",
+                "bugfix_commit_date": "2014-02-19T08:08:39.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/yarn/YarnUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/FullInputSplitCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/LocalData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/MappingInputSplitsCallableFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerProgress.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6d603ec7ddbb78cfa1b0bf14e3efa22a0676f5c8",
+                "bugfix_commit_date": "2014-03-07T16:38:56.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "13d84663bc4eedb2e9e4035af75622b0a3cb480e",
+                "bugfix_commit_date": "2014-01-30T11:47:30.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerProgressWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/zk/ZooKeeperManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/internal/WrappedMappingInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/iterables/MappingReaderWrapper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "01d11687dd2e89f97e0b5c557bbfd0cefb6ed625",
+                "bugfix_commit_date": "2014-03-21T17:51:41.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/ResponseClientHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/InMemoryMessageStoreFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/mapping/translate/LongByteTranslateEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/mapping/translate/TranslateEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/BooleanTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/ByteTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/DoubleTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/FloatTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/IntTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/LongTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/MapTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/PrimitiveIdTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/PrimitiveTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/TextTypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/TypeOps.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/TypeOpsUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/primitives/IdByteArrayMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/primitives/IdOneMessagePerVertexStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/collections/Basic2ObjectMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/collections/BasicArrayList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/collections/BasicSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/collections/ResettableIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/types/ops/collections/WritableWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/HiveGiraphRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/common/GiraphHiveConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/common/HiveUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/mapping/AbstractHiveToMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/mapping/HiveMappingInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/jython/HiveJythonUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/mapping/HiveMappingReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/mapping/HiveToMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hive/src/main/java/org/apache/giraph/hive/input/mapping/SimpleHiveToMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/SendOneMessageToManyCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteArrayOneMessageToManyIds.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteStructVertexIdDataIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteStructVertexIdMessageIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ExtendedByteArrayOutputBuffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ExtendedDataOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/OneMessageToManyIdsIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/UnsafeReusableByteArrayInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VertexIdDataIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VertexIdMessageIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/zk/GiraphZooKeeperAdmin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/AbstractListPerVertexStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/ByteArrayMessagesPerVertexStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/MessageEncodeAndStoreType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/MessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/PointerListMessagesIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/PointerListPerVertexStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/SimpleMessageStore.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2a7ea8b8389c103b03df961f8d6a9b5571caa991",
+                "bugfix_commit_date": "2014-05-13T18:07:29.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/NettyWorkerClientRequestProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendWorkerOneMessageToManyRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/out_of_core/DiskBackedMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/primitives/IntByteArrayMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/primitives/long_id/LongAbstractListMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/primitives/long_id/LongAbstractMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/primitives/long_id/LongByteArrayMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/primitives/long_id/LongPointerListMessageStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/VertexValueReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/JsonStringConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/SendMutationsCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/Vertex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/graph/VertexMutations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/JsonLongDoubleFloatDoubleVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/iterables/VertexReaderWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-hcatalog/src/main/java/org/apache/giraph/io/hcatalog/HCatalogVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/RequestType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendWorkerToWorkerMessageRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/AllOptions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/EdgeComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/wrappers/JythonWrapperBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/jython/wrappers/JythonWritableWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/JMapHistoDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/LogVersions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ReactiveJMapHistoDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/DefaultWorkerObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/benchmark/GiraphBenchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/worker/WorkerObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/GiraphConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/ClassConfOption.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/AbstractMessageValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/ComputationFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/DefaultComputationFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/DefaultIncomingMessageValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/DefaultOutgoingMessageValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/factories/TestMessageValueFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/DefaultJobObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/GiraphJobObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/job/JobProgressTrackerService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/GiraphDepVersions.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ArrayListWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/SrcIdDstIdEdgeValueTextOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/TextEdgeOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/zk/ZooKeeperNodeCreator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendPartitionCurrentMessagesRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/GraphvizOutputFormat.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1cd1f347f0e3d126f6568f0a246c0dce1de20122",
+                "bugfix_commit_date": "2014-02-11T13:37:13.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/ByteArrayPartition.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/DiskBackedPartitionStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendWorkerVerticesRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/DynamicChannelBufferInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/DynamicChannelBufferOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/PipelineUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ProgressableUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/ByteCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/ByteCounterDelegate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/ChannelRotater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/OutboundByteCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/AuthorizeServerHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/RequestInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/SaslClientHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/SaslServerHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/SendEdgeCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/SendMessageCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/SendVertexIdDataCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/EdgeStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/AbstractVertexIdData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteArrayVertexIdData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteArrayVertexIdEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteArrayVertexIdMessages.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteStructIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteStructVertexIdEdgeIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteStructVertexIdMessageBytesIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ByteUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/ExtendedByteArrayDataOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/RepresentativeByteStructIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/RepresentativeByteStructIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/RequestUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/UnsafeByteArrayInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/UnsafeByteArrayOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/UnsafeReads.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VerboseByteStructMessageWrite.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VertexIdData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VertexIdEdgeIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VertexIdEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VertexIdIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VertexIdMessageBytesIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/VertexIdMessages.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/MessagesIterable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/InboundByteCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendWorkerDataRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendWorkerEdgesRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/SendWorkerMessagesRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/requests/WritableRequest.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/GiraphRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/EdgeOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/EdgeWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/RequestDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/RequestEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/netty/handler/ResponseEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/GiraphTextOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/IdWithValueTextOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/DoubleSparseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/formats/TextVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/FloatSparseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/io/internal/WrappedEdgeOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/IntSparseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/sparse/LongSparseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/SuperstepMetricsRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/metrics/MetricNames.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/partition/PartitionStats.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/Factory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/io/BigDataInputOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/io/BigDataOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/io/DataInputOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/queue/PartitionMessage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-kibble/src/main/java/org/apache/giraph/rexster/kibble/GiraphExtension.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-kibble/src/main/java/org/apache/giraph/rexster/kibble/IteratorEdge.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-kibble/src/main/java/org/apache/giraph/rexster/kibble/IteratorVertex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/conf/GiraphRexsterConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/RexsterEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/RexsterEdgeOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/RexsterInputSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/RexsterVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/RexsterVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/utils/RexsterUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/formats/RexsterLongDoubleDoubleEdgeOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/formats/RexsterLongDoubleDoubleVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/formats/RexsterLongDoubleDoubleVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/formats/RexsterLongDoubleEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/formats/RexsterLongDoubleFloatEdgeOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/formats/RexsterLongDoubleFloatVertexInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/formats/RexsterLongDoubleFloatVertexOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-rexster/giraph-rexster-io/src/main/java/org/apache/giraph/rexster/io/formats/RexsterLongFloatEdgeInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/GiraphConfigurationSettable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/ImmutableClassesGiraphConfigurable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/conf/ImmutableClassesGiraphConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/IntNullArrayEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/LongDoubleArrayEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/LongDoubleHashMapEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/edge/LongNullArrayEdges.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/utils/TestGraph.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/comm/messages/OneMessagePerVertexStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/DoubleDenseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/FloatDenseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/IntDenseVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "giraph-core/src/main/java/org/apache/giraph/aggregators/matrix/dense/LongDenseVector.java"
+    }
+]

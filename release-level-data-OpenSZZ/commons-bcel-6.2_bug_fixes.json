@@ -1,0 +1,1520 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Method.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/CodeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/PUSH.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/UninitializedObjectType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LocalVariableGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Field.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/Const.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c96a3e5a40040ef43e0a51935a368458763d3424",
+                "bugfix_commit_date": "2016-09-06T02:38:18.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/bcel/generic/MethodGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/Constants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/ExceptionConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/AnnotationElementValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Annotations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ArrayElementValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ElementValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/LineNumber.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Node.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/UnknownAttributeReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/AALOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/AASTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ACONST_NULL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/AllocationInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ALOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ARETURN.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ASTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/BALOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/BASTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/BREAKPOINT.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/CALOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/CASTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ClassGenException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ClassObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/CompoundInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ConstantPushInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/D2F.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/D2I.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/D2L.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DADD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DALOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DASTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DCMPG.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DCMPL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DCONST.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DDIV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DLOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DMUL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DNEG.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DREM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DRETURN.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DSTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DSUB.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DUP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DUP2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DUP2_X1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DUP2_X2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DUP_X1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/DUP_X2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/EmptyVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ExceptionThrower.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/F2D.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/F2I.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/F2L.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FADD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FALOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FASTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FCMPG.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FCMPL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FCONST.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FDIV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FieldObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FLOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FMUL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FNEG.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FREM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FRETURN.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FSTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FSUB.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/GotoInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/I2B.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/I2C.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/I2D.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/I2F.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/I2L.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/I2S.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IADD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IALOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IAND.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IASTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ICONST.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IF_ACMPEQ.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IF_ACMPNE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IF_ICMPEQ.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IF_ICMPGE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IF_ICMPGT.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IF_ICMPLE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IF_ICMPLT.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IF_ICMPNE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IFEQ.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IFGE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IFGT.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IfInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IFLE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IFLT.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IFNE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IFNONNULL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IFNULL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ILOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IMPDEP1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IMPDEP2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IMUL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IndexedInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/INEG.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/InstructionComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/InstructionListObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/InstructionTargeter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IOR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IRETURN.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ISHL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ISHR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ISTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ISUB.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IUSHR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IXOR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/JsrInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/L2D.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/L2F.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/L2I.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LADD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LALOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LAND.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LASTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LCMP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LCONST.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LLOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LMUL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LNEG.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LoadClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LoadInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LOR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LRETURN.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LSHL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LSHR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LSTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LSUB.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LUSHR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LXOR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/MethodObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/NamedAndTyped.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/NOP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/POP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/POP2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/PopInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/PushInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/RETURN.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/SALOAD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/SASTORE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/StackConsumer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/StackInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/StackProducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/StoreInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/SWAP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/TargetLostException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/TypedInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/UnconditionalBranch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/VariableLengthInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/Visitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/BCELComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ByteSequence.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/NativeVerifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/PassVerifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/VerificationResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/VerifierFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/VerifierFactoryObserver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/AssertionViolatedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/ClassConstraintException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/CodeConstraintException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/InvalidMethodException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/LinkingConstraintException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/LoadingException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/LocalVariableInfoInconsistentException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/StaticCodeConstraintException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/StaticCodeInstructionConstraintException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/StaticCodeInstructionOperandConstraintException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/StructuralCodeConstraintException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/Utility.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/VerificationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/exc/VerifierConstraintViolatedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/statics/IntList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/Frame.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/GenericArray.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/AccessFlags.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Constant.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Attribute.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/InvokeInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/AnnotationDefault.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/AnnotationEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ClassElementValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantCP.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantDouble.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantFieldref.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantFloat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantInteger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantInterfaceMethodref.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantInvokeDynamic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantLong.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantMethodHandle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantMethodref.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantMethodType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantNameAndType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantString.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantUtf8.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Deprecated.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ElementValuePair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/EnumElementValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/MethodParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/PMGClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/RuntimeInvisibleAnnotations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/RuntimeInvisibleParameterAnnotations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/RuntimeVisibleAnnotations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/RuntimeVisibleParameterAnnotations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Signature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/SimpleElementValue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/SourceFile.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/StackMapType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Synthetic.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Unknown.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ANEWARRAY.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/AnnotationElementValueGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ArithmeticInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ArrayElementValueGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ArrayInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ARRAYLENGTH.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ArrayType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ATHROW.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/BasicType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/BIPUSH.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/CHECKCAST.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ClassElementValueGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/CodeExceptionGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ConversionInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/CPInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ElementValueGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ElementValuePairGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/EnumElementValueGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FieldGenOrMethodGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FieldInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FieldOrMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/GETFIELD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/GETSTATIC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/GOTO_W.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IDIV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/INSTANCEOF.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/Instruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/InstructionConst.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/InstructionConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/INVOKESTATIC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IREM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/JSR_W.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LDC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LDC2_W.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LDC_W.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LDIV.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LineNumberGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LocalVariableInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LOOKUPSWITCH.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/LREM.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/MONITORENTER.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/MONITOREXIT.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/MULTIANEWARRAY.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/NameSignatureInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/NEW.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/NEWARRAY.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ObjectType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/PUTFIELD.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/PUTSTATIC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/RET.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ReturnaddressType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ReturnInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/SimpleElementValueGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/SIPUSH.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/TABLESWITCH.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ClassQueue.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ClassSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ClassStack.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ClassVector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/InstructionFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/Repository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/GraphicalVerifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/TransitiveHull.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/Verifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/VerifyDialog.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/statics/LocalVariableInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/statics/LocalVariablesInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/statics/Pass1Verifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/statics/StringRepresentation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/ControlFlowGraph.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/ExceptionHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/ExceptionHandlers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/ExecutionVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/InstructionContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/LocalVariables.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/OperandStack.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/Subroutine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/AnnotationEntryGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ClassLoaderRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/Repository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantModule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantPackage.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/DescendingVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/BranchInstruction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/IINC.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/statics/DOUBLE_Upper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/SyntheticRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/StackMapEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/VerifierFactoryListModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/EnclosingMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/EmptyVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Visitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/MemorySensitiveClassPathRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/AttributeReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/ExceptionConst.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/BootstrapMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/BootstrapMethods.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ClassParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Code.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ConstantPool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ExceptionTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/FieldOrMethod.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/InnerClasses.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/JavaClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/LineNumberTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/LocalVariableTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/LocalVariableTypeTable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/MethodParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ParameterAnnotationEntry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ParameterAnnotations.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/StackMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ClassGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ConstantPoolGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/FieldGen.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/GOTO.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/InstructionFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/InstructionList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/JSR.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/ReferenceType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/Select.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/SWITCH.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/Type.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/AttributeHTML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/BCELFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/BCELifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/Class2HTML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ClassLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ClassPath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/CodeHTML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ConstantHTML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/JavaWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/MethodHTML.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/statics/Pass2Verifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/statics/Pass3aVerifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/InstConstraintVisitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/Pass3bVerifier.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/structurals/Subroutines.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/InnerClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/util/ClassPathRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/VerifierAppFrame.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/ClassFormatException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/LocalVariable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/classfile/Utility.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/verifier/statics/LONG_Upper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/BranchHandle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/bcel/generic/InstructionHandle.java"
+    }
+]

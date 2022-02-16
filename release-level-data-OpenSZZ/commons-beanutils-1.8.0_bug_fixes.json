@@ -1,0 +1,712 @@
+[
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "30117b78f52a32cd9ce0029025e38a0ff7962c47",
+                "bugfix_commit_date": "2008-04-21T14:05:18.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/WrapDynaClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/DateLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BasicDynaBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BasicDynaClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanAccessLanguageException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanUtilsBean2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/ConstructorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/ContextClassLoaderLocal.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/ConversionException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/Converter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/ConvertUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/ConvertUtilsBean2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/DynaBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/DynaBeanMapDecorator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/DynaClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/DynaProperty.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d378d22b164cc87b517b99af7f14e0c7cbc83faa",
+                "bugfix_commit_date": "2007-07-14T00:19:21.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/JDBCDynaClass.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "840694be25f2dca5af24a5057ac0aa1ca8ae69d7",
+                "bugfix_commit_date": "2006-06-09T10:52:58.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/LazyDynaBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/LazyDynaClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/LazyDynaList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/LazyDynaMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/MutableDynaClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/NestedNullException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "144cf664a4eb47cdc5e71ff79945f8a43c46ab90",
+                "bugfix_commit_date": "2006-11-05T23:05:27.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/PropertyUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/ResultSetDynaClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/ResultSetIterator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1c2dbaec32cb663226ffae7edad13607340c174d",
+                "bugfix_commit_date": "2007-07-14T02:37:06.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/RowSetDynaClass.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/WrapDynaBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/ArrayStack.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/Buffer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/BufferUnderflowException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/collections/FastHashMap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/AbstractArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/BooleanArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/ByteArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/CharacterArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/ConverterFacade.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/DoubleArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/FloatArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/IntegerArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/LongArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/ShortArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/converters/StringArrayConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/expression/DefaultResolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/expression/Resolver.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/BaseLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/LocaleBeanUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7cf02ccf402ff92447359b6e67af7e5d35f7664a",
+                "bugfix_commit_date": "2006-11-12T10:21:35.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/LocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/LocaleConvertUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ab21f62bfc8ac74c0b1b7e35bb6716d3cabdf8bf",
+                "bugfix_commit_date": "2007-07-12T00:53:26.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/LongLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/locale/converters/StringLocaleConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "88555fba0f9d2014e3147e1e8b6b1c65a66672a5",
+                "bugfix_commit_date": "2008-08-19T18:51:19.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "30117b78f52a32cd9ce0029025e38a0ff7962c47",
+                "bugfix_commit_date": "2008-04-21T14:05:18.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "416444191683859a50a112b865f84fc2503d057f",
+                "bugfix_commit_date": "2008-04-02T23:00:34.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "731b2834ed573bb931b6c2722b29d304a63593f2",
+                "bugfix_commit_date": "2007-07-14T03:27:18.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "90ebc22a1a31a799a90fe1e8204d12372f9a97d4",
+                "bugfix_commit_date": "2007-07-04T21:10:25.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "b9c59d5fd3c95ae0ae3dc65818c23e68ed97949a",
+                "bugfix_commit_date": "2007-05-24T11:38:56.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "3bf52ad0dc783a5f640b6eac31f74e1a91822e77",
+                "bugfix_commit_date": "2006-11-11T10:52:40.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "144cf664a4eb47cdc5e71ff79945f8a43c46ab90",
+                "bugfix_commit_date": "2006-11-05T23:05:27.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "2b2389ddacb7af05326bd59d1b00bf2bf7ee3e3c",
+                "bugfix_commit_date": "2006-11-04T03:06:03.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/PropertyUtilsBean.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "416444191683859a50a112b865f84fc2503d057f",
+                "bugfix_commit_date": "2008-04-02T23:00:34.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "3b7c125b16fc762a81091fa7ecd0e177a5b7b373",
+                "bugfix_commit_date": "2008-03-23T19:26:11.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "3a4fa468ab68d9a09e7963c2cd07a8540891cac6",
+                "bugfix_commit_date": "2007-07-11T01:25:07.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5ff95c71010b6a386e1a8642a8e44f5dc83318ea",
+                "bugfix_commit_date": "2007-05-20T02:47:00.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "7cf02ccf402ff92447359b6e67af7e5d35f7664a",
+                "bugfix_commit_date": "2006-11-12T10:21:35.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/BeanUtilsBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "30117b78f52a32cd9ce0029025e38a0ff7962c47",
+                "bugfix_commit_date": "2008-04-21T14:05:18.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "799f674dffd9ac1406c52cb6d9d2077126b5be0d",
+                "bugfix_commit_date": "2007-06-11T11:42:53.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/ConvertUtilsBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/WeakFastHashMap.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "30117b78f52a32cd9ce0029025e38a0ff7962c47",
+                "bugfix_commit_date": "2008-04-21T14:05:18.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f306335d0f7cbe362cc6dd869642b65376db8b6c",
+                "bugfix_commit_date": "2008-02-15T15:14:20.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanPropertyValueChangeClosure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanPropertyValueEqualsPredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/BeanToPropertyValueTransformer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/AbstractConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "b32ef1172046e4b3e9f496c3e06c363a12f3cbf4",
+                "bugfix_commit_date": "2008-02-04T03:55:29.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/ArrayConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/BigDecimalConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/BigIntegerConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/BooleanConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/ByteConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/CalendarConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/CharacterConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/ClassConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/DateConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/DateTimeConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/DoubleConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/FileConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/FloatConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/IntegerConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/LongConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/NumberConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/ShortConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/SqlDateConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/SqlTimeConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/SqlTimestampConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/StringConverter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d02934150a04489fa20f108d6695055c85dcc206",
+                "bugfix_commit_date": "2008-03-22T22:10:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/converters/URLConverter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/beanutils/ConvertingWrapDynaBean.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "30117b78f52a32cd9ce0029025e38a0ff7962c47",
+                "bugfix_commit_date": "2008-04-21T14:05:18.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/MappedPropertyDescriptor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "90d142dedc0b051deb7b3bd8b995c58f23b5281b",
+                "bugfix_commit_date": "2008-08-19T12:50:03.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "30117b78f52a32cd9ce0029025e38a0ff7962c47",
+                "bugfix_commit_date": "2008-04-21T14:05:18.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "416444191683859a50a112b865f84fc2503d057f",
+                "bugfix_commit_date": "2008-04-02T23:00:34.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f996756625bcc9c519758403379f7b4ef033cbb4",
+                "bugfix_commit_date": "2007-07-11T01:18:17.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/commons/beanutils/MethodUtils.java"
+    }
+]

@@ -1,0 +1,2688 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/lemmatizer/MorfologikLemmatizer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a00624cf27791193be74a610723a9a0b0980d23f",
+                "bugfix_commit_date": "2017-05-16T06:35:22.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "cb6ee2cbdeadad5d277a6e7293d88bb915090c4f",
+                "bugfix_commit_date": "2017-05-11T10:56:58.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/DictionaryLemmatizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerME.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/DefaultChunkerContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/DefaultChunkerSequenceValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ChunkContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParserChunkerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParserChunkerSequenceValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/TokenTag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-brat-annotator/src/main/java/opennlp/bratann/NameFinderAnnService.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-brat-annotator/src/main/java/opennlp/bratann/NameFinderResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/builder/MorfologikDictionayBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/cmdline/CLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/tagdict/MorfologikPOSTaggerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/tagdict/MorfologikTagDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/util/MorfologikUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/cmdline/builder/MorfologikDictionaryBuilderParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/cmdline/builder/MorfologikDictionaryBuilderTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/cmdline/builder/XMLDictionaryToTableParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-morfologik-addon/src/main/java/opennlp/morfologik/cmdline/builder/XMLDictionaryToTableTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/Chunker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerCrossValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerEvaluationMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkSampleSequenceStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractConverterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractCrossValidatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractEvaluatorTool.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6434081874fdda9b8bbbd9c2b76818116f33f9b9",
+                "bugfix_commit_date": "2017-01-15T09:03:07.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractTrainerTool.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e1da6a8f2e717adcecfe47abadcb036725378d40",
+                "bugfix_commit_date": "2017-01-10T12:33:34.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractTypedParamTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ArgumentParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/BasicCmdLineTool.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "53e5e3fa8531bbb4d70523197215fd19b89c1a76",
+                "bugfix_commit_date": "2017-01-28T18:25:33.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/DetailedFMeasureListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/EvaluationErrorPrinter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/GenerateManualTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ObjectStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/StreamFactoryRegistry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/SystemInputStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/TerminateToolException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/TypedCmdLineTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/dictionary/Dictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/dictionary/Index.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/BagOfWordsFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatCrossValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatEvaluationMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/FeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/doccat/NGramFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/entitylinker/BaseLink.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/entitylinker/EntityLinker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/entitylinker/EntityLinkerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/entitylinker/EntityLinkerProperties.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/entitylinker/LinkedSpan.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/AbstractSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/BioNLP2004NameSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/BioNLP2004NameSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ChunkerSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/Conll02NameSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/Conll03NameSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/Conll03NameSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ConllXPOSSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ConllXPOSSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ConllXSentenceSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ConllXTokenSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/DetokenizerSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/DirectorySampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/DocumentSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/EvalitaNameSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/EvalitaNameSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/LanguageSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/LeipzigDoccatSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/LeipzigDocumentSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/LemmatizerSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/NameFinderCensus90NameStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/NameSampleDataStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ParseSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/SentenceSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/TokenSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/WordTagSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/languagemodel/LanguageModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/languagemodel/NGramLanguageModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/DefaultLemmatizerContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/DefaultLemmatizerSequenceValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmaSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmaSampleEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmaSampleSequenceStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmaSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/Lemmatizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmatizerContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmatizerEvaluationMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmatizerEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmatizerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmatizerME.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/lemmatizer/LemmatizerModel.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f8fbfc9fdca4b5e9ba1a5608ca17e7b6feb18c3c",
+                "bugfix_commit_date": "2017-04-16T21:45:17.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/EventModelSequenceTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/EventTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/SequenceTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/TrainerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/BilouCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/BilouNameFinderSequenceValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/DefaultNameContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/DictionaryNameFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/DocumentNameFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ebf108170e9a6215176174d84313a0564ddde0c4",
+                "bugfix_commit_date": "2017-02-17T09:17:13.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderSequenceValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameSampleDataStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameSampleSequenceStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameSampleTypeFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/RegexNameFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/RegexNameFinderFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderCrossValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderEvaluationMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f625d775dc76afa1546233ff1b8dfac4ebbfcd48",
+                "bugfix_commit_date": "2015-05-29T03:38:37.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ngram/NGramGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ngram/NGramModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ngram/NGramUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/AbstractBottomUpParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/AbstractContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/AbstractParserEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ChunkSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/Cons.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/Constituent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/GapLabeler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/HeadRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/Parse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParserCrossValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParserEvaluationMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParserEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParserEventTypeEnum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParserFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParserType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParseSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/PosSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/ConfigurablePOSContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/DefaultPOSContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/DefaultPOSSequenceValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/MutableTagDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSSampleEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSSampleSequenceStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSTagger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerCrossValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerEvaluationMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerME.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/TagDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/postag/WordTagSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/DefaultEndOfSentenceScanner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/DefaultSDContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/EmptyLinePreprocessorStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/EndOfSentenceScanner.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ce40dc79f59688d738c04e9079bf0e36ad258375",
+                "bugfix_commit_date": "2015-07-29T04:26:01.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/NewlineSentenceDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SDContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SDCrossValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SDEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorEvaluationMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e1da6a8f2e717adcecfe47abadcb036725378d40",
+                "bugfix_commit_date": "2017-01-10T12:33:34.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/PorterStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/Stemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/AbstractTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/DefaultTokenContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/DetokenizationDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/Detokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/DictionaryDetokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/Tokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerCrossValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerEvaluationMonitor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerEvaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerME.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenizerStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenSample.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokenSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/TokSpanEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/WhitespaceTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/WhitespaceTokenStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/AbstractEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/AbstractObjectStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/BaseToolFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/BeamSearchContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/Cache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/CollectionObjectStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/EventTraceStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/FilterObjectStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/Heap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/InputStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/InsufficientTrainingDataException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/InvalidFormatException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ListHeap.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/MarkableFileInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/MarkableFileInputStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ObjectStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ObjectStreamUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ParagraphStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/PlainTextByLineStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ResetableIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ReverseListIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/Sequence.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/SequenceCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/SequenceValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/Span.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/StringList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/StringUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/TrainingParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/Version.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerConverterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerCrossValidatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerDetailedFMeasureListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerMETool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerModelLoader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6434081874fdda9b8bbbd9c2b76818116f33f9b9",
+                "bugfix_commit_date": "2017-01-15T09:03:07.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerTrainerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkEvaluationErrorListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/TrainingParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/dictionary/DictionaryBuilderParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/dictionary/DictionaryBuilderTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatConverterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatCrossValidatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluationErrorListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatFineGrainedReportListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatModelLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatTrainerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/TrainingParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/entitylinker/EntityLinkerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/languagemodel/NGramLanguageModelTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/lemmatizer/LemmaEvaluationErrorListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/lemmatizer/LemmatizerEvaluatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/lemmatizer/LemmatizerFineGrainedReportListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/lemmatizer/LemmatizerMETool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/lemmatizer/LemmatizerModelLoader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6434081874fdda9b8bbbd9c2b76818116f33f9b9",
+                "bugfix_commit_date": "2017-01-15T09:03:07.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/lemmatizer/LemmatizerTrainerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/lemmatizer/TrainingParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/CensusDictionaryCreatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/NameEvaluationErrorListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/NameSampleCountersStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderConverterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderCrossValidatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderDetailedFMeasureListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderFineGrainedReportListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderModelLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderTool.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6434081874fdda9b8bbbd9c2b76818116f33f9b9",
+                "bugfix_commit_date": "2017-01-15T09:03:07.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderTrainerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TrainingParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/BasicFormatParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/BasicTrainingParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/CVParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/DetailedFMeasureEvaluatorParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/DetokenizerParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/EncodingParameter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/EvaluatorParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/FineGrainedEvaluatorParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/LanguageParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/params/TrainingToolParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/BuildModelUpdaterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/CheckModelUpdaterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/ModelUpdaterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/ParserConverterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/ParserEvaluatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/ParserModelLoader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "bbbb4313846efaba9546e86052940f0a79b8948f",
+                "bugfix_commit_date": "2017-04-26T04:46:48.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/ParserTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/ParserTrainerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/TaggerModelReplacerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/parser/TrainingParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/postag/POSEvaluationErrorListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/postag/POSModelLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/postag/POSTaggerConverterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/postag/POSTaggerCrossValidatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/postag/POSTaggerEvaluatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/postag/POSTaggerFineGrainedReportListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/postag/POSTaggerTool.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a21b4f5c08e34a2887eccff57047b3e0acbc0ec5",
+                "bugfix_commit_date": "2017-02-06T13:39:59.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/postag/POSTaggerTrainerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/postag/TrainingParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/sentdetect/SentenceDetectorConverterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/sentdetect/SentenceDetectorCrossValidatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/sentdetect/SentenceDetectorEvaluatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/sentdetect/SentenceDetectorTool.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6434081874fdda9b8bbbd9c2b76818116f33f9b9",
+                "bugfix_commit_date": "2017-01-15T09:03:07.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/sentdetect/SentenceDetectorTrainerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/sentdetect/SentenceEvaluationErrorListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/sentdetect/SentenceModelLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/sentdetect/TrainingParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/CommandLineTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/DetokenizationDictionaryLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/DictionaryDetokenizerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/SimpleTokenizerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/TokenEvaluationErrorListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/TokenizerConverterTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/TokenizerCrossValidatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/TokenizerMEEvaluatorTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/TokenizerMETool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/TokenizerModelLoader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a21b4f5c08e34a2887eccff57047b3e0acbc0ec5",
+                "bugfix_commit_date": "2017-02-06T13:39:59.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/TokenizerTrainerTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/tokenizer/TrainingParams.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/dictionary/serializer/Attributes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/dictionary/serializer/DictionaryEntryPersistor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/dictionary/serializer/Entry.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/dictionary/serializer/EntryInserter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADChunkSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADChunkSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADNameSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADNameSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADPOSSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADPOSSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADSentenceSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADSentenceSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADSentenceStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/ADTokenSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ad/PortugueseContractionUtility.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/AnnotationConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/AttributeAnnotation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/BratAnnotation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/BratAnnotationStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/BratDocument.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/BratDocumentStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/BratNameSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/BratNameSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/EventAnnotation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/RelationAnnotation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/SegmenterObjectStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/brat/SpanAnnotation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/conllu/ConlluLemmaSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/conllu/ConlluPOSSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/conllu/ConlluPOSSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/conllu/ConlluSentence.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/conllu/ConlluStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/conllu/ConlluWordLine.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/AbstractToSentenceSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/FileToByteArraySampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/FileToStringSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/NameToSentenceSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/NameToSentenceSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/NameToTokenSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/NameToTokenSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/ParseToPOSSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/ParseToPOSSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/ParseToSentenceSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/ParseToTokenSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/POSToSentenceSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/POSToSentenceSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/POSToTokenSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/convert/POSToTokenSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/frenchtreebank/ConstitDocumentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/frenchtreebank/ConstitParseSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/frenchtreebank/ConstitParseSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/letsmt/DetokenizeSentenceSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/letsmt/LetsmtDocument.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/letsmt/LetsmtSentenceStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/letsmt/LetsmtSentenceStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/moses/MosesSentenceSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/moses/MosesSentenceSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/muc/DocumentSplitterStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/muc/Muc6NameSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/muc/MucElementNames.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/muc/MucNameContentHandler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/muc/MucNameSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/muc/SgmlParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ontonotes/DocumentToLineStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ontonotes/OntoNotesFormatParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ontonotes/OntoNotesNameSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ontonotes/OntoNotesNameSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ontonotes/OntoNotesParseSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ontonotes/OntoNotesParseSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/ontonotes/OntoNotesPOSSampleStreamFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/BasicContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/ContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/DataStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/GISModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/GISTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/RealBasicEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/AbstractDataIndexer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/AbstractModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/AbstractModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/AbstractModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/BinaryFileDataReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/ComparableEvent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/ComparablePredicate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/Context.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/DataIndexer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/DataIndexerFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/DataReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/DynamicEvalParameters.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3b150986e192686a30508b2690434a8b4bace9fa",
+                "bugfix_commit_date": "2016-12-26T08:40:56.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/EvalParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/Event.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/FileEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/GenericModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/GenericModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/HashSumEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/MaxentModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/MutableContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/ObjectDataReader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "284fe0ab9d98c14a66aa32ada0c46b294f94329d",
+                "bugfix_commit_date": "2017-02-01T09:38:19.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/OnePassDataIndexer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/OnePassRealValueDataIndexer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/PlainTextFileDataReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/Prior.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/RealValueFileEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/Sequence.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/SequenceClassificationModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/SequenceStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2a2d83840cb4bbf360a3f70be308ffa231f06919",
+                "bugfix_commit_date": "2016-04-27T04:35:05.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/SequenceStreamEventStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "284fe0ab9d98c14a66aa32ada0c46b294f94329d",
+                "bugfix_commit_date": "2017-02-01T09:38:19.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "818af0c8d1a99b34e5bc3bb67ef6c86bbd9b113d",
+                "bugfix_commit_date": "2017-01-12T08:36:33.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/TwoPassDataIndexer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/model/UniformPrior.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/BinaryNaiveBayesModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/BinaryNaiveBayesModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/LogProbabilities.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/LogProbability.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesEvalParameters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesModelReader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b188b5ccc0f1f8702313eab62a5dcc164f817200",
+                "bugfix_commit_date": "2017-04-14T08:35:36.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/PlainTextNaiveBayesModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/PlainTextNaiveBayesModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/Probabilities.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/Probability.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/perceptron/BinaryPerceptronModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/perceptron/BinaryPerceptronModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/perceptron/PerceptronModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/perceptron/PerceptronModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/perceptron/PerceptronModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/chunking/BuildContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/chunking/CheckContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/chunking/Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/chunking/ParserEventStream.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e1da6a8f2e717adcecfe47abadcb036725378d40",
+                "bugfix_commit_date": "2017-01-10T12:33:34.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/treeinsert/AttachContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/treeinsert/BuildContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/treeinsert/CheckContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/treeinsert/Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/treeinsert/ParserEventStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/lang/Factory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/AbstractSnowballStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/Among.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/danishStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/dutchStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/englishStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/finnishStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/frenchStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/germanStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/hungarianStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/irishStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/italianStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/norwegianStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/porterStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/portugueseStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/romanianStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/russianStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/SnowballProgram.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/SnowballStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/spanishStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/swedishStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/stemmer/snowball/turkishStemmer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/lang/Factory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/eval/CrossValidationPartitioner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/eval/EvaluationMonitor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3b150986e192686a30508b2690434a8b4bace9fa",
+                "bugfix_commit_date": "2016-12-26T08:40:56.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/eval/FMeasure.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Mean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ext/ExtensionLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ext/ExtensionNotLoadedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ext/ExtensionServiceKeys.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/ext/OSGiExtensionLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/AdaptiveFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/AdditionalContextFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/AggregatedFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/ArtifactToSerializerMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BigramNameFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownBigramFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownCluster.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownTokenClasses.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownTokenClassFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownTokenFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CachedFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CharacterNgramFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CustomFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DictionaryFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DocumentBeginFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/FeatureGeneratorResourceProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/FeatureGeneratorUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/InSpanGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/OutcomePriorFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PosTaggerFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PrefixFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PreviousMapFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PreviousTwoMapFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SentenceFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/StringPattern.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SuffixFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenClassFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenPatternFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TrigramNameFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WindowFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WordClusterDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WordClusterFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/ArtifactProvider.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/ArtifactSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/BaseModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/ByteArraySerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/DictionarySerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/GenericModelSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/ModelType.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/ModelUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/PropertiesSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/SerializableArtifact.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/UncloseableInputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/io/BinaryGISModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/io/BinaryGISModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/io/BinaryQNModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/io/BinaryQNModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/io/GISModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/io/GISModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/io/QNModelReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/io/QNModelWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/ArrayMath.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/Function.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/LineSearch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/NegLogLikelihood.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/ParallelNegLogLikelihood.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/QNMinimizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/QNModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/lang/en/HeadRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/lang/es/AncoraSpanishHeadRules.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/sentdetect/lang/th/SentenceContextGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/tokenize/lang/en/TokenSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/chunker/Chunker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/chunker/ChunkerModelResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/chunker/ChunkerModelResourceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/dictionary/DictionaryResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/dictionary/DictionaryResourceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/doccat/AbstractDocumentCategorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/doccat/DoccatModelResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/doccat/DoccatModelResourceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/doccat/DocumentCategorizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/doccat/LanguageDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/namefind/AbstractNameFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/namefind/DictionaryNameFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/namefind/NameFinder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/namefind/TokenNameFinderModelResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/namefind/TokenNameFinderModelResourceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/normalizer/Normalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/normalizer/NumberUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/normalizer/StringDictionary.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/parser/Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/parser/ParserModelResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/parser/ParserModelResourceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/postag/POSModelResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/postag/POSModelResourceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/postag/POSTagger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/sentdetect/AbstractSentenceDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/sentdetect/SentenceDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/sentdetect/SentenceModelResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/sentdetect/SentenceModelResourceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/tokenize/AbstractTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/tokenize/SimpleTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/tokenize/Tokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/tokenize/TokenizerModelResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/tokenize/TokenizerModelResourceImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/tokenize/WhitespaceTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/AbstractModelResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/AnnotationComboIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/AnnotationComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/AnnotationIteratorPair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/AnnotatorUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/ContainingConstraint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/ExceptionMessages.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/OpenNlpAnnotatorProcessException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/OpennlpUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-uima/src/main/java/opennlp/uima/util/UimaUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/AbstractEventModelSequenceTrainer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8fb2b8b4b1526058121783712d3f394951a2e196",
+                "bugfix_commit_date": "2017-01-25T13:38:05.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "864f4282ca9e0369812446e5556cf85a10c7b818",
+                "bugfix_commit_date": "2015-05-21T06:57:49.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/AbstractEventTrainer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e1da6a8f2e717adcecfe47abadcb036725378d40",
+                "bugfix_commit_date": "2017-01-10T12:33:34.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/AbstractSequenceTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/AbstractTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/naivebayes/NaiveBayesTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/perceptron/PerceptronTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/perceptron/SimplePerceptronSequenceTrainer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/QNTrainer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "108fa9a93c2cd126a138f8813390e197d0a3584e",
+                "bugfix_commit_date": "2017-05-15T10:04:58.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/POSModelSerializer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3ab6698b6ae590ae1ac5758d988837d89ea74b3e",
+                "bugfix_commit_date": "2017-05-08T18:48:09.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "58fc35928ea59967b41f0bbce5aed656c0657a47",
+                "bugfix_commit_date": "2015-05-20T08:22:31.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/parser/ParserModel.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/POSTaggerNameFeatureGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/util/model/ChunkerModelSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/conllu/ConlluLemmaSampleStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "opennlp-tools/src/main/java/opennlp/tools/formats/conllu/ConlluTagset.java"
+    }
+]

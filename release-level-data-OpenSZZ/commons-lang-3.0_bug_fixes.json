@@ -1,0 +1,507 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/time/FastDateFormat.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "6c53b134b66d9670114247b022b25a60969900e9",
+                "bugfix_commit_date": "2010-02-03T02:38:17.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/exception/DefaultExceptionContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/time/DurationFormatUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/StringEscapeUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c0041cafc2fda3fb437009d5417ba5ebeb32ad35",
+                "bugfix_commit_date": "2010-06-22T02:19:29.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/NumericEntityEscaper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/UnicodeEscaper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/UnicodeUnescaper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d70baf13700b6cbe664249322559b64dc44303c2",
+                "bugfix_commit_date": "2011-07-06T23:47:17.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "8914d7f617f78aae8c85405856283c98d4e43990",
+                "bugfix_commit_date": "2011-07-03T03:55:33.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "bef3eb6ed060d5ae14da6ce5a1909675b8cf5650",
+                "bugfix_commit_date": "2010-06-22T02:34:18.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/NumericEntityUnescaper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "54c0f6ba9e6555146d0dad51bcb5c4ec581e21da",
+                "bugfix_commit_date": "2010-01-16T07:39:20.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/ArrayUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/BitField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/CharEncoding.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/CharUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/EnumUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/LocaleUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/RandomStringUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/SerializationException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "eb79f7c6f37d0d9c4d9252b1020bc19a617a4d23",
+                "bugfix_commit_date": "2010-05-28T12:33:23.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "b24ecd60fe9517bef1d6342e479e9bc3d85ef692",
+                "bugfix_commit_date": "2010-05-28T06:12:04.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/SystemUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/Validate.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/builder/Builder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/builder/IDKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/builder/ToStringBuilder.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a2bb711aee6621b21cdd22e6d7e4bff2f7236235",
+                "bugfix_commit_date": "2010-02-04T16:57:58.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/AtomicInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/AtomicSafeInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/ConcurrentException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/ConcurrentInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/ConcurrentRuntimeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/ConcurrentUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/ConstantInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/LazyInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/exception/CloneFailedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/math/Fraction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/math/IEEE754rUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/mutable/Mutable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/mutable/MutableBoolean.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/mutable/MutableByte.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/mutable/MutableDouble.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/mutable/MutableFloat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/mutable/MutableInt.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/mutable/MutableLong.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "76c250987d52f4a956c6e617aea3481037bdf71f",
+                "bugfix_commit_date": "2010-07-18T01:53:30.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/mutable/MutableObject.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/mutable/MutableShort.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/CompositeFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/FormatFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b777356fa3d779ae7bc73e61dc091c7c9e775900",
+                "bugfix_commit_date": "2010-01-16T07:53:54.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/text/StrLookup.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/StrSubstitutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/StrTokenizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/time/DateFormatUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/time/StopWatch.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/AggregateTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/CodePointTranslator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a28a5c875f333849579a95ec29804f4bdb77e925",
+                "bugfix_commit_date": "2010-11-13T10:54:30.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/EntityArrays.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/OctalUnescaper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/event/EventListenerSupport.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/JavaVersion.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/CharRange.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/CharSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/FormattableUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/time/FormatCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/BackgroundInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/CallableBackgroundInitializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/TimedSemaphore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/Range.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/tuple/Pair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/reflect/ConstructorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/event/EventUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/BasicThreadFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/SerializationUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/math/NumberUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/reflect/MemberUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/builder/ReflectionToStringBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8f675dd3cbfb8f552bdbbe1cfc646ba5b367983b",
+                "bugfix_commit_date": "2010-02-05T16:31:38.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/ClassUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/exception/ContextedException.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7f23ec3d90422fbc36b7d78f399562686ff6c2eb",
+                "bugfix_commit_date": "2010-03-08T17:20:12.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/exception/ContextedRuntimeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/exception/ExceptionContext.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/CharSequenceUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/BooleanUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/CharSetUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/translate/LookupTranslator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/ObjectUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a80f11cf9d02d2517c7f230f24949cbebaafc0c2",
+                "bugfix_commit_date": "2011-07-03T03:04:38.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "491a1d6e885c8e13d355b465942c2c6bdf1ed735",
+                "bugfix_commit_date": "2010-01-14T10:37:42.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9a5da72bbfa659d2c4897f4454ddd8ceef13a8e3",
+                "bugfix_commit_date": "2010-01-14T10:12:47.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/StringUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3abcada25b07f378a09d2f233cab8e2884ecad2b",
+                "bugfix_commit_date": "2010-06-29T23:19:56.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/builder/HashCodeBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/exception/ExceptionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/reflect/FieldUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/reflect/TypeUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/ExtendedMessageFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/StrBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/WordUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/time/DateUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/AnnotationUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "edcfd40d71568a47b7b3dd857265517f8a5c3df0",
+                "bugfix_commit_date": "2011-03-15T23:53:22.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/tuple/ImmutablePair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/tuple/MutablePair.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/text/StrMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/builder/CompareToBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/main/java/org/apache/commons/lang3/builder/StandardToStringStyle.java"
+    }
+]

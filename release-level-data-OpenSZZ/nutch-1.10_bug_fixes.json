@@ -1,0 +1,1727 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/resources/ConfigResource.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3970df3f5bb175560c67672b3abd8c1514f290de",
+                "bugfix_commit_date": "2010-04-27T11:23:09.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/segment/SegmentMerger.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2563a054ba4511992ec3186d048e0a2d2d0e0318",
+                "bugfix_commit_date": "2012-03-16T09:07:05.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "80f14cf7271b58032f7571279e37fbfbf700fd1e",
+                "bugfix_commit_date": "2010-08-11T04:33:34.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api/HttpBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/Http.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "cb6dcf43d341e1ada35e042ba02a2e61931958ff",
+                "bugfix_commit_date": "2011-08-23T11:51:46.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "bf37c9d5be139dd83b8f453732c3ca24430ab6d9",
+                "bugfix_commit_date": "2011-08-23T11:51:32.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/HttpResponse.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ed66d234e066beb8acf08c146b8a31f095b65d7b",
+                "bugfix_commit_date": "2015-04-25T11:48:29.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9cc0f7b47d69bd9f0c4fc8d821d491d61f17479a",
+                "bugfix_commit_date": "2014-07-05T16:36:33.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "7ee1bafd16863ad77bd1c97146b2e5383db6a033",
+                "bugfix_commit_date": "2011-12-27T09:36:27.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/util/MimeUtil.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e30c6ca1ffc56680741714228e29dcb7bb2cb4c3",
+                "bugfix_commit_date": "2009-02-18T04:05:02.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/NutchWritable.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "36d2a6bb642f3017fe2d1802aa5cedb74ce0e3ae",
+                "bugfix_commit_date": "2015-03-18T04:05:11.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/MimeAdaptiveFetchSchedule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/HttpFormAuthConfigurer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/HttpFormAuthentication.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4b9bf8a14e4b1c45e2b30eb8b050be976966bb2",
+                "bugfix_commit_date": "2015-03-25T22:56:20.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "4523a553d19599152a1b8de2cbfa863c6c71ddfd",
+                "bugfix_commit_date": "2015-03-19T00:23:06.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/util/DumpFileUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/NutchTool.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/model/request/JobConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/IndexerOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/indexer-solr/src/java/org/apache/nutch/indexwriter/solr/SolrConstants.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlnormalizer-slash/src/java/org/apache/nutch/net/urlnormalizer/slash/SlashURLNormalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/DefaultFetchSchedule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/Signature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/IndexingException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/metadata/Feed.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/net/URLFilterException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParseCallable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParseException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/MissingDependencyException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/protocol/ProtocolException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/ScoringFilterException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/HadoopFSUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/domain/DomainSuffix.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlmeta/src/java/org/apache/nutch/indexer/urlmeta/URLMetaIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api/BlockedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-file/src/java/org/apache/nutch/protocol/file/FileException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpExceptionBadSystResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpExceptionCanNotHaveDataConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpExceptionControlClosedByForcedDataClose.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpExceptionUnknownForcedDataClose.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/TextMD5Signature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/lib-selenium/src/java/org/apache/nutch/protocol/selenium/HttpWebClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-selenium/src/java/org/apache/nutch/protocol/selenium/Http.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-selenium/src/java/org/apache/nutch/protocol/selenium/HttpResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/NutchDocument.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "965ecf525ea88d4d354987c04ff3f11ddd54635e",
+                "bugfix_commit_date": "2012-10-10T17:16:09.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/urlnormalizer-basic/src/java/org/apache/nutch/net/urlnormalizer/basic/BasicURLNormalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/ConfManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/impl/ConfManagerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/model/request/NutchConfig.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/index-metadata/src/java/org/apache/nutch/indexer/metadata/MetadataIndexer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-metatags/src/java/org/apache/nutch/parse/metatags/MetaTagsParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/IndexingFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/mimetype-filter/src/java/org/apache/nutch/indexer/filter/MimeTypeIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "38bfb64f150a609c0ae8ef742117220ac9677592",
+                "bugfix_commit_date": "2014-05-26T06:47:11.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "cf2b782906d586c5b18410b7e091dd405454e7db",
+                "bugfix_commit_date": "2012-10-23T05:45:29.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/CrawlDb.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "71282dbd9b09fbec3bca10aea7e1f01136d2e206",
+                "bugfix_commit_date": "2011-11-10T09:31:33.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/CrawlDbReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/DeduplicationJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/Generator.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9a2a3aa524994fc2bdee4c31288e1b4b010515c4",
+                "bugfix_commit_date": "2013-07-04T04:50:25.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ab915fb2f8944e07a21c8480ed67b0a977ab4be9",
+                "bugfix_commit_date": "2010-08-07T14:20:05.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/Injector.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "077b1cb58f25dde4157e3951440121da30000ae9",
+                "bugfix_commit_date": "2011-10-03T06:57:33.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/LinkDb.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/fetcher/Fetcher.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ee74dda85aed33883804836138f588a0d8b4240e",
+                "bugfix_commit_date": "2010-10-21T08:01:36.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/metadata/Nutch.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3df0d3c627884c6221c829025710d2d9a2bfa78e",
+                "bugfix_commit_date": "2012-06-11T05:30:26.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/parse/ParseSegment.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c9a91f527cac841f5e9355e0d8aac67b2aa3cd6a",
+                "bugfix_commit_date": "2014-06-20T18:15:43.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "d7fb075590a22b7b467432a187fd626907959fbe",
+                "bugfix_commit_date": "2014-01-24T12:45:51.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/protocol/RobotRulesParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/segment/SegmentChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/JobManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/NutchServer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "da65852ab3e0d1cac864ace2ad12606d930f1073",
+                "bugfix_commit_date": "2015-04-10T19:30:09.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "248a72bf4b44a4fcd7e61d5f9408ced32b369ae6",
+                "bugfix_commit_date": "2015-03-15T00:24:44.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "8650bd842b357006a39dae6756708363aadc3b6d",
+                "bugfix_commit_date": "2015-03-03T21:20:40.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "f710e5dc7a1cc712cb4efcb6dd7b6f86e598f83e",
+                "bugfix_commit_date": "2015-01-13T14:46:37.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "31a0b3e9ebd48bdf503d81b7a47179214188b45d",
+                "bugfix_commit_date": "2014-10-11T16:09:23.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/tools/FileDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/resources/AbstractResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/resources/JobResource.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7ea5160bcb727170325b56b449e5338bae8332ac",
+                "bugfix_commit_date": "2015-04-17T14:04:52.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9ef439c2fc5764ce24ad2664ca68a2107dceff5f",
+                "bugfix_commit_date": "2011-11-10T10:24:30.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "0032314ceae1975ec2217aaab64a1ec5c4be6cef",
+                "bugfix_commit_date": "2010-10-26T07:17:52.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/util/domain/DomainStatistics.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/model/response/JobInfo.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ace04938e127bb0ede1ba99b8978105fed411fda",
+                "bugfix_commit_date": "2014-05-12T15:39:43.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api/HttpRobotRulesParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpRobotRulesParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4b9bf8a14e4b1c45e2b30eb8b050be976966bb2",
+                "bugfix_commit_date": "2015-03-25T22:56:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/tools/AbstractCommonCrawlFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/tools/CommonCrawlConfig.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4b9bf8a14e4b1c45e2b30eb8b050be976966bb2",
+                "bugfix_commit_date": "2015-03-25T22:56:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/tools/CommonCrawlFormatFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4b9bf8a14e4b1c45e2b30eb8b050be976966bb2",
+                "bugfix_commit_date": "2015-03-25T22:56:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/tools/CommonCrawlFormatJackson.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4b9bf8a14e4b1c45e2b30eb8b050be976966bb2",
+                "bugfix_commit_date": "2015-03-25T22:56:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/tools/CommonCrawlFormatJettinson.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4b9bf8a14e4b1c45e2b30eb8b050be976966bb2",
+                "bugfix_commit_date": "2015-03-25T22:56:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/tools/CommonCrawlFormatSimple.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "7af530f50c9b7f3a61a102d7438ef554732b1e1e",
+                "bugfix_commit_date": "2014-11-06T16:51:46.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "2563a054ba4511992ec3186d048e0a2d2d0e0318",
+                "bugfix_commit_date": "2012-03-16T09:07:05.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ec90a33da346c244b8543068dae49f5ac3e46486",
+                "bugfix_commit_date": "2010-04-27T14:06:10.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/protocol-http/src/java/org/apache/nutch/protocol/http/HttpResponse.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "17301406f55b70970e64dfed42ea115deb2a07f2",
+                "bugfix_commit_date": "2011-11-24T21:01:07.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/net/URLFilterChecker.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ee74dda85aed33883804836138f588a0d8b4240e",
+                "bugfix_commit_date": "2010-10-21T08:01:36.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/tools/Benchmark.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/PluginClassLoader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/LinkDbReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/impl/JobFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/impl/JobManagerImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/impl/JobWorker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/impl/NutchServerPoolExecutor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/resources/DbResource.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/service/model/request/DbQuery.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4b9bf8a14e4b1c45e2b30eb8b050be976966bb2",
+                "bugfix_commit_date": "2015-03-25T22:56:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/tools/CommonCrawlFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/NutchIndexAction.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/feed/src/java/org/apache/nutch/parse/feed/FeedParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlnormalizer-ajax/src/java/org/apache/nutch/net/urlnormalizer/ajax/AjaxURLNormalizer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ba781d0b18eb1649b54550d70e11aff3949d22e5",
+                "bugfix_commit_date": "2013-06-19T17:26:07.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5463a41dc4d3e61841a98b5bc142b7b5d22cd6ee",
+                "bugfix_commit_date": "2010-07-14T16:11:55.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9ac338c55062559b2ee88d517e5b9c3aaa95d5eb",
+                "bugfix_commit_date": "2009-11-25T12:10:25.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/AbstractFetchSchedule.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5463a41dc4d3e61841a98b5bc142b7b5d22cd6ee",
+                "bugfix_commit_date": "2010-07-14T16:11:55.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "6b47f785ee752aba1debd7eb70c97adf0b95d79e",
+                "bugfix_commit_date": "2009-01-12T08:37:23.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/AdaptiveFetchSchedule.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "0d4049e17ce44cd4619d92e54392baddfe056aca",
+                "bugfix_commit_date": "2011-08-10T15:54:46.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e7aee8b3123e3a57801eac5d91cc92f50d3c3c91",
+                "bugfix_commit_date": "2009-02-24T05:09:36.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/CrawlDatum.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a7a1b416ee4cb7d9c547eb895a4b2402174b77e4",
+                "bugfix_commit_date": "2013-01-29T23:02:28.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/CrawlDbFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a2ba8e229c11792afaabaf7c5dfd511142562ebc",
+                "bugfix_commit_date": "2009-02-11T04:12:15.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/CrawlDbMerger.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "1b46ce6cad851eef37d33eb290a4aac49449f84c",
+                "bugfix_commit_date": "2014-07-15T05:34:38.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "6136d94dc19af27d3e5521cb90b2dd49a1010582",
+                "bugfix_commit_date": "2013-10-16T10:56:37.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/crawl/CrawlDbReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/FetchScheduleFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/Inlink.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/Inlinks.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/LinkDbFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/LinkDbMerger.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/MapWritable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/MD5Signature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/SignatureComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/SignatureFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/TextProfileSignature.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/URLPartitioner.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "40c3971f42a8ade185aa0b7e0947b8a45b09e4cb",
+                "bugfix_commit_date": "2013-04-30T17:42:19.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/fetcher/FetcherOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/fetcher/OldFetcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/CleaningJob.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d04f2c7116eabf3d0d06fd1aa195b986058f7005",
+                "bugfix_commit_date": "2014-03-07T13:15:50.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5798509f50a7cdd6dcdcde6b7de02cc532e512a1",
+                "bugfix_commit_date": "2013-09-20T17:12:10.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/indexer/IndexerMapReduce.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/IndexingFilters.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e9a590f252e87c7d29289d11e3943c4ae20b0ef0",
+                "bugfix_commit_date": "2014-10-02T17:37:04.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "3a4afbaf8f597448575e827dcefe9395b607a5c7",
+                "bugfix_commit_date": "2014-03-17T17:50:30.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "1cd24babb126d4a670b1ebc724d8c04a38746094",
+                "bugfix_commit_date": "2012-10-11T17:04:14.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e2a84f90e4a746f5f62e79a9214010f8c50ccb42",
+                "bugfix_commit_date": "2012-06-07T14:48:58.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9470803a72d861bb3e3dca8f46475bca2b6003dc",
+                "bugfix_commit_date": "2011-08-16T08:03:30.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/indexer/IndexingFiltersChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/IndexWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/IndexWriters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/NutchField.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/metadata/CreativeCommons.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/metadata/DublinCore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/metadata/Metadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/metadata/MetaWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/net/URLFilters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/net/URLNormalizerChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/net/URLNormalizers.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/HTMLMetaTags.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/HtmlParseFilters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/Outlink.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/OutlinkExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParseData.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParseImpl.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "914c5be48bc829d3667abb0f9cf776b1e1f661fb",
+                "bugfix_commit_date": "2014-07-15T07:32:32.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/parse/ParseOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParsePluginList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParsePluginsReader.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e2a84f90e4a746f5f62e79a9214010f8c50ccb42",
+                "bugfix_commit_date": "2012-06-07T14:48:58.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "dcbbb147ec67c3dcb400fe47b6fe245a0e2bf040",
+                "bugfix_commit_date": "2011-11-24T00:52:15.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/parse/ParserChecker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParseResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParserFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParseStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParseText.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8c59362a43eb95756c0a97d8bbd57a6348d7457a",
+                "bugfix_commit_date": "2010-08-02T05:59:57.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ac99b271f5c0a53b1f2aef82c7333ebe4cc5c0ad",
+                "bugfix_commit_date": "2010-08-02T05:59:12.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/parse/ParseUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/Extension.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/ExtensionPoint.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/Plugin.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/PluginDescriptor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/PluginManifestParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/PluginRepository.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/protocol/Content.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/protocol/Protocol.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5bfd1952e2d7fbe3ab05df0ba7a0960de05bc06e",
+                "bugfix_commit_date": "2013-07-08T04:48:16.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/protocol/ProtocolFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/protocol/ProtocolStatus.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/ScoringFilters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/segment/ContentAsTextInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/segment/SegmentMergeFilters.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/segment/SegmentPart.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/segment/SegmentReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/tools/DmozParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/tools/FreeGenerator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/tools/ResolveUrls.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/CommandRunner.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/DeflateUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/DomUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/EncodingDetector.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/FSUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/GenericWritableConfigurable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/GZIPUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/LockUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/NodeWalker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/NutchConfiguration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/ObjectCache.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/PrefixStringMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/StringUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/SuffixStringMatcher.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/TimingUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/TrieStringMatcher.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "02fda7de9b7d27c65a8ff8f14fbbf769623fc3e2",
+                "bugfix_commit_date": "2014-06-20T18:56:32.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/util/URLUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/LinkDatum.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/LinkDumper.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d15119baaf0408e82153bacfe6d252bf644b0e31",
+                "bugfix_commit_date": "2009-10-09T08:53:27.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/LinkRank.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/LoopReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/Loops.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/Node.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/NodeDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/NodeReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/ScoreUpdater.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/webgraph/WebGraph.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/tools/arc/ArcRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/tools/arc/ArcSegmentCreator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/domain/DomainSuffixes.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/domain/DomainSuffixesReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/util/domain/TopLevelDomain.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/feed/src/java/org/apache/nutch/indexer/feed/FeedIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "a56783048cc08196d27c8deff267fb797ee1ff3d",
+                "bugfix_commit_date": "2012-09-18T16:20:41.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/index-anchor/src/java/org/apache/nutch/indexer/anchor/AnchorIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2f1ca3e7acc5f745f3bcb0c2efb79497b6c861fb",
+                "bugfix_commit_date": "2013-03-28T09:04:28.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "943aed79faeec1759a3f617b14f9023ec8b84214",
+                "bugfix_commit_date": "2012-01-02T08:16:59.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/index-basic/src/java/org/apache/nutch/indexer/basic/BasicIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/index-geoip/src/java/org/apache/nutch/indexer/geoip/GeoIPDocumentCreator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/index-geoip/src/java/org/apache/nutch/indexer/geoip/GeoIPIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "5674c219de2ce07b4d422f15c1eaec3f6c8932fe",
+                "bugfix_commit_date": "2013-06-19T18:22:00.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "9616a1ff27cc424669738a8b5e8704de340db349",
+                "bugfix_commit_date": "2013-06-18T14:21:51.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "52cbec34768da527116c0639aa666e0e6860f51b",
+                "bugfix_commit_date": "2013-05-08T18:04:53.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "2e13c9467ed08b9c4458833cae919c0e5e9ebb24",
+                "bugfix_commit_date": "2013-04-30T16:51:44.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "7ee1bafd16863ad77bd1c97146b2e5383db6a033",
+                "bugfix_commit_date": "2011-12-27T09:36:27.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "5e067e312146ed0bbb89444e21469eee4ec48276",
+                "bugfix_commit_date": "2011-01-05T11:44:15.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "985ab8f59f1219503f91fff1ef132a00c29cadf9",
+                "bugfix_commit_date": "2010-11-22T09:31:09.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "e28ee8605795cc03442be301e4db25968c14ba0e",
+                "bugfix_commit_date": "2010-08-03T13:17:48.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "186c716be986e09d87b2c4d822fc961f74b81e1b",
+                "bugfix_commit_date": "2009-02-19T05:25:47.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "55a38c3e14fa5b605c141b3a38a07ac127a19feb",
+                "bugfix_commit_date": "2009-02-17T09:28:14.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/index-more/src/java/org/apache/nutch/indexer/more/MoreIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "350088d308e5948d52cce906f075e4ed52bc389c",
+                "bugfix_commit_date": "2013-06-27T16:16:22.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/index-static/src/java/org/apache/nutch/indexer/staticfield/StaticFieldIndexer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8ce95a7857f4a5e93c4b9ddd1b9c418ea448b356",
+                "bugfix_commit_date": "2010-04-27T14:16:34.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/subcollection/src/java/org/apache/nutch/collection/CollectionManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/subcollection/src/java/org/apache/nutch/collection/Subcollection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/subcollection/src/java/org/apache/nutch/indexer/subcollection/SubcollectionIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/tld/src/java/org/apache/nutch/indexer/tld/TLDIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/tld/src/java/org/apache/nutch/scoring/tld/TLDScoringFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlmeta/src/java/org/apache/nutch/scoring/urlmeta/URLMetaScoringFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlnormalizer-host/src/java/org/apache/nutch/net/urlnormalizer/host/HostURLNormalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlnormalizer-querystring/src/java/org/apache/nutch/net/urlnormalizer/querystring/QuerystringURLNormalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlnormalizer-regex/src/java/org/apache/nutch/net/urlnormalizer/regex/RegexURLNormalizer.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "9f873a309a87d812c66cdf08cb0b396ce8394d45",
+                "bugfix_commit_date": "2013-07-04T07:13:34.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "09d647a25839c7ea0ed42587c13d1c83275bcc15",
+                "bugfix_commit_date": "2012-06-12T06:22:00.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/headings/src/java/org/apache/nutch/parse/headings/HeadingsParseFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-ext/src/java/org/apache/nutch/parse/ext/ExtParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-html/src/java/org/apache/nutch/parse/html/DOMBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-html/src/java/org/apache/nutch/parse/html/DOMContentUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-html/src/java/org/apache/nutch/parse/html/HTMLMetaProcessor.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "3c2c3c1ec10e1731e20465b1b26ff22864e5f417",
+                "bugfix_commit_date": "2014-03-21T16:56:13.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/parse-html/src/java/org/apache/nutch/parse/html/HtmlParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-html/src/java/org/apache/nutch/parse/html/XMLCharacterRecognizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-js/src/java/org/apache/nutch/parse/js/JSParseFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "e2875cbd6341f0b066661f7ca83834da366df242",
+                "bugfix_commit_date": "2008-08-18T20:42:07.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/parse-swf/src/java/org/apache/nutch/parse/swf/SWFParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-tika/src/java/org/apache/nutch/parse/tika/DOMContentUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-tika/src/java/org/apache/nutch/parse/tika/HTMLMetaProcessor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-tika/src/java/org/apache/nutch/parse/tika/XMLCharacterRecognizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-zip/src/java/org/apache/nutch/parse/zip/ZipParser.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2e13c9467ed08b9c4458833cae919c0e5e9ebb24",
+                "bugfix_commit_date": "2013-04-30T16:51:44.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "7ee1bafd16863ad77bd1c97146b2e5383db6a033",
+                "bugfix_commit_date": "2011-12-27T09:36:27.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/parse-zip/src/java/org/apache/nutch/parse/zip/ZipTextExtractor.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-http/src/java/org/apache/nutch/protocol/http/Http.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-file/src/java/org/apache/nutch/protocol/file/File.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-file/src/java/org/apache/nutch/protocol/file/FileError.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "2e13c9467ed08b9c4458833cae919c0e5e9ebb24",
+                "bugfix_commit_date": "2013-04-30T16:51:44.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "7ee1bafd16863ad77bd1c97146b2e5383db6a033",
+                "bugfix_commit_date": "2011-12-27T09:36:27.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "17fdc291936dac80e4957732cdf7eeb46d0d4b91",
+                "bugfix_commit_date": "2011-01-07T12:18:06.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/protocol-file/src/java/org/apache/nutch/protocol/file/FileResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/Client.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/Ftp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpError.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/FtpResponse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-ftp/src/java/org/apache/nutch/protocol/ftp/PrintCommandListener.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/DummySSLProtocolSocketFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/DummyX509TrustManager.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/HttpAuthentication.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/HttpAuthenticationFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/HttpBasicAuthentication.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/scoring-depth/src/java/org/apache/nutch/scoring/depth/DepthScoringFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c9210f8268d70191f3601184fd7b210123259887",
+                "bugfix_commit_date": "2010-08-10T11:22:00.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/scoring-link/src/java/org/apache/nutch/scoring/link/LinkAnalysisScoringFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c9210f8268d70191f3601184fd7b210123259887",
+                "bugfix_commit_date": "2010-08-10T11:22:00.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/scoring-opic/src/java/org/apache/nutch/scoring/opic/OPICScoringFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/indexer-dummy/src/java/org/apache/nutch/indexwriter/dummy/DummyIndexWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/indexer-solr/src/java/org/apache/nutch/indexwriter/solr/SolrIndexWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/indexer-solr/src/java/org/apache/nutch/indexwriter/solr/SolrMappingReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/indexer-solr/src/java/org/apache/nutch/indexwriter/solr/SolrUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/language-identifier/src/java/org/apache/nutch/analysis/lang/HTMLLanguageParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/language-identifier/src/java/org/apache/nutch/analysis/lang/LanguageIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/lib-regex-filter/src/java/org/apache/nutch/urlfilter/api/RegexRule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/lib-regex-filter/src/java/org/apache/nutch/urlfilter/api/RegexURLFilterBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlfilter-automaton/src/java/org/apache/nutch/urlfilter/automaton/AutomatonURLFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlfilter-domain/src/java/org/apache/nutch/urlfilter/domain/DomainURLFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "b70bf357fbe85a3be9379380eee71225d95f31b3",
+                "bugfix_commit_date": "2012-03-08T08:52:54.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/urlfilter-domainblacklist/src/java/org/apache/nutch/urlfilter/domainblacklist/DomainBlacklistURLFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlfilter-prefix/src/java/org/apache/nutch/urlfilter/prefix/PrefixURLFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "17301406f55b70970e64dfed42ea115deb2a07f2",
+                "bugfix_commit_date": "2011-11-24T21:01:07.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "ea187218f8973e5b6cc7be07d1c30581fb10770b",
+                "bugfix_commit_date": "2008-10-02T05:05:22.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/urlfilter-regex/src/java/org/apache/nutch/urlfilter/regex/RegexURLFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlfilter-suffix/src/java/org/apache/nutch/urlfilter/suffix/SuffixURLFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlfilter-validator/src/java/org/apache/nutch/urlfilter/validator/UrlValidator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/microformats-reltag/src/java/org/apache/nutch/microformats/reltag/RelTagParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/creativecommons/src/java/org/creativecommons/nutch/CCIndexingFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/creativecommons/src/java/org/creativecommons/nutch/CCParseFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/net/protocols/ProtocolException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/indexer/IndexingJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/AbstractScoringFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/indexer-elastic/src/java/org/apache/nutch/indexwriter/elastic/ElasticConstants.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c530a20ea7c59290f2418051181b257ac131df93",
+                "bugfix_commit_date": "2013-04-08T19:52:24.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "3b7e305219c6f24db426d4bdd96a03e474b6457c",
+                "bugfix_commit_date": "2013-04-08T15:46:29.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/net/protocols/HttpDateFormat.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "c4b9bf8a14e4b1c45e2b30eb8b050be976966bb2",
+                "bugfix_commit_date": "2015-03-25T22:56:20.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/tools/CommonCrawlDataDumper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/metadata/HttpHeaders.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d255cf0e649a0ff9a11e0314c685b85fdc90fb5c",
+                "bugfix_commit_date": "2015-01-30T04:06:23.000-0500",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "a9f8a3e20c1fabc142236b0e2ee2efb7212bb7bf",
+                "bugfix_commit_date": "2014-12-11T06:40:40.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/plugin/parse-tika/src/java/org/apache/nutch/parse/tika/DOMBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/parse-tika/src/java/org/apache/nutch/parse/tika/TikaParser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/indexer-elastic/src/java/org/apache/nutch/indexwriter/elastic/ElasticIndexWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/metadata/SpellCheckedMetadata.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/segment/SegmentMergeFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/crawl/FetchSchedule.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/net/URLFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/net/URLNormalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/HtmlParseFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/Parse.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/Parser.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/parse/ParserNotFound.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/CircularDependencyException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/Pluggable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/plugin/PluginRuntimeException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/protocol/ProtocolNotFound.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/protocol/ProtocolOutput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/scoring/ScoringFilter.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "ee74dda85aed33883804836138f588a0d8b4240e",
+                "bugfix_commit_date": "2010-10-21T08:01:36.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "src/java/org/apache/nutch/util/NutchJob.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/net/protocols/Response.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/nutch/tools/arc/ArcInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/urlnormalizer-pass/src/java/org/apache/nutch/net/urlnormalizer/pass/PassURLNormalizer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/lib-http/src/java/org/apache/nutch/protocol/http/api/HttpException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/protocol-httpclient/src/java/org/apache/nutch/protocol/httpclient/HttpAuthenticationException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/plugin/microformats-reltag/src/java/org/apache/nutch/microformats/reltag/RelTagIndexingFilter.java"
+    }
+]

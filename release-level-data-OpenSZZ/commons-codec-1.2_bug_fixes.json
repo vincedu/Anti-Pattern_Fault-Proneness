@@ -1,0 +1,70 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/binary/Base64.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/language/DoubleMetaphone.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/digest/DigestUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/language/Soundex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/language/RefinedSoundex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/binary/Hex.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/BinaryDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/BinaryEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/Decoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/DecoderException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/Encoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/EncoderException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/StringDecoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/StringEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/language/Metaphone.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/net/URLCodec.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "src/java/org/apache/commons/codec/StringEncoderComparator.java"
+    }
+]

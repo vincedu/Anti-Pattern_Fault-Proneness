@@ -1,0 +1,728 @@
+[
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/GoraVersionAnnotation.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/filter/Filter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/filter/FilterList.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/filter/FilterOp.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/filter/MapFieldValueFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/filter/SingleFieldValueFilter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/GoraInputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/GoraInputSplit.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/GoraMapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/GoraMapReduceUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/GoraOutputFormat.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/GoraRecordCounter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/GoraRecordReader.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/GoraRecordWriter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/GoraReducer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/NullOutputCommitter.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/PersistentDeserializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/PersistentSerialization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/PersistentSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/StringComparator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/mapreduce/StringSerialization.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/BeanFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/Dirtyable.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/Persistent.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/Tombstone.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/Tombstones.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/PartitionQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/Query.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/Result.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/store/DataStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/store/DataStoreFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/store/FileBackedDataStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/store/WebServiceBackedDataStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/AvroUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/ByteUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/ClassLoadingUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/GoraException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/IOUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/NodeWalker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/Null.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/OperationNotSupportedException.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/ReflectionUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/StringUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/TimingUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/VersionInfo.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/util/WritableUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/avro/mapreduce/FsInput.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/avro/query/AvroQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/avro/query/AvroResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/avro/query/DataFileAvroResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/avro/store/AvroStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/avro/store/DataFileAvroStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/memory/store/MemStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/impl/BeanFactoryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/impl/DirtyCollectionWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/impl/DirtyFlag.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/impl/DirtyIteratorWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/impl/DirtyListIterator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/impl/DirtyListWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/impl/DirtyMapWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/impl/DirtySetWrapper.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/impl/PersistentBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/impl/FileSplitPartitionQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/impl/PartitionQueryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/impl/QueryBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/impl/ResultBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/store/impl/DataStoreBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/store/impl/FileBackedDataStoreBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/ws/impl/BeanFactoryWSImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/persistency/ws/impl/PersistentWSBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/ws/impl/PartitionWSQueryImpl.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/ws/impl/QueryWSBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/query/ws/impl/ResultWSBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/store/ws/impl/WSBackedDataStoreBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/store/ws/impl/WSDataStoreBase.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-core/src/main/java/org/apache/gora/store/ws/impl/WSDataStoreFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/encoders/BinaryEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/encoders/Encoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/encoders/HexEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/encoders/SignedBinaryEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/encoders/Utils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/query/AccumuloQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/query/AccumuloResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/store/AccumuloMapping.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "92b88415820001da61e0a94aa526db3622b576dc",
+                "bugfix_commit_date": "2014-08-15T14:46:43.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/store/AccumuloStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-accumulo/src/main/java/org/apache/gora/accumulo/util/FixedByteArrayOutputStream.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/query/CassandraColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/query/CassandraQuery.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d61a1735e3fdaeff00c4ecad85905e335651bafa",
+                "bugfix_commit_date": "2014-06-29T12:59:56.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/query/CassandraResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/query/CassandraResultSet.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/query/CassandraRow.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/query/CassandraSubColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/query/CassandraSuperColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/serializers/AvroSerializerUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/serializers/CharSequenceSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/serializers/GoraSerializerTypeInferer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/serializers/ListSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/serializers/MapSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/serializers/SpecificFixedSerializer.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/serializers/TypeUtils.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d48708eca5035fb576983e99e13f89045c1006b6",
+                "bugfix_commit_date": "2014-09-24T21:15:20.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "3c30e6166d4f2c897cfe67eec23c7f52e21fe3b0",
+                "bugfix_commit_date": "2014-06-26T19:33:45.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/store/CassandraClient.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/store/CassandraMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/store/CassandraMappingManager.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "d48708eca5035fb576983e99e13f89045c1006b6",
+                "bugfix_commit_date": "2014-09-24T21:15:20.000-0400",
+                "type": "Bug"
+            },
+            {
+                "bugfix_commit": "d61a1735e3fdaeff00c4ecad85905e335651bafa",
+                "bugfix_commit_date": "2014-06-29T12:59:56.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/store/CassandraStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-cassandra/src/main/java/org/apache/gora/cassandra/store/HectorUtils.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-compiler/src/main/java/org/apache/gora/compiler/GoraCompiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-compiler/src/main/java/org/apache/gora/compiler/utils/LicenseHeaders.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-compiler-cli/src/main/java/org/apache/gora/compiler/cli/GoraCompilerCLI.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-dynamodb/src/main/java/org/apache/gora/dynamodb/compiler/GoraDynamoDBCompiler.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-dynamodb/src/main/java/org/apache/gora/dynamodb/query/DynamoDBKey.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-dynamodb/src/main/java/org/apache/gora/dynamodb/query/DynamoDBQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-dynamodb/src/main/java/org/apache/gora/dynamodb/query/DynamoDBResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-dynamodb/src/main/java/org/apache/gora/dynamodb/store/DynamoDBMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-dynamodb/src/main/java/org/apache/gora/dynamodb/store/DynamoDBStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-goraci/src/main/java/org/apache/gora/goraci/Delete.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-goraci/src/main/java/org/apache/gora/goraci/Generator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-goraci/src/main/java/org/apache/gora/goraci/Loop.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-goraci/src/main/java/org/apache/gora/goraci/Print.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-goraci/src/main/java/org/apache/gora/goraci/Verify.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-goraci/src/main/java/org/apache/gora/goraci/Walker.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-goraci/src/main/java/org/apache/gora/goraci/generated/CINode.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-goraci/src/main/java/org/apache/gora/goraci/generated/Flushed.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-goraci/src/main/java/org/apache/gora/goraci/rackspace/RackspaceOrchestration.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/query/HBaseGetResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/query/HBaseQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/query/HBaseResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/query/HBaseScannerResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseColumn.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/store/HBaseTableConnection.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/util/BaseFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/util/DefaultFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/util/FilterFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseByteInterface.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-hbase/src/main/java/org/apache/gora/hbase/util/HBaseFilterUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/filters/BaseFactory.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "8ce063466a2c833efa7324540a9c5b780f56ee48",
+                "bugfix_commit_date": "2015-01-14T17:49:46.000-0500",
+                "type": "Bug"
+            }
+        ],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/filters/DefaultFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/filters/FilterFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/filters/MongoFilterUtil.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/query/MongoDBQuery.java"
+    },
+    {
+        "bug_fixes": [
+            {
+                "bugfix_commit": "f267370f1bb3a3bc3c69550be8c2d9d7d33affc7",
+                "bugfix_commit_date": "2014-11-01T07:20:00.000-0400",
+                "type": "Bug"
+            }
+        ],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/query/MongoDBResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/store/MongoMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/store/MongoMappingBuilder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/store/MongoStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/utils/BSONDecorator.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-mongodb/src/main/java/org/apache/gora/mongodb/utils/GoraDBEncoder.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-shims-hadoop/src/main/java/org/apache/gora/shims/hadoop/HadoopShim.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-shims-hadoop/src/main/java/org/apache/gora/shims/hadoop/HadoopShimFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-shims-hadoop1/src/main/java/org/apache/gora/shims/hadoop1/HadoopShim1.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-shims-hadoop2/src/main/java/org/apache/gora/shims/hadoop2/HadoopShim2.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-solr/src/main/java/org/apache/gora/solr/query/SolrQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-solr/src/main/java/org/apache/gora/solr/query/SolrResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-solr/src/main/java/org/apache/gora/solr/store/SolrMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-solr/src/main/java/org/apache/gora/solr/store/SolrStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/query/SqlQuery.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/query/SqlResult.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/statement/Delete.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/statement/HSqlInsertUpdateStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/statement/InsertStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/statement/InsertUpdateStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/statement/InsertUpdateStatementFactory.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/statement/MySqlInsertUpdateStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/statement/SelectStatement.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/statement/Where.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/store/Column.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/store/SqlMapping.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/store/SqlStore.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/store/SqlTypeInterface.java"
+    },
+    {
+        "bug_fixes": [],
+        "file": "gora-sql/src/main/java/org/apache/gora/sql/util/SqlUtils.java"
+    }
+]
